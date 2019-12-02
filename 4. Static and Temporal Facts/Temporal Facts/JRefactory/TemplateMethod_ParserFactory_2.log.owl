@@ -1,0 +1,2248 @@
+<?xml version="1.0"?>
+<!DOCTYPE rdf:RDF [
+  <!ENTITY this 'http://anonymous.authors/ontologies/2017/11/Java.DesignPattern#'>
+  <!ENTITY owl 'http://www.w3.org/2002/07/owl#'>
+  <!ENTITY bh 'http://anonymous.authors/ontologies/2017/8/Behavior#'>
+  <!ENTITY xsd 'http://www.w3.org/2001/XMLSchema#'>
+  <!ENTITY rdfs 'http://www.w3.org/2000/01/rdf-schema#'>
+  <!ENTITY ptn 'http://anonymous.authors/ontologies/2017/10/Pattern#'>
+  <!ENTITY mgd 'http://anonymous.authors/ontologies/2017/12/Merged#'>
+  <!ENTITY jbh 'http://anonymous.authors/ontologies/2017/8/Java.Behavior#'>
+  <!ENTITY java 'http://anonymous.authors/ontologies/2017/6/Java#'>
+  <!ENTITY t 'http://anonymous.authors/ontologies/2018/10/Time#'>
+  <!ENTITY rdf 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+  <!ENTITY sbh 'http://anonymous.authors/ontologies/2018/4/StaticBehavior'>
+  <!ENTITY jd 'http://anonymous.authors/ontologies/2017/11/Java.DesignPattern#'>
+  <!ENTITY jsbh 'http://anonymous.authors/ontologies/2018/4/Java.StaticBehavior#'>
+  <!ENTITY base 'http://anonymous.authors/ontologies/2017/12/Merged#'>]>
+<rdf:RDF
+    xmlns:rdf="&rdf;"
+    xmlns:jbh="&jbh;"
+    xmlns:rdfs="&rdfs;"
+    xmlns:java="&java;"
+    xmlns:sbh="http://anonymous.authors/ontologies/2018/4/StaticBehavior"
+    xmlns:t="&t;"
+    xmlns:owl="&owl;"
+    xmlns:jd="&jd;"
+    xmlns:ptn="&ptn;"
+    xmlns:bh="&bh;"
+    xmlns:base="&base;"
+    xmlns:jsbh="&jsbh;"
+    xmlns:xsd="&xsd;">
+  <jbh:MethodCall rdf:about="&jbh;mc247">
+    <jbh:methodCalled>
+      <java:Method rdf:about="http://anonymous.authors/ontologies/2017/6/Java#org.acm.seguin.parser.JavaParser$JJCalls.!init">
+        <jbh:isInit rdf:datatype="&xsd;boolean">true</jbh:isInit>
+      </java:Method>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">248</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc12">
+        <jbh:paramObjTag rdf:datatype="&xsd;integer">5</jbh:paramObjTag>
+        <jbh:methodCalled>
+          <java:Method rdf:about="http://anonymous.authors/ontologies/2017/6/Java#org.acm.seguin.parser.JavaParser.!init">
+            <jbh:isInit rdf:datatype="&xsd;boolean">true</jbh:isInit>
+          </java:Method>
+        </jbh:methodCalled>
+        <t:endsAt rdf:datatype="&xsd;integer">265</t:endsAt>
+        <bh:originEvent>
+          <jbh:MethodCall rdf:about="&jbh;mc7">
+            <jbh:methodCalled>
+              <java:Method rdf:about="&java;org.acm.seguin.parser.factory.ParserFactory.getParser"/>
+            </jbh:methodCalled>
+            <t:endsAt rdf:datatype="&xsd;integer">266</t:endsAt>
+            <bh:originEvent>
+              <jbh:MethodCall rdf:about="&jbh;mc6">
+                <jbh:methodCalled>
+                  <java:Method rdf:about="&java;org.acm.seguin.parser.factory.ParserFactory.getAbstractSyntaxTree"/>
+                </jbh:methodCalled>
+                <t:endsAt rdf:datatype="&xsd;integer">427</t:endsAt>
+                <bh:originEvent>
+                  <jbh:MethodCall rdf:about="&jbh;mc1">
+                    <jbh:methodCalled>
+                      <java:Method rdf:about="&java;test.auto.TemplateMethod_ParserFactory_2.main"/>
+                    </jbh:methodCalled>
+                    <t:endsAt rdf:datatype="&xsd;integer">428</t:endsAt>
+                    <java:threadID rdf:datatype="&xsd;integer"
+                    >0</java:threadID>
+                    <t:startsAt rdf:datatype="&xsd;integer">1</t:startsAt>
+                  </jbh:MethodCall>
+                </bh:originEvent>
+                <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+                <jbh:methodCaller rdf:resource="&java;test.auto.TemplateMethod_ParserFactory_2.main"/>
+                <jbh:objTag rdf:datatype="&xsd;integer">1</jbh:objTag>
+                <t:startsAt rdf:datatype="&xsd;integer">6</t:startsAt>
+              </jbh:MethodCall>
+            </bh:originEvent>
+            <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+            <jbh:methodCaller rdf:resource="&java;org.acm.seguin.parser.factory.ParserFactory.getAbstractSyntaxTree"/>
+            <jbh:objTag rdf:datatype="&xsd;integer">1</jbh:objTag>
+            <t:startsAt rdf:datatype="&xsd;integer">7</t:startsAt>
+          </jbh:MethodCall>
+        </bh:originEvent>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;org.acm.seguin.parser.factory.ParserFactory.getParser"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">4</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">12</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#org.acm.seguin.parser.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">111</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">247</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc368">
+    <jbh:methodCalled>
+      <java:Method rdf:about="&java;org.acm.seguin.parser.io.ASCII_CharStream.getEndColumn"/>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">369</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc365">
+        <jbh:methodCalled>
+          <java:Method rdf:about="&java;org.acm.seguin.parser.io.CharStream.getEndColumn"/>
+        </jbh:methodCalled>
+        <t:endsAt rdf:datatype="&xsd;integer">370</t:endsAt>
+        <bh:originEvent>
+          <jbh:MethodCall rdf:about="&jbh;mc336">
+            <jbh:methodCalled>
+              <java:Method rdf:about="&java;org.acm.seguin.parser.JavaParserTokenManager.jjFillToken"/>
+            </jbh:methodCalled>
+            <t:endsAt rdf:datatype="&xsd;integer">371</t:endsAt>
+            <bh:originEvent>
+              <jbh:MethodCall rdf:about="&jbh;mc277">
+                <jbh:methodCalled>
+                  <java:Method rdf:about="&java;org.acm.seguin.parser.JavaParserTokenManager.getNextToken"/>
+                </jbh:methodCalled>
+                <t:endsAt rdf:datatype="&xsd;integer">372</t:endsAt>
+                <bh:originEvent>
+                  <jbh:MethodCall rdf:about="&jbh;mc276">
+                    <jbh:methodCalled>
+                      <java:Method rdf:about="&java;org.acm.seguin.parser.JavaParser.jj_ntk"/>
+                    </jbh:methodCalled>
+                    <t:endsAt rdf:datatype="&xsd;integer">373</t:endsAt>
+                    <bh:originEvent>
+                      <jbh:MethodCall rdf:about="&jbh;mc267">
+                        <jbh:methodCalled>
+                          <java:Method rdf:about="&java;org.acm.seguin.parser.JavaParser.CompilationUnit"/>
+                        </jbh:methodCalled>
+                        <t:endsAt rdf:datatype="&xsd;integer"
+                        >386</t:endsAt>
+                        <bh:originEvent rdf:resource="&jbh;mc6"/>
+                        <java:threadID rdf:datatype="&xsd;integer"
+                        >0</java:threadID>
+                        <jbh:methodCaller rdf:resource="&java;org.acm.seguin.parser.factory.ParserFactory.getAbstractSyntaxTree"/>
+                        <t:startsAt rdf:datatype="&xsd;integer"
+                        >267</t:startsAt>
+                      </jbh:MethodCall>
+                    </bh:originEvent>
+                    <java:threadID rdf:datatype="&xsd;integer"
+                    >0</java:threadID>
+                    <jbh:methodCaller rdf:resource="&java;org.acm.seguin.parser.JavaParser.CompilationUnit"/>
+                    <t:startsAt rdf:datatype="&xsd;integer">276</t:startsAt>
+                  </jbh:MethodCall>
+                </bh:originEvent>
+                <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+                <jbh:methodCaller rdf:resource="&java;org.acm.seguin.parser.JavaParser.jj_ntk"/>
+                <t:startsAt rdf:datatype="&xsd;integer">277</t:startsAt>
+              </jbh:MethodCall>
+            </bh:originEvent>
+            <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+            <jbh:methodCaller rdf:resource="&java;org.acm.seguin.parser.JavaParserTokenManager.getNextToken"/>
+            <t:startsAt rdf:datatype="&xsd;integer">336</t:startsAt>
+          </jbh:MethodCall>
+        </bh:originEvent>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;org.acm.seguin.parser.JavaParserTokenManager.jjFillToken"/>
+        <t:startsAt rdf:datatype="&xsd;integer">365</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;org.acm.seguin.parser.io.CharStream.getEndColumn"/>
+    <t:startsAt rdf:datatype="&xsd;integer">368</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc235">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#org.acm.seguin.parser.JavaParser$JJCalls.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">236</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc12"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#org.acm.seguin.parser.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">105</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">235</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc356">
+    <jbh:methodCalled>
+      <java:Method rdf:about="&java;org.acm.seguin.parser.io.ASCII_CharStream.getBeginColumn"/>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">357</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc353">
+        <jbh:methodCalled>
+          <java:Method rdf:about="&java;org.acm.seguin.parser.io.CharStream.getBeginColumn"/>
+        </jbh:methodCalled>
+        <t:endsAt rdf:datatype="&xsd;integer">358</t:endsAt>
+        <bh:originEvent rdf:resource="&jbh;mc336"/>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;org.acm.seguin.parser.JavaParserTokenManager.jjFillToken"/>
+        <t:startsAt rdf:datatype="&xsd;integer">353</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;org.acm.seguin.parser.io.CharStream.getBeginColumn"/>
+    <t:startsAt rdf:datatype="&xsd;integer">356</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc223">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#org.acm.seguin.parser.JavaParser$JJCalls.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">224</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc12"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#org.acm.seguin.parser.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">99</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">223</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc344">
+    <jbh:methodCalled>
+      <java:Method rdf:about="&java;org.acm.seguin.parser.io.ASCII_CharStream.GetImage"/>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">345</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc341">
+        <jbh:methodCalled>
+          <java:Method rdf:about="&java;org.acm.seguin.parser.io.CharStream.GetImage"/>
+        </jbh:methodCalled>
+        <t:endsAt rdf:datatype="&xsd;integer">346</t:endsAt>
+        <bh:originEvent rdf:resource="&jbh;mc336"/>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;org.acm.seguin.parser.JavaParserTokenManager.jjFillToken"/>
+        <t:startsAt rdf:datatype="&xsd;integer">341</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;org.acm.seguin.parser.io.CharStream.GetImage"/>
+    <t:startsAt rdf:datatype="&xsd;integer">344</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc211">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#org.acm.seguin.parser.JavaParser$JJCalls.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">212</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc12"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#org.acm.seguin.parser.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">93</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">211</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc61">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">27</jbh:paramObjTag>
+    <jbh:methodCalled>
+      <java:Method rdf:about="&java;org.acm.seguin.util.FileSettings.unescapeChars"/>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">62</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc24">
+        <jbh:methodCalled>
+          <java:Method rdf:about="&java;org.acm.seguin.util.FileSettings.load"/>
+        </jbh:methodCalled>
+        <t:endsAt rdf:datatype="&xsd;integer">181</t:endsAt>
+        <bh:originEvent>
+          <jbh:MethodCall rdf:about="&jbh;mc21">
+            <t:endsAt rdf:datatype="&xsd;integer">182</t:endsAt>
+            <jbh:paramObjTag rdf:datatype="&xsd;integer">7</jbh:paramObjTag>
+            <jbh:objTag rdf:datatype="&xsd;integer">8</jbh:objTag>
+            <bh:originEvent>
+              <jbh:MethodCall rdf:about="&jbh;mc16">
+                <jbh:paramObjTag rdf:datatype="&xsd;integer">7</jbh:paramObjTag>
+                <jbh:paramObjTag rdf:datatype="&xsd;integer">6</jbh:paramObjTag>
+                <jbh:methodCalled>
+                  <java:Method rdf:about="&java;org.acm.seguin.util.FileSettings.getSettings"/>
+                </jbh:methodCalled>
+                <t:endsAt rdf:datatype="&xsd;integer">183</t:endsAt>
+                <bh:originEvent>
+                  <jbh:MethodCall rdf:about="&jbh;mc15">
+                    <jbh:methodCalled>
+                      <java:Method rdf:about="&java;org.acm.seguin.parser.io.CharStream.initCharStreamType"/>
+                    </jbh:methodCalled>
+                    <t:endsAt rdf:datatype="&xsd;integer">190</t:endsAt>
+                    <bh:originEvent>
+                      <jbh:MethodCall rdf:about="&jbh;mc14">
+                        <jbh:methodCalled>
+                          <java:Method rdf:about="&java;org.acm.seguin.parser.io.CharStream.getCharStreamType"/>
+                        </jbh:methodCalled>
+                        <t:endsAt rdf:datatype="&xsd;integer"
+                        >191</t:endsAt>
+                        <bh:originEvent>
+                          <jbh:MethodCall rdf:about="&jbh;mc13">
+                            <jbh:paramObjTag rdf:datatype="&xsd;integer"
+                            >5</jbh:paramObjTag>
+                            <jbh:methodCalled>
+                              <java:Method rdf:about="&java;org.acm.seguin.parser.io.CharStream.make"/>
+                            </jbh:methodCalled>
+                            <t:endsAt rdf:datatype="&xsd;integer"
+                            >202</t:endsAt>
+                            <bh:originEvent rdf:resource="&jbh;mc12"/>
+                            <java:threadID rdf:datatype="&xsd;integer"
+                            >0</java:threadID>
+                            <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#org.acm.seguin.parser.JavaParser.!init"/>
+                            <t:startsAt rdf:datatype="&xsd;integer"
+                            >13</t:startsAt>
+                          </jbh:MethodCall>
+                        </bh:originEvent>
+                        <java:threadID rdf:datatype="&xsd;integer"
+                        >0</java:threadID>
+                        <jbh:methodCaller rdf:resource="&java;org.acm.seguin.parser.io.CharStream.make"/>
+                        <t:startsAt rdf:datatype="&xsd;integer"
+                        >14</t:startsAt>
+                      </jbh:MethodCall>
+                    </bh:originEvent>
+                    <java:threadID rdf:datatype="&xsd;integer"
+                    >0</java:threadID>
+                    <jbh:methodCaller rdf:resource="&java;org.acm.seguin.parser.io.CharStream.getCharStreamType"/>
+                    <t:startsAt rdf:datatype="&xsd;integer">15</t:startsAt>
+                  </jbh:MethodCall>
+                </bh:originEvent>
+                <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+                <jbh:methodCaller rdf:resource="&java;org.acm.seguin.parser.io.CharStream.initCharStreamType"/>
+                <t:startsAt rdf:datatype="&xsd;integer">16</t:startsAt>
+              </jbh:MethodCall>
+            </bh:originEvent>
+            <jbh:methodCalled>
+              <java:Method rdf:about="http://anonymous.authors/ontologies/2017/6/Java#org.acm.seguin.util.FileSettings.!init">
+                <jbh:isInit rdf:datatype="&xsd;boolean">true</jbh:isInit>
+              </java:Method>
+            </jbh:methodCalled>
+            <jbh:paramObjTag rdf:datatype="&xsd;integer">6</jbh:paramObjTag>
+            <jbh:methodCaller rdf:resource="&java;org.acm.seguin.util.FileSettings.getSettings"/>
+            <t:startsAt rdf:datatype="&xsd;integer">21</t:startsAt>
+            <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+          </jbh:MethodCall>
+        </bh:originEvent>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#org.acm.seguin.util.FileSettings.!init"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">8</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">24</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;org.acm.seguin.util.FileSettings.load"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">8</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">61</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc73">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">33</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="&java;org.acm.seguin.util.FileSettings.unescapeChars"/>
+    <t:endsAt rdf:datatype="&xsd;integer">74</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc24"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;org.acm.seguin.util.FileSettings.load"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">8</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">73</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc85">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">39</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="&java;org.acm.seguin.util.FileSettings.unescapeChars"/>
+    <t:endsAt rdf:datatype="&xsd;integer">86</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc24"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;org.acm.seguin.util.FileSettings.load"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">8</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">85</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc97">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">45</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="&java;org.acm.seguin.util.FileSettings.unescapeChars"/>
+    <t:endsAt rdf:datatype="&xsd;integer">98</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc24"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;org.acm.seguin.util.FileSettings.load"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">8</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">97</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc259">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#org.acm.seguin.parser.JavaParser$JJCalls.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">260</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc12"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#org.acm.seguin.parser.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">117</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">259</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc291">
+    <jbh:methodCalled rdf:resource="&java;org.acm.seguin.parser.io.CharStream.getCharStreamType"/>
+    <t:endsAt rdf:datatype="&xsd;integer">292</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc290">
+        <jbh:methodCalled>
+          <java:Method rdf:about="&java;org.acm.seguin.parser.io.CharStream.backup"/>
+        </jbh:methodCalled>
+        <t:endsAt rdf:datatype="&xsd;integer">295</t:endsAt>
+        <bh:originEvent rdf:resource="&jbh;mc277"/>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;org.acm.seguin.parser.JavaParserTokenManager.getNextToken"/>
+        <t:startsAt rdf:datatype="&xsd;integer">290</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;org.acm.seguin.parser.io.CharStream.backup"/>
+    <t:startsAt rdf:datatype="&xsd;integer">291</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc29">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">11</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="&java;org.acm.seguin.util.FileSettings.unescapeChars"/>
+    <t:endsAt rdf:datatype="&xsd;integer">30</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc24"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;org.acm.seguin.util.FileSettings.load"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">8</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">29</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc149">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">71</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="&java;org.acm.seguin.util.FileSettings.unescapeChars"/>
+    <t:endsAt rdf:datatype="&xsd;integer">150</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc24"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;org.acm.seguin.util.FileSettings.load"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">8</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">149</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc101">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">47</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="&java;org.acm.seguin.util.FileSettings.unescapeChars"/>
+    <t:endsAt rdf:datatype="&xsd;integer">102</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc24"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;org.acm.seguin.util.FileSettings.load"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">8</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">101</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc113">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">53</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="&java;org.acm.seguin.util.FileSettings.unescapeChars"/>
+    <t:endsAt rdf:datatype="&xsd;integer">114</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc24"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;org.acm.seguin.util.FileSettings.load"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">8</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">113</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc125">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">59</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="&java;org.acm.seguin.util.FileSettings.unescapeChars"/>
+    <t:endsAt rdf:datatype="&xsd;integer">126</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc24"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;org.acm.seguin.util.FileSettings.load"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">8</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">125</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc137">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">65</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="&java;org.acm.seguin.util.FileSettings.unescapeChars"/>
+    <t:endsAt rdf:datatype="&xsd;integer">138</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc24"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;org.acm.seguin.util.FileSettings.load"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">8</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">137</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc331">
+    <jbh:methodCalled rdf:resource="&java;org.acm.seguin.parser.io.CharStream.getCharStreamType"/>
+    <t:endsAt rdf:datatype="&xsd;integer">332</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc330">
+        <jbh:methodCalled rdf:resource="&java;org.acm.seguin.parser.io.CharStream.backup"/>
+        <t:endsAt rdf:datatype="&xsd;integer">335</t:endsAt>
+        <bh:originEvent rdf:resource="&jbh;mc277"/>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;org.acm.seguin.parser.JavaParserTokenManager.getNextToken"/>
+        <t:startsAt rdf:datatype="&xsd;integer">330</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;org.acm.seguin.parser.io.CharStream.backup"/>
+    <t:startsAt rdf:datatype="&xsd;integer">331</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc408">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">123</jbh:paramObjTag>
+    <jbh:methodCalled>
+      <java:Method rdf:about="&java;org.acm.seguin.parser.ParseException.add_escapes"/>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">409</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc407">
+        <jbh:methodCalled>
+          <java:Method rdf:about="&java;org.acm.seguin.parser.ParseException.getMessage"/>
+        </jbh:methodCalled>
+        <t:endsAt rdf:datatype="&xsd;integer">410</t:endsAt>
+        <bh:originEvent>
+          <jbh:MethodCall rdf:about="&jbh;mc406">
+            <jbh:paramObjTag rdf:datatype="&xsd;integer">122</jbh:paramObjTag>
+            <jbh:methodCalled>
+              <java:Method rdf:about="&java;org.acm.seguin.awt.ExceptionDialog.createStackTrace"/>
+            </jbh:methodCalled>
+            <t:endsAt rdf:datatype="&xsd;integer">415</t:endsAt>
+            <bh:originEvent>
+              <jbh:MethodCall rdf:about="&jbh;mc397">
+                <bh:originEvent>
+                  <jbh:MethodCall rdf:about="&jbh;mc396">
+                    <jbh:paramObjTag rdf:datatype="&xsd;integer"
+                    >122</jbh:paramObjTag>
+                    <jbh:methodCalled>
+                      <java:Method rdf:about="http://anonymous.authors/ontologies/2017/6/Java#org.acm.seguin.awt.ExceptionDialog.!init">
+                        <jbh:isInit rdf:datatype="&xsd;boolean"
+                        >true</jbh:isInit>
+                      </java:Method>
+                    </jbh:methodCalled>
+                    <t:endsAt rdf:datatype="&xsd;integer">423</t:endsAt>
+                    <bh:originEvent>
+                      <jbh:MethodCall rdf:about="&jbh;mc395">
+                        <jbh:paramObjTag rdf:datatype="&xsd;integer"
+                        >122</jbh:paramObjTag>
+                        <jbh:methodCalled>
+                          <java:Method rdf:about="&java;org.acm.seguin.awt.ExceptionPrinter.dialog"/>
+                        </jbh:methodCalled>
+                        <t:endsAt rdf:datatype="&xsd;integer"
+                        >426</t:endsAt>
+                        <bh:originEvent rdf:resource="&jbh;mc6"/>
+                        <java:threadID rdf:datatype="&xsd;integer"
+                        >0</java:threadID>
+                        <jbh:methodCaller rdf:resource="&java;org.acm.seguin.parser.factory.ParserFactory.getAbstractSyntaxTree"/>
+                        <t:startsAt rdf:datatype="&xsd;integer"
+                        >395</t:startsAt>
+                      </jbh:MethodCall>
+                    </bh:originEvent>
+                    <java:threadID rdf:datatype="&xsd;integer"
+                    >0</java:threadID>
+                    <jbh:methodCaller rdf:resource="&java;org.acm.seguin.awt.ExceptionPrinter.dialog"/>
+                    <jbh:objTag rdf:datatype="&xsd;integer">124</jbh:objTag>
+                    <t:startsAt rdf:datatype="&xsd;integer">396</t:startsAt>
+                  </jbh:MethodCall>
+                </bh:originEvent>
+                <jbh:paramObjTag rdf:datatype="&xsd;integer">125</jbh:paramObjTag>
+                <t:startsAt rdf:datatype="&xsd;integer">397</t:startsAt>
+                <jbh:objTag rdf:datatype="&xsd;integer">124</jbh:objTag>
+                <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+                <t:endsAt rdf:datatype="&xsd;integer">422</t:endsAt>
+                <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#org.acm.seguin.awt.ExceptionDialog.!init"/>
+                <jbh:paramObjTag rdf:datatype="&xsd;integer">122</jbh:paramObjTag>
+                <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#org.acm.seguin.awt.ExceptionDialog.!init"/>
+              </jbh:MethodCall>
+            </bh:originEvent>
+            <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+            <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#org.acm.seguin.awt.ExceptionDialog.!init"/>
+            <jbh:objTag rdf:datatype="&xsd;integer">124</jbh:objTag>
+            <t:startsAt rdf:datatype="&xsd;integer">406</t:startsAt>
+          </jbh:MethodCall>
+        </bh:originEvent>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;org.acm.seguin.awt.ExceptionDialog.createStackTrace"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">122</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">407</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;org.acm.seguin.parser.ParseException.getMessage"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">122</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">408</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc225">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#org.acm.seguin.parser.JavaParser$JJCalls.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">226</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc12"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#org.acm.seguin.parser.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">100</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">225</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc213">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#org.acm.seguin.parser.JavaParser$JJCalls.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">214</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc12"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#org.acm.seguin.parser.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">94</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">213</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc51">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">22</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="&java;org.acm.seguin.util.FileSettings.unescapeChars"/>
+    <t:endsAt rdf:datatype="&xsd;integer">52</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc24"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;org.acm.seguin.util.FileSettings.load"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">8</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">51</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc63">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">28</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="&java;org.acm.seguin.util.FileSettings.unescapeChars"/>
+    <t:endsAt rdf:datatype="&xsd;integer">64</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc24"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;org.acm.seguin.util.FileSettings.load"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">8</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">63</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc75">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">34</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="&java;org.acm.seguin.util.FileSettings.unescapeChars"/>
+    <t:endsAt rdf:datatype="&xsd;integer">76</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc24"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;org.acm.seguin.util.FileSettings.load"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">8</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">75</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc249">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#org.acm.seguin.parser.JavaParser$JJCalls.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">250</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc12"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#org.acm.seguin.parser.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">112</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">249</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc237">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#org.acm.seguin.parser.JavaParser$JJCalls.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">238</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc12"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#org.acm.seguin.parser.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">106</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">237</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc87">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">40</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="&java;org.acm.seguin.util.FileSettings.unescapeChars"/>
+    <t:endsAt rdf:datatype="&xsd;integer">88</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc24"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;org.acm.seguin.util.FileSettings.load"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">8</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">87</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc99">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">46</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="&java;org.acm.seguin.util.FileSettings.unescapeChars"/>
+    <t:endsAt rdf:datatype="&xsd;integer">100</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc24"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;org.acm.seguin.util.FileSettings.load"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">8</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">99</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc293">
+    <jbh:methodCalled>
+      <java:Method rdf:about="&java;org.acm.seguin.parser.io.ASCII_CharStream.backup"/>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">294</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc290"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;org.acm.seguin.parser.io.CharStream.backup"/>
+    <t:startsAt rdf:datatype="&xsd;integer">293</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc127">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">60</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="&java;org.acm.seguin.util.FileSettings.unescapeChars"/>
+    <t:endsAt rdf:datatype="&xsd;integer">128</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc24"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;org.acm.seguin.util.FileSettings.load"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">8</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">127</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc139">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">66</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="&java;org.acm.seguin.util.FileSettings.unescapeChars"/>
+    <t:endsAt rdf:datatype="&xsd;integer">140</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc24"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;org.acm.seguin.util.FileSettings.load"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">8</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">139</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc333">
+    <jbh:methodCalled rdf:resource="&java;org.acm.seguin.parser.io.ASCII_CharStream.backup"/>
+    <t:endsAt rdf:datatype="&xsd;integer">334</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc330"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;org.acm.seguin.parser.io.CharStream.backup"/>
+    <t:startsAt rdf:datatype="&xsd;integer">333</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc321">
+    <jbh:methodCalled rdf:resource="&java;org.acm.seguin.parser.io.CharStream.getCharStreamType"/>
+    <t:endsAt rdf:datatype="&xsd;integer">322</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc320">
+        <jbh:methodCalled>
+          <java:Method rdf:about="&java;org.acm.seguin.parser.io.CharStream.readChar"/>
+        </jbh:methodCalled>
+        <t:endsAt rdf:datatype="&xsd;integer">327</t:endsAt>
+        <bh:originEvent>
+          <jbh:MethodCall rdf:about="&jbh;mc297">
+            <jbh:methodCalled>
+              <java:Method rdf:about="&java;org.acm.seguin.parser.JavaParserTokenManager.jjMoveNfa_0"/>
+            </jbh:methodCalled>
+            <t:endsAt rdf:datatype="&xsd;integer">328</t:endsAt>
+            <bh:originEvent>
+              <jbh:MethodCall rdf:about="&jbh;mc296">
+                <jbh:methodCalled>
+                  <java:Method rdf:about="&java;org.acm.seguin.parser.JavaParserTokenManager.jjMoveStringLiteralDfa0_0"/>
+                </jbh:methodCalled>
+                <t:endsAt rdf:datatype="&xsd;integer">329</t:endsAt>
+                <bh:originEvent rdf:resource="&jbh;mc277"/>
+                <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+                <jbh:methodCaller rdf:resource="&java;org.acm.seguin.parser.JavaParserTokenManager.getNextToken"/>
+                <t:startsAt rdf:datatype="&xsd;integer">296</t:startsAt>
+              </jbh:MethodCall>
+            </bh:originEvent>
+            <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+            <jbh:methodCaller rdf:resource="&java;org.acm.seguin.parser.JavaParserTokenManager.jjMoveStringLiteralDfa0_0"/>
+            <t:startsAt rdf:datatype="&xsd;integer">297</t:startsAt>
+          </jbh:MethodCall>
+        </bh:originEvent>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;org.acm.seguin.parser.JavaParserTokenManager.jjMoveNfa_0"/>
+        <t:startsAt rdf:datatype="&xsd;integer">320</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;org.acm.seguin.parser.io.CharStream.readChar"/>
+    <t:startsAt rdf:datatype="&xsd;integer">321</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc103">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">48</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="&java;org.acm.seguin.util.FileSettings.unescapeChars"/>
+    <t:endsAt rdf:datatype="&xsd;integer">104</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc24"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;org.acm.seguin.util.FileSettings.load"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">8</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">103</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc115">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">54</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="&java;org.acm.seguin.util.FileSettings.unescapeChars"/>
+    <t:endsAt rdf:datatype="&xsd;integer">116</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc24"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;org.acm.seguin.util.FileSettings.load"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">8</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">115</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc171">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">82</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="&java;org.acm.seguin.util.FileSettings.unescapeChars"/>
+    <t:endsAt rdf:datatype="&xsd;integer">172</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc24"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;org.acm.seguin.util.FileSettings.load"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">8</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">171</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc18">
+    <jbh:methodCalled>
+      <java:Method rdf:about="&java;org.acm.seguin.util.FileSettings.initRootDir"/>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">19</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc17">
+        <jbh:methodCalled>
+          <java:Method rdf:about="&java;org.acm.seguin.util.FileSettings.init"/>
+        </jbh:methodCalled>
+        <t:endsAt rdf:datatype="&xsd;integer">20</t:endsAt>
+        <bh:originEvent rdf:resource="&jbh;mc16"/>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;org.acm.seguin.util.FileSettings.getSettings"/>
+        <t:startsAt rdf:datatype="&xsd;integer">17</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;org.acm.seguin.util.FileSettings.init"/>
+    <t:startsAt rdf:datatype="&xsd;integer">18</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc324">
+    <jbh:methodCalled>
+      <java:Method rdf:about="&java;org.acm.seguin.parser.io.ASCII_CharStream.UpdateLineColumn"/>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">325</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc323">
+        <jbh:methodCalled>
+          <java:Method rdf:about="&java;org.acm.seguin.parser.io.ASCII_CharStream.readChar"/>
+        </jbh:methodCalled>
+        <t:endsAt rdf:datatype="&xsd;integer">326</t:endsAt>
+        <bh:originEvent rdf:resource="&jbh;mc320"/>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;org.acm.seguin.parser.io.CharStream.readChar"/>
+        <t:startsAt rdf:datatype="&xsd;integer">323</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;org.acm.seguin.parser.io.ASCII_CharStream.readChar"/>
+    <t:startsAt rdf:datatype="&xsd;integer">324</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc81">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">37</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="&java;org.acm.seguin.util.FileSettings.unescapeChars"/>
+    <t:endsAt rdf:datatype="&xsd;integer">82</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc24"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;org.acm.seguin.util.FileSettings.load"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">8</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">81</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc93">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">43</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="&java;org.acm.seguin.util.FileSettings.unescapeChars"/>
+    <t:endsAt rdf:datatype="&xsd;integer">94</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc24"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;org.acm.seguin.util.FileSettings.load"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">8</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">93</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc239">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#org.acm.seguin.parser.JavaParser$JJCalls.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">240</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc12"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#org.acm.seguin.parser.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">107</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">239</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc227">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#org.acm.seguin.parser.JavaParser$JJCalls.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">228</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc12"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#org.acm.seguin.parser.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">101</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">227</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc348">
+    <jbh:methodCalled rdf:resource="&java;org.acm.seguin.parser.io.CharStream.getCharStreamType"/>
+    <t:endsAt rdf:datatype="&xsd;integer">349</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc347">
+        <jbh:methodCalled>
+          <java:Method rdf:about="&java;org.acm.seguin.parser.io.CharStream.getBeginLine"/>
+        </jbh:methodCalled>
+        <t:endsAt rdf:datatype="&xsd;integer">352</t:endsAt>
+        <bh:originEvent rdf:resource="&jbh;mc336"/>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;org.acm.seguin.parser.JavaParserTokenManager.jjFillToken"/>
+        <t:startsAt rdf:datatype="&xsd;integer">347</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;org.acm.seguin.parser.io.CharStream.getBeginLine"/>
+    <t:startsAt rdf:datatype="&xsd;integer">348</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc203">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">87</jbh:paramObjTag>
+    <jbh:methodCalled>
+      <java:Method rdf:about="http://anonymous.authors/ontologies/2017/6/Java#org.acm.seguin.parser.JavaParserTokenManager.!init">
+        <jbh:isInit rdf:datatype="&xsd;boolean">true</jbh:isInit>
+      </java:Method>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">204</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc12"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#org.acm.seguin.parser.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">89</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">203</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc215">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#org.acm.seguin.parser.JavaParser$JJCalls.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">216</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc12"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#org.acm.seguin.parser.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">95</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">215</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc283">
+    <jbh:methodCalled>
+      <java:Method rdf:about="&java;org.acm.seguin.parser.io.ASCII_CharStream.FillBuff"/>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">284</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc282">
+        <jbh:methodCalled rdf:resource="&java;org.acm.seguin.parser.io.ASCII_CharStream.readChar"/>
+        <t:endsAt rdf:datatype="&xsd;integer">287</t:endsAt>
+        <bh:originEvent>
+          <jbh:MethodCall rdf:about="&jbh;mc281">
+            <jbh:methodCalled>
+              <java:Method rdf:about="&java;org.acm.seguin.parser.io.ASCII_CharStream.BeginToken"/>
+            </jbh:methodCalled>
+            <t:endsAt rdf:datatype="&xsd;integer">288</t:endsAt>
+            <bh:originEvent>
+              <jbh:MethodCall rdf:about="&jbh;mc278">
+                <jbh:methodCalled>
+                  <java:Method rdf:about="&java;org.acm.seguin.parser.io.CharStream.BeginToken"/>
+                </jbh:methodCalled>
+                <t:endsAt rdf:datatype="&xsd;integer">289</t:endsAt>
+                <bh:originEvent rdf:resource="&jbh;mc277"/>
+                <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+                <jbh:methodCaller rdf:resource="&java;org.acm.seguin.parser.JavaParserTokenManager.getNextToken"/>
+                <t:startsAt rdf:datatype="&xsd;integer">278</t:startsAt>
+              </jbh:MethodCall>
+            </bh:originEvent>
+            <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+            <jbh:methodCaller rdf:resource="&java;org.acm.seguin.parser.io.CharStream.BeginToken"/>
+            <t:startsAt rdf:datatype="&xsd;integer">281</t:startsAt>
+          </jbh:MethodCall>
+        </bh:originEvent>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;org.acm.seguin.parser.io.ASCII_CharStream.BeginToken"/>
+        <t:startsAt rdf:datatype="&xsd;integer">282</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;org.acm.seguin.parser.io.ASCII_CharStream.readChar"/>
+    <t:startsAt rdf:datatype="&xsd;integer">283</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc186">
+    <jbh:methodCalled>
+      <java:Method rdf:about="&java;org.acm.seguin.util.FileSettings.isUpToDate"/>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">187</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc185">
+        <jbh:paramObjTag rdf:datatype="&xsd;integer">86</jbh:paramObjTag>
+        <jbh:methodCalled>
+          <java:Method rdf:about="&java;org.acm.seguin.util.FileSettings.getString"/>
+        </jbh:methodCalled>
+        <t:endsAt rdf:datatype="&xsd;integer">188</t:endsAt>
+        <bh:originEvent>
+          <jbh:MethodCall rdf:about="&jbh;mc184">
+            <jbh:paramObjTag rdf:datatype="&xsd;integer">86</jbh:paramObjTag>
+            <jbh:methodCalled>
+              <java:Method rdf:about="&java;org.acm.seguin.util.FileSettings.getInteger"/>
+            </jbh:methodCalled>
+            <t:endsAt rdf:datatype="&xsd;integer">189</t:endsAt>
+            <bh:originEvent rdf:resource="&jbh;mc15"/>
+            <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+            <jbh:methodCaller rdf:resource="&java;org.acm.seguin.parser.io.CharStream.initCharStreamType"/>
+            <jbh:objTag rdf:datatype="&xsd;integer">8</jbh:objTag>
+            <t:startsAt rdf:datatype="&xsd;integer">184</t:startsAt>
+          </jbh:MethodCall>
+        </bh:originEvent>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;org.acm.seguin.util.FileSettings.getInteger"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">8</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">185</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;org.acm.seguin.util.FileSettings.getString"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">8</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">186</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc380">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">90</jbh:paramObjTag>
+    <jbh:methodCalled>
+      <java:Method rdf:about="http://anonymous.authors/ontologies/2017/6/Java#org.acm.seguin.parser.ParseException.!init">
+        <jbh:isInit rdf:datatype="&xsd;boolean">true</jbh:isInit>
+      </java:Method>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">381</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc375">
+        <jbh:methodCalled>
+          <java:Method rdf:about="&java;org.acm.seguin.parser.JavaParser.generateParseException"/>
+        </jbh:methodCalled>
+        <t:endsAt rdf:datatype="&xsd;integer">382</t:endsAt>
+        <bh:originEvent>
+          <jbh:MethodCall rdf:about="&jbh;mc374">
+            <jbh:methodCalled>
+              <java:Method rdf:about="&java;org.acm.seguin.parser.JavaParser.jj_consume_token"/>
+            </jbh:methodCalled>
+            <t:endsAt rdf:datatype="&xsd;integer">383</t:endsAt>
+            <bh:originEvent rdf:resource="&jbh;mc267"/>
+            <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+            <jbh:methodCaller rdf:resource="&java;org.acm.seguin.parser.JavaParser.CompilationUnit"/>
+            <t:startsAt rdf:datatype="&xsd;integer">374</t:startsAt>
+          </jbh:MethodCall>
+        </bh:originEvent>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;org.acm.seguin.parser.JavaParser.jj_consume_token"/>
+        <t:startsAt rdf:datatype="&xsd;integer">375</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;org.acm.seguin.parser.JavaParser.generateParseException"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">122</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">380</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc25">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">9</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="&java;org.acm.seguin.util.FileSettings.unescapeChars"/>
+    <t:endsAt rdf:datatype="&xsd;integer">26</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc24"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;org.acm.seguin.util.FileSettings.load"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">8</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">25</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc37">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">15</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="&java;org.acm.seguin.util.FileSettings.unescapeChars"/>
+    <t:endsAt rdf:datatype="&xsd;integer">38</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc24"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;org.acm.seguin.util.FileSettings.load"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">8</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">37</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc49">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">21</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="&java;org.acm.seguin.util.FileSettings.unescapeChars"/>
+    <t:endsAt rdf:datatype="&xsd;integer">50</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc24"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;org.acm.seguin.util.FileSettings.load"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">8</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">49</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc105">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">49</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="&java;org.acm.seguin.util.FileSettings.unescapeChars"/>
+    <t:endsAt rdf:datatype="&xsd;integer">106</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc24"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;org.acm.seguin.util.FileSettings.load"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">8</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">105</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc117">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">55</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="&java;org.acm.seguin.util.FileSettings.unescapeChars"/>
+    <t:endsAt rdf:datatype="&xsd;integer">118</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc24"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;org.acm.seguin.util.FileSettings.load"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">8</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">117</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc129">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">61</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="&java;org.acm.seguin.util.FileSettings.unescapeChars"/>
+    <t:endsAt rdf:datatype="&xsd;integer">130</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc24"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;org.acm.seguin.util.FileSettings.load"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">8</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">129</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc311">
+    <jbh:methodCalled rdf:resource="&java;org.acm.seguin.parser.io.CharStream.getCharStreamType"/>
+    <t:endsAt rdf:datatype="&xsd;integer">312</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc310">
+        <jbh:methodCalled rdf:resource="&java;org.acm.seguin.parser.io.CharStream.readChar"/>
+        <t:endsAt rdf:datatype="&xsd;integer">317</t:endsAt>
+        <bh:originEvent rdf:resource="&jbh;mc297"/>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;org.acm.seguin.parser.JavaParserTokenManager.jjMoveNfa_0"/>
+        <t:startsAt rdf:datatype="&xsd;integer">310</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;org.acm.seguin.parser.io.CharStream.readChar"/>
+    <t:startsAt rdf:datatype="&xsd;integer">311</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc197">
+    <jbh:methodCalled>
+      <java:Method rdf:about="http://anonymous.authors/ontologies/2017/6/Java#org.acm.seguin.parser.io.CharStream.!init">
+        <jbh:isInit rdf:datatype="&xsd;boolean">true</jbh:isInit>
+      </java:Method>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">198</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc196">
+        <jbh:paramObjTag rdf:datatype="&xsd;integer">88</jbh:paramObjTag>
+        <jbh:methodCalled>
+          <java:Method rdf:about="http://anonymous.authors/ontologies/2017/6/Java#org.acm.seguin.parser.io.ASCII_CharStream.!init">
+            <jbh:isInit rdf:datatype="&xsd;boolean">true</jbh:isInit>
+          </java:Method>
+        </jbh:methodCalled>
+        <t:endsAt rdf:datatype="&xsd;integer">199</t:endsAt>
+        <bh:originEvent>
+          <jbh:MethodCall rdf:about="&jbh;mc195">
+            <jbh:paramObjTag rdf:datatype="&xsd;integer">5</jbh:paramObjTag>
+            <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#org.acm.seguin.parser.io.ASCII_CharStream.!init"/>
+            <t:endsAt rdf:datatype="&xsd;integer">200</t:endsAt>
+            <bh:originEvent>
+              <jbh:MethodCall rdf:about="&jbh;mc194">
+                <jbh:paramObjTag rdf:datatype="&xsd;integer">5</jbh:paramObjTag>
+                <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#org.acm.seguin.parser.io.ASCII_CharStream.!init"/>
+                <t:endsAt rdf:datatype="&xsd;integer">201</t:endsAt>
+                <bh:originEvent rdf:resource="&jbh;mc13"/>
+                <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+                <jbh:methodCaller rdf:resource="&java;org.acm.seguin.parser.io.CharStream.make"/>
+                <jbh:objTag rdf:datatype="&xsd;integer">87</jbh:objTag>
+                <t:startsAt rdf:datatype="&xsd;integer">194</t:startsAt>
+              </jbh:MethodCall>
+            </bh:originEvent>
+            <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+            <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#org.acm.seguin.parser.io.ASCII_CharStream.!init"/>
+            <jbh:objTag rdf:datatype="&xsd;integer">87</jbh:objTag>
+            <t:startsAt rdf:datatype="&xsd;integer">195</t:startsAt>
+          </jbh:MethodCall>
+        </bh:originEvent>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#org.acm.seguin.parser.io.ASCII_CharStream.!init"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">87</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">196</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#org.acm.seguin.parser.io.ASCII_CharStream.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">87</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">197</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc161">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">77</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="&java;org.acm.seguin.util.FileSettings.unescapeChars"/>
+    <t:endsAt rdf:datatype="&xsd;integer">162</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc24"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;org.acm.seguin.util.FileSettings.load"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">8</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">161</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc173">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">83</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="&java;org.acm.seguin.util.FileSettings.unescapeChars"/>
+    <t:endsAt rdf:datatype="&xsd;integer">174</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc24"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;org.acm.seguin.util.FileSettings.load"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">8</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">173</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc205">
+    <jbh:methodCalled>
+      <java:Method rdf:about="http://anonymous.authors/ontologies/2017/6/Java#org.acm.seguin.parser.Token.!init">
+        <jbh:isInit rdf:datatype="&xsd;boolean">true</jbh:isInit>
+      </java:Method>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">206</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc12"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#org.acm.seguin.parser.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">90</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">205</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc411">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">128</jbh:paramObjTag>
+    <jbh:methodCalled>
+      <java:Method rdf:about="&java;org.acm.seguin.awt.ExceptionDialog.untab"/>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">412</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc406"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;org.acm.seguin.awt.ExceptionDialog.createStackTrace"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">124</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">411</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc71">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">32</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="&java;org.acm.seguin.util.FileSettings.unescapeChars"/>
+    <t:endsAt rdf:datatype="&xsd;integer">72</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc24"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;org.acm.seguin.util.FileSettings.load"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">8</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">71</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc83">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">38</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="&java;org.acm.seguin.util.FileSettings.unescapeChars"/>
+    <t:endsAt rdf:datatype="&xsd;integer">84</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc24"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;org.acm.seguin.util.FileSettings.load"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">8</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">83</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc229">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#org.acm.seguin.parser.JavaParser$JJCalls.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">230</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc12"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#org.acm.seguin.parser.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">102</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">229</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc95">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">44</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="&java;org.acm.seguin.util.FileSettings.unescapeChars"/>
+    <t:endsAt rdf:datatype="&xsd;integer">96</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc24"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;org.acm.seguin.util.FileSettings.load"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">8</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">95</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc217">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#org.acm.seguin.parser.JavaParser$JJCalls.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">218</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc12"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#org.acm.seguin.parser.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">96</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">217</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc338">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#org.acm.seguin.parser.Token.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">339</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc337">
+        <jbh:methodCalled>
+          <java:Method rdf:about="&java;org.acm.seguin.parser.Token.newToken"/>
+        </jbh:methodCalled>
+        <t:endsAt rdf:datatype="&xsd;integer">340</t:endsAt>
+        <bh:originEvent rdf:resource="&jbh;mc336"/>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;org.acm.seguin.parser.JavaParserTokenManager.jjFillToken"/>
+        <t:startsAt rdf:datatype="&xsd;integer">337</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;org.acm.seguin.parser.Token.newToken"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">121</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">338</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc314">
+    <jbh:methodCalled rdf:resource="&java;org.acm.seguin.parser.io.ASCII_CharStream.UpdateLineColumn"/>
+    <t:endsAt rdf:datatype="&xsd;integer">315</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc313">
+        <jbh:methodCalled rdf:resource="&java;org.acm.seguin.parser.io.ASCII_CharStream.readChar"/>
+        <t:endsAt rdf:datatype="&xsd;integer">316</t:endsAt>
+        <bh:originEvent rdf:resource="&jbh;mc310"/>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;org.acm.seguin.parser.io.CharStream.readChar"/>
+        <t:startsAt rdf:datatype="&xsd;integer">313</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;org.acm.seguin.parser.io.ASCII_CharStream.readChar"/>
+    <t:startsAt rdf:datatype="&xsd;integer">314</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc261">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#org.acm.seguin.parser.JavaParser$JJCalls.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">262</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc12"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#org.acm.seguin.parser.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">118</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">261</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc27">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">10</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="&java;org.acm.seguin.util.FileSettings.unescapeChars"/>
+    <t:endsAt rdf:datatype="&xsd;integer">28</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc24"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;org.acm.seguin.util.FileSettings.load"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">8</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">27</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc39">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">16</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="&java;org.acm.seguin.util.FileSettings.unescapeChars"/>
+    <t:endsAt rdf:datatype="&xsd;integer">40</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc24"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;org.acm.seguin.util.FileSettings.load"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">8</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">39</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc285">
+    <jbh:methodCalled rdf:resource="&java;org.acm.seguin.parser.io.ASCII_CharStream.UpdateLineColumn"/>
+    <t:endsAt rdf:datatype="&xsd;integer">286</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc282"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;org.acm.seguin.parser.io.ASCII_CharStream.readChar"/>
+    <t:startsAt rdf:datatype="&xsd;integer">285</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc273">
+    <jbh:methodCalled>
+      <java:Method rdf:about="&java;org.acm.seguin.parser.ast.SimpleNode.jjtOpen"/>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">274</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc272">
+        <jbh:paramObjTag rdf:datatype="&xsd;integer">120</jbh:paramObjTag>
+        <jbh:methodCalled>
+          <java:Method rdf:about="&java;org.acm.seguin.parser.JJTJavaParserState.openNodeScope"/>
+        </jbh:methodCalled>
+        <t:endsAt rdf:datatype="&xsd;integer">275</t:endsAt>
+        <bh:originEvent rdf:resource="&jbh;mc267"/>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;org.acm.seguin.parser.JavaParser.CompilationUnit"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">3</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">272</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;org.acm.seguin.parser.JJTJavaParserState.openNodeScope"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">120</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">273</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc301">
+    <jbh:methodCalled rdf:resource="&java;org.acm.seguin.parser.io.CharStream.getCharStreamType"/>
+    <t:endsAt rdf:datatype="&xsd;integer">302</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc300">
+        <jbh:methodCalled rdf:resource="&java;org.acm.seguin.parser.io.CharStream.readChar"/>
+        <t:endsAt rdf:datatype="&xsd;integer">307</t:endsAt>
+        <bh:originEvent rdf:resource="&jbh;mc297"/>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;org.acm.seguin.parser.JavaParserTokenManager.jjMoveNfa_0"/>
+        <t:startsAt rdf:datatype="&xsd;integer">300</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;org.acm.seguin.parser.io.CharStream.readChar"/>
+    <t:startsAt rdf:datatype="&xsd;integer">301</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc107">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">50</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="&java;org.acm.seguin.util.FileSettings.unescapeChars"/>
+    <t:endsAt rdf:datatype="&xsd;integer">108</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc24"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;org.acm.seguin.util.FileSettings.load"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">8</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">107</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc119">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">56</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="&java;org.acm.seguin.util.FileSettings.unescapeChars"/>
+    <t:endsAt rdf:datatype="&xsd;integer">120</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc24"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;org.acm.seguin.util.FileSettings.load"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">8</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">119</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc163">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">78</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="&java;org.acm.seguin.util.FileSettings.unescapeChars"/>
+    <t:endsAt rdf:datatype="&xsd;integer">164</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc24"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;org.acm.seguin.util.FileSettings.load"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">8</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">163</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc393">
+    <jbh:methodCalled>
+      <java:Method rdf:about="&java;org.acm.seguin.parser.factory.FileParserFactory.getKey"/>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">394</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc6"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;org.acm.seguin.parser.factory.ParserFactory.getAbstractSyntaxTree"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">1</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">393</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc175">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">84</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="&java;org.acm.seguin.util.FileSettings.unescapeChars"/>
+    <t:endsAt rdf:datatype="&xsd;integer">176</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc24"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;org.acm.seguin.util.FileSettings.load"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">8</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">175</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc151">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">72</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="&java;org.acm.seguin.util.FileSettings.unescapeChars"/>
+    <t:endsAt rdf:datatype="&xsd;integer">152</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc24"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;org.acm.seguin.util.FileSettings.load"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">8</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">151</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc207">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#org.acm.seguin.parser.JavaParser$JJCalls.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">208</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc12"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#org.acm.seguin.parser.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">91</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">207</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc304">
+    <jbh:methodCalled rdf:resource="&java;org.acm.seguin.parser.io.ASCII_CharStream.UpdateLineColumn"/>
+    <t:endsAt rdf:datatype="&xsd;integer">305</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc303">
+        <jbh:methodCalled rdf:resource="&java;org.acm.seguin.parser.io.ASCII_CharStream.readChar"/>
+        <t:endsAt rdf:datatype="&xsd;integer">306</t:endsAt>
+        <bh:originEvent rdf:resource="&jbh;mc300"/>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;org.acm.seguin.parser.io.CharStream.readChar"/>
+        <t:startsAt rdf:datatype="&xsd;integer">303</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;org.acm.seguin.parser.io.ASCII_CharStream.readChar"/>
+    <t:startsAt rdf:datatype="&xsd;integer">304</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc413">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">129</jbh:paramObjTag>
+    <jbh:methodCalled>
+      <java:Method rdf:about="&java;org.acm.seguin.awt.ExceptionDialog.createPanel"/>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">414</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc406"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;org.acm.seguin.awt.ExceptionDialog.createStackTrace"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">124</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">413</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc33">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">13</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="&java;org.acm.seguin.util.FileSettings.unescapeChars"/>
+    <t:endsAt rdf:datatype="&xsd;integer">34</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc24"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;org.acm.seguin.util.FileSettings.load"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">8</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">33</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc360">
+    <jbh:methodCalled rdf:resource="&java;org.acm.seguin.parser.io.CharStream.getCharStreamType"/>
+    <t:endsAt rdf:datatype="&xsd;integer">361</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc359">
+        <jbh:methodCalled>
+          <java:Method rdf:about="&java;org.acm.seguin.parser.io.CharStream.getEndLine"/>
+        </jbh:methodCalled>
+        <t:endsAt rdf:datatype="&xsd;integer">364</t:endsAt>
+        <bh:originEvent rdf:resource="&jbh;mc336"/>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;org.acm.seguin.parser.JavaParserTokenManager.jjFillToken"/>
+        <t:startsAt rdf:datatype="&xsd;integer">359</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;org.acm.seguin.parser.io.CharStream.getEndLine"/>
+    <t:startsAt rdf:datatype="&xsd;integer">360</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc45">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">19</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="&java;org.acm.seguin.util.FileSettings.unescapeChars"/>
+    <t:endsAt rdf:datatype="&xsd;integer">46</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc24"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;org.acm.seguin.util.FileSettings.load"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">8</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">45</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc57">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">25</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="&java;org.acm.seguin.util.FileSettings.unescapeChars"/>
+    <t:endsAt rdf:datatype="&xsd;integer">58</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc24"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;org.acm.seguin.util.FileSettings.load"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">8</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">57</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc69">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">31</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="&java;org.acm.seguin.util.FileSettings.unescapeChars"/>
+    <t:endsAt rdf:datatype="&xsd;integer">70</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc24"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;org.acm.seguin.util.FileSettings.load"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">8</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">69</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc263">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#org.acm.seguin.parser.JavaParser$JJCalls.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">264</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc12"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#org.acm.seguin.parser.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">119</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">263</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc384">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">120</jbh:paramObjTag>
+    <jbh:methodCalled>
+      <java:Method rdf:about="&java;org.acm.seguin.parser.JJTJavaParserState.clearNodeScope"/>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">385</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc267"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;org.acm.seguin.parser.JavaParser.CompilationUnit"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">3</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">384</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc251">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#org.acm.seguin.parser.JavaParser$JJCalls.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">252</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc12"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#org.acm.seguin.parser.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">113</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">251</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc219">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#org.acm.seguin.parser.JavaParser$JJCalls.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">220</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc12"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#org.acm.seguin.parser.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">97</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">219</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc424">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">131</jbh:paramObjTag>
+    <jbh:methodCalled>
+      <java:Method rdf:about="&java;org.acm.seguin.awt.ExceptionDialog.actionPerformed"/>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">425</t:endsAt>
+    <java:threadID rdf:datatype="&xsd;integer">1</java:threadID>
+    <jbh:objTag rdf:datatype="&xsd;integer">124</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">424</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc141">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">67</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="&java;org.acm.seguin.util.FileSettings.unescapeChars"/>
+    <t:endsAt rdf:datatype="&xsd;integer">142</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc24"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;org.acm.seguin.util.FileSettings.load"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">8</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">141</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc153">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">73</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="&java;org.acm.seguin.util.FileSettings.unescapeChars"/>
+    <t:endsAt rdf:datatype="&xsd;integer">154</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc24"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;org.acm.seguin.util.FileSettings.load"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">8</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">153</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc165">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">79</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="&java;org.acm.seguin.util.FileSettings.unescapeChars"/>
+    <t:endsAt rdf:datatype="&xsd;integer">166</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc24"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;org.acm.seguin.util.FileSettings.load"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">8</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">165</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc177">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">85</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="&java;org.acm.seguin.util.FileSettings.unescapeChars"/>
+    <t:endsAt rdf:datatype="&xsd;integer">178</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc24"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;org.acm.seguin.util.FileSettings.load"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">8</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">177</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc298">
+    <jbh:methodCalled>
+      <java:Method rdf:about="&java;org.acm.seguin.parser.JavaParserTokenManager.jjCheckNAdd"/>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">299</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc297"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;org.acm.seguin.parser.JavaParserTokenManager.jjMoveNfa_0"/>
+    <t:startsAt rdf:datatype="&xsd;integer">298</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc8">
+    <jbh:methodCalled>
+      <java:Method rdf:about="&java;org.acm.seguin.parser.factory.FileParserFactory.getInputStream"/>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">9</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc7"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;org.acm.seguin.parser.factory.ParserFactory.getParser"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">1</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">8</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc109">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">51</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="&java;org.acm.seguin.util.FileSettings.unescapeChars"/>
+    <t:endsAt rdf:datatype="&xsd;integer">110</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc24"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;org.acm.seguin.util.FileSettings.load"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">8</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">109</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc91">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">42</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="&java;org.acm.seguin.util.FileSettings.unescapeChars"/>
+    <t:endsAt rdf:datatype="&xsd;integer">92</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc24"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;org.acm.seguin.util.FileSettings.load"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">8</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">91</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc35">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">14</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="&java;org.acm.seguin.util.FileSettings.unescapeChars"/>
+    <t:endsAt rdf:datatype="&xsd;integer">36</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc24"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;org.acm.seguin.util.FileSettings.load"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">8</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">35</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc47">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">20</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="&java;org.acm.seguin.util.FileSettings.unescapeChars"/>
+    <t:endsAt rdf:datatype="&xsd;integer">48</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc24"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;org.acm.seguin.util.FileSettings.load"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">8</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">47</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc59">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">26</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="&java;org.acm.seguin.util.FileSettings.unescapeChars"/>
+    <t:endsAt rdf:datatype="&xsd;integer">60</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc24"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;org.acm.seguin.util.FileSettings.load"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">8</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">59</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc253">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#org.acm.seguin.parser.JavaParser$JJCalls.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">254</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc12"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#org.acm.seguin.parser.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">114</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">253</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc241">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#org.acm.seguin.parser.JavaParser$JJCalls.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">242</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc12"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#org.acm.seguin.parser.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">108</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">241</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc362">
+    <jbh:methodCalled>
+      <java:Method rdf:about="&java;org.acm.seguin.parser.io.ASCII_CharStream.getEndLine"/>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">363</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc359"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;org.acm.seguin.parser.io.CharStream.getEndLine"/>
+    <t:startsAt rdf:datatype="&xsd;integer">362</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc350">
+    <jbh:methodCalled>
+      <java:Method rdf:about="&java;org.acm.seguin.parser.io.ASCII_CharStream.getBeginLine"/>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">351</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc347"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;org.acm.seguin.parser.io.CharStream.getBeginLine"/>
+    <t:startsAt rdf:datatype="&xsd;integer">350</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc318">
+    <jbh:methodCalled rdf:resource="&java;org.acm.seguin.parser.JavaParserTokenManager.jjCheckNAdd"/>
+    <t:endsAt rdf:datatype="&xsd;integer">319</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc297"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;org.acm.seguin.parser.JavaParserTokenManager.jjMoveNfa_0"/>
+    <t:startsAt rdf:datatype="&xsd;integer">318</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc209">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#org.acm.seguin.parser.JavaParser$JJCalls.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">210</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc12"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#org.acm.seguin.parser.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">92</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">209</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc167">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">80</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="&java;org.acm.seguin.util.FileSettings.unescapeChars"/>
+    <t:endsAt rdf:datatype="&xsd;integer">168</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc24"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;org.acm.seguin.util.FileSettings.load"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">8</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">167</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc179">
+    <jbh:methodCalled>
+      <java:Method rdf:about="&java;org.acm.seguin.util.FileSettings.setReloadNow"/>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">180</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc24"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;org.acm.seguin.util.FileSettings.load"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">8</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">179</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc10">
+    <jbh:methodCalled>
+      <java:Method rdf:about="http://anonymous.authors/ontologies/2017/6/Java#org.acm.seguin.parser.JJTJavaParserState.!init">
+        <jbh:isInit rdf:datatype="&xsd;boolean">true</jbh:isInit>
+      </java:Method>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">11</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc7"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;org.acm.seguin.parser.factory.ParserFactory.getParser"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">3</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">10</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc402">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">126</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="&java;org.acm.seguin.awt.ExceptionDialog.untab"/>
+    <t:endsAt rdf:datatype="&xsd;integer">403</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc397"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#org.acm.seguin.awt.ExceptionDialog.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">124</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">402</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc22">
+    <jbh:methodCalled>
+      <java:Method rdf:about="&java;org.acm.seguin.util.FileSettings.getSettingsRoot"/>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">23</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc21"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#org.acm.seguin.util.FileSettings.!init"/>
+    <t:startsAt rdf:datatype="&xsd;integer">22</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc131">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">62</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="&java;org.acm.seguin.util.FileSettings.unescapeChars"/>
+    <t:endsAt rdf:datatype="&xsd;integer">132</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc24"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;org.acm.seguin.util.FileSettings.load"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">8</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">131</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc143">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">68</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="&java;org.acm.seguin.util.FileSettings.unescapeChars"/>
+    <t:endsAt rdf:datatype="&xsd;integer">144</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc24"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;org.acm.seguin.util.FileSettings.load"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">8</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">143</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc155">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">74</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="&java;org.acm.seguin.util.FileSettings.unescapeChars"/>
+    <t:endsAt rdf:datatype="&xsd;integer">156</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc24"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;org.acm.seguin.util.FileSettings.load"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">8</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">155</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc279">
+    <jbh:methodCalled rdf:resource="&java;org.acm.seguin.parser.io.CharStream.getCharStreamType"/>
+    <t:endsAt rdf:datatype="&xsd;integer">280</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc278"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;org.acm.seguin.parser.io.CharStream.BeginToken"/>
+    <t:startsAt rdf:datatype="&xsd;integer">279</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc255">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#org.acm.seguin.parser.JavaParser$JJCalls.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">256</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc12"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#org.acm.seguin.parser.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">115</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">255</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc376">
+    <jbh:methodCalled>
+      <java:Method rdf:about="&java;org.acm.seguin.parser.JavaParser.jj_rescan_token"/>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">377</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc375"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;org.acm.seguin.parser.JavaParser.generateParseException"/>
+    <t:startsAt rdf:datatype="&xsd;integer">376</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc41">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">17</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="&java;org.acm.seguin.util.FileSettings.unescapeChars"/>
+    <t:endsAt rdf:datatype="&xsd;integer">42</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc24"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;org.acm.seguin.util.FileSettings.load"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">8</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">41</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc53">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">23</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="&java;org.acm.seguin.util.FileSettings.unescapeChars"/>
+    <t:endsAt rdf:datatype="&xsd;integer">54</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc24"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;org.acm.seguin.util.FileSettings.load"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">8</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">53</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc65">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">29</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="&java;org.acm.seguin.util.FileSettings.unescapeChars"/>
+    <t:endsAt rdf:datatype="&xsd;integer">66</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc24"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;org.acm.seguin.util.FileSettings.load"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">8</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">65</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc77">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">35</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="&java;org.acm.seguin.util.FileSettings.unescapeChars"/>
+    <t:endsAt rdf:datatype="&xsd;integer">78</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc24"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;org.acm.seguin.util.FileSettings.load"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">8</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">77</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc89">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">41</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="&java;org.acm.seguin.util.FileSettings.unescapeChars"/>
+    <t:endsAt rdf:datatype="&xsd;integer">90</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc24"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;org.acm.seguin.util.FileSettings.load"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">8</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">89</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc243">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#org.acm.seguin.parser.JavaParser$JJCalls.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">244</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc12"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#org.acm.seguin.parser.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">109</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">243</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc231">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#org.acm.seguin.parser.JavaParser$JJCalls.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">232</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc12"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#org.acm.seguin.parser.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">103</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">231</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc308">
+    <jbh:methodCalled rdf:resource="&java;org.acm.seguin.parser.JavaParserTokenManager.jjCheckNAdd"/>
+    <t:endsAt rdf:datatype="&xsd;integer">309</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc297"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;org.acm.seguin.parser.JavaParserTokenManager.jjMoveNfa_0"/>
+    <t:startsAt rdf:datatype="&xsd;integer">308</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc417">
+    <jbh:methodCalled>
+      <java:Method rdf:about="&java;org.acm.seguin.ide.common.EditorOperations.get"/>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">418</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc416">
+        <jbh:paramObjTag rdf:datatype="&xsd;integer">124</jbh:paramObjTag>
+        <jbh:methodCalled>
+          <java:Method rdf:about="&java;org.acm.seguin.awt.CenterDialog.center"/>
+        </jbh:methodCalled>
+        <t:endsAt rdf:datatype="&xsd;integer">421</t:endsAt>
+        <bh:originEvent rdf:resource="&jbh;mc397"/>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#org.acm.seguin.awt.ExceptionDialog.!init"/>
+        <t:startsAt rdf:datatype="&xsd;integer">416</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;org.acm.seguin.awt.CenterDialog.center"/>
+    <t:startsAt rdf:datatype="&xsd;integer">417</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc399">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">123</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="&java;org.acm.seguin.parser.ParseException.add_escapes"/>
+    <t:endsAt rdf:datatype="&xsd;integer">400</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc398">
+        <jbh:methodCalled rdf:resource="&java;org.acm.seguin.parser.ParseException.getMessage"/>
+        <t:endsAt rdf:datatype="&xsd;integer">401</t:endsAt>
+        <bh:originEvent rdf:resource="&jbh;mc397"/>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#org.acm.seguin.awt.ExceptionDialog.!init"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">122</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">398</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;org.acm.seguin.parser.ParseException.getMessage"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">122</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">399</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc145">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">69</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="&java;org.acm.seguin.util.FileSettings.unescapeChars"/>
+    <t:endsAt rdf:datatype="&xsd;integer">146</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc24"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;org.acm.seguin.util.FileSettings.load"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">8</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">145</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc404">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">127</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="&java;org.acm.seguin.awt.ExceptionDialog.createPanel"/>
+    <t:endsAt rdf:datatype="&xsd;integer">405</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc397"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#org.acm.seguin.awt.ExceptionDialog.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">124</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">404</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc157">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">75</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="&java;org.acm.seguin.util.FileSettings.unescapeChars"/>
+    <t:endsAt rdf:datatype="&xsd;integer">158</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc24"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;org.acm.seguin.util.FileSettings.load"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">8</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">157</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc169">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">81</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="&java;org.acm.seguin.util.FileSettings.unescapeChars"/>
+    <t:endsAt rdf:datatype="&xsd;integer">170</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc24"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;org.acm.seguin.util.FileSettings.load"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">8</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">169</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc121">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">57</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="&java;org.acm.seguin.util.FileSettings.unescapeChars"/>
+    <t:endsAt rdf:datatype="&xsd;integer">122</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc24"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;org.acm.seguin.util.FileSettings.load"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">8</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">121</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc133">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">63</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="&java;org.acm.seguin.util.FileSettings.unescapeChars"/>
+    <t:endsAt rdf:datatype="&xsd;integer">134</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc24"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;org.acm.seguin.util.FileSettings.load"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">8</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">133</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc269">
+    <jbh:methodCalled>
+      <java:Method rdf:about="http://anonymous.authors/ontologies/2017/6/Java#org.acm.seguin.parser.ast.SimpleNode.!init">
+        <jbh:isInit rdf:datatype="&xsd;boolean">true</jbh:isInit>
+      </java:Method>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">270</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc268">
+        <jbh:methodCalled>
+          <java:Method rdf:about="http://anonymous.authors/ontologies/2017/6/Java#org.acm.seguin.parser.ast.ASTCompilationUnit.!init">
+            <jbh:isInit rdf:datatype="&xsd;boolean">true</jbh:isInit>
+          </java:Method>
+        </jbh:methodCalled>
+        <t:endsAt rdf:datatype="&xsd;integer">271</t:endsAt>
+        <bh:originEvent rdf:resource="&jbh;mc267"/>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;org.acm.seguin.parser.JavaParser.CompilationUnit"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">120</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">268</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#org.acm.seguin.parser.ast.ASTCompilationUnit.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">120</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">269</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc257">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#org.acm.seguin.parser.JavaParser$JJCalls.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">258</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc12"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#org.acm.seguin.parser.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">116</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">257</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc378">
+    <jbh:methodCalled>
+      <java:Method rdf:about="&java;org.acm.seguin.parser.JavaParser.jj_add_error_token"/>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">379</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc375"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;org.acm.seguin.parser.JavaParser.generateParseException"/>
+    <t:startsAt rdf:datatype="&xsd;integer">378</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc245">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#org.acm.seguin.parser.JavaParser$JJCalls.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">246</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc12"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#org.acm.seguin.parser.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">110</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">245</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc366">
+    <jbh:methodCalled rdf:resource="&java;org.acm.seguin.parser.io.CharStream.getCharStreamType"/>
+    <t:endsAt rdf:datatype="&xsd;integer">367</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc365"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;org.acm.seguin.parser.io.CharStream.getEndColumn"/>
+    <t:startsAt rdf:datatype="&xsd;integer">366</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc233">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#org.acm.seguin.parser.JavaParser$JJCalls.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">234</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc12"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#org.acm.seguin.parser.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">104</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">233</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc354">
+    <jbh:methodCalled rdf:resource="&java;org.acm.seguin.parser.io.CharStream.getCharStreamType"/>
+    <t:endsAt rdf:datatype="&xsd;integer">355</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc353"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;org.acm.seguin.parser.io.CharStream.getBeginColumn"/>
+    <t:startsAt rdf:datatype="&xsd;integer">354</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc31">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">12</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="&java;org.acm.seguin.util.FileSettings.unescapeChars"/>
+    <t:endsAt rdf:datatype="&xsd;integer">32</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc24"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;org.acm.seguin.util.FileSettings.load"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">8</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">31</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc43">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">18</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="&java;org.acm.seguin.util.FileSettings.unescapeChars"/>
+    <t:endsAt rdf:datatype="&xsd;integer">44</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc24"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;org.acm.seguin.util.FileSettings.load"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">8</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">43</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc55">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">24</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="&java;org.acm.seguin.util.FileSettings.unescapeChars"/>
+    <t:endsAt rdf:datatype="&xsd;integer">56</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc24"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;org.acm.seguin.util.FileSettings.load"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">8</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">55</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc67">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">30</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="&java;org.acm.seguin.util.FileSettings.unescapeChars"/>
+    <t:endsAt rdf:datatype="&xsd;integer">68</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc24"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;org.acm.seguin.util.FileSettings.load"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">8</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">67</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc79">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">36</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="&java;org.acm.seguin.util.FileSettings.unescapeChars"/>
+    <t:endsAt rdf:datatype="&xsd;integer">80</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc24"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;org.acm.seguin.util.FileSettings.load"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">8</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">79</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc3">
+    <jbh:methodCalled>
+      <java:Method rdf:about="http://anonymous.authors/ontologies/2017/6/Java#org.acm.seguin.parser.factory.ParserFactory.!init">
+        <jbh:isInit rdf:datatype="&xsd;boolean">true</jbh:isInit>
+      </java:Method>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">4</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc2">
+        <jbh:paramObjTag rdf:datatype="&xsd;integer">2</jbh:paramObjTag>
+        <jbh:methodCalled>
+          <java:Method rdf:about="http://anonymous.authors/ontologies/2017/6/Java#org.acm.seguin.parser.factory.FileParserFactory.!init">
+            <jbh:isInit rdf:datatype="&xsd;boolean">true</jbh:isInit>
+          </java:Method>
+        </jbh:methodCalled>
+        <t:endsAt rdf:datatype="&xsd;integer">5</t:endsAt>
+        <bh:originEvent rdf:resource="&jbh;mc1"/>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;test.auto.TemplateMethod_ParserFactory_2.main"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">1</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">2</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#org.acm.seguin.parser.factory.FileParserFactory.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">1</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">3</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc221">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#org.acm.seguin.parser.JavaParser$JJCalls.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">222</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc12"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#org.acm.seguin.parser.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">98</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">221</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc192">
+    <jbh:methodCalled rdf:resource="&java;org.acm.seguin.parser.io.CharStream.getCharStreamType"/>
+    <t:endsAt rdf:datatype="&xsd;integer">193</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc13"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;org.acm.seguin.parser.io.CharStream.make"/>
+    <t:startsAt rdf:datatype="&xsd;integer">192</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc342">
+    <jbh:methodCalled rdf:resource="&java;org.acm.seguin.parser.io.CharStream.getCharStreamType"/>
+    <t:endsAt rdf:datatype="&xsd;integer">343</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc341"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;org.acm.seguin.parser.io.CharStream.GetImage"/>
+    <t:startsAt rdf:datatype="&xsd;integer">342</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc419">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">130</jbh:paramObjTag>
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">124</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="&java;org.acm.seguin.awt.CenterDialog.center"/>
+    <t:endsAt rdf:datatype="&xsd;integer">420</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc416"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;org.acm.seguin.awt.CenterDialog.center"/>
+    <t:startsAt rdf:datatype="&xsd;integer">419</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc389">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">123</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="&java;org.acm.seguin.parser.ParseException.add_escapes"/>
+    <t:endsAt rdf:datatype="&xsd;integer">390</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc388">
+        <jbh:methodCalled rdf:resource="&java;org.acm.seguin.parser.ParseException.getMessage"/>
+        <t:endsAt rdf:datatype="&xsd;integer">391</t:endsAt>
+        <bh:originEvent>
+          <jbh:MethodCall rdf:about="&jbh;mc387">
+            <jbh:paramObjTag rdf:datatype="&xsd;integer">122</jbh:paramObjTag>
+            <jbh:methodCalled>
+              <java:Method rdf:about="&java;org.acm.seguin.awt.ExceptionPrinter.print"/>
+            </jbh:methodCalled>
+            <t:endsAt rdf:datatype="&xsd;integer">392</t:endsAt>
+            <bh:originEvent rdf:resource="&jbh;mc6"/>
+            <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+            <jbh:methodCaller rdf:resource="&java;org.acm.seguin.parser.factory.ParserFactory.getAbstractSyntaxTree"/>
+            <t:startsAt rdf:datatype="&xsd;integer">387</t:startsAt>
+          </jbh:MethodCall>
+        </bh:originEvent>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;org.acm.seguin.awt.ExceptionPrinter.print"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">122</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">388</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;org.acm.seguin.parser.ParseException.getMessage"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">122</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">389</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc123">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">58</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="&java;org.acm.seguin.util.FileSettings.unescapeChars"/>
+    <t:endsAt rdf:datatype="&xsd;integer">124</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc24"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;org.acm.seguin.util.FileSettings.load"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">8</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">123</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc135">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">64</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="&java;org.acm.seguin.util.FileSettings.unescapeChars"/>
+    <t:endsAt rdf:datatype="&xsd;integer">136</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc24"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;org.acm.seguin.util.FileSettings.load"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">8</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">135</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc147">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">70</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="&java;org.acm.seguin.util.FileSettings.unescapeChars"/>
+    <t:endsAt rdf:datatype="&xsd;integer">148</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc24"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;org.acm.seguin.util.FileSettings.load"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">8</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">147</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc159">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">76</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="&java;org.acm.seguin.util.FileSettings.unescapeChars"/>
+    <t:endsAt rdf:datatype="&xsd;integer">160</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc24"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;org.acm.seguin.util.FileSettings.load"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">8</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">159</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc111">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">52</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="&java;org.acm.seguin.util.FileSettings.unescapeChars"/>
+    <t:endsAt rdf:datatype="&xsd;integer">112</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc24"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;org.acm.seguin.util.FileSettings.load"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">8</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">111</t:startsAt>
+  </jbh:MethodCall>
+</rdf:RDF>

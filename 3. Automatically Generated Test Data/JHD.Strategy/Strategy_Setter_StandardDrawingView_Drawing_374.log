@@ -1,0 +1,83 @@
+method_entry: Ltest/auto/Strategy_Setter_StandardDrawingView_Drawing_374;main, thread_id: 0
+  method_entry: LCH/ifa/draw/samples/javadraw/BouncingDrawing;<init>, obj_tag: 1, thread_id: 0
+    method_entry: LCH/ifa/draw/standard/StandardDrawing;<init>, obj_tag: 1, thread_id: 0
+      method_entry: LCH/ifa/draw/standard/CompositeFigure;<init>, obj_tag: 1, thread_id: 0
+        method_entry: LCH/ifa/draw/standard/AbstractFigure;<init>, obj_tag: 1, thread_id: 0
+        method_exit: LCH/ifa/draw/standard/AbstractFigure;<init>, thread_id: 0
+      method_exit: LCH/ifa/draw/standard/CompositeFigure;<init>, thread_id: 0
+    method_exit: LCH/ifa/draw/standard/StandardDrawing;<init>, thread_id: 0
+  method_exit: LCH/ifa/draw/samples/javadraw/BouncingDrawing;<init>, thread_id: 0
+  method_entry: LCH/ifa/draw/applet/DrawApplet;<clinit>, thread_id: 0
+  method_exit: LCH/ifa/draw/applet/DrawApplet;<clinit>, thread_id: 0
+  method_entry: LCH/ifa/draw/samples/javadraw/JavaDrawApplet;<init>, obj_tag: 5, thread_id: 0
+    method_entry: LCH/ifa/draw/applet/DrawApplet;<init>, obj_tag: 5, thread_id: 0
+    method_exit: LCH/ifa/draw/applet/DrawApplet;<init>, thread_id: 0
+  method_exit: LCH/ifa/draw/samples/javadraw/JavaDrawApplet;<init>, thread_id: 0
+  method_entry: LCH/ifa/draw/standard/StandardDrawingView;<init>, obj_tag: 6, param_obj_tag: 5, thread_id: 0
+      field_modi: LCH/ifa/draw/framework/DrawingEditor;fEditor, dec_cls: LCH/ifa/draw/standard/StandardDrawingView;, in_method: LCH/ifa/draw/standard/StandardDrawingView;<init>, field_obj_tag: 5, owner_obj_tag: 6, thread_id: 0
+      field_modi: LCH/ifa/draw/framework/PointConstrainer;fConstrainer, dec_cls: LCH/ifa/draw/standard/StandardDrawingView;, in_method: LCH/ifa/draw/standard/StandardDrawingView;<init>, field_obj_tag: 0, owner_obj_tag: 6, thread_id: 0
+    method_entry: LCH/ifa/draw/standard/BufferedUpdateStrategy;<init>, obj_tag: 10, thread_id: 0
+    method_exit: LCH/ifa/draw/standard/BufferedUpdateStrategy;<init>, thread_id: 0
+    method_entry: LCH/ifa/draw/standard/StandardDrawingView;setDisplayUpdate, obj_tag: 6, param_obj_tag: 10, thread_id: 0
+        field_modi: LCH/ifa/draw/framework/Painter;fUpdateStrategy, dec_cls: LCH/ifa/draw/standard/StandardDrawingView;, in_method: LCH/ifa/draw/standard/StandardDrawingView;setDisplayUpdate, field_obj_tag: 10, owner_obj_tag: 6, thread_id: 0
+    method_exit: LCH/ifa/draw/standard/StandardDrawingView;setDisplayUpdate, thread_id: 0
+  method_exit: LCH/ifa/draw/standard/StandardDrawingView;<init>, thread_id: 0
+  method_entry: LCH/ifa/draw/standard/StandardDrawingView;setDrawing, obj_tag: 6, param_obj_tag: 1, thread_id: 0
+    method_entry: LCH/ifa/draw/standard/StandardDrawingView;clearSelection, obj_tag: 6, thread_id: 0
+      method_entry: LCH/ifa/draw/standard/StandardDrawingView;selectionElements, obj_tag: 6, thread_id: 0
+        method_entry: LCH/ifa/draw/standard/FigureEnumerator;<init>, obj_tag: 11, param_obj_tag: 9, thread_id: 0
+        method_exit: LCH/ifa/draw/standard/FigureEnumerator;<init>, thread_id: 0
+      method_exit: LCH/ifa/draw/standard/StandardDrawingView;selectionElements, thread_id: 0
+      method_entry: LCH/ifa/draw/standard/FigureEnumerator;hasMoreElements, obj_tag: 11, thread_id: 0
+      method_exit: LCH/ifa/draw/standard/FigureEnumerator;hasMoreElements, thread_id: 0
+      method_entry: LCH/ifa/draw/standard/StandardDrawingView;selectionChanged, obj_tag: 6, thread_id: 0
+        method_entry: LCH/ifa/draw/applet/DrawApplet;selectionChanged, obj_tag: 5, param_obj_tag: 6, thread_id: 0
+          method_entry: LCH/ifa/draw/applet/DrawApplet;setupAttributes, obj_tag: 5, thread_id: 0
+            method_entry: LCH/ifa/draw/figures/AttributeFigure;<clinit>, thread_id: 0
+                field_modi: LCH/ifa/draw/figures/FigureAttributes;fgDefaultAttributes, dec_cls: LCH/ifa/draw/figures/AttributeFigure;, in_method: LCH/ifa/draw/figures/AttributeFigure;<clinit>, field_obj_tag: 0, owner_obj_tag: 0, thread_id: 0
+            method_exit: LCH/ifa/draw/figures/AttributeFigure;<clinit>, thread_id: 0
+            method_entry: LCH/ifa/draw/figures/AttributeFigure;getDefaultAttribute, param_obj_tag: 14, thread_id: 0
+              method_entry: LCH/ifa/draw/figures/AttributeFigure;initializeAttributes, thread_id: 0
+                method_entry: LCH/ifa/draw/figures/FigureAttributes;<init>, obj_tag: 15, thread_id: 0
+                method_exit: LCH/ifa/draw/figures/FigureAttributes;<init>, thread_id: 0
+                  field_modi: LCH/ifa/draw/figures/FigureAttributes;fgDefaultAttributes, dec_cls: LCH/ifa/draw/figures/AttributeFigure;, in_method: LCH/ifa/draw/figures/AttributeFigure;initializeAttributes, field_obj_tag: 15, owner_obj_tag: 0, thread_id: 0
+                method_entry: LCH/ifa/draw/figures/FigureAttributes;set, obj_tag: 15, param_obj_tag: 14, param_obj_tag: 17, thread_id: 0
+                method_exit: LCH/ifa/draw/figures/FigureAttributes;set, thread_id: 0
+                method_entry: LCH/ifa/draw/figures/FigureAttributes;set, obj_tag: 15, param_obj_tag: 18, param_obj_tag: 19, thread_id: 0
+                method_exit: LCH/ifa/draw/figures/FigureAttributes;set, thread_id: 0
+                method_entry: LCH/ifa/draw/figures/FigureAttributes;set, obj_tag: 15, param_obj_tag: 20, param_obj_tag: 17, thread_id: 0
+                method_exit: LCH/ifa/draw/figures/FigureAttributes;set, thread_id: 0
+                method_entry: LCH/ifa/draw/figures/FigureAttributes;set, obj_tag: 15, param_obj_tag: 21, param_obj_tag: 22, thread_id: 0
+                method_exit: LCH/ifa/draw/figures/FigureAttributes;set, thread_id: 0
+                method_entry: LCH/ifa/draw/figures/FigureAttributes;set, obj_tag: 15, param_obj_tag: 23, param_obj_tag: 24, thread_id: 0
+                method_exit: LCH/ifa/draw/figures/FigureAttributes;set, thread_id: 0
+                method_entry: LCH/ifa/draw/figures/FigureAttributes;set, obj_tag: 15, param_obj_tag: 25, param_obj_tag: 26, thread_id: 0
+                method_exit: LCH/ifa/draw/figures/FigureAttributes;set, thread_id: 0
+                method_entry: LCH/ifa/draw/figures/FigureAttributes;set, obj_tag: 15, param_obj_tag: 27, param_obj_tag: 28, thread_id: 0
+                method_exit: LCH/ifa/draw/figures/FigureAttributes;set, thread_id: 0
+              method_exit: LCH/ifa/draw/figures/AttributeFigure;initializeAttributes, thread_id: 0
+              method_entry: LCH/ifa/draw/figures/FigureAttributes;get, obj_tag: 15, param_obj_tag: 14, thread_id: 0
+              method_exit: LCH/ifa/draw/figures/FigureAttributes;get, thread_id: 0
+            method_exit: LCH/ifa/draw/figures/AttributeFigure;getDefaultAttribute, thread_id: 0
+            method_entry: LCH/ifa/draw/figures/AttributeFigure;getDefaultAttribute, param_obj_tag: 18, thread_id: 0
+              method_entry: LCH/ifa/draw/figures/FigureAttributes;get, obj_tag: 15, param_obj_tag: 18, thread_id: 0
+              method_exit: LCH/ifa/draw/figures/FigureAttributes;get, thread_id: 0
+            method_exit: LCH/ifa/draw/figures/AttributeFigure;getDefaultAttribute, thread_id: 0
+            method_entry: LCH/ifa/draw/figures/AttributeFigure;getDefaultAttribute, param_obj_tag: 20, thread_id: 0
+              method_entry: LCH/ifa/draw/figures/FigureAttributes;get, obj_tag: 15, param_obj_tag: 20, thread_id: 0
+              method_exit: LCH/ifa/draw/figures/FigureAttributes;get, thread_id: 0
+            method_exit: LCH/ifa/draw/figures/AttributeFigure;getDefaultAttribute, thread_id: 0
+            method_entry: LCH/ifa/draw/figures/AttributeFigure;getDefaultAttribute, param_obj_tag: 21, thread_id: 0
+              method_entry: LCH/ifa/draw/figures/FigureAttributes;get, obj_tag: 15, param_obj_tag: 21, thread_id: 0
+              method_exit: LCH/ifa/draw/figures/FigureAttributes;get, thread_id: 0
+            method_exit: LCH/ifa/draw/figures/AttributeFigure;getDefaultAttribute, thread_id: 0
+            method_entry: LCH/ifa/draw/figures/AttributeFigure;getDefaultAttribute, param_obj_tag: 23, thread_id: 0
+              method_entry: LCH/ifa/draw/figures/FigureAttributes;get, obj_tag: 15, param_obj_tag: 23, thread_id: 0
+              method_exit: LCH/ifa/draw/figures/FigureAttributes;get, thread_id: 0
+            method_exit: LCH/ifa/draw/figures/AttributeFigure;getDefaultAttribute, thread_id: 0
+          method_exit: LCH/ifa/draw/applet/DrawApplet;setupAttributes, thread_id: 0
+        method_exit: LCH/ifa/draw/applet/DrawApplet;selectionChanged, thread_id: 0
+      method_exit: LCH/ifa/draw/standard/StandardDrawingView;selectionChanged, thread_id: 0
+    method_exit: LCH/ifa/draw/standard/StandardDrawingView;clearSelection, thread_id: 0
+  method_exit: LCH/ifa/draw/standard/StandardDrawingView;setDrawing, thread_id: 0
+method_exit: Ltest/auto/Strategy_Setter_StandardDrawingView_Drawing_374;main, thread_id: 0

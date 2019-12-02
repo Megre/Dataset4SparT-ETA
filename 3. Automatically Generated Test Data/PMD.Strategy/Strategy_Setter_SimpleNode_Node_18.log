@@ -1,0 +1,220 @@
+method_entry: Ltest/auto/Strategy_Setter_SimpleNode_Node_18;main, thread_id: 0
+  method_entry: Lnet/sourceforge/pmd/ast/JavaParser;<clinit>, thread_id: 0
+    method_entry: Lnet/sourceforge/pmd/ast/JavaParser;jj_la1_0, thread_id: 0
+    method_exit: Lnet/sourceforge/pmd/ast/JavaParser;jj_la1_0, thread_id: 0
+    method_entry: Lnet/sourceforge/pmd/ast/JavaParser;jj_la1_1, thread_id: 0
+    method_exit: Lnet/sourceforge/pmd/ast/JavaParser;jj_la1_1, thread_id: 0
+    method_entry: Lnet/sourceforge/pmd/ast/JavaParser;jj_la1_2, thread_id: 0
+    method_exit: Lnet/sourceforge/pmd/ast/JavaParser;jj_la1_2, thread_id: 0
+    method_entry: Lnet/sourceforge/pmd/ast/JavaParser;jj_la1_3, thread_id: 0
+    method_exit: Lnet/sourceforge/pmd/ast/JavaParser;jj_la1_3, thread_id: 0
+  method_exit: Lnet/sourceforge/pmd/ast/JavaParser;<clinit>, thread_id: 0
+  method_entry: Lnet/sourceforge/pmd/ast/JavaParserTokenManager;<clinit>, thread_id: 0
+  method_exit: Lnet/sourceforge/pmd/ast/JavaParserTokenManager;<clinit>, thread_id: 0
+  method_entry: Lnet/sourceforge/pmd/ast/JavaCharStream;<init>, obj_tag: 21, param_obj_tag: 22, thread_id: 0
+  method_exit: Lnet/sourceforge/pmd/ast/JavaCharStream;<init>, thread_id: 0
+  method_entry: Lnet/sourceforge/pmd/ast/JavaParserTokenManager;<init>, obj_tag: 27, param_obj_tag: 21, thread_id: 0
+    method_entry: Lnet/sourceforge/pmd/ast/JavaParserTokenManager;<init>, obj_tag: 27, param_obj_tag: 21, thread_id: 0
+        field_modi: Lnet/sourceforge/pmd/ast/CharStream;input_stream, dec_cls: Lnet/sourceforge/pmd/ast/JavaParserTokenManager;, in_method: Lnet/sourceforge/pmd/ast/JavaParserTokenManager;<init>, field_obj_tag: 21, owner_obj_tag: 27, thread_id: 0
+    method_exit: Lnet/sourceforge/pmd/ast/JavaParserTokenManager;<init>, thread_id: 0
+    method_entry: Lnet/sourceforge/pmd/ast/JavaParserTokenManager;SwitchTo, obj_tag: 27, thread_id: 0
+    method_exit: Lnet/sourceforge/pmd/ast/JavaParserTokenManager;SwitchTo, thread_id: 0
+  method_exit: Lnet/sourceforge/pmd/ast/JavaParserTokenManager;<init>, thread_id: 0
+  method_entry: Lnet/sourceforge/pmd/ast/JavaParser;<init>, obj_tag: 31, param_obj_tag: 27, thread_id: 0
+    method_entry: Lnet/sourceforge/pmd/ast/JJTJavaParserState;<init>, obj_tag: 32, thread_id: 0
+    method_exit: Lnet/sourceforge/pmd/ast/JJTJavaParserState;<init>, thread_id: 0
+      field_modi: Lnet/sourceforge/pmd/ast/JJTJavaParserState;jjtree, dec_cls: Lnet/sourceforge/pmd/ast/JavaParser;, in_method: Lnet/sourceforge/pmd/ast/JavaParser;<init>, field_obj_tag: 32, owner_obj_tag: 31, thread_id: 0
+    method_entry: Lnet/sourceforge/pmd/ast/JavaParser$LookaheadSuccess;<init>, thread_id: 0
+      method_entry: Lnet/sourceforge/pmd/ast/JavaParser$LookaheadSuccess;<init>, obj_tag: 37, thread_id: 0
+      method_exit: Lnet/sourceforge/pmd/ast/JavaParser$LookaheadSuccess;<init>, thread_id: 0
+    method_exit: Lnet/sourceforge/pmd/ast/JavaParser$LookaheadSuccess;<init>, thread_id: 0
+      field_modi: Lnet/sourceforge/pmd/ast/JavaParser$LookaheadSuccess;jj_ls, dec_cls: Lnet/sourceforge/pmd/ast/JavaParser;, in_method: Lnet/sourceforge/pmd/ast/JavaParser;<init>, field_obj_tag: 37, owner_obj_tag: 31, thread_id: 0
+      field_modi: Lnet/sourceforge/pmd/ast/JavaParserTokenManager;token_source, dec_cls: Lnet/sourceforge/pmd/ast/JavaParser;, in_method: Lnet/sourceforge/pmd/ast/JavaParser;<init>, field_obj_tag: 27, owner_obj_tag: 31, thread_id: 0
+    method_entry: Lnet/sourceforge/pmd/ast/Token;<init>, obj_tag: 40, thread_id: 0
+    method_exit: Lnet/sourceforge/pmd/ast/Token;<init>, thread_id: 0
+      field_modi: Lnet/sourceforge/pmd/ast/Token;token, dec_cls: Lnet/sourceforge/pmd/ast/JavaParser;, in_method: Lnet/sourceforge/pmd/ast/JavaParser;<init>, field_obj_tag: 40, owner_obj_tag: 31, thread_id: 0
+    method_entry: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, obj_tag: 41, thread_id: 0
+    method_exit: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, thread_id: 0
+    method_entry: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, obj_tag: 42, thread_id: 0
+    method_exit: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, thread_id: 0
+    method_entry: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, obj_tag: 43, thread_id: 0
+    method_exit: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, thread_id: 0
+    method_entry: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, obj_tag: 44, thread_id: 0
+    method_exit: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, thread_id: 0
+    method_entry: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, obj_tag: 45, thread_id: 0
+    method_exit: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, thread_id: 0
+    method_entry: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, obj_tag: 46, thread_id: 0
+    method_exit: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, thread_id: 0
+    method_entry: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, obj_tag: 47, thread_id: 0
+    method_exit: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, thread_id: 0
+    method_entry: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, obj_tag: 48, thread_id: 0
+    method_exit: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, thread_id: 0
+    method_entry: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, obj_tag: 49, thread_id: 0
+    method_exit: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, thread_id: 0
+    method_entry: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, obj_tag: 50, thread_id: 0
+    method_exit: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, thread_id: 0
+    method_entry: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, obj_tag: 51, thread_id: 0
+    method_exit: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, thread_id: 0
+    method_entry: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, obj_tag: 52, thread_id: 0
+    method_exit: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, thread_id: 0
+    method_entry: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, obj_tag: 53, thread_id: 0
+    method_exit: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, thread_id: 0
+    method_entry: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, obj_tag: 54, thread_id: 0
+    method_exit: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, thread_id: 0
+    method_entry: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, obj_tag: 55, thread_id: 0
+    method_exit: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, thread_id: 0
+    method_entry: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, obj_tag: 56, thread_id: 0
+    method_exit: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, thread_id: 0
+    method_entry: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, obj_tag: 57, thread_id: 0
+    method_exit: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, thread_id: 0
+    method_entry: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, obj_tag: 58, thread_id: 0
+    method_exit: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, thread_id: 0
+    method_entry: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, obj_tag: 59, thread_id: 0
+    method_exit: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, thread_id: 0
+    method_entry: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, obj_tag: 60, thread_id: 0
+    method_exit: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, thread_id: 0
+    method_entry: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, obj_tag: 61, thread_id: 0
+    method_exit: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, thread_id: 0
+    method_entry: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, obj_tag: 62, thread_id: 0
+    method_exit: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, thread_id: 0
+    method_entry: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, obj_tag: 63, thread_id: 0
+    method_exit: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, thread_id: 0
+    method_entry: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, obj_tag: 64, thread_id: 0
+    method_exit: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, thread_id: 0
+    method_entry: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, obj_tag: 65, thread_id: 0
+    method_exit: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, thread_id: 0
+    method_entry: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, obj_tag: 66, thread_id: 0
+    method_exit: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, thread_id: 0
+    method_entry: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, obj_tag: 67, thread_id: 0
+    method_exit: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, thread_id: 0
+    method_entry: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, obj_tag: 68, thread_id: 0
+    method_exit: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, thread_id: 0
+    method_entry: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, obj_tag: 69, thread_id: 0
+    method_exit: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, thread_id: 0
+    method_entry: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, obj_tag: 70, thread_id: 0
+    method_exit: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, thread_id: 0
+    method_entry: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, obj_tag: 71, thread_id: 0
+    method_exit: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, thread_id: 0
+    method_entry: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, obj_tag: 72, thread_id: 0
+    method_exit: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, thread_id: 0
+    method_entry: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, obj_tag: 73, thread_id: 0
+    method_exit: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, thread_id: 0
+    method_entry: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, obj_tag: 74, thread_id: 0
+    method_exit: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, thread_id: 0
+    method_entry: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, obj_tag: 75, thread_id: 0
+    method_exit: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, thread_id: 0
+    method_entry: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, obj_tag: 76, thread_id: 0
+    method_exit: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, thread_id: 0
+  method_exit: Lnet/sourceforge/pmd/ast/JavaParser;<init>, thread_id: 0
+  method_entry: Lnet/sourceforge/pmd/ast/ASTForUpdate;<init>, obj_tag: 77, param_obj_tag: 31, thread_id: 0
+    method_entry: Lnet/sourceforge/pmd/ast/SimpleNode;<init>, obj_tag: 77, param_obj_tag: 31, thread_id: 0
+      method_entry: Lnet/sourceforge/pmd/ast/SimpleNode;<init>, obj_tag: 77, thread_id: 0
+      method_exit: Lnet/sourceforge/pmd/ast/SimpleNode;<init>, thread_id: 0
+        field_modi: Lnet/sourceforge/pmd/ast/JavaParser;parser, dec_cls: Lnet/sourceforge/pmd/ast/SimpleNode;, in_method: Lnet/sourceforge/pmd/ast/SimpleNode;<init>, field_obj_tag: 31, owner_obj_tag: 77, thread_id: 0
+    method_exit: Lnet/sourceforge/pmd/ast/SimpleNode;<init>, thread_id: 0
+  method_exit: Lnet/sourceforge/pmd/ast/ASTForUpdate;<init>, thread_id: 0
+  method_entry: Lnet/sourceforge/pmd/ast/JavaCharStream;<init>, obj_tag: 78, param_obj_tag: 79, thread_id: 0
+    method_entry: Lnet/sourceforge/pmd/ast/JavaCharStream;<init>, obj_tag: 78, param_obj_tag: 79, thread_id: 0
+    method_exit: Lnet/sourceforge/pmd/ast/JavaCharStream;<init>, thread_id: 0
+  method_exit: Lnet/sourceforge/pmd/ast/JavaCharStream;<init>, thread_id: 0
+  method_entry: Lnet/sourceforge/pmd/ast/JavaParserTokenManager;<init>, obj_tag: 84, param_obj_tag: 78, thread_id: 0
+    method_entry: Lnet/sourceforge/pmd/ast/JavaParserTokenManager;<init>, obj_tag: 84, param_obj_tag: 78, thread_id: 0
+        field_modi: Lnet/sourceforge/pmd/ast/CharStream;input_stream, dec_cls: Lnet/sourceforge/pmd/ast/JavaParserTokenManager;, in_method: Lnet/sourceforge/pmd/ast/JavaParserTokenManager;<init>, field_obj_tag: 78, owner_obj_tag: 84, thread_id: 0
+    method_exit: Lnet/sourceforge/pmd/ast/JavaParserTokenManager;<init>, thread_id: 0
+    method_entry: Lnet/sourceforge/pmd/ast/JavaParserTokenManager;SwitchTo, obj_tag: 84, thread_id: 0
+    method_exit: Lnet/sourceforge/pmd/ast/JavaParserTokenManager;SwitchTo, thread_id: 0
+  method_exit: Lnet/sourceforge/pmd/ast/JavaParserTokenManager;<init>, thread_id: 0
+  method_entry: Lnet/sourceforge/pmd/ast/JavaParser;<init>, obj_tag: 87, param_obj_tag: 84, thread_id: 0
+    method_entry: Lnet/sourceforge/pmd/ast/JJTJavaParserState;<init>, obj_tag: 88, thread_id: 0
+    method_exit: Lnet/sourceforge/pmd/ast/JJTJavaParserState;<init>, thread_id: 0
+      field_modi: Lnet/sourceforge/pmd/ast/JJTJavaParserState;jjtree, dec_cls: Lnet/sourceforge/pmd/ast/JavaParser;, in_method: Lnet/sourceforge/pmd/ast/JavaParser;<init>, field_obj_tag: 88, owner_obj_tag: 87, thread_id: 0
+    method_entry: Lnet/sourceforge/pmd/ast/JavaParser$LookaheadSuccess;<init>, thread_id: 0
+      method_entry: Lnet/sourceforge/pmd/ast/JavaParser$LookaheadSuccess;<init>, obj_tag: 93, thread_id: 0
+      method_exit: Lnet/sourceforge/pmd/ast/JavaParser$LookaheadSuccess;<init>, thread_id: 0
+    method_exit: Lnet/sourceforge/pmd/ast/JavaParser$LookaheadSuccess;<init>, thread_id: 0
+      field_modi: Lnet/sourceforge/pmd/ast/JavaParser$LookaheadSuccess;jj_ls, dec_cls: Lnet/sourceforge/pmd/ast/JavaParser;, in_method: Lnet/sourceforge/pmd/ast/JavaParser;<init>, field_obj_tag: 93, owner_obj_tag: 87, thread_id: 0
+      field_modi: Lnet/sourceforge/pmd/ast/JavaParserTokenManager;token_source, dec_cls: Lnet/sourceforge/pmd/ast/JavaParser;, in_method: Lnet/sourceforge/pmd/ast/JavaParser;<init>, field_obj_tag: 84, owner_obj_tag: 87, thread_id: 0
+    method_entry: Lnet/sourceforge/pmd/ast/Token;<init>, obj_tag: 96, thread_id: 0
+    method_exit: Lnet/sourceforge/pmd/ast/Token;<init>, thread_id: 0
+      field_modi: Lnet/sourceforge/pmd/ast/Token;token, dec_cls: Lnet/sourceforge/pmd/ast/JavaParser;, in_method: Lnet/sourceforge/pmd/ast/JavaParser;<init>, field_obj_tag: 96, owner_obj_tag: 87, thread_id: 0
+    method_entry: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, obj_tag: 97, thread_id: 0
+    method_exit: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, thread_id: 0
+    method_entry: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, obj_tag: 98, thread_id: 0
+    method_exit: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, thread_id: 0
+    method_entry: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, obj_tag: 99, thread_id: 0
+    method_exit: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, thread_id: 0
+    method_entry: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, obj_tag: 100, thread_id: 0
+    method_exit: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, thread_id: 0
+    method_entry: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, obj_tag: 101, thread_id: 0
+    method_exit: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, thread_id: 0
+    method_entry: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, obj_tag: 102, thread_id: 0
+    method_exit: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, thread_id: 0
+    method_entry: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, obj_tag: 103, thread_id: 0
+    method_exit: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, thread_id: 0
+    method_entry: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, obj_tag: 104, thread_id: 0
+    method_exit: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, thread_id: 0
+    method_entry: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, obj_tag: 105, thread_id: 0
+    method_exit: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, thread_id: 0
+    method_entry: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, obj_tag: 106, thread_id: 0
+    method_exit: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, thread_id: 0
+    method_entry: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, obj_tag: 107, thread_id: 0
+    method_exit: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, thread_id: 0
+    method_entry: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, obj_tag: 108, thread_id: 0
+    method_exit: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, thread_id: 0
+    method_entry: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, obj_tag: 109, thread_id: 0
+    method_exit: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, thread_id: 0
+    method_entry: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, obj_tag: 110, thread_id: 0
+    method_exit: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, thread_id: 0
+    method_entry: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, obj_tag: 111, thread_id: 0
+    method_exit: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, thread_id: 0
+    method_entry: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, obj_tag: 112, thread_id: 0
+    method_exit: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, thread_id: 0
+    method_entry: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, obj_tag: 113, thread_id: 0
+    method_exit: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, thread_id: 0
+    method_entry: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, obj_tag: 114, thread_id: 0
+    method_exit: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, thread_id: 0
+    method_entry: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, obj_tag: 115, thread_id: 0
+    method_exit: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, thread_id: 0
+    method_entry: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, obj_tag: 116, thread_id: 0
+    method_exit: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, thread_id: 0
+    method_entry: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, obj_tag: 117, thread_id: 0
+    method_exit: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, thread_id: 0
+    method_entry: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, obj_tag: 118, thread_id: 0
+    method_exit: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, thread_id: 0
+    method_entry: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, obj_tag: 119, thread_id: 0
+    method_exit: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, thread_id: 0
+    method_entry: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, obj_tag: 120, thread_id: 0
+    method_exit: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, thread_id: 0
+    method_entry: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, obj_tag: 121, thread_id: 0
+    method_exit: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, thread_id: 0
+    method_entry: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, obj_tag: 122, thread_id: 0
+    method_exit: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, thread_id: 0
+    method_entry: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, obj_tag: 123, thread_id: 0
+    method_exit: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, thread_id: 0
+    method_entry: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, obj_tag: 124, thread_id: 0
+    method_exit: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, thread_id: 0
+    method_entry: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, obj_tag: 125, thread_id: 0
+    method_exit: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, thread_id: 0
+    method_entry: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, obj_tag: 126, thread_id: 0
+    method_exit: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, thread_id: 0
+    method_entry: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, obj_tag: 127, thread_id: 0
+    method_exit: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, thread_id: 0
+    method_entry: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, obj_tag: 128, thread_id: 0
+    method_exit: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, thread_id: 0
+    method_entry: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, obj_tag: 129, thread_id: 0
+    method_exit: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, thread_id: 0
+    method_entry: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, obj_tag: 130, thread_id: 0
+    method_exit: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, thread_id: 0
+    method_entry: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, obj_tag: 131, thread_id: 0
+    method_exit: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, thread_id: 0
+    method_entry: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, obj_tag: 132, thread_id: 0
+    method_exit: Lnet/sourceforge/pmd/ast/JavaParser$JJCalls;<init>, thread_id: 0
+  method_exit: Lnet/sourceforge/pmd/ast/JavaParser;<init>, thread_id: 0
+  method_entry: Lnet/sourceforge/pmd/ast/SimpleNode;<init>, obj_tag: 133, param_obj_tag: 87, thread_id: 0
+    method_entry: Lnet/sourceforge/pmd/ast/SimpleNode;<init>, obj_tag: 133, thread_id: 0
+    method_exit: Lnet/sourceforge/pmd/ast/SimpleNode;<init>, thread_id: 0
+      field_modi: Lnet/sourceforge/pmd/ast/JavaParser;parser, dec_cls: Lnet/sourceforge/pmd/ast/SimpleNode;, in_method: Lnet/sourceforge/pmd/ast/SimpleNode;<init>, field_obj_tag: 87, owner_obj_tag: 133, thread_id: 0
+  method_exit: Lnet/sourceforge/pmd/ast/SimpleNode;<init>, thread_id: 0
+  method_entry: Lnet/sourceforge/pmd/ast/SimpleNode;jjtReplaceChild, obj_tag: 133, param_obj_tag: 77, param_obj_tag: 77, thread_id: 0
+  method_exit: Lnet/sourceforge/pmd/ast/SimpleNode;jjtReplaceChild, thread_id: 0
+method_exit: Ltest/auto/Strategy_Setter_SimpleNode_Node_18;main, thread_id: 0

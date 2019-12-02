@@ -1,0 +1,85 @@
+method_entry: Ltest/auto/Bridge_DecoratorFigure_Figure_53;main, thread_id: 0
+  method_entry: LCH/ifa/draw/figures/AttributeFigure;<clinit>, thread_id: 0
+      field_modi: LCH/ifa/draw/figures/FigureAttributes;fgDefaultAttributes, dec_cls: LCH/ifa/draw/figures/AttributeFigure;, in_method: LCH/ifa/draw/figures/AttributeFigure;<clinit>, field_obj_tag: 0, owner_obj_tag: 0, thread_id: 0
+  method_exit: LCH/ifa/draw/figures/AttributeFigure;<clinit>, thread_id: 0
+  method_entry: LCH/ifa/draw/contrib/DiamondFigure;<init>, obj_tag: 1, param_obj_tag: 2, param_obj_tag: 3, thread_id: 0
+    method_entry: LCH/ifa/draw/figures/RectangleFigure;<init>, obj_tag: 1, param_obj_tag: 2, param_obj_tag: 3, thread_id: 0
+      method_entry: LCH/ifa/draw/figures/AttributeFigure;<init>, obj_tag: 1, thread_id: 0
+        method_entry: LCH/ifa/draw/standard/AbstractFigure;<init>, obj_tag: 1, thread_id: 0
+        method_exit: LCH/ifa/draw/standard/AbstractFigure;<init>, thread_id: 0
+      method_exit: LCH/ifa/draw/figures/AttributeFigure;<init>, thread_id: 0
+      method_entry: LCH/ifa/draw/figures/RectangleFigure;basicDisplayBox, obj_tag: 1, param_obj_tag: 2, param_obj_tag: 3, thread_id: 0
+      method_exit: LCH/ifa/draw/figures/RectangleFigure;basicDisplayBox, thread_id: 0
+    method_exit: LCH/ifa/draw/figures/RectangleFigure;<init>, thread_id: 0
+  method_exit: LCH/ifa/draw/contrib/DiamondFigure;<init>, thread_id: 0
+  method_entry: LCH/ifa/draw/samples/javadraw/AnimationDecorator;<init>, obj_tag: 5, param_obj_tag: 1, thread_id: 0
+    method_entry: LCH/ifa/draw/standard/DecoratorFigure;<init>, obj_tag: 5, param_obj_tag: 1, thread_id: 0
+      method_entry: LCH/ifa/draw/standard/AbstractFigure;<init>, obj_tag: 5, thread_id: 0
+      method_exit: LCH/ifa/draw/standard/AbstractFigure;<init>, thread_id: 0
+      method_entry: LCH/ifa/draw/standard/DecoratorFigure;decorate, obj_tag: 5, param_obj_tag: 1, thread_id: 0
+          field_modi: LCH/ifa/draw/framework/Figure;fComponent, dec_cls: LCH/ifa/draw/standard/DecoratorFigure;, in_method: LCH/ifa/draw/standard/DecoratorFigure;decorate, field_obj_tag: 1, owner_obj_tag: 5, thread_id: 0
+        method_entry: LCH/ifa/draw/standard/AbstractFigure;addToContainer, obj_tag: 1, param_obj_tag: 5, thread_id: 0
+          method_entry: LCH/ifa/draw/standard/AbstractFigure;addFigureChangeListener, obj_tag: 1, param_obj_tag: 5, thread_id: 0
+            method_entry: LCH/ifa/draw/standard/FigureChangeEventMulticaster;add, param_obj_tag: 6, param_obj_tag: 5, thread_id: 0
+              method_entry: LCH/ifa/draw/standard/FigureChangeEventMulticaster;addInternal, param_obj_tag: 7, param_obj_tag: 5, thread_id: 0
+              method_exit: LCH/ifa/draw/standard/FigureChangeEventMulticaster;addInternal, thread_id: 0
+            method_exit: LCH/ifa/draw/standard/FigureChangeEventMulticaster;add, thread_id: 0
+              field_modi: LCH/ifa/draw/framework/FigureChangeListener;fListener, dec_cls: LCH/ifa/draw/standard/AbstractFigure;, in_method: LCH/ifa/draw/standard/AbstractFigure;addFigureChangeListener, field_obj_tag: 5, owner_obj_tag: 1, thread_id: 0
+          method_exit: LCH/ifa/draw/standard/AbstractFigure;addFigureChangeListener, thread_id: 0
+          method_entry: LCH/ifa/draw/standard/AbstractFigure;invalidate, obj_tag: 1, thread_id: 0
+            method_entry: LCH/ifa/draw/figures/RectangleFigure;displayBox, obj_tag: 1, thread_id: 0
+            method_exit: LCH/ifa/draw/figures/RectangleFigure;displayBox, thread_id: 0
+            method_entry: LCH/ifa/draw/framework/FigureChangeEvent;<clinit>, thread_id: 0
+            method_exit: LCH/ifa/draw/framework/FigureChangeEvent;<clinit>, thread_id: 0
+            method_entry: LCH/ifa/draw/framework/FigureChangeEvent;<init>, obj_tag: 9, param_obj_tag: 1, param_obj_tag: 10, thread_id: 0
+            method_exit: LCH/ifa/draw/framework/FigureChangeEvent;<init>, thread_id: 0
+            method_entry: LCH/ifa/draw/standard/DecoratorFigure;figureInvalidated, obj_tag: 5, param_obj_tag: 9, thread_id: 0
+              method_entry: LCH/ifa/draw/standard/AbstractFigure;listener, obj_tag: 5, thread_id: 0
+              method_exit: LCH/ifa/draw/standard/AbstractFigure;listener, thread_id: 0
+            method_exit: LCH/ifa/draw/standard/DecoratorFigure;figureInvalidated, thread_id: 0
+          method_exit: LCH/ifa/draw/standard/AbstractFigure;invalidate, thread_id: 0
+        method_exit: LCH/ifa/draw/standard/AbstractFigure;addToContainer, thread_id: 0
+      method_exit: LCH/ifa/draw/standard/DecoratorFigure;decorate, thread_id: 0
+    method_exit: LCH/ifa/draw/standard/DecoratorFigure;<init>, thread_id: 0
+  method_exit: LCH/ifa/draw/samples/javadraw/AnimationDecorator;<init>, thread_id: 0
+  method_entry: LCH/ifa/draw/samples/pert/PertDependency;<init>, obj_tag: 11, thread_id: 0
+    method_entry: LCH/ifa/draw/figures/LineConnection;<init>, obj_tag: 11, thread_id: 0
+      method_entry: LCH/ifa/draw/figures/PolyLineFigure;<init>, obj_tag: 11, thread_id: 0
+        method_entry: LCH/ifa/draw/standard/AbstractFigure;<init>, obj_tag: 11, thread_id: 0
+        method_exit: LCH/ifa/draw/standard/AbstractFigure;<init>, thread_id: 0
+          field_modi: LCH/ifa/draw/figures/LineDecoration;fStartDecoration, dec_cls: LCH/ifa/draw/figures/PolyLineFigure;, in_method: LCH/ifa/draw/figures/PolyLineFigure;<init>, field_obj_tag: 0, owner_obj_tag: 11, thread_id: 0
+          field_modi: LCH/ifa/draw/figures/LineDecoration;fEndDecoration, dec_cls: LCH/ifa/draw/figures/PolyLineFigure;, in_method: LCH/ifa/draw/figures/PolyLineFigure;<init>, field_obj_tag: 0, owner_obj_tag: 11, thread_id: 0
+      method_exit: LCH/ifa/draw/figures/PolyLineFigure;<init>, thread_id: 0
+        field_modi: LCH/ifa/draw/framework/Connector;fStart, dec_cls: LCH/ifa/draw/figures/LineConnection;, in_method: LCH/ifa/draw/figures/LineConnection;<init>, field_obj_tag: 0, owner_obj_tag: 11, thread_id: 0
+        field_modi: LCH/ifa/draw/framework/Connector;fEnd, dec_cls: LCH/ifa/draw/figures/LineConnection;, in_method: LCH/ifa/draw/figures/LineConnection;<init>, field_obj_tag: 0, owner_obj_tag: 11, thread_id: 0
+      method_entry: LCH/ifa/draw/figures/ArrowTip;<init>, obj_tag: 14, thread_id: 0
+      method_exit: LCH/ifa/draw/figures/ArrowTip;<init>, thread_id: 0
+      method_entry: LCH/ifa/draw/figures/PolyLineFigure;setStartDecoration, obj_tag: 11, param_obj_tag: 14, thread_id: 0
+          field_modi: LCH/ifa/draw/figures/LineDecoration;fStartDecoration, dec_cls: LCH/ifa/draw/figures/PolyLineFigure;, in_method: LCH/ifa/draw/figures/PolyLineFigure;setStartDecoration, field_obj_tag: 14, owner_obj_tag: 11, thread_id: 0
+      method_exit: LCH/ifa/draw/figures/PolyLineFigure;setStartDecoration, thread_id: 0
+      method_entry: LCH/ifa/draw/figures/ArrowTip;<init>, obj_tag: 15, thread_id: 0
+      method_exit: LCH/ifa/draw/figures/ArrowTip;<init>, thread_id: 0
+      method_entry: LCH/ifa/draw/figures/PolyLineFigure;setEndDecoration, obj_tag: 11, param_obj_tag: 15, thread_id: 0
+          field_modi: LCH/ifa/draw/figures/LineDecoration;fEndDecoration, dec_cls: LCH/ifa/draw/figures/PolyLineFigure;, in_method: LCH/ifa/draw/figures/PolyLineFigure;setEndDecoration, field_obj_tag: 15, owner_obj_tag: 11, thread_id: 0
+      method_exit: LCH/ifa/draw/figures/PolyLineFigure;setEndDecoration, thread_id: 0
+    method_exit: LCH/ifa/draw/figures/LineConnection;<init>, thread_id: 0
+    method_entry: LCH/ifa/draw/figures/ArrowTip;<init>, obj_tag: 16, thread_id: 0
+    method_exit: LCH/ifa/draw/figures/ArrowTip;<init>, thread_id: 0
+    method_entry: LCH/ifa/draw/figures/PolyLineFigure;setEndDecoration, obj_tag: 11, param_obj_tag: 16, thread_id: 0
+        field_modi: LCH/ifa/draw/figures/LineDecoration;fEndDecoration, dec_cls: LCH/ifa/draw/figures/PolyLineFigure;, in_method: LCH/ifa/draw/figures/PolyLineFigure;setEndDecoration, field_obj_tag: 16, owner_obj_tag: 11, thread_id: 0
+    method_exit: LCH/ifa/draw/figures/PolyLineFigure;setEndDecoration, thread_id: 0
+    method_entry: LCH/ifa/draw/figures/PolyLineFigure;setStartDecoration, obj_tag: 11, param_obj_tag: 17, thread_id: 0
+        field_modi: LCH/ifa/draw/figures/LineDecoration;fStartDecoration, dec_cls: LCH/ifa/draw/figures/PolyLineFigure;, in_method: LCH/ifa/draw/figures/PolyLineFigure;setStartDecoration, field_obj_tag: 0, owner_obj_tag: 11, thread_id: 0
+    method_exit: LCH/ifa/draw/figures/PolyLineFigure;setStartDecoration, thread_id: 0
+  method_exit: LCH/ifa/draw/samples/pert/PertDependency;<init>, thread_id: 0
+  method_entry: LCH/ifa/draw/standard/DecoratorFigure;connectedTextLocator, obj_tag: 5, param_obj_tag: 11, thread_id: 0
+    method_entry: LCH/ifa/draw/standard/AbstractFigure;connectedTextLocator, obj_tag: 1, param_obj_tag: 11, thread_id: 0
+      method_entry: LCH/ifa/draw/standard/RelativeLocator;center, thread_id: 0
+        method_entry: LCH/ifa/draw/standard/RelativeLocator;<init>, obj_tag: 18, thread_id: 0
+          method_entry: LCH/ifa/draw/standard/AbstractLocator;<init>, obj_tag: 18, thread_id: 0
+          method_exit: LCH/ifa/draw/standard/AbstractLocator;<init>, thread_id: 0
+        method_exit: LCH/ifa/draw/standard/RelativeLocator;<init>, thread_id: 0
+      method_exit: LCH/ifa/draw/standard/RelativeLocator;center, thread_id: 0
+    method_exit: LCH/ifa/draw/standard/AbstractFigure;connectedTextLocator, thread_id: 0
+  method_exit: LCH/ifa/draw/standard/DecoratorFigure;connectedTextLocator, thread_id: 0
+method_exit: Ltest/auto/Bridge_DecoratorFigure_Figure_53;main, thread_id: 0

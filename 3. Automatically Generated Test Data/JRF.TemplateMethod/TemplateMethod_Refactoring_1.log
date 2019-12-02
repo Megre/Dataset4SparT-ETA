@@ -1,0 +1,12 @@
+method_entry: Ltest/auto/TemplateMethod_Refactoring_1;main, thread_id: 0
+  method_entry: Lorg/acm/seguin/refactor/field/RenameFieldRefactoring;<init>, obj_tag: 1, thread_id: 0
+    method_entry: Lorg/acm/seguin/refactor/field/FieldRefactoring;<init>, obj_tag: 1, thread_id: 0
+      method_entry: Lorg/acm/seguin/refactor/Refactoring;<init>, obj_tag: 1, thread_id: 0
+      method_exit: Lorg/acm/seguin/refactor/Refactoring;<init>, thread_id: 0
+    method_exit: Lorg/acm/seguin/refactor/field/FieldRefactoring;<init>, thread_id: 0
+  method_exit: Lorg/acm/seguin/refactor/field/RenameFieldRefactoring;<init>, thread_id: 0
+  method_entry: Lorg/acm/seguin/refactor/Refactoring;run, obj_tag: 1, thread_id: 0
+    method_entry: Lorg/acm/seguin/refactor/field/RenameFieldRefactoring;preconditions, obj_tag: 1, thread_id: 0
+    method_exit: Lorg/acm/seguin/refactor/field/RenameFieldRefactoring;preconditions, thread_id: 0
+  method_exit: Lorg/acm/seguin/refactor/Refactoring;run, thread_id: 0
+method_exit: Ltest/auto/TemplateMethod_Refactoring_1;main, thread_id: 0

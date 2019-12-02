@@ -1,0 +1,2508 @@
+<?xml version="1.0"?>
+<!DOCTYPE rdf:RDF [
+  <!ENTITY this 'http://anonymous.authors/ontologies/2017/11/Java.DesignPattern#'>
+  <!ENTITY owl 'http://www.w3.org/2002/07/owl#'>
+  <!ENTITY bh 'http://anonymous.authors/ontologies/2017/8/Behavior#'>
+  <!ENTITY xsd 'http://www.w3.org/2001/XMLSchema#'>
+  <!ENTITY rdfs 'http://www.w3.org/2000/01/rdf-schema#'>
+  <!ENTITY ptn 'http://anonymous.authors/ontologies/2017/10/Pattern#'>
+  <!ENTITY mgd 'http://anonymous.authors/ontologies/2017/12/Merged#'>
+  <!ENTITY jbh 'http://anonymous.authors/ontologies/2017/8/Java.Behavior#'>
+  <!ENTITY java 'http://anonymous.authors/ontologies/2017/6/Java#'>
+  <!ENTITY t 'http://anonymous.authors/ontologies/2018/10/Time#'>
+  <!ENTITY rdf 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+  <!ENTITY sbh 'http://anonymous.authors/ontologies/2018/4/StaticBehavior'>
+  <!ENTITY jd 'http://anonymous.authors/ontologies/2017/11/Java.DesignPattern#'>
+  <!ENTITY jsbh 'http://anonymous.authors/ontologies/2018/4/Java.StaticBehavior#'>
+  <!ENTITY base 'http://anonymous.authors/ontologies/2017/12/Merged#'>]>
+<rdf:RDF
+    xmlns:rdf="&rdf;"
+    xmlns:jbh="&jbh;"
+    xmlns:rdfs="&rdfs;"
+    xmlns:java="&java;"
+    xmlns:sbh="http://anonymous.authors/ontologies/2018/4/StaticBehavior"
+    xmlns:t="&t;"
+    xmlns:owl="&owl;"
+    xmlns:jd="&jd;"
+    xmlns:ptn="&ptn;"
+    xmlns:bh="&bh;"
+    xmlns:base="&base;"
+    xmlns:jsbh="&jsbh;"
+    xmlns:xsd="&xsd;">
+  <jbh:MethodCall rdf:about="&jbh;mc223">
+    <jbh:methodCalled>
+      <java:Method rdf:about="&java;net.sourceforge.pmd.ast.JavaParser.jj_scan_token"/>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">226</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc222">
+        <jbh:methodCalled>
+          <java:Method rdf:about="&java;net.sourceforge.pmd.ast.JavaParser.jj_3R_178"/>
+        </jbh:methodCalled>
+        <t:endsAt rdf:datatype="&xsd;integer">227</t:endsAt>
+        <bh:originEvent>
+          <jbh:MethodCall rdf:about="&jbh;mc211">
+            <jbh:methodCalled>
+              <java:Method rdf:about="&java;net.sourceforge.pmd.ast.JavaParser.jj_3R_162"/>
+            </jbh:methodCalled>
+            <t:endsAt rdf:datatype="&xsd;integer">244</t:endsAt>
+            <bh:originEvent>
+              <jbh:MethodCall rdf:about="&jbh;mc210">
+                <jbh:methodCalled>
+                  <java:Method rdf:about="&java;net.sourceforge.pmd.ast.JavaParser.jj_3R_126"/>
+                </jbh:methodCalled>
+                <t:endsAt rdf:datatype="&xsd;integer">253</t:endsAt>
+                <bh:originEvent>
+                  <jbh:MethodCall rdf:about="&jbh;mc209">
+                    <jbh:methodCalled>
+                      <java:Method rdf:about="&java;net.sourceforge.pmd.ast.JavaParser.jj_3R_69"/>
+                    </jbh:methodCalled>
+                    <t:endsAt rdf:datatype="&xsd;integer">254</t:endsAt>
+                    <bh:originEvent>
+                      <jbh:MethodCall rdf:about="&jbh;mc208">
+                        <jbh:methodCalled>
+                          <java:Method rdf:about="&java;net.sourceforge.pmd.ast.JavaParser.jj_3R_44"/>
+                        </jbh:methodCalled>
+                        <t:endsAt rdf:datatype="&xsd;integer"
+                        >305</t:endsAt>
+                        <bh:originEvent>
+                          <jbh:MethodCall rdf:about="&jbh;mc207">
+                            <jbh:methodCalled>
+                              <java:Method rdf:about="&java;net.sourceforge.pmd.ast.JavaParser.jj_3_1"/>
+                            </jbh:methodCalled>
+                            <t:endsAt rdf:datatype="&xsd;integer"
+                            >306</t:endsAt>
+                            <bh:originEvent>
+                              <jbh:MethodCall rdf:about="&jbh;mc202">
+                                <jbh:methodCalled>
+                                  <java:Method rdf:about="&java;net.sourceforge.pmd.ast.JavaParser.jj_2_1"/>
+                                </jbh:methodCalled>
+                                <t:endsAt rdf:datatype="&xsd;integer"
+                                >311</t:endsAt>
+                                <bh:originEvent>
+                                  <jbh:MethodCall rdf:about="&jbh;mc123">
+                                    <jbh:methodCalled>
+                                      <java:Method rdf:about="&java;net.sourceforge.pmd.ast.JavaParser.CompilationUnit"/>
+                                    </jbh:methodCalled>
+                                    <t:endsAt rdf:datatype="&xsd;integer"
+                                    >454</t:endsAt>
+                                    <bh:originEvent>
+                                      <jbh:MethodCall rdf:about="&jbh;mc12">
+                                        <jbh:paramObjTag rdf:datatype=
+                                        "&xsd;integer">4</jbh:paramObjTag>
+                                        <t:endsAt rdf:datatype=
+                                        "&xsd;integer">459</t:endsAt>
+                                        <bh:originEvent>
+                                          <jbh:MethodCall rdf:about="&jbh;mc1">
+                                            <jbh:methodCalled>
+                                              <java:Method rdf:about="&java;test.auto.Strategy_PMD_TargetJDKVersion_6.main"/>
+                                            </jbh:methodCalled>
+                                            <t:endsAt rdf:datatype=
+                                            "&xsd;integer">460</t:endsAt>
+                                            <java:threadID rdf:datatype=
+                                            "&xsd;integer">0</java:threadID>
+                                            <t:startsAt rdf:datatype=
+                                            "&xsd;integer">1</t:startsAt>
+                                          </jbh:MethodCall>
+                                        </bh:originEvent>
+                                        <jbh:paramObjTag rdf:datatype=
+                                        "&xsd;integer">6</jbh:paramObjTag>
+                                        <jbh:methodCaller rdf:resource="&java;test.auto.Strategy_PMD_TargetJDKVersion_6.main"/>
+                                        <jbh:methodCalled>
+                                          <java:Method rdf:about="&java;net.sourceforge.pmd.PMD.processFile"/>
+                                        </jbh:methodCalled>
+                                        <jbh:paramObjTag rdf:datatype=
+                                        "&xsd;integer">7</jbh:paramObjTag>
+                                        <jbh:objTag rdf:datatype=
+                                        "&xsd;integer">3</jbh:objTag>
+                                        <java:threadID rdf:datatype=
+                                        "&xsd;integer">0</java:threadID>
+                                        <t:startsAt rdf:datatype=
+                                        "&xsd;integer">12</t:startsAt>
+                                      </jbh:MethodCall>
+                                    </bh:originEvent>
+                                    <java:threadID rdf:datatype=
+                                    "&xsd;integer">0</java:threadID>
+                                    <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.PMD.processFile"/>
+                                    <jbh:objTag rdf:datatype=
+                                    "&xsd;integer">17</jbh:objTag>
+                                    <t:startsAt rdf:datatype=
+                                    "&xsd;integer">123</t:startsAt>
+                                  </jbh:MethodCall>
+                                </bh:originEvent>
+                                <java:threadID rdf:datatype="&xsd;integer"
+                                >0</java:threadID>
+                                <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.CompilationUnit"/>
+                                <jbh:objTag rdf:datatype="&xsd;integer"
+                                >17</jbh:objTag>
+                                <t:startsAt rdf:datatype="&xsd;integer"
+                                >202</t:startsAt>
+                              </jbh:MethodCall>
+                            </bh:originEvent>
+                            <java:threadID rdf:datatype="&xsd;integer"
+                            >0</java:threadID>
+                            <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_2_1"/>
+                            <jbh:objTag rdf:datatype="&xsd;integer"
+                            >17</jbh:objTag>
+                            <t:startsAt rdf:datatype="&xsd;integer"
+                            >207</t:startsAt>
+                          </jbh:MethodCall>
+                        </bh:originEvent>
+                        <java:threadID rdf:datatype="&xsd;integer"
+                        >0</java:threadID>
+                        <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_3_1"/>
+                        <jbh:objTag rdf:datatype="&xsd;integer"
+                        >17</jbh:objTag>
+                        <t:startsAt rdf:datatype="&xsd;integer"
+                        >208</t:startsAt>
+                      </jbh:MethodCall>
+                    </bh:originEvent>
+                    <java:threadID rdf:datatype="&xsd;integer"
+                    >0</java:threadID>
+                    <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_3R_44"/>
+                    <jbh:objTag rdf:datatype="&xsd;integer">17</jbh:objTag>
+                    <t:startsAt rdf:datatype="&xsd;integer">209</t:startsAt>
+                  </jbh:MethodCall>
+                </bh:originEvent>
+                <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+                <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_3R_69"/>
+                <jbh:objTag rdf:datatype="&xsd;integer">17</jbh:objTag>
+                <t:startsAt rdf:datatype="&xsd;integer">210</t:startsAt>
+              </jbh:MethodCall>
+            </bh:originEvent>
+            <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+            <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_3R_126"/>
+            <jbh:objTag rdf:datatype="&xsd;integer">17</jbh:objTag>
+            <t:startsAt rdf:datatype="&xsd;integer">211</t:startsAt>
+          </jbh:MethodCall>
+        </bh:originEvent>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_3R_162"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">17</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">222</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_3R_178"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">17</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">223</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc344">
+    <jbh:methodCalled>
+      <java:Method rdf:about="&java;net.sourceforge.pmd.ast.JavaParser.jj_add_error_token"/>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">345</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc341">
+        <jbh:methodCalled rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_scan_token"/>
+        <t:endsAt rdf:datatype="&xsd;integer">346</t:endsAt>
+        <bh:originEvent>
+          <jbh:MethodCall rdf:about="&jbh;mc340">
+            <jbh:methodCalled rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_3R_178"/>
+            <t:endsAt rdf:datatype="&xsd;integer">347</t:endsAt>
+            <bh:originEvent>
+              <jbh:MethodCall rdf:about="&jbh;mc327">
+                <jbh:methodCalled rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_3R_162"/>
+                <t:endsAt rdf:datatype="&xsd;integer">368</t:endsAt>
+                <bh:originEvent>
+                  <jbh:MethodCall rdf:about="&jbh;mc326">
+                    <jbh:methodCalled rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_3R_126"/>
+                    <t:endsAt rdf:datatype="&xsd;integer">379</t:endsAt>
+                    <bh:originEvent>
+                      <jbh:MethodCall rdf:about="&jbh;mc325">
+                        <jbh:methodCalled rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_3R_69"/>
+                        <t:endsAt rdf:datatype="&xsd;integer"
+                        >380</t:endsAt>
+                        <bh:originEvent>
+                          <jbh:MethodCall rdf:about="&jbh;mc324">
+                            <jbh:methodCalled rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_3R_44"/>
+                            <t:endsAt rdf:datatype="&xsd;integer"
+                            >441</t:endsAt>
+                            <bh:originEvent>
+                              <jbh:MethodCall rdf:about="&jbh;mc323">
+                                <jbh:methodCalled rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_3_1"/>
+                                <t:endsAt rdf:datatype="&xsd;integer"
+                                >442</t:endsAt>
+                                <bh:originEvent>
+                                  <jbh:MethodCall rdf:about="&jbh;mc318">
+                                    <jbh:methodCalled>
+                                      <java:Method rdf:about="&java;net.sourceforge.pmd.ast.JavaParser.jj_rescan_token"/>
+                                    </jbh:methodCalled>
+                                    <t:endsAt rdf:datatype="&xsd;integer"
+                                    >443</t:endsAt>
+                                    <bh:originEvent>
+                                      <jbh:MethodCall rdf:about="&jbh;mc317">
+                                        <jbh:methodCalled>
+                                          <java:Method rdf:about="&java;net.sourceforge.pmd.ast.JavaParser.generateParseException"/>
+                                        </jbh:methodCalled>
+                                        <t:endsAt rdf:datatype=
+                                        "&xsd;integer">450</t:endsAt>
+                                        <bh:originEvent>
+                                          <jbh:MethodCall rdf:about="&jbh;mc312">
+                                            <jbh:methodCalled>
+                                              <java:Method rdf:about="&java;net.sourceforge.pmd.ast.JavaParser.jj_consume_token"/>
+                                            </jbh:methodCalled>
+                                            <t:endsAt rdf:datatype=
+                                            "&xsd;integer">451</t:endsAt>
+                                            <bh:originEvent rdf:resource="&jbh;mc123"/>
+                                            <java:threadID rdf:datatype=
+                                            "&xsd;integer">0</java:threadID>
+                                            <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.CompilationUnit"/>
+                                            <jbh:objTag rdf:datatype=
+                                            "&xsd;integer">17</jbh:objTag>
+                                            <t:startsAt rdf:datatype=
+                                            "&xsd;integer">312</t:startsAt>
+                                          </jbh:MethodCall>
+                                        </bh:originEvent>
+                                        <java:threadID rdf:datatype=
+                                        "&xsd;integer">0</java:threadID>
+                                        <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_consume_token"/>
+                                        <jbh:objTag rdf:datatype=
+                                        "&xsd;integer">17</jbh:objTag>
+                                        <t:startsAt rdf:datatype=
+                                        "&xsd;integer">317</t:startsAt>
+                                      </jbh:MethodCall>
+                                    </bh:originEvent>
+                                    <java:threadID rdf:datatype=
+                                    "&xsd;integer">0</java:threadID>
+                                    <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.generateParseException"/>
+                                    <jbh:objTag rdf:datatype=
+                                    "&xsd;integer">17</jbh:objTag>
+                                    <t:startsAt rdf:datatype=
+                                    "&xsd;integer">318</t:startsAt>
+                                  </jbh:MethodCall>
+                                </bh:originEvent>
+                                <java:threadID rdf:datatype="&xsd;integer"
+                                >0</java:threadID>
+                                <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_rescan_token"/>
+                                <jbh:objTag rdf:datatype="&xsd;integer"
+                                >17</jbh:objTag>
+                                <t:startsAt rdf:datatype="&xsd;integer"
+                                >323</t:startsAt>
+                              </jbh:MethodCall>
+                            </bh:originEvent>
+                            <java:threadID rdf:datatype="&xsd;integer"
+                            >0</java:threadID>
+                            <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_3_1"/>
+                            <jbh:objTag rdf:datatype="&xsd;integer"
+                            >17</jbh:objTag>
+                            <t:startsAt rdf:datatype="&xsd;integer"
+                            >324</t:startsAt>
+                          </jbh:MethodCall>
+                        </bh:originEvent>
+                        <java:threadID rdf:datatype="&xsd;integer"
+                        >0</java:threadID>
+                        <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_3R_44"/>
+                        <jbh:objTag rdf:datatype="&xsd;integer"
+                        >17</jbh:objTag>
+                        <t:startsAt rdf:datatype="&xsd;integer"
+                        >325</t:startsAt>
+                      </jbh:MethodCall>
+                    </bh:originEvent>
+                    <java:threadID rdf:datatype="&xsd;integer"
+                    >0</java:threadID>
+                    <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_3R_69"/>
+                    <jbh:objTag rdf:datatype="&xsd;integer">17</jbh:objTag>
+                    <t:startsAt rdf:datatype="&xsd;integer">326</t:startsAt>
+                  </jbh:MethodCall>
+                </bh:originEvent>
+                <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+                <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_3R_126"/>
+                <jbh:objTag rdf:datatype="&xsd;integer">17</jbh:objTag>
+                <t:startsAt rdf:datatype="&xsd;integer">327</t:startsAt>
+              </jbh:MethodCall>
+            </bh:originEvent>
+            <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+            <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_3R_162"/>
+            <jbh:objTag rdf:datatype="&xsd;integer">17</jbh:objTag>
+            <t:startsAt rdf:datatype="&xsd;integer">340</t:startsAt>
+          </jbh:MethodCall>
+        </bh:originEvent>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_3R_178"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">17</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">341</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_scan_token"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">17</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">344</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc61">
+    <jbh:methodCalled>
+      <java:Method rdf:about="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser$JJCalls.!init">
+        <jbh:isInit rdf:datatype="&xsd;boolean">true</jbh:isInit>
+      </java:Method>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">62</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc26">
+        <jbh:paramObjTag rdf:datatype="&xsd;integer">12</jbh:paramObjTag>
+        <jbh:methodCalled>
+          <java:Method rdf:about="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser.!init">
+            <jbh:isInit rdf:datatype="&xsd;boolean">true</jbh:isInit>
+          </java:Method>
+        </jbh:methodCalled>
+        <t:endsAt rdf:datatype="&xsd;integer">119</t:endsAt>
+        <bh:originEvent>
+          <jbh:MethodCall rdf:about="&jbh;mc13">
+            <jbh:paramObjTag rdf:datatype="&xsd;integer">7</jbh:paramObjTag>
+            <jbh:methodCalled>
+              <java:Method rdf:about="&java;net.sourceforge.pmd.TargetJDK1_5.createParser"/>
+            </jbh:methodCalled>
+            <t:endsAt rdf:datatype="&xsd;integer">122</t:endsAt>
+            <bh:originEvent rdf:resource="&jbh;mc12"/>
+            <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+            <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.PMD.processFile"/>
+            <jbh:objTag rdf:datatype="&xsd;integer">1</jbh:objTag>
+            <t:startsAt rdf:datatype="&xsd;integer">13</t:startsAt>
+          </jbh:MethodCall>
+        </bh:originEvent>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.TargetJDK1_5.createParser"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">17</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">26</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">54</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">61</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc73">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser$JJCalls.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">74</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc26"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">60</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">73</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:FieldModi rdf:about="&jbh;fldModi35">
+    <jbh:fieldVisitMethod rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser.!init"/>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">23</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">17</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">36</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">23</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">35</t:startsAt>
+    <jbh:visitedField>
+      <java:Field rdf:about="&java;net.sourceforge.pmd.ast.JavaParser.jj_ls">
+        <java:fieldTypeIs>
+          <java:Class rdf:about="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser$LookaheadSuccess"/>
+        </java:fieldTypeIs>
+      </java:Field>
+    </jbh:visitedField>
+  </jbh:FieldModi>
+  <jbh:MethodCall rdf:about="&jbh;mc85">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser$JJCalls.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">86</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc26"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">66</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">85</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc97">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser$JJCalls.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">98</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc26"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">72</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">97</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc126">
+    <jbh:methodCalled>
+      <java:Method rdf:about="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.SimpleNode.!init">
+        <jbh:isInit rdf:datatype="&xsd;boolean">true</jbh:isInit>
+      </java:Method>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">127</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc125">
+        <jbh:paramObjTag rdf:datatype="&xsd;integer">17</jbh:paramObjTag>
+        <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.SimpleNode.!init"/>
+        <t:endsAt rdf:datatype="&xsd;integer">130</t:endsAt>
+        <bh:originEvent>
+          <jbh:MethodCall rdf:about="&jbh;mc124">
+            <jbh:paramObjTag rdf:datatype="&xsd;integer">17</jbh:paramObjTag>
+            <jbh:methodCalled>
+              <java:Method rdf:about="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.ASTCompilationUnit.!init">
+                <jbh:isInit rdf:datatype="&xsd;boolean">true</jbh:isInit>
+              </java:Method>
+            </jbh:methodCalled>
+            <t:endsAt rdf:datatype="&xsd;integer">131</t:endsAt>
+            <bh:originEvent rdf:resource="&jbh;mc123"/>
+            <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+            <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.CompilationUnit"/>
+            <jbh:objTag rdf:datatype="&xsd;integer">83</jbh:objTag>
+            <t:startsAt rdf:datatype="&xsd;integer">124</t:startsAt>
+          </jbh:MethodCall>
+        </bh:originEvent>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.ASTCompilationUnit.!init"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">83</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">125</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.SimpleNode.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">83</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">126</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc182">
+    <jbh:methodCalled>
+      <java:Method rdf:about="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.Token.!init">
+        <jbh:isInit rdf:datatype="&xsd;boolean">true</jbh:isInit>
+      </java:Method>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">183</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc181">
+        <jbh:methodCalled>
+          <java:Method rdf:about="&java;net.sourceforge.pmd.ast.Token.newToken"/>
+        </jbh:methodCalled>
+        <t:endsAt rdf:datatype="&xsd;integer">184</t:endsAt>
+        <bh:originEvent>
+          <jbh:MethodCall rdf:about="&jbh;mc180">
+            <jbh:methodCalled>
+              <java:Method rdf:about="&java;net.sourceforge.pmd.ast.JavaParserTokenManager.jjFillToken"/>
+            </jbh:methodCalled>
+            <t:endsAt rdf:datatype="&xsd;integer">195</t:endsAt>
+            <bh:originEvent>
+              <jbh:MethodCall rdf:about="&jbh;mc139">
+                <jbh:methodCalled>
+                  <java:Method rdf:about="&java;net.sourceforge.pmd.ast.JavaParserTokenManager.getNextToken"/>
+                </jbh:methodCalled>
+                <t:endsAt rdf:datatype="&xsd;integer">198</t:endsAt>
+                <bh:originEvent>
+                  <jbh:MethodCall rdf:about="&jbh;mc136">
+                    <jbh:methodCalled>
+                      <java:Method rdf:about="&java;net.sourceforge.pmd.ast.JavaParser.jj_ntk"/>
+                    </jbh:methodCalled>
+                    <t:endsAt rdf:datatype="&xsd;integer">201</t:endsAt>
+                    <bh:originEvent rdf:resource="&jbh;mc123"/>
+                    <java:threadID rdf:datatype="&xsd;integer"
+                    >0</java:threadID>
+                    <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.CompilationUnit"/>
+                    <jbh:objTag rdf:datatype="&xsd;integer">17</jbh:objTag>
+                    <t:startsAt rdf:datatype="&xsd;integer">136</t:startsAt>
+                  </jbh:MethodCall>
+                </bh:originEvent>
+                <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+                <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_ntk"/>
+                <jbh:objTag rdf:datatype="&xsd;integer">42</jbh:objTag>
+                <t:startsAt rdf:datatype="&xsd;integer">139</t:startsAt>
+              </jbh:MethodCall>
+            </bh:originEvent>
+            <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+            <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.ast.JavaParserTokenManager.getNextToken"/>
+            <jbh:objTag rdf:datatype="&xsd;integer">42</jbh:objTag>
+            <t:startsAt rdf:datatype="&xsd;integer">180</t:startsAt>
+          </jbh:MethodCall>
+        </bh:originEvent>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.ast.JavaParserTokenManager.jjFillToken"/>
+        <t:startsAt rdf:datatype="&xsd;integer">181</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.ast.Token.newToken"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">84</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">182</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:FieldModi rdf:about="&jbh;fldModi414">
+    <jbh:fieldVisitMethod rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_scan_token"/>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">84</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">17</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">415</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">84</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">414</t:startsAt>
+    <jbh:visitedField>
+      <java:Field rdf:about="&java;net.sourceforge.pmd.ast.JavaParser.jj_scanpos">
+        <java:fieldTypeIs>
+          <java:Class rdf:about="&java;net.sourceforge.pmd.ast.Token">
+            <java:hasField>
+              <java:Field rdf:about="&java;net.sourceforge.pmd.ast.Token.specialToken">
+                <java:fieldTypeIs rdf:resource="&java;net.sourceforge.pmd.ast.Token"/>
+              </java:Field>
+            </java:hasField>
+            <java:hasField>
+              <java:Field rdf:about="&java;net.sourceforge.pmd.ast.Token.next">
+                <java:fieldTypeIs rdf:resource="&java;net.sourceforge.pmd.ast.Token"/>
+              </java:Field>
+            </java:hasField>
+          </java:Class>
+        </java:fieldTypeIs>
+      </java:Field>
+    </jbh:visitedField>
+  </jbh:FieldModi>
+  <jbh:MethodCall rdf:about="&jbh;mc258">
+    <jbh:methodCalled>
+      <java:Method rdf:about="&java;net.sourceforge.pmd.ast.JavaParser.getToken"/>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">259</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc257">
+        <jbh:methodCalled>
+          <java:Method rdf:about="&java;net.sourceforge.pmd.ast.JavaParser.enumLookahead"/>
+        </jbh:methodCalled>
+        <t:endsAt rdf:datatype="&xsd;integer">260</t:endsAt>
+        <bh:originEvent rdf:resource="&jbh;mc208"/>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_3R_44"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">17</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">257</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.enumLookahead"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">17</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">258</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc101">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser$JJCalls.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">102</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc26"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">74</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">101</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:FieldModi rdf:about="&jbh;fldModi315">
+    <jbh:fieldVisitMethod rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_consume_token"/>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">46</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">17</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">316</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">46</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">315</t:startsAt>
+    <jbh:visitedField>
+      <java:Field rdf:about="&java;net.sourceforge.pmd.ast.JavaParser.token">
+        <java:fieldTypeIs rdf:resource="&java;net.sourceforge.pmd.ast.Token"/>
+      </java:Field>
+    </jbh:visitedField>
+  </jbh:FieldModi>
+  <jbh:MethodCall rdf:about="&jbh;mc113">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser$JJCalls.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">114</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc26"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">80</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">113</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc452">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">83</jbh:paramObjTag>
+    <jbh:methodCalled>
+      <java:Method rdf:about="&java;net.sourceforge.pmd.ast.JJTJavaParserState.clearNodeScope"/>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">453</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc123"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.CompilationUnit"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">18</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">452</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc16">
+    <jbh:methodCalled>
+      <java:Method rdf:about="&java;net.sourceforge.pmd.ast.JavaParser.jj_la1_1"/>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">17</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc13"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.TargetJDK1_5.createParser"/>
+    <t:startsAt rdf:datatype="&xsd;integer">16</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc193">
+    <jbh:methodCalled>
+      <java:Method rdf:about="&java;net.sourceforge.pmd.ast.JavaCharStream.getEndColumn"/>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">194</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc180"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.ast.JavaParserTokenManager.jjFillToken"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">12</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">193</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:FieldModi rdf:about="&jbh;fldModi261">
+    <jbh:fieldVisitMethod rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_3R_44"/>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">46</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">17</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">262</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">46</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">261</t:startsAt>
+    <jbh:visitedField rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_scanpos"/>
+  </jbh:FieldModi>
+  <jbh:FieldModi rdf:about="&jbh;fldModi394">
+    <jbh:fieldVisitMethod rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_scan_token"/>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">84</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">17</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">395</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">84</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">394</t:startsAt>
+    <jbh:visitedField rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_scanpos"/>
+  </jbh:FieldModi>
+  <jbh:FieldModi rdf:about="&jbh;fldModi289">
+    <jbh:fieldVisitMethod>
+      <java:Method rdf:about="&java;net.sourceforge.pmd.ast.JavaParser.jj_3R_128"/>
+    </jbh:fieldVisitMethod>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">46</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">17</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">290</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">46</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">289</t:startsAt>
+    <jbh:visitedField rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_scanpos"/>
+  </jbh:FieldModi>
+  <jbh:MethodCall rdf:about="&jbh;mc334">
+    <jbh:methodCalled rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_add_error_token"/>
+    <t:endsAt rdf:datatype="&xsd;integer">335</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc329">
+        <jbh:methodCalled rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_scan_token"/>
+        <t:endsAt rdf:datatype="&xsd;integer">336</t:endsAt>
+        <bh:originEvent>
+          <jbh:MethodCall rdf:about="&jbh;mc328">
+            <jbh:methodCalled>
+              <java:Method rdf:about="&java;net.sourceforge.pmd.ast.JavaParser.jj_3R_177"/>
+            </jbh:methodCalled>
+            <t:endsAt rdf:datatype="&xsd;integer">337</t:endsAt>
+            <bh:originEvent rdf:resource="&jbh;mc327"/>
+            <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+            <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_3R_162"/>
+            <jbh:objTag rdf:datatype="&xsd;integer">17</jbh:objTag>
+            <t:startsAt rdf:datatype="&xsd;integer">328</t:startsAt>
+          </jbh:MethodCall>
+        </bh:originEvent>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_3R_177"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">17</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">329</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_scan_token"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">17</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">334</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc455">
+    <jbh:methodCalled>
+      <java:Method rdf:about="&java;net.sourceforge.pmd.RuleContext.getSourceCodeFilename"/>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">456</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc12"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.PMD.processFile"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">6</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">455</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc213">
+    <jbh:methodCalled rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_scan_token"/>
+    <t:endsAt rdf:datatype="&xsd;integer">218</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc212">
+        <jbh:methodCalled rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_3R_177"/>
+        <t:endsAt rdf:datatype="&xsd;integer">219</t:endsAt>
+        <bh:originEvent rdf:resource="&jbh;mc211"/>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_3R_162"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">17</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">212</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_3R_177"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">17</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">213</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc51">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser$JJCalls.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">52</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc26"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">49</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">51</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:FieldModi rdf:about="&jbh;fldModi45">
+    <jbh:fieldVisitMethod rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser.!init"/>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">46</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">17</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">46</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">46</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">45</t:startsAt>
+    <jbh:visitedField rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.token"/>
+  </jbh:FieldModi>
+  <jbh:MethodCall rdf:about="&jbh;mc63">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser$JJCalls.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">64</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc26"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">55</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">63</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc75">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser$JJCalls.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">76</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc26"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">61</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">75</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc87">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser$JJCalls.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">88</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc26"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">67</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">87</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc99">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser$JJCalls.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">100</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc26"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">73</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">99</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc160">
+    <jbh:methodCalled>
+      <java:Method rdf:about="&java;net.sourceforge.pmd.ast.JavaParserTokenManager.jjCheckNAdd"/>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">161</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc151">
+        <jbh:methodCalled>
+          <java:Method rdf:about="&java;net.sourceforge.pmd.ast.JavaParserTokenManager.jjMoveNfa_0"/>
+        </jbh:methodCalled>
+        <t:endsAt rdf:datatype="&xsd;integer">176</t:endsAt>
+        <bh:originEvent>
+          <jbh:MethodCall rdf:about="&jbh;mc150">
+            <jbh:methodCalled>
+              <java:Method rdf:about="&java;net.sourceforge.pmd.ast.JavaParserTokenManager.jjMoveStringLiteralDfa0_0"/>
+            </jbh:methodCalled>
+            <t:endsAt rdf:datatype="&xsd;integer">177</t:endsAt>
+            <bh:originEvent rdf:resource="&jbh;mc139"/>
+            <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+            <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.ast.JavaParserTokenManager.getNextToken"/>
+            <jbh:objTag rdf:datatype="&xsd;integer">42</jbh:objTag>
+            <t:startsAt rdf:datatype="&xsd;integer">150</t:startsAt>
+          </jbh:MethodCall>
+        </bh:originEvent>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.ast.JavaParserTokenManager.jjMoveStringLiteralDfa0_0"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">42</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">151</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.ast.JavaParserTokenManager.jjMoveNfa_0"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">42</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">160</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:FieldModi rdf:about="&jbh;fldModi240">
+    <jbh:fieldVisitMethod rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_scan_token"/>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">84</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">17</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">241</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">84</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">240</t:startsAt>
+    <jbh:visitedField rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_scanpos"/>
+  </jbh:FieldModi>
+  <jbh:FieldModi rdf:about="&jbh;fldModi436">
+    <jbh:fieldVisitMethod rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_scan_token"/>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">84</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">17</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">437</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">84</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">436</t:startsAt>
+    <jbh:visitedField rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_scanpos"/>
+  </jbh:FieldModi>
+  <jbh:FieldModi rdf:about="&jbh;fldModi373">
+    <jbh:fieldVisitMethod rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_scan_token"/>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">84</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">17</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">374</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">84</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">373</t:startsAt>
+    <jbh:visitedField rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_scanpos"/>
+  </jbh:FieldModi>
+  <jbh:FieldModi rdf:about="&jbh;fldModi276">
+    <jbh:fieldVisitMethod rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_scan_token"/>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">84</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">17</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">277</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">84</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">276</t:startsAt>
+    <jbh:visitedField rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_scanpos"/>
+  </jbh:FieldModi>
+  <jbh:FieldModi rdf:about="&jbh;fldModi400">
+    <jbh:fieldVisitMethod>
+      <java:Method rdf:about="&java;net.sourceforge.pmd.ast.JavaParser.jj_3R_164"/>
+    </jbh:fieldVisitMethod>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">46</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">17</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">401</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">46</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">400</t:startsAt>
+    <jbh:visitedField rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_scanpos"/>
+  </jbh:FieldModi>
+  <jbh:MethodCall rdf:about="&jbh;mc103">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser$JJCalls.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">104</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc26"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">75</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">103</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc115">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser$JJCalls.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">116</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc26"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">81</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">115</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc248">
+    <jbh:methodCalled rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_scan_token"/>
+    <t:endsAt rdf:datatype="&xsd;integer">251</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc247">
+        <jbh:methodCalled>
+          <java:Method rdf:about="&java;net.sourceforge.pmd.ast.JavaParser.jj_3R_136"/>
+        </jbh:methodCalled>
+        <t:endsAt rdf:datatype="&xsd;integer">252</t:endsAt>
+        <bh:originEvent rdf:resource="&jbh;mc210"/>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_3R_126"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">17</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">247</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_3R_136"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">17</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">248</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc292">
+    <jbh:methodCalled rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_scan_token"/>
+    <t:endsAt rdf:datatype="&xsd;integer">295</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc291">
+        <jbh:methodCalled>
+          <java:Method rdf:about="&java;net.sourceforge.pmd.ast.JavaParser.jj_3R_137"/>
+        </jbh:methodCalled>
+        <t:endsAt rdf:datatype="&xsd;integer">296</t:endsAt>
+        <bh:originEvent>
+          <jbh:MethodCall rdf:about="&jbh;mc264">
+            <jbh:methodCalled rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_3R_128"/>
+            <t:endsAt rdf:datatype="&xsd;integer">297</t:endsAt>
+            <bh:originEvent>
+              <jbh:MethodCall rdf:about="&jbh;mc263">
+                <jbh:methodCalled>
+                  <java:Method rdf:about="&java;net.sourceforge.pmd.ast.JavaParser.jj_3R_71"/>
+                </jbh:methodCalled>
+                <t:endsAt rdf:datatype="&xsd;integer">298</t:endsAt>
+                <bh:originEvent rdf:resource="&jbh;mc208"/>
+                <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+                <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_3R_44"/>
+                <jbh:objTag rdf:datatype="&xsd;integer">17</jbh:objTag>
+                <t:startsAt rdf:datatype="&xsd;integer">263</t:startsAt>
+              </jbh:MethodCall>
+            </bh:originEvent>
+            <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+            <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_3R_71"/>
+            <jbh:objTag rdf:datatype="&xsd;integer">17</jbh:objTag>
+            <t:startsAt rdf:datatype="&xsd;integer">264</t:startsAt>
+          </jbh:MethodCall>
+        </bh:originEvent>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_3R_128"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">17</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">291</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_3R_137"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">17</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">292</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc171">
+    <jbh:methodCalled>
+      <java:Method rdf:about="&java;net.sourceforge.pmd.ast.JavaCharStream.ReadByte"/>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">172</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc170">
+        <jbh:methodCalled>
+          <java:Method rdf:about="&java;net.sourceforge.pmd.ast.JavaCharStream.readChar"/>
+        </jbh:methodCalled>
+        <t:endsAt rdf:datatype="&xsd;integer">175</t:endsAt>
+        <bh:originEvent rdf:resource="&jbh;mc151"/>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.ast.JavaParserTokenManager.jjMoveNfa_0"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">12</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">170</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.ast.JavaCharStream.readChar"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">12</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">171</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc18">
+    <jbh:methodCalled>
+      <java:Method rdf:about="&java;net.sourceforge.pmd.ast.JavaParser.jj_la1_2"/>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">19</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc13"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.TargetJDK1_5.createParser"/>
+    <t:startsAt rdf:datatype="&xsd;integer">18</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:FieldModi rdf:about="&jbh;fldModi425">
+    <jbh:fieldVisitMethod rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_scan_token"/>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">84</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">17</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">426</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">84</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">425</t:startsAt>
+    <jbh:visitedField rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_scanpos"/>
+  </jbh:FieldModi>
+  <jbh:FieldModi rdf:about="&jbh;fldModi299">
+    <jbh:fieldVisitMethod rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_3R_44"/>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">46</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">17</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">300</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">46</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">299</t:startsAt>
+    <jbh:visitedField rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_scanpos"/>
+  </jbh:FieldModi>
+  <jbh:MethodCall rdf:about="&jbh;mc81">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser$JJCalls.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">82</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc26"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">64</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">81</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:FieldModi rdf:about="&jbh;fldModi203">
+    <jbh:fieldVisitMethod rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_2_1"/>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">46</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">17</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">204</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">46</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">203</t:startsAt>
+    <jbh:visitedField rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_scanpos"/>
+  </jbh:FieldModi>
+  <jbh:MethodCall rdf:about="&jbh;mc93">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser$JJCalls.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">94</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc26"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">70</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">93</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:FieldModi rdf:about="&jbh;fldModi348">
+    <jbh:fieldVisitMethod rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_3R_162"/>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">46</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">17</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">349</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">46</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">348</t:startsAt>
+    <jbh:visitedField rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_scanpos"/>
+  </jbh:FieldModi>
+  <jbh:MethodCall rdf:about="&jbh;mc239">
+    <jbh:methodCalled rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_scan_token"/>
+    <t:endsAt rdf:datatype="&xsd;integer">242</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc238">
+        <jbh:methodCalled>
+          <java:Method rdf:about="&java;net.sourceforge.pmd.ast.JavaParser.jj_3R_180"/>
+        </jbh:methodCalled>
+        <t:endsAt rdf:datatype="&xsd;integer">243</t:endsAt>
+        <bh:originEvent rdf:resource="&jbh;mc211"/>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_3R_162"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">17</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">238</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_3R_180"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">17</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">239</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc457">
+    <t:startsAt rdf:datatype="&xsd;integer">457</t:startsAt>
+    <bh:originEvent rdf:resource="&jbh;mc12"/>
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">102</jbh:paramObjTag>
+    <jbh:methodCalled>
+      <java:Method rdf:about="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.PMDException.!init">
+        <jbh:isInit rdf:datatype="&xsd;boolean">true</jbh:isInit>
+      </java:Method>
+    </jbh:methodCalled>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.PMD.processFile"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">104</jbh:objTag>
+    <t:endsAt rdf:datatype="&xsd;integer">458</t:endsAt>
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">105</jbh:paramObjTag>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc283">
+    <jbh:methodCalled rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_scan_token"/>
+    <t:endsAt rdf:datatype="&xsd;integer">286</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc282">
+        <jbh:methodCalled>
+          <java:Method rdf:about="&java;net.sourceforge.pmd.ast.JavaParser.jj_3R_188"/>
+        </jbh:methodCalled>
+        <t:endsAt rdf:datatype="&xsd;integer">287</t:endsAt>
+        <bh:originEvent>
+          <jbh:MethodCall rdf:about="&jbh;mc265">
+            <jbh:methodCalled rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_3R_164"/>
+            <t:endsAt rdf:datatype="&xsd;integer">288</t:endsAt>
+            <bh:originEvent rdf:resource="&jbh;mc264"/>
+            <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+            <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_3R_128"/>
+            <jbh:objTag rdf:datatype="&xsd;integer">17</jbh:objTag>
+            <t:startsAt rdf:datatype="&xsd;integer">265</t:startsAt>
+          </jbh:MethodCall>
+        </bh:originEvent>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_3R_164"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">17</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">282</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_3R_188"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">17</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">283</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc37">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">12</jbh:paramObjTag>
+    <jbh:methodCalled>
+      <java:Method rdf:about="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParserTokenManager.!init">
+        <jbh:isInit rdf:datatype="&xsd;boolean">true</jbh:isInit>
+      </java:Method>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">40</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc26"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">42</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">37</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc49">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser$JJCalls.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">50</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc26"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">48</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">49</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:FieldModi rdf:about="&jbh;fldModi410">
+    <jbh:fieldVisitMethod rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_3R_164"/>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">46</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">17</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">411</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">46</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">410</t:startsAt>
+    <jbh:visitedField rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_scanpos"/>
+  </jbh:FieldModi>
+  <jbh:MethodCall rdf:about="&jbh;mc105">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser$JJCalls.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">106</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc26"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">76</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">105</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc117">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser$JJCalls.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">118</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc26"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">82</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">117</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc444">
+    <jbh:methodCalled rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_add_error_token"/>
+    <t:endsAt rdf:datatype="&xsd;integer">445</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc317"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.generateParseException"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">17</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">444</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:FieldModi rdf:about="&jbh;fldModi214">
+    <jbh:fieldVisitMethod rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_scan_token"/>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">84</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">17</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">215</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">84</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">214</t:startsAt>
+    <jbh:visitedField rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_scanpos"/>
+  </jbh:FieldModi>
+  <jbh:MethodCall rdf:about="&jbh;mc185">
+    <jbh:methodCalled>
+      <java:Method rdf:about="&java;net.sourceforge.pmd.ast.JavaCharStream.GetImage"/>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">186</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc180"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.ast.JavaParserTokenManager.jjFillToken"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">12</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">185</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc173">
+    <jbh:methodCalled>
+      <java:Method rdf:about="&java;net.sourceforge.pmd.ast.JavaCharStream.UpdateLineColumn"/>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">174</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc170"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.ast.JavaCharStream.readChar"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">12</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">173</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:FieldModi rdf:about="&jbh;fldModi293">
+    <jbh:fieldVisitMethod rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_scan_token"/>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">84</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">17</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">294</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">84</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">293</t:startsAt>
+    <jbh:visitedField rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_scanpos"/>
+  </jbh:FieldModi>
+  <jbh:FieldModi rdf:about="&jbh;fldModi196">
+    <jbh:fieldVisitMethod rdf:resource="&java;net.sourceforge.pmd.ast.JavaParserTokenManager.getNextToken"/>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">0</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">84</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">197</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">0</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">196</t:startsAt>
+    <jbh:visitedField rdf:resource="&java;net.sourceforge.pmd.ast.Token.specialToken"/>
+  </jbh:FieldModi>
+  <jbh:FieldModi rdf:about="&jbh;fldModi447">
+    <jbh:fieldVisitMethod>
+      <java:Method rdf:about="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.ParseException.!init">
+        <jbh:isInit rdf:datatype="&xsd;boolean">true</jbh:isInit>
+      </java:Method>
+    </jbh:fieldVisitMethod>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">46</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">102</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">448</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">46</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">447</t:startsAt>
+    <jbh:visitedField>
+      <java:Field rdf:about="&java;net.sourceforge.pmd.ast.ParseException.currentToken">
+        <java:fieldTypeIs rdf:resource="&java;net.sourceforge.pmd.ast.Token"/>
+      </java:Field>
+    </jbh:visitedField>
+  </jbh:FieldModi>
+  <jbh:MethodCall rdf:about="&jbh;mc71">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser$JJCalls.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">72</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc26"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">59</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">71</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:FieldModi rdf:about="&jbh;fldModi302">
+    <jbh:fieldVisitMethod rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_scan_token"/>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">84</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">17</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">303</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">84</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">302</t:startsAt>
+    <jbh:visitedField rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_scanpos"/>
+  </jbh:FieldModi>
+  <jbh:MethodCall rdf:about="&jbh;mc83">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser$JJCalls.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">84</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc26"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">65</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">83</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:FieldModi rdf:about="&jbh;fldModi205">
+    <jbh:fieldVisitMethod rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_2_1"/>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">46</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">17</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">206</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">46</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">205</t:startsAt>
+    <jbh:visitedField>
+      <java:Field rdf:about="&java;net.sourceforge.pmd.ast.JavaParser.jj_lastpos">
+        <java:fieldTypeIs rdf:resource="&java;net.sourceforge.pmd.ast.Token"/>
+      </java:Field>
+    </jbh:visitedField>
+  </jbh:FieldModi>
+  <jbh:MethodCall rdf:about="&jbh;mc95">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser$JJCalls.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">96</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc26"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">71</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">95</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:FieldModi rdf:about="&jbh;fldModi338">
+    <jbh:fieldVisitMethod rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_3R_162"/>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">46</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">17</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">339</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">46</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">338</t:startsAt>
+    <jbh:visitedField rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_scanpos"/>
+  </jbh:FieldModi>
+  <java:Class rdf:about="&java;net.sourceforge.pmd.PMD">
+    <java:hasField>
+      <java:Field rdf:about="&java;net.sourceforge.pmd.PMD.targetJDKVersion">
+        <java:fieldTypeIs>
+          <java:Class rdf:about="&java;net.sourceforge.pmd.TargetJDKVersion"/>
+        </java:fieldTypeIs>
+      </java:Field>
+    </java:hasField>
+  </java:Class>
+  <jbh:MethodCall rdf:about="&jbh;mc152">
+    <jbh:methodCalled rdf:resource="&java;net.sourceforge.pmd.ast.JavaParserTokenManager.jjCheckNAdd"/>
+    <t:endsAt rdf:datatype="&xsd;integer">153</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc151"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.ast.JavaParserTokenManager.jjMoveNfa_0"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">42</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">152</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc27">
+    <jbh:methodCalled>
+      <java:Method rdf:about="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JJTJavaParserState.!init">
+        <jbh:isInit rdf:datatype="&xsd;boolean">true</jbh:isInit>
+      </java:Method>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">28</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc26"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">18</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">27</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:FieldModi rdf:about="&jbh;fldModi381">
+    <jbh:fieldVisitMethod rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_3R_44"/>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">46</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">17</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">382</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">46</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">381</t:startsAt>
+    <jbh:visitedField rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_scanpos"/>
+  </jbh:FieldModi>
+  <jbh:FieldModi rdf:about="&jbh;fldModi272">
+    <jbh:fieldVisitMethod rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_3R_164"/>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">46</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">17</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">273</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">46</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">272</t:startsAt>
+    <jbh:visitedField rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_scanpos"/>
+  </jbh:FieldModi>
+  <jbh:FieldModi rdf:about="&jbh;fldModi284">
+    <jbh:fieldVisitMethod rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_scan_token"/>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">84</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">17</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">285</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">84</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">284</t:startsAt>
+    <jbh:visitedField rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_scanpos"/>
+  </jbh:FieldModi>
+  <java:Class rdf:about="&java;net.sourceforge.pmd.ast.ParseException">
+    <java:hasField rdf:resource="&java;net.sourceforge.pmd.ast.ParseException.currentToken"/>
+  </java:Class>
+  <jbh:FieldModi rdf:about="&jbh;fldModi199">
+    <jbh:fieldVisitMethod rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_ntk"/>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">84</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">46</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">200</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">84</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">199</t:startsAt>
+    <jbh:visitedField rdf:resource="&java;net.sourceforge.pmd.ast.Token.next"/>
+  </jbh:FieldModi>
+  <jbh:FieldModi rdf:about="&jbh;fldModi38">
+    <jbh:fieldVisitMethod rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParserTokenManager.!init"/>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">12</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">42</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">39</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">12</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">38</t:startsAt>
+    <jbh:visitedField>
+      <java:Field rdf:about="&java;net.sourceforge.pmd.ast.JavaParserTokenManager.input_stream">
+        <java:fieldTypeIs>
+          <java:Class rdf:about="&java;net.sourceforge.pmd.ast.CharStream"/>
+        </java:fieldTypeIs>
+      </java:Field>
+    </jbh:visitedField>
+  </jbh:FieldModi>
+  <jbh:MethodCall rdf:about="&jbh;mc301">
+    <jbh:methodCalled rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_scan_token"/>
+    <t:endsAt rdf:datatype="&xsd;integer">304</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc208"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_3R_44"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">17</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">301</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:FieldModi rdf:about="&jbh;fldModi313">
+    <jbh:fieldVisitMethod rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_consume_token"/>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">84</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">17</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">314</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">84</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">313</t:startsAt>
+    <jbh:visitedField rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.token"/>
+  </jbh:FieldModi>
+  <jbh:MethodCall rdf:about="&jbh;mc107">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser$JJCalls.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">108</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc26"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">77</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">107</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:FieldModi rdf:about="&jbh;fldModi216">
+    <jbh:fieldVisitMethod rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_scan_token"/>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">84</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">17</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">217</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">84</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">216</t:startsAt>
+    <jbh:visitedField rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_lastpos"/>
+  </jbh:FieldModi>
+  <jbh:FieldModi rdf:about="&jbh;fldModi228">
+    <jbh:fieldVisitMethod rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_3R_162"/>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">46</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">17</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">229</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">46</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">228</t:startsAt>
+    <jbh:visitedField rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_scanpos"/>
+  </jbh:FieldModi>
+  <jbh:MethodCall rdf:about="&jbh;mc446">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">46</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.ParseException.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">449</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc317"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.generateParseException"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">102</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">446</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc163">
+    <jbh:methodCalled rdf:resource="&java;net.sourceforge.pmd.ast.JavaCharStream.ReadByte"/>
+    <t:endsAt rdf:datatype="&xsd;integer">164</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc162">
+        <jbh:methodCalled rdf:resource="&java;net.sourceforge.pmd.ast.JavaCharStream.readChar"/>
+        <t:endsAt rdf:datatype="&xsd;integer">167</t:endsAt>
+        <bh:originEvent rdf:resource="&jbh;mc151"/>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.ast.JavaParserTokenManager.jjMoveNfa_0"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">12</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">162</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.ast.JavaCharStream.readChar"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">12</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">163</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc187">
+    <jbh:methodCalled>
+      <java:Method rdf:about="&java;net.sourceforge.pmd.ast.JavaCharStream.getBeginLine"/>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">188</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc180"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.ast.JavaParserTokenManager.jjFillToken"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">12</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">187</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc14">
+    <jbh:methodCalled>
+      <java:Method rdf:about="&java;net.sourceforge.pmd.ast.JavaParser.jj_la1_0"/>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">15</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc13"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.TargetJDK1_5.createParser"/>
+    <t:startsAt rdf:datatype="&xsd;integer">14</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:FieldModi rdf:about="&jbh;fldModi5">
+    <jbh:fieldVisitMethod>
+      <java:Method rdf:about="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.PMD.!init">
+        <jbh:isInit rdf:datatype="&xsd;boolean">true</jbh:isInit>
+      </java:Method>
+    </jbh:fieldVisitMethod>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">1</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">3</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">6</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">1</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">5</t:startsAt>
+    <jbh:visitedField rdf:resource="&java;net.sourceforge.pmd.PMD.targetJDKVersion"/>
+  </jbh:FieldModi>
+  <jbh:FieldModi rdf:about="&jbh;fldModi433">
+    <jbh:fieldVisitMethod rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_3R_44"/>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">46</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">17</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">434</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">46</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">433</t:startsAt>
+    <jbh:visitedField rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_scanpos"/>
+  </jbh:FieldModi>
+  <jbh:FieldModi rdf:about="&jbh;fldModi421">
+    <jbh:fieldVisitMethod rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_3R_128"/>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">46</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">17</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">422</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">46</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">421</t:startsAt>
+    <jbh:visitedField rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_scanpos"/>
+  </jbh:FieldModi>
+  <jbh:MethodCall rdf:about="&jbh;mc178">
+    <jbh:methodCalled>
+      <java:Method rdf:about="&java;net.sourceforge.pmd.ast.JavaCharStream.backup"/>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">179</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc139"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.ast.JavaParserTokenManager.getNextToken"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">12</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">178</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc57">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser$JJCalls.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">58</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc26"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">52</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">57</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc69">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser$JJCalls.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">70</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc26"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">58</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">69</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc275">
+    <jbh:methodCalled rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_scan_token"/>
+    <t:endsAt rdf:datatype="&xsd;integer">278</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc274">
+        <jbh:methodCalled>
+          <java:Method rdf:about="&java;net.sourceforge.pmd.ast.JavaParser.jj_3R_187"/>
+        </jbh:methodCalled>
+        <t:endsAt rdf:datatype="&xsd;integer">279</t:endsAt>
+        <bh:originEvent rdf:resource="&jbh;mc265"/>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_3R_164"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">17</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">274</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_3R_187"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">17</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">275</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc396">
+    <jbh:methodCalled rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_add_error_token"/>
+    <t:endsAt rdf:datatype="&xsd;integer">397</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc393">
+        <jbh:methodCalled rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_scan_token"/>
+        <t:endsAt rdf:datatype="&xsd;integer">398</t:endsAt>
+        <bh:originEvent>
+          <jbh:MethodCall rdf:about="&jbh;mc392">
+            <jbh:methodCalled>
+              <java:Method rdf:about="&java;net.sourceforge.pmd.ast.JavaParser.jj_3R_186"/>
+            </jbh:methodCalled>
+            <t:endsAt rdf:datatype="&xsd;integer">399</t:endsAt>
+            <bh:originEvent>
+              <jbh:MethodCall rdf:about="&jbh;mc391">
+                <jbh:methodCalled rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_3R_164"/>
+                <t:endsAt rdf:datatype="&xsd;integer">420</t:endsAt>
+                <bh:originEvent>
+                  <jbh:MethodCall rdf:about="&jbh;mc390">
+                    <jbh:methodCalled rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_3R_128"/>
+                    <t:endsAt rdf:datatype="&xsd;integer">431</t:endsAt>
+                    <bh:originEvent>
+                      <jbh:MethodCall rdf:about="&jbh;mc389">
+                        <jbh:methodCalled rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_3R_71"/>
+                        <t:endsAt rdf:datatype="&xsd;integer"
+                        >432</t:endsAt>
+                        <bh:originEvent rdf:resource="&jbh;mc324"/>
+                        <java:threadID rdf:datatype="&xsd;integer"
+                        >0</java:threadID>
+                        <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_3R_44"/>
+                        <jbh:objTag rdf:datatype="&xsd;integer"
+                        >17</jbh:objTag>
+                        <t:startsAt rdf:datatype="&xsd;integer"
+                        >389</t:startsAt>
+                      </jbh:MethodCall>
+                    </bh:originEvent>
+                    <java:threadID rdf:datatype="&xsd;integer"
+                    >0</java:threadID>
+                    <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_3R_71"/>
+                    <jbh:objTag rdf:datatype="&xsd;integer">17</jbh:objTag>
+                    <t:startsAt rdf:datatype="&xsd;integer">390</t:startsAt>
+                  </jbh:MethodCall>
+                </bh:originEvent>
+                <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+                <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_3R_128"/>
+                <jbh:objTag rdf:datatype="&xsd;integer">17</jbh:objTag>
+                <t:startsAt rdf:datatype="&xsd;integer">391</t:startsAt>
+              </jbh:MethodCall>
+            </bh:originEvent>
+            <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+            <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_3R_164"/>
+            <jbh:objTag rdf:datatype="&xsd;integer">17</jbh:objTag>
+            <t:startsAt rdf:datatype="&xsd;integer">392</t:startsAt>
+          </jbh:MethodCall>
+        </bh:originEvent>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_3R_186"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">17</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">393</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_scan_token"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">17</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">396</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc384">
+    <jbh:methodCalled rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.getToken"/>
+    <t:endsAt rdf:datatype="&xsd;integer">385</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc383">
+        <jbh:methodCalled rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.enumLookahead"/>
+        <t:endsAt rdf:datatype="&xsd;integer">386</t:endsAt>
+        <bh:originEvent rdf:resource="&jbh;mc324"/>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_3R_44"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">17</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">383</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.enumLookahead"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">17</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">384</t:startsAt>
+  </jbh:MethodCall>
+  <java:Class rdf:about="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser$JJCalls">
+    <java:hasField>
+      <java:Field rdf:about="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser$JJCalls.first">
+        <java:fieldTypeIs rdf:resource="&java;net.sourceforge.pmd.ast.Token"/>
+      </java:Field>
+    </java:hasField>
+  </java:Class>
+  <jbh:FieldModi rdf:about="&jbh;fldModi137">
+    <jbh:fieldVisitMethod rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_ntk"/>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">0</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">17</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">138</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">0</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">137</t:startsAt>
+    <jbh:visitedField>
+      <java:Field rdf:about="&java;net.sourceforge.pmd.ast.JavaParser.jj_nt">
+        <java:fieldTypeIs rdf:resource="&java;net.sourceforge.pmd.ast.Token"/>
+      </java:Field>
+    </jbh:visitedField>
+  </jbh:FieldModi>
+  <jbh:MethodCall rdf:about="&jbh;mc189">
+    <jbh:methodCalled>
+      <java:Method rdf:about="&java;net.sourceforge.pmd.ast.JavaCharStream.getBeginColumn"/>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">190</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc180"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.ast.JavaParserTokenManager.jjFillToken"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">12</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">189</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc20">
+    <jbh:methodCalled>
+      <java:Method rdf:about="&java;net.sourceforge.pmd.ast.JavaParser.jj_la1_3"/>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">21</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc13"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.TargetJDK1_5.createParser"/>
+    <t:startsAt rdf:datatype="&xsd;integer">20</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc32">
+    <jbh:methodCalled>
+      <java:Method rdf:about="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser$LookaheadSuccess.!init">
+        <jbh:isInit rdf:datatype="&xsd;boolean">true</jbh:isInit>
+      </java:Method>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">33</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc31">
+        <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser$LookaheadSuccess.!init"/>
+        <t:endsAt rdf:datatype="&xsd;integer">34</t:endsAt>
+        <bh:originEvent rdf:resource="&jbh;mc26"/>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser.!init"/>
+        <t:startsAt rdf:datatype="&xsd;integer">31</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser$LookaheadSuccess.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">23</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">32</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc165">
+    <jbh:methodCalled rdf:resource="&java;net.sourceforge.pmd.ast.JavaCharStream.UpdateLineColumn"/>
+    <t:endsAt rdf:datatype="&xsd;integer">166</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc162"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.ast.JavaCharStream.readChar"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">12</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">165</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc8">
+    <jbh:methodCalled>
+      <java:Method rdf:about="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.RuleSet.!init">
+        <jbh:isInit rdf:datatype="&xsd;boolean">true</jbh:isInit>
+      </java:Method>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">9</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc1"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;test.auto.Strategy_PMD_TargetJDKVersion_6.main"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">4</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">8</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc109">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser$JJCalls.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">110</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc26"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">78</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">109</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:FieldModi rdf:about="&jbh;fldModi330">
+    <jbh:fieldVisitMethod rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_scan_token"/>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">84</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">17</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">331</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">84</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">330</t:startsAt>
+    <jbh:visitedField rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_scanpos"/>
+  </jbh:FieldModi>
+  <jbh:FieldModi rdf:about="&jbh;fldModi342">
+    <jbh:fieldVisitMethod rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_scan_token"/>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">84</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">17</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">343</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">84</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">342</t:startsAt>
+    <jbh:visitedField rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_scanpos"/>
+  </jbh:FieldModi>
+  <jbh:MethodCall rdf:about="&jbh;mc91">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser$JJCalls.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">92</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc26"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">69</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">91</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:FieldModi rdf:about="&jbh;fldModi358">
+    <jbh:fieldVisitMethod rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_3R_162"/>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">46</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">17</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">359</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">46</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">358</t:startsAt>
+    <jbh:visitedField rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_scanpos"/>
+  </jbh:FieldModi>
+  <jbh:MethodCall rdf:about="&jbh;mc427">
+    <jbh:methodCalled rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_add_error_token"/>
+    <t:endsAt rdf:datatype="&xsd;integer">428</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc424">
+        <jbh:methodCalled rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_scan_token"/>
+        <t:endsAt rdf:datatype="&xsd;integer">429</t:endsAt>
+        <bh:originEvent>
+          <jbh:MethodCall rdf:about="&jbh;mc423">
+            <jbh:methodCalled rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_3R_137"/>
+            <t:endsAt rdf:datatype="&xsd;integer">430</t:endsAt>
+            <bh:originEvent rdf:resource="&jbh;mc390"/>
+            <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+            <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_3R_128"/>
+            <jbh:objTag rdf:datatype="&xsd;integer">17</jbh:objTag>
+            <t:startsAt rdf:datatype="&xsd;integer">423</t:startsAt>
+          </jbh:MethodCall>
+        </bh:originEvent>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_3R_137"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">17</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">424</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_scan_token"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">17</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">427</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:FieldModi rdf:about="&jbh;fldModi249">
+    <jbh:fieldVisitMethod rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_scan_token"/>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">84</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">17</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">250</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">84</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">249</t:startsAt>
+    <jbh:visitedField rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_scanpos"/>
+  </jbh:FieldModi>
+  <jbh:FieldModi rdf:about="&jbh;fldModi128">
+    <jbh:fieldVisitMethod rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.SimpleNode.!init"/>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">17</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">83</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">129</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">17</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">128</t:startsAt>
+    <jbh:visitedField>
+      <java:Field rdf:about="&java;net.sourceforge.pmd.ast.SimpleNode.parser">
+        <java:fieldTypeIs>
+          <java:Class rdf:about="&java;net.sourceforge.pmd.ast.JavaParser">
+            <java:hasField rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_ls"/>
+            <java:hasField rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_lastpos"/>
+            <java:hasField rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_scanpos"/>
+            <java:hasField rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_nt"/>
+            <java:hasField rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.token"/>
+            <java:hasField>
+              <java:Field rdf:about="&java;net.sourceforge.pmd.ast.JavaParser.token_source">
+                <java:fieldTypeIs>
+                  <java:Class rdf:about="&java;net.sourceforge.pmd.ast.JavaParserTokenManager">
+                    <java:hasField rdf:resource="&java;net.sourceforge.pmd.ast.JavaParserTokenManager.input_stream"/>
+                  </java:Class>
+                </java:fieldTypeIs>
+              </java:Field>
+            </java:hasField>
+            <java:hasField>
+              <java:Field rdf:about="&java;net.sourceforge.pmd.ast.JavaParser.jjtree">
+                <java:fieldTypeIs>
+                  <java:Class rdf:about="&java;net.sourceforge.pmd.ast.JJTJavaParserState"/>
+                </java:fieldTypeIs>
+              </java:Field>
+            </java:hasField>
+          </java:Class>
+        </java:fieldTypeIs>
+      </java:Field>
+    </jbh:visitedField>
+  </jbh:FieldModi>
+  <jbh:MethodCall rdf:about="&jbh;mc168">
+    <jbh:methodCalled rdf:resource="&java;net.sourceforge.pmd.ast.JavaParserTokenManager.jjCheckNAdd"/>
+    <t:endsAt rdf:datatype="&xsd;integer">169</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc151"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.ast.JavaParserTokenManager.jjMoveNfa_0"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">42</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">168</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc23">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">7</jbh:paramObjTag>
+    <jbh:methodCalled>
+      <java:Method rdf:about="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaCharStream.!init">
+        <jbh:isInit rdf:datatype="&xsd;boolean">true</jbh:isInit>
+      </java:Method>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">24</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc22">
+        <jbh:paramObjTag rdf:datatype="&xsd;integer">7</jbh:paramObjTag>
+        <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaCharStream.!init"/>
+        <t:endsAt rdf:datatype="&xsd;integer">25</t:endsAt>
+        <bh:originEvent rdf:resource="&jbh;mc13"/>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.TargetJDK1_5.createParser"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">12</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">22</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaCharStream.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">12</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">23</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc120">
+    <jbh:methodCalled>
+      <java:Method rdf:about="&java;net.sourceforge.pmd.ast.JavaParser.setJDK15"/>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">121</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc13"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.TargetJDK1_5.createParser"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">17</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">120</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc47">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser$JJCalls.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">48</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc26"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">47</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">47</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc59">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser$JJCalls.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">60</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc26"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">53</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">59</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:FieldModi rdf:about="&jbh;fldModi29">
+    <jbh:fieldVisitMethod rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser.!init"/>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">18</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">17</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">30</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">18</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">29</t:startsAt>
+    <jbh:visitedField rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jjtree"/>
+  </jbh:FieldModi>
+  <jbh:FieldModi rdf:about="&jbh;fldModi280">
+    <jbh:fieldVisitMethod rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_3R_164"/>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">46</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">17</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">281</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">46</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">280</t:startsAt>
+    <jbh:visitedField rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_scanpos"/>
+  </jbh:FieldModi>
+  <jbh:FieldModi rdf:about="&jbh;fldModi321">
+    <jbh:fieldVisitMethod rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_rescan_token"/>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">46</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">17</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">322</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">46</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">321</t:startsAt>
+    <jbh:visitedField rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_lastpos"/>
+  </jbh:FieldModi>
+  <jbh:FieldModi rdf:about="&jbh;fldModi224">
+    <jbh:fieldVisitMethod rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_scan_token"/>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">84</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">17</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">225</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">84</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">224</t:startsAt>
+    <jbh:visitedField rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_scanpos"/>
+  </jbh:FieldModi>
+  <jbh:FieldModi rdf:about="&jbh;fldModi236">
+    <jbh:fieldVisitMethod rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_3R_162"/>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">46</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">17</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">237</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">46</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">236</t:startsAt>
+    <jbh:visitedField rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_scanpos"/>
+  </jbh:FieldModi>
+  <jbh:FieldModi rdf:about="&jbh;fldModi369">
+    <jbh:fieldVisitMethod rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_3R_126"/>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">46</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">17</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">370</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">46</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">369</t:startsAt>
+    <jbh:visitedField rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_scanpos"/>
+  </jbh:FieldModi>
+  <jbh:MethodCall rdf:about="&jbh;mc438">
+    <jbh:methodCalled rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_add_error_token"/>
+    <t:endsAt rdf:datatype="&xsd;integer">439</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc435">
+        <jbh:methodCalled rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_scan_token"/>
+        <t:endsAt rdf:datatype="&xsd;integer">440</t:endsAt>
+        <bh:originEvent rdf:resource="&jbh;mc324"/>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_3R_44"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">17</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">435</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_scan_token"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">17</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">438</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc10">
+    <jbh:methodCalled>
+      <java:Method rdf:about="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.RuleContext.!init">
+        <jbh:isInit rdf:datatype="&xsd;boolean">true</jbh:isInit>
+      </java:Method>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">11</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc1"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;test.auto.Strategy_PMD_TargetJDKVersion_6.main"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">6</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">10</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc143">
+    <jbh:methodCalled>
+      <java:Method rdf:about="&java;net.sourceforge.pmd.ast.JavaCharStream.FillBuff"/>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">144</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc142">
+        <jbh:methodCalled rdf:resource="&java;net.sourceforge.pmd.ast.JavaCharStream.ReadByte"/>
+        <t:endsAt rdf:datatype="&xsd;integer">145</t:endsAt>
+        <bh:originEvent>
+          <jbh:MethodCall rdf:about="&jbh;mc141">
+            <jbh:methodCalled rdf:resource="&java;net.sourceforge.pmd.ast.JavaCharStream.readChar"/>
+            <t:endsAt rdf:datatype="&xsd;integer">148</t:endsAt>
+            <bh:originEvent>
+              <jbh:MethodCall rdf:about="&jbh;mc140">
+                <jbh:methodCalled>
+                  <java:Method rdf:about="&java;net.sourceforge.pmd.ast.JavaCharStream.BeginToken"/>
+                </jbh:methodCalled>
+                <t:endsAt rdf:datatype="&xsd;integer">149</t:endsAt>
+                <bh:originEvent rdf:resource="&jbh;mc139"/>
+                <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+                <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.ast.JavaParserTokenManager.getNextToken"/>
+                <jbh:objTag rdf:datatype="&xsd;integer">12</jbh:objTag>
+                <t:startsAt rdf:datatype="&xsd;integer">140</t:startsAt>
+              </jbh:MethodCall>
+            </bh:originEvent>
+            <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+            <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.ast.JavaCharStream.BeginToken"/>
+            <jbh:objTag rdf:datatype="&xsd;integer">12</jbh:objTag>
+            <t:startsAt rdf:datatype="&xsd;integer">141</t:startsAt>
+          </jbh:MethodCall>
+        </bh:originEvent>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.ast.JavaCharStream.readChar"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">12</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">142</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.ast.JavaCharStream.ReadByte"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">12</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">143</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc155">
+    <jbh:methodCalled rdf:resource="&java;net.sourceforge.pmd.ast.JavaCharStream.ReadByte"/>
+    <t:endsAt rdf:datatype="&xsd;integer">156</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc154">
+        <jbh:methodCalled rdf:resource="&java;net.sourceforge.pmd.ast.JavaCharStream.readChar"/>
+        <t:endsAt rdf:datatype="&xsd;integer">159</t:endsAt>
+        <bh:originEvent rdf:resource="&jbh;mc151"/>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.ast.JavaParserTokenManager.jjMoveNfa_0"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">12</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">154</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.ast.JavaCharStream.readChar"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">12</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">155</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:FieldModi rdf:about="&jbh;fldModi332">
+    <jbh:fieldVisitMethod rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_scan_token"/>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">84</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">17</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">333</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">84</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">332</t:startsAt>
+    <jbh:visitedField rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_lastpos"/>
+  </jbh:FieldModi>
+  <jbh:MethodCall rdf:about="&jbh;mc267">
+    <jbh:methodCalled rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_scan_token"/>
+    <t:endsAt rdf:datatype="&xsd;integer">270</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc266">
+        <jbh:methodCalled rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_3R_186"/>
+        <t:endsAt rdf:datatype="&xsd;integer">271</t:endsAt>
+        <bh:originEvent rdf:resource="&jbh;mc265"/>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_3R_164"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">17</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">266</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_3R_186"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">17</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">267</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc146">
+    <jbh:methodCalled rdf:resource="&java;net.sourceforge.pmd.ast.JavaCharStream.UpdateLineColumn"/>
+    <t:endsAt rdf:datatype="&xsd;integer">147</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc141"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.ast.JavaCharStream.readChar"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">12</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">146</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc53">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser$JJCalls.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">54</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc26"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">50</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">53</t:startsAt>
+  </jbh:MethodCall>
+  <java:Class rdf:about="&java;net.sourceforge.pmd.ast.SimpleNode">
+    <java:hasField rdf:resource="&java;net.sourceforge.pmd.ast.SimpleNode.parser"/>
+  </java:Class>
+  <jbh:MethodCall rdf:about="&jbh;mc65">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser$JJCalls.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">66</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc26"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">56</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">65</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc77">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser$JJCalls.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">78</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc26"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">62</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">77</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:FieldModi rdf:about="&jbh;fldModi308">
+    <jbh:fieldVisitMethod>
+      <java:Method rdf:about="&java;net.sourceforge.pmd.ast.JavaParser.jj_save"/>
+    </jbh:fieldVisitMethod>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">46</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">47</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">309</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">46</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">308</t:startsAt>
+    <jbh:visitedField rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser$JJCalls.first"/>
+  </jbh:FieldModi>
+  <jbh:MethodCall rdf:about="&jbh;mc89">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser$JJCalls.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">90</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc26"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">68</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">89</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc364">
+    <jbh:methodCalled rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_add_error_token"/>
+    <t:endsAt rdf:datatype="&xsd;integer">365</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc361">
+        <jbh:methodCalled rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_scan_token"/>
+        <t:endsAt rdf:datatype="&xsd;integer">366</t:endsAt>
+        <bh:originEvent>
+          <jbh:MethodCall rdf:about="&jbh;mc360">
+            <jbh:methodCalled rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_3R_180"/>
+            <t:endsAt rdf:datatype="&xsd;integer">367</t:endsAt>
+            <bh:originEvent rdf:resource="&jbh;mc327"/>
+            <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+            <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_3R_162"/>
+            <jbh:objTag rdf:datatype="&xsd;integer">17</jbh:objTag>
+            <t:startsAt rdf:datatype="&xsd;integer">360</t:startsAt>
+          </jbh:MethodCall>
+        </bh:originEvent>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_3R_180"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">17</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">361</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_scan_token"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">17</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">364</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc231">
+    <jbh:methodCalled rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_scan_token"/>
+    <t:endsAt rdf:datatype="&xsd;integer">234</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc230">
+        <jbh:methodCalled>
+          <java:Method rdf:about="&java;net.sourceforge.pmd.ast.JavaParser.jj_3R_179"/>
+        </jbh:methodCalled>
+        <t:endsAt rdf:datatype="&xsd;integer">235</t:endsAt>
+        <bh:originEvent rdf:resource="&jbh;mc211"/>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_3R_162"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">17</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">230</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_3R_179"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">17</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">231</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:FieldModi rdf:about="&jbh;fldModi387">
+    <jbh:fieldVisitMethod rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_3R_44"/>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">46</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">17</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">388</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">46</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">387</t:startsAt>
+    <jbh:visitedField rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_scanpos"/>
+  </jbh:FieldModi>
+  <jbh:MethodCall rdf:about="&jbh;mc416">
+    <jbh:methodCalled rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_add_error_token"/>
+    <t:endsAt rdf:datatype="&xsd;integer">417</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc413">
+        <jbh:methodCalled rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_scan_token"/>
+        <t:endsAt rdf:datatype="&xsd;integer">418</t:endsAt>
+        <bh:originEvent>
+          <jbh:MethodCall rdf:about="&jbh;mc412">
+            <jbh:methodCalled rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_3R_188"/>
+            <t:endsAt rdf:datatype="&xsd;integer">419</t:endsAt>
+            <bh:originEvent rdf:resource="&jbh;mc391"/>
+            <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+            <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_3R_164"/>
+            <jbh:objTag rdf:datatype="&xsd;integer">17</jbh:objTag>
+            <t:startsAt rdf:datatype="&xsd;integer">412</t:startsAt>
+          </jbh:MethodCall>
+        </bh:originEvent>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_3R_188"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">17</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">413</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_scan_token"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">17</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">416</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc157">
+    <jbh:methodCalled rdf:resource="&java;net.sourceforge.pmd.ast.JavaCharStream.UpdateLineColumn"/>
+    <t:endsAt rdf:datatype="&xsd;integer">158</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc154"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.ast.JavaCharStream.readChar"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">12</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">157</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:FieldModi rdf:about="&jbh;fldModi319">
+    <jbh:fieldVisitMethod rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_rescan_token"/>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">46</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">17</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">320</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">46</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">319</t:startsAt>
+    <jbh:visitedField rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_scanpos"/>
+  </jbh:FieldModi>
+  <jbh:MethodCall rdf:about="&jbh;mc4">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">1</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.PMD.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">7</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc1"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;test.auto.Strategy_PMD_TargetJDKVersion_6.main"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">3</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">4</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc133">
+    <jbh:methodCalled>
+      <java:Method rdf:about="&java;net.sourceforge.pmd.ast.SimpleNode.jjtOpen"/>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">134</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc132">
+        <jbh:paramObjTag rdf:datatype="&xsd;integer">83</jbh:paramObjTag>
+        <jbh:methodCalled>
+          <java:Method rdf:about="&java;net.sourceforge.pmd.ast.JJTJavaParserState.openNodeScope"/>
+        </jbh:methodCalled>
+        <t:endsAt rdf:datatype="&xsd;integer">135</t:endsAt>
+        <bh:originEvent rdf:resource="&jbh;mc123"/>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.CompilationUnit"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">18</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">132</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.ast.JJTJavaParserState.openNodeScope"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">83</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">133</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc375">
+    <jbh:methodCalled rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_add_error_token"/>
+    <t:endsAt rdf:datatype="&xsd;integer">376</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc372">
+        <jbh:methodCalled rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_scan_token"/>
+        <t:endsAt rdf:datatype="&xsd;integer">377</t:endsAt>
+        <bh:originEvent>
+          <jbh:MethodCall rdf:about="&jbh;mc371">
+            <jbh:methodCalled rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_3R_136"/>
+            <t:endsAt rdf:datatype="&xsd;integer">378</t:endsAt>
+            <bh:originEvent rdf:resource="&jbh;mc326"/>
+            <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+            <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_3R_126"/>
+            <jbh:objTag rdf:datatype="&xsd;integer">17</jbh:objTag>
+            <t:startsAt rdf:datatype="&xsd;integer">371</t:startsAt>
+          </jbh:MethodCall>
+        </bh:originEvent>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_3R_136"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">17</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">372</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_scan_token"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">17</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">375</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc307">
+    <jbh:methodCalled rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_save"/>
+    <t:endsAt rdf:datatype="&xsd;integer">310</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc202"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_2_1"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">17</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">307</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:FieldModi rdf:about="&jbh;fldModi362">
+    <jbh:fieldVisitMethod rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_scan_token"/>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">84</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">17</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">363</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">84</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">362</t:startsAt>
+    <jbh:visitedField rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_scanpos"/>
+  </jbh:FieldModi>
+  <jbh:FieldModi rdf:about="&jbh;fldModi245">
+    <jbh:fieldVisitMethod rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_3R_126"/>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">46</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">17</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">246</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">46</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">245</t:startsAt>
+    <jbh:visitedField rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_scanpos"/>
+  </jbh:FieldModi>
+  <jbh:MethodCall rdf:about="&jbh;mc354">
+    <jbh:methodCalled rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_add_error_token"/>
+    <t:endsAt rdf:datatype="&xsd;integer">355</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc351">
+        <jbh:methodCalled rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_scan_token"/>
+        <t:endsAt rdf:datatype="&xsd;integer">356</t:endsAt>
+        <bh:originEvent>
+          <jbh:MethodCall rdf:about="&jbh;mc350">
+            <jbh:methodCalled rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_3R_179"/>
+            <t:endsAt rdf:datatype="&xsd;integer">357</t:endsAt>
+            <bh:originEvent rdf:resource="&jbh;mc327"/>
+            <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+            <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_3R_162"/>
+            <jbh:objTag rdf:datatype="&xsd;integer">17</jbh:objTag>
+            <t:startsAt rdf:datatype="&xsd;integer">350</t:startsAt>
+          </jbh:MethodCall>
+        </bh:originEvent>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_3R_179"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">17</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">351</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_scan_token"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">17</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">354</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc43">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.Token.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">44</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc26"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">46</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">43</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc55">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser$JJCalls.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">56</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc26"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">51</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">55</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc67">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser$JJCalls.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">68</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc26"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">57</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">67</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc79">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser$JJCalls.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">80</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc26"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">63</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">79</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc191">
+    <jbh:methodCalled>
+      <java:Method rdf:about="&java;net.sourceforge.pmd.ast.JavaCharStream.getEndLine"/>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">192</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc180"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.ast.JavaParserTokenManager.jjFillToken"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">12</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">191</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:FieldModi rdf:about="&jbh;fldModi41">
+    <jbh:fieldVisitMethod rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser.!init"/>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">42</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">17</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">42</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">42</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">41</t:startsAt>
+    <jbh:visitedField rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.token_source"/>
+  </jbh:FieldModi>
+  <jbh:FieldModi rdf:about="&jbh;fldModi404">
+    <jbh:fieldVisitMethod rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_scan_token"/>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">84</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">17</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">405</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">84</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">404</t:startsAt>
+    <jbh:visitedField rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_scanpos"/>
+  </jbh:FieldModi>
+  <jbh:FieldModi rdf:about="&jbh;fldModi220">
+    <jbh:fieldVisitMethod rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_3R_162"/>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">46</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">17</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">221</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">46</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">220</t:startsAt>
+    <jbh:visitedField rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_scanpos"/>
+  </jbh:FieldModi>
+  <jbh:FieldModi rdf:about="&jbh;fldModi232">
+    <jbh:fieldVisitMethod rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_scan_token"/>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">84</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">17</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">233</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">84</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">232</t:startsAt>
+    <jbh:visitedField rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_scanpos"/>
+  </jbh:FieldModi>
+  <jbh:FieldModi rdf:about="&jbh;fldModi268">
+    <jbh:fieldVisitMethod rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_scan_token"/>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">84</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">17</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">269</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">84</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">268</t:startsAt>
+    <jbh:visitedField rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_scanpos"/>
+  </jbh:FieldModi>
+  <jbh:MethodCall rdf:about="&jbh;mc2">
+    <jbh:methodCalled>
+      <java:Method rdf:about="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.TargetJDK1_5.!init">
+        <jbh:isInit rdf:datatype="&xsd;boolean">true</jbh:isInit>
+      </java:Method>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">3</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc1"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;test.auto.Strategy_PMD_TargetJDKVersion_6.main"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">1</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">2</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc111">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser$JJCalls.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">112</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc26"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">79</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">111</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc406">
+    <jbh:methodCalled rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_add_error_token"/>
+    <t:endsAt rdf:datatype="&xsd;integer">407</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc403">
+        <jbh:methodCalled rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_scan_token"/>
+        <t:endsAt rdf:datatype="&xsd;integer">408</t:endsAt>
+        <bh:originEvent>
+          <jbh:MethodCall rdf:about="&jbh;mc402">
+            <jbh:methodCalled rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_3R_187"/>
+            <t:endsAt rdf:datatype="&xsd;integer">409</t:endsAt>
+            <bh:originEvent rdf:resource="&jbh;mc391"/>
+            <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+            <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_3R_164"/>
+            <jbh:objTag rdf:datatype="&xsd;integer">17</jbh:objTag>
+            <t:startsAt rdf:datatype="&xsd;integer">402</t:startsAt>
+          </jbh:MethodCall>
+        </bh:originEvent>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_3R_187"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">17</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">403</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_scan_token"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">17</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">406</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:FieldModi rdf:about="&jbh;fldModi352">
+    <jbh:fieldVisitMethod rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_scan_token"/>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">84</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">17</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">353</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">84</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">352</t:startsAt>
+    <jbh:visitedField rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_scanpos"/>
+  </jbh:FieldModi>
+  <jbh:FieldModi rdf:about="&jbh;fldModi255">
+    <jbh:fieldVisitMethod rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_3R_44"/>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">46</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">17</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">256</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">46</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">255</t:startsAt>
+    <jbh:visitedField rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_scanpos"/>
+  </jbh:FieldModi>
+</rdf:RDF>

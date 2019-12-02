@@ -1,0 +1,70 @@
+method_entry: Ltest/auto/State_CreationTool_Figure_74;main, thread_id: 0
+  method_entry: LCH/ifa/draw/figures/LineConnection;<init>, obj_tag: 1, thread_id: 0
+    method_entry: LCH/ifa/draw/figures/PolyLineFigure;<init>, obj_tag: 1, thread_id: 0
+      method_entry: LCH/ifa/draw/standard/AbstractFigure;<init>, obj_tag: 1, thread_id: 0
+      method_exit: LCH/ifa/draw/standard/AbstractFigure;<init>, thread_id: 0
+        field_modi: LCH/ifa/draw/figures/LineDecoration;fStartDecoration, dec_cls: LCH/ifa/draw/figures/PolyLineFigure;, in_method: LCH/ifa/draw/figures/PolyLineFigure;<init>, field_obj_tag: 0, owner_obj_tag: 1, thread_id: 0
+        field_modi: LCH/ifa/draw/figures/LineDecoration;fEndDecoration, dec_cls: LCH/ifa/draw/figures/PolyLineFigure;, in_method: LCH/ifa/draw/figures/PolyLineFigure;<init>, field_obj_tag: 0, owner_obj_tag: 1, thread_id: 0
+    method_exit: LCH/ifa/draw/figures/PolyLineFigure;<init>, thread_id: 0
+      field_modi: LCH/ifa/draw/framework/Connector;fStart, dec_cls: LCH/ifa/draw/figures/LineConnection;, in_method: LCH/ifa/draw/figures/LineConnection;<init>, field_obj_tag: 0, owner_obj_tag: 1, thread_id: 0
+      field_modi: LCH/ifa/draw/framework/Connector;fEnd, dec_cls: LCH/ifa/draw/figures/LineConnection;, in_method: LCH/ifa/draw/figures/LineConnection;<init>, field_obj_tag: 0, owner_obj_tag: 1, thread_id: 0
+    method_entry: LCH/ifa/draw/figures/ArrowTip;<init>, obj_tag: 4, thread_id: 0
+    method_exit: LCH/ifa/draw/figures/ArrowTip;<init>, thread_id: 0
+    method_entry: LCH/ifa/draw/figures/PolyLineFigure;setStartDecoration, obj_tag: 1, param_obj_tag: 4, thread_id: 0
+        field_modi: LCH/ifa/draw/figures/LineDecoration;fStartDecoration, dec_cls: LCH/ifa/draw/figures/PolyLineFigure;, in_method: LCH/ifa/draw/figures/PolyLineFigure;setStartDecoration, field_obj_tag: 4, owner_obj_tag: 1, thread_id: 0
+    method_exit: LCH/ifa/draw/figures/PolyLineFigure;setStartDecoration, thread_id: 0
+    method_entry: LCH/ifa/draw/figures/ArrowTip;<init>, obj_tag: 5, thread_id: 0
+    method_exit: LCH/ifa/draw/figures/ArrowTip;<init>, thread_id: 0
+    method_entry: LCH/ifa/draw/figures/PolyLineFigure;setEndDecoration, obj_tag: 1, param_obj_tag: 5, thread_id: 0
+        field_modi: LCH/ifa/draw/figures/LineDecoration;fEndDecoration, dec_cls: LCH/ifa/draw/figures/PolyLineFigure;, in_method: LCH/ifa/draw/figures/PolyLineFigure;setEndDecoration, field_obj_tag: 5, owner_obj_tag: 1, thread_id: 0
+    method_exit: LCH/ifa/draw/figures/PolyLineFigure;setEndDecoration, thread_id: 0
+  method_exit: LCH/ifa/draw/figures/LineConnection;<init>, thread_id: 0
+  method_entry: LCH/ifa/draw/applet/DrawApplet;<clinit>, thread_id: 0
+  method_exit: LCH/ifa/draw/applet/DrawApplet;<clinit>, thread_id: 0
+  method_entry: LCH/ifa/draw/samples/nothing/NothingApplet;<init>, obj_tag: 7, thread_id: 0
+    method_entry: LCH/ifa/draw/applet/DrawApplet;<init>, obj_tag: 7, thread_id: 0
+    method_exit: LCH/ifa/draw/applet/DrawApplet;<init>, thread_id: 0
+  method_exit: LCH/ifa/draw/samples/nothing/NothingApplet;<init>, thread_id: 0
+  method_entry: LCH/ifa/draw/standard/StandardDrawingView;<init>, obj_tag: 8, param_obj_tag: 7, thread_id: 0
+      field_modi: LCH/ifa/draw/framework/DrawingEditor;fEditor, dec_cls: LCH/ifa/draw/standard/StandardDrawingView;, in_method: LCH/ifa/draw/standard/StandardDrawingView;<init>, field_obj_tag: 7, owner_obj_tag: 8, thread_id: 0
+      field_modi: LCH/ifa/draw/framework/PointConstrainer;fConstrainer, dec_cls: LCH/ifa/draw/standard/StandardDrawingView;, in_method: LCH/ifa/draw/standard/StandardDrawingView;<init>, field_obj_tag: 0, owner_obj_tag: 8, thread_id: 0
+    method_entry: LCH/ifa/draw/standard/BufferedUpdateStrategy;<init>, obj_tag: 12, thread_id: 0
+    method_exit: LCH/ifa/draw/standard/BufferedUpdateStrategy;<init>, thread_id: 0
+    method_entry: LCH/ifa/draw/standard/StandardDrawingView;setDisplayUpdate, obj_tag: 8, param_obj_tag: 12, thread_id: 0
+        field_modi: LCH/ifa/draw/framework/Painter;fUpdateStrategy, dec_cls: LCH/ifa/draw/standard/StandardDrawingView;, in_method: LCH/ifa/draw/standard/StandardDrawingView;setDisplayUpdate, field_obj_tag: 12, owner_obj_tag: 8, thread_id: 0
+    method_exit: LCH/ifa/draw/standard/StandardDrawingView;setDisplayUpdate, thread_id: 0
+  method_exit: LCH/ifa/draw/standard/StandardDrawingView;<init>, thread_id: 0
+  method_entry: LCH/ifa/draw/standard/CreationTool;<init>, obj_tag: 13, param_obj_tag: 8, param_obj_tag: 1, thread_id: 0
+    method_entry: LCH/ifa/draw/standard/AbstractTool;<init>, obj_tag: 13, param_obj_tag: 8, thread_id: 0
+        field_modi: LCH/ifa/draw/framework/DrawingView;fView, dec_cls: LCH/ifa/draw/standard/AbstractTool;, in_method: LCH/ifa/draw/standard/AbstractTool;<init>, field_obj_tag: 8, owner_obj_tag: 13, thread_id: 0
+    method_exit: LCH/ifa/draw/standard/AbstractTool;<init>, thread_id: 0
+      field_modi: LCH/ifa/draw/framework/Figure;fPrototype, dec_cls: LCH/ifa/draw/standard/CreationTool;, in_method: LCH/ifa/draw/standard/CreationTool;<init>, field_obj_tag: 1, owner_obj_tag: 13, thread_id: 0
+  method_exit: LCH/ifa/draw/standard/CreationTool;<init>, thread_id: 0
+  method_entry: LCH/ifa/draw/standard/CreationTool;mouseDown, obj_tag: 13, param_obj_tag: 14, thread_id: 0
+    method_entry: LCH/ifa/draw/standard/CreationTool;createFigure, obj_tag: 13, thread_id: 0
+      method_entry: LCH/ifa/draw/standard/AbstractFigure;clone, obj_tag: 1, thread_id: 0
+        method_entry: LCH/ifa/draw/figures/LineConnection;readObject, obj_tag: 16, param_obj_tag: 17, thread_id: 0
+        method_exit: LCH/ifa/draw/figures/LineConnection;readObject, thread_id: 0
+      method_exit: LCH/ifa/draw/standard/AbstractFigure;clone, thread_id: 0
+    method_exit: LCH/ifa/draw/standard/CreationTool;createFigure, thread_id: 0
+      field_modi: LCH/ifa/draw/framework/Figure;fCreatedFigure, dec_cls: LCH/ifa/draw/standard/CreationTool;, in_method: LCH/ifa/draw/standard/CreationTool;mouseDown, field_obj_tag: 16, owner_obj_tag: 13, thread_id: 0
+    method_entry: LCH/ifa/draw/standard/AbstractFigure;displayBox, obj_tag: 16, param_obj_tag: 15, param_obj_tag: 15, thread_id: 0
+      method_entry: LCH/ifa/draw/standard/AbstractFigure;willChange, obj_tag: 16, thread_id: 0
+        method_entry: LCH/ifa/draw/standard/AbstractFigure;invalidate, obj_tag: 16, thread_id: 0
+        method_exit: LCH/ifa/draw/standard/AbstractFigure;invalidate, thread_id: 0
+      method_exit: LCH/ifa/draw/standard/AbstractFigure;willChange, thread_id: 0
+      method_entry: LCH/ifa/draw/figures/PolyLineFigure;basicDisplayBox, obj_tag: 16, param_obj_tag: 15, param_obj_tag: 15, thread_id: 0
+      method_exit: LCH/ifa/draw/figures/PolyLineFigure;basicDisplayBox, thread_id: 0
+      method_entry: LCH/ifa/draw/standard/AbstractFigure;changed, obj_tag: 16, thread_id: 0
+        method_entry: LCH/ifa/draw/standard/AbstractFigure;invalidate, obj_tag: 16, thread_id: 0
+        method_exit: LCH/ifa/draw/standard/AbstractFigure;invalidate, thread_id: 0
+      method_exit: LCH/ifa/draw/standard/AbstractFigure;changed, thread_id: 0
+    method_exit: LCH/ifa/draw/standard/AbstractFigure;displayBox, thread_id: 0
+    method_entry: LCH/ifa/draw/standard/AbstractTool;view, obj_tag: 13, thread_id: 0
+    method_exit: LCH/ifa/draw/standard/AbstractTool;view, thread_id: 0
+    method_entry: LCH/ifa/draw/standard/StandardDrawingView;add, obj_tag: 8, param_obj_tag: 16, thread_id: 0
+      method_entry: LCH/ifa/draw/standard/StandardDrawingView;drawing, obj_tag: 8, thread_id: 0
+      method_exit: LCH/ifa/draw/standard/StandardDrawingView;drawing, thread_id: 0
+    method_exit: LCH/ifa/draw/standard/StandardDrawingView;add, thread_id: 0
+  method_exit: LCH/ifa/draw/standard/CreationTool;mouseDown, thread_id: 0
+method_exit: Ltest/auto/State_CreationTool_Figure_74;main, thread_id: 0

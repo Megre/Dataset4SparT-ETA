@@ -1,0 +1,165 @@
+method_entry: Ltest/auto/Strategy_Setter_MComboBoxModel_ValueHolder_6;main, thread_id: 0
+  method_entry: Lcom/taursys/model/VOListValueHolder;<init>, obj_tag: 1, thread_id: 0
+    method_entry: Lcom/taursys/model/VOValueHolder;<init>, obj_tag: 2, thread_id: 0
+      method_entry: Lcom/taursys/model/ObjectValueHolder;<init>, obj_tag: 2, thread_id: 0
+        method_entry: Lcom/taursys/model/AbstractValueHolder;<init>, obj_tag: 2, thread_id: 0
+        method_exit: Lcom/taursys/model/AbstractValueHolder;<init>, thread_id: 0
+          field_modi: Lcom/taursys/model/ValueHolder;parentValueHolder, dec_cls: Lcom/taursys/model/ObjectValueHolder;, in_method: Lcom/taursys/model/ObjectValueHolder;<init>, field_obj_tag: 0, owner_obj_tag: 2, thread_id: 0
+      method_exit: Lcom/taursys/model/ObjectValueHolder;<init>, thread_id: 0
+    method_exit: Lcom/taursys/model/VOValueHolder;<init>, thread_id: 0
+    method_entry: Lcom/taursys/model/AbstractListValueHolder;<init>, obj_tag: 1, param_obj_tag: 2, thread_id: 0
+      method_entry: Lcom/taursys/model/AbstractCollectionValueHolder;<init>, obj_tag: 1, param_obj_tag: 2, thread_id: 0
+        method_entry: Lcom/taursys/model/AbstractCollectionValueHolder;<init>, obj_tag: 1, param_obj_tag: 2, param_obj_tag: 4, thread_id: 0
+            field_modi: Lcom/taursys/model/ValueHolder;parentValueHolder, dec_cls: Lcom/taursys/model/AbstractCollectionValueHolder;, in_method: Lcom/taursys/model/AbstractCollectionValueHolder;<init>, field_obj_tag: 0, owner_obj_tag: 1, thread_id: 0
+            field_modi: Lcom/taursys/model/ObjectValueHolder;objectValueHolder, dec_cls: Lcom/taursys/model/AbstractCollectionValueHolder;, in_method: Lcom/taursys/model/AbstractCollectionValueHolder;<init>, field_obj_tag: 2, owner_obj_tag: 1, thread_id: 0
+          method_entry: Lcom/taursys/model/AbstractListValueHolder;setCollection, obj_tag: 1, param_obj_tag: 4, thread_id: 0
+            method_entry: Lcom/taursys/model/AbstractListValueHolder;setList, obj_tag: 1, param_obj_tag: 4, thread_id: 0
+              method_entry: Lcom/taursys/model/AbstractCollectionValueHolder;setCollection, obj_tag: 1, param_obj_tag: 4, thread_id: 0
+                method_entry: Lcom/taursys/model/AbstractListValueHolder;reset, obj_tag: 1, thread_id: 0
+                method_exit: Lcom/taursys/model/AbstractListValueHolder;reset, thread_id: 0
+              method_exit: Lcom/taursys/model/AbstractCollectionValueHolder;setCollection, thread_id: 0
+              method_entry: Lcom/taursys/model/AbstractListValueHolder;listContentsPositionChange, obj_tag: 1, thread_id: 0
+                method_entry: Lcom/taursys/model/AbstractListValueHolder;getList, obj_tag: 1, thread_id: 0
+                  method_entry: Lcom/taursys/model/AbstractCollectionValueHolder;getCollection, obj_tag: 1, thread_id: 0
+                  method_exit: Lcom/taursys/model/AbstractCollectionValueHolder;getCollection, thread_id: 0
+                method_exit: Lcom/taursys/model/AbstractListValueHolder;getList, thread_id: 0
+                method_entry: Lcom/taursys/model/AbstractCollectionValueHolder;size, obj_tag: 1, thread_id: 0
+                method_exit: Lcom/taursys/model/AbstractCollectionValueHolder;size, thread_id: 0
+                method_entry: Lcom/taursys/model/AbstractCollectionValueHolder;getObjectValueHolder, obj_tag: 1, thread_id: 0
+                method_exit: Lcom/taursys/model/AbstractCollectionValueHolder;getObjectValueHolder, thread_id: 0
+                method_entry: Lcom/taursys/model/event/ListContentChangeEvent;<init>, obj_tag: 5, param_obj_tag: 1, thread_id: 0
+                  method_entry: Lcom/taursys/model/event/ContentChangeEvent;<init>, obj_tag: 5, param_obj_tag: 1, thread_id: 0
+                  method_exit: Lcom/taursys/model/event/ContentChangeEvent;<init>, thread_id: 0
+                method_exit: Lcom/taursys/model/event/ListContentChangeEvent;<init>, thread_id: 0
+                method_entry: Lcom/taursys/model/VOValueHolder;setObject, obj_tag: 2, param_obj_tag: 6, param_obj_tag: 5, thread_id: 0
+                  method_entry: Lcom/taursys/model/AbstractValueHolder;fireStateChanged, obj_tag: 2, param_obj_tag: 5, thread_id: 0
+                  method_exit: Lcom/taursys/model/AbstractValueHolder;fireStateChanged, thread_id: 0
+                method_exit: Lcom/taursys/model/VOValueHolder;setObject, thread_id: 0
+                method_entry: Lcom/taursys/model/AbstractListValueHolder;fireValueChanged, obj_tag: 1, param_obj_tag: 7, thread_id: 0
+                method_exit: Lcom/taursys/model/AbstractListValueHolder;fireValueChanged, thread_id: 0
+              method_exit: Lcom/taursys/model/AbstractListValueHolder;listContentsPositionChange, thread_id: 0
+            method_exit: Lcom/taursys/model/AbstractListValueHolder;setList, thread_id: 0
+          method_exit: Lcom/taursys/model/AbstractListValueHolder;setCollection, thread_id: 0
+        method_exit: Lcom/taursys/model/AbstractCollectionValueHolder;<init>, thread_id: 0
+      method_exit: Lcom/taursys/model/AbstractCollectionValueHolder;<init>, thread_id: 0
+    method_exit: Lcom/taursys/model/AbstractListValueHolder;<init>, thread_id: 0
+  method_exit: Lcom/taursys/model/VOListValueHolder;<init>, thread_id: 0
+  method_entry: Lcom/taursys/swing/MComboBoxModel;<init>, obj_tag: 8, thread_id: 0
+    method_entry: Lcom/taursys/swing/MComboBoxModel$ListChangeListener;<init>, thread_id: 0
+      method_entry: Lcom/taursys/swing/MComboBoxModel$ListChangeListener;<init>, obj_tag: 11, thread_id: 0
+          field_modi: Lcom/taursys/swing/MComboBoxModel;this$0, dec_cls: Lcom/taursys/swing/MComboBoxModel$ListChangeListener;, in_method: Lcom/taursys/swing/MComboBoxModel$ListChangeListener;<init>, field_obj_tag: 8, owner_obj_tag: 11, thread_id: 0
+      method_exit: Lcom/taursys/swing/MComboBoxModel$ListChangeListener;<init>, thread_id: 0
+    method_exit: Lcom/taursys/swing/MComboBoxModel$ListChangeListener;<init>, thread_id: 0
+      field_modi: Lcom/taursys/swing/MComboBoxModel$ListChangeListener;listChangeListener, dec_cls: Lcom/taursys/swing/MComboBoxModel;, in_method: Lcom/taursys/swing/MComboBoxModel;<init>, field_obj_tag: 11, owner_obj_tag: 8, thread_id: 0
+    method_entry: Lcom/taursys/swing/MComboBoxModel$ValueHolderChangeListener;<init>, thread_id: 0
+      method_entry: Lcom/taursys/swing/MComboBoxModel$ValueHolderChangeListener;<init>, obj_tag: 12, thread_id: 0
+          field_modi: Lcom/taursys/swing/MComboBoxModel;this$0, dec_cls: Lcom/taursys/swing/MComboBoxModel$ValueHolderChangeListener;, in_method: Lcom/taursys/swing/MComboBoxModel$ValueHolderChangeListener;<init>, field_obj_tag: 8, owner_obj_tag: 12, thread_id: 0
+      method_exit: Lcom/taursys/swing/MComboBoxModel$ValueHolderChangeListener;<init>, thread_id: 0
+    method_exit: Lcom/taursys/swing/MComboBoxModel$ValueHolderChangeListener;<init>, thread_id: 0
+      field_modi: Lcom/taursys/swing/MComboBoxModel$ValueHolderChangeListener;valueHolderChangeListener, dec_cls: Lcom/taursys/swing/MComboBoxModel;, in_method: Lcom/taursys/swing/MComboBoxModel;<init>, field_obj_tag: 12, owner_obj_tag: 8, thread_id: 0
+    method_entry: Lcom/taursys/swing/NullObject;<init>, obj_tag: 14, thread_id: 0
+    method_exit: Lcom/taursys/swing/NullObject;<init>, thread_id: 0
+      field_modi: Lcom/taursys/swing/NullObject;nullObject, dec_cls: Lcom/taursys/swing/MComboBoxModel;, in_method: Lcom/taursys/swing/MComboBoxModel;<init>, field_obj_tag: 14, owner_obj_tag: 8, thread_id: 0
+    method_entry: Lcom/taursys/model/ObjectListValueHolder;<init>, obj_tag: 16, thread_id: 0
+      method_entry: Lcom/taursys/model/ObjectValueHolder;<init>, obj_tag: 17, thread_id: 0
+        method_entry: Lcom/taursys/model/AbstractValueHolder;<init>, obj_tag: 17, thread_id: 0
+        method_exit: Lcom/taursys/model/AbstractValueHolder;<init>, thread_id: 0
+          field_modi: Lcom/taursys/model/ValueHolder;parentValueHolder, dec_cls: Lcom/taursys/model/ObjectValueHolder;, in_method: Lcom/taursys/model/ObjectValueHolder;<init>, field_obj_tag: 0, owner_obj_tag: 17, thread_id: 0
+      method_exit: Lcom/taursys/model/ObjectValueHolder;<init>, thread_id: 0
+      method_entry: Lcom/taursys/model/AbstractListValueHolder;<init>, obj_tag: 16, param_obj_tag: 17, thread_id: 0
+        method_entry: Lcom/taursys/model/AbstractCollectionValueHolder;<init>, obj_tag: 16, param_obj_tag: 17, thread_id: 0
+          method_entry: Lcom/taursys/model/AbstractCollectionValueHolder;<init>, obj_tag: 16, param_obj_tag: 17, param_obj_tag: 18, thread_id: 0
+              field_modi: Lcom/taursys/model/ValueHolder;parentValueHolder, dec_cls: Lcom/taursys/model/AbstractCollectionValueHolder;, in_method: Lcom/taursys/model/AbstractCollectionValueHolder;<init>, field_obj_tag: 0, owner_obj_tag: 16, thread_id: 0
+              field_modi: Lcom/taursys/model/ObjectValueHolder;objectValueHolder, dec_cls: Lcom/taursys/model/AbstractCollectionValueHolder;, in_method: Lcom/taursys/model/AbstractCollectionValueHolder;<init>, field_obj_tag: 17, owner_obj_tag: 16, thread_id: 0
+            method_entry: Lcom/taursys/model/AbstractListValueHolder;setCollection, obj_tag: 16, param_obj_tag: 18, thread_id: 0
+              method_entry: Lcom/taursys/model/AbstractListValueHolder;setList, obj_tag: 16, param_obj_tag: 18, thread_id: 0
+                method_entry: Lcom/taursys/model/AbstractCollectionValueHolder;setCollection, obj_tag: 16, param_obj_tag: 18, thread_id: 0
+                  method_entry: Lcom/taursys/model/AbstractListValueHolder;reset, obj_tag: 16, thread_id: 0
+                  method_exit: Lcom/taursys/model/AbstractListValueHolder;reset, thread_id: 0
+                method_exit: Lcom/taursys/model/AbstractCollectionValueHolder;setCollection, thread_id: 0
+                method_entry: Lcom/taursys/model/AbstractListValueHolder;listContentsPositionChange, obj_tag: 16, thread_id: 0
+                  method_entry: Lcom/taursys/model/AbstractListValueHolder;getList, obj_tag: 16, thread_id: 0
+                    method_entry: Lcom/taursys/model/AbstractCollectionValueHolder;getCollection, obj_tag: 16, thread_id: 0
+                    method_exit: Lcom/taursys/model/AbstractCollectionValueHolder;getCollection, thread_id: 0
+                  method_exit: Lcom/taursys/model/AbstractListValueHolder;getList, thread_id: 0
+                  method_entry: Lcom/taursys/model/AbstractCollectionValueHolder;size, obj_tag: 16, thread_id: 0
+                  method_exit: Lcom/taursys/model/AbstractCollectionValueHolder;size, thread_id: 0
+                  method_entry: Lcom/taursys/model/AbstractCollectionValueHolder;getObjectValueHolder, obj_tag: 16, thread_id: 0
+                  method_exit: Lcom/taursys/model/AbstractCollectionValueHolder;getObjectValueHolder, thread_id: 0
+                  method_entry: Lcom/taursys/model/event/ListContentChangeEvent;<init>, obj_tag: 19, param_obj_tag: 16, thread_id: 0
+                    method_entry: Lcom/taursys/model/event/ContentChangeEvent;<init>, obj_tag: 19, param_obj_tag: 16, thread_id: 0
+                    method_exit: Lcom/taursys/model/event/ContentChangeEvent;<init>, thread_id: 0
+                  method_exit: Lcom/taursys/model/event/ListContentChangeEvent;<init>, thread_id: 0
+                  method_entry: Lcom/taursys/model/ObjectValueHolder;setObject, obj_tag: 17, param_obj_tag: 20, param_obj_tag: 19, thread_id: 0
+                    method_entry: Lcom/taursys/model/AbstractValueHolder;fireStateChanged, obj_tag: 17, param_obj_tag: 19, thread_id: 0
+                    method_exit: Lcom/taursys/model/AbstractValueHolder;fireStateChanged, thread_id: 0
+                  method_exit: Lcom/taursys/model/ObjectValueHolder;setObject, thread_id: 0
+                  method_entry: Lcom/taursys/model/AbstractListValueHolder;fireValueChanged, obj_tag: 16, param_obj_tag: 21, thread_id: 0
+                  method_exit: Lcom/taursys/model/AbstractListValueHolder;fireValueChanged, thread_id: 0
+                method_exit: Lcom/taursys/model/AbstractListValueHolder;listContentsPositionChange, thread_id: 0
+              method_exit: Lcom/taursys/model/AbstractListValueHolder;setList, thread_id: 0
+            method_exit: Lcom/taursys/model/AbstractListValueHolder;setCollection, thread_id: 0
+          method_exit: Lcom/taursys/model/AbstractCollectionValueHolder;<init>, thread_id: 0
+        method_exit: Lcom/taursys/model/AbstractCollectionValueHolder;<init>, thread_id: 0
+      method_exit: Lcom/taursys/model/AbstractListValueHolder;<init>, thread_id: 0
+    method_exit: Lcom/taursys/model/ObjectListValueHolder;<init>, thread_id: 0
+    method_entry: Lcom/taursys/swing/MComboBoxModel;setListValueHolder, obj_tag: 8, param_obj_tag: 16, thread_id: 0
+        field_modi: Lcom/taursys/model/ListValueHolder;listValueHolder, dec_cls: Lcom/taursys/swing/MComboBoxModel;, in_method: Lcom/taursys/swing/MComboBoxModel;setListValueHolder, field_obj_tag: 16, owner_obj_tag: 8, thread_id: 0
+      method_entry: Lcom/taursys/model/AbstractCollectionValueHolder;addChangeListener, obj_tag: 16, param_obj_tag: 11, thread_id: 0
+        method_entry: Lcom/taursys/model/ObjectValueHolder;addChangeListener, obj_tag: 17, param_obj_tag: 11, thread_id: 0
+          method_entry: Lcom/taursys/model/AbstractValueHolder;addChangeListener, obj_tag: 17, param_obj_tag: 11, thread_id: 0
+          method_exit: Lcom/taursys/model/AbstractValueHolder;addChangeListener, thread_id: 0
+        method_exit: Lcom/taursys/model/ObjectValueHolder;addChangeListener, thread_id: 0
+      method_exit: Lcom/taursys/model/AbstractCollectionValueHolder;addChangeListener, thread_id: 0
+    method_exit: Lcom/taursys/swing/MComboBoxModel;setListValueHolder, thread_id: 0
+    method_entry: Lcom/taursys/model/ObjectValueHolder;<init>, obj_tag: 23, thread_id: 0
+      method_entry: Lcom/taursys/model/AbstractValueHolder;<init>, obj_tag: 23, thread_id: 0
+      method_exit: Lcom/taursys/model/AbstractValueHolder;<init>, thread_id: 0
+        field_modi: Lcom/taursys/model/ValueHolder;parentValueHolder, dec_cls: Lcom/taursys/model/ObjectValueHolder;, in_method: Lcom/taursys/model/ObjectValueHolder;<init>, field_obj_tag: 0, owner_obj_tag: 23, thread_id: 0
+    method_exit: Lcom/taursys/model/ObjectValueHolder;<init>, thread_id: 0
+    method_entry: Lcom/taursys/swing/MComboBoxModel;setValueHolder, obj_tag: 8, param_obj_tag: 23, thread_id: 0
+      method_entry: Lcom/taursys/model/AbstractValueHolder;removeChangeListener, obj_tag: 23, param_obj_tag: 12, thread_id: 0
+      method_exit: Lcom/taursys/model/AbstractValueHolder;removeChangeListener, thread_id: 0
+        field_modi: Lcom/taursys/model/ValueHolder;valueHolder, dec_cls: Lcom/taursys/swing/MComboBoxModel;, in_method: Lcom/taursys/swing/MComboBoxModel;setValueHolder, field_obj_tag: 23, owner_obj_tag: 8, thread_id: 0
+      method_entry: Lcom/taursys/model/ObjectValueHolder;addChangeListener, obj_tag: 23, param_obj_tag: 12, thread_id: 0
+        method_entry: Lcom/taursys/model/AbstractValueHolder;addChangeListener, obj_tag: 23, param_obj_tag: 12, thread_id: 0
+        method_exit: Lcom/taursys/model/AbstractValueHolder;addChangeListener, thread_id: 0
+      method_exit: Lcom/taursys/model/ObjectValueHolder;addChangeListener, thread_id: 0
+      method_entry: Lcom/taursys/swing/MComboBoxModel;isChangeable, obj_tag: 8, thread_id: 0
+      method_exit: Lcom/taursys/swing/MComboBoxModel;isChangeable, thread_id: 0
+      method_entry: Lcom/taursys/swing/EnableEvent;<init>, obj_tag: 25, param_obj_tag: 8, thread_id: 0
+      method_exit: Lcom/taursys/swing/EnableEvent;<init>, thread_id: 0
+      method_entry: Lcom/taursys/swing/MComboBoxModel;fireEnableChange, obj_tag: 8, param_obj_tag: 25, thread_id: 0
+      method_exit: Lcom/taursys/swing/MComboBoxModel;fireEnableChange, thread_id: 0
+    method_exit: Lcom/taursys/swing/MComboBoxModel;setValueHolder, thread_id: 0
+  method_exit: Lcom/taursys/swing/MComboBoxModel;<init>, thread_id: 0
+  method_entry: Lcom/taursys/swing/MComboBoxModel;setValueHolder, obj_tag: 8, param_obj_tag: 1, thread_id: 0
+    method_entry: Lcom/taursys/model/AbstractCollectionValueHolder;removeChangeListener, obj_tag: 1, param_obj_tag: 12, thread_id: 0
+      method_entry: Lcom/taursys/model/AbstractValueHolder;removeChangeListener, obj_tag: 2, param_obj_tag: 12, thread_id: 0
+      method_exit: Lcom/taursys/model/AbstractValueHolder;removeChangeListener, thread_id: 0
+    method_exit: Lcom/taursys/model/AbstractCollectionValueHolder;removeChangeListener, thread_id: 0
+      field_modi: Lcom/taursys/model/ValueHolder;valueHolder, dec_cls: Lcom/taursys/swing/MComboBoxModel;, in_method: Lcom/taursys/swing/MComboBoxModel;setValueHolder, field_obj_tag: 1, owner_obj_tag: 8, thread_id: 0
+    method_entry: Lcom/taursys/model/AbstractCollectionValueHolder;addChangeListener, obj_tag: 1, param_obj_tag: 12, thread_id: 0
+      method_entry: Lcom/taursys/model/ObjectValueHolder;addChangeListener, obj_tag: 2, param_obj_tag: 12, thread_id: 0
+        method_entry: Lcom/taursys/model/AbstractValueHolder;addChangeListener, obj_tag: 2, param_obj_tag: 12, thread_id: 0
+        method_exit: Lcom/taursys/model/AbstractValueHolder;addChangeListener, thread_id: 0
+      method_exit: Lcom/taursys/model/ObjectValueHolder;addChangeListener, thread_id: 0
+    method_exit: Lcom/taursys/model/AbstractCollectionValueHolder;addChangeListener, thread_id: 0
+    method_entry: Lcom/taursys/swing/MComboBoxModel;isChangeable, obj_tag: 8, thread_id: 0
+      method_entry: Lcom/taursys/model/AbstractCollectionValueHolder;isEmpty, obj_tag: 1, thread_id: 0
+      method_exit: Lcom/taursys/model/AbstractCollectionValueHolder;isEmpty, thread_id: 0
+    method_exit: Lcom/taursys/swing/MComboBoxModel;isChangeable, thread_id: 0
+    method_entry: Lcom/taursys/swing/EnableEvent;<init>, obj_tag: 27, param_obj_tag: 8, thread_id: 0
+    method_exit: Lcom/taursys/swing/EnableEvent;<init>, thread_id: 0
+    method_entry: Lcom/taursys/swing/MComboBoxModel;fireEnableChange, obj_tag: 8, param_obj_tag: 27, thread_id: 0
+    method_exit: Lcom/taursys/swing/MComboBoxModel;fireEnableChange, thread_id: 0
+  method_exit: Lcom/taursys/swing/MComboBoxModel;setValueHolder, thread_id: 0
+  method_entry: Lcom/taursys/swing/MComboBoxModel;setSelectedItem, obj_tag: 8, param_obj_tag: 28, thread_id: 0
+    method_entry: Lcom/taursys/model/AbstractListValueHolder;indexOf, obj_tag: 16, param_obj_tag: 28, thread_id: 0
+      method_entry: Lcom/taursys/model/AbstractListValueHolder;getList, obj_tag: 16, thread_id: 0
+        method_entry: Lcom/taursys/model/AbstractCollectionValueHolder;getCollection, obj_tag: 16, thread_id: 0
+        method_exit: Lcom/taursys/model/AbstractCollectionValueHolder;getCollection, thread_id: 0
+      method_exit: Lcom/taursys/model/AbstractListValueHolder;getList, thread_id: 0
+    method_exit: Lcom/taursys/model/AbstractListValueHolder;indexOf, thread_id: 0
+  method_exit: Lcom/taursys/swing/MComboBoxModel;setSelectedItem, thread_id: 0
+method_exit: Ltest/auto/Strategy_Setter_MComboBoxModel_ValueHolder_6;main, thread_id: 0

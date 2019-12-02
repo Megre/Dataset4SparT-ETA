@@ -1,0 +1,66 @@
+method_entry: Ltest/auto/Strategy_Setter_Parameter_TextModel_3;main, thread_id: 0
+  method_entry: Lcom/taursys/model/DefaultTextModel;<init>, obj_tag: 1, thread_id: 0
+    method_entry: Lcom/taursys/model/VariantValueHolder;<init>, obj_tag: 2, thread_id: 0
+      method_entry: Lcom/taursys/model/ObjectValueHolder;<init>, obj_tag: 2, thread_id: 0
+        method_entry: Lcom/taursys/model/AbstractValueHolder;<init>, obj_tag: 2, thread_id: 0
+        method_exit: Lcom/taursys/model/AbstractValueHolder;<init>, thread_id: 0
+          field_modi: Lcom/taursys/model/ValueHolder;parentValueHolder, dec_cls: Lcom/taursys/model/ObjectValueHolder;, in_method: Lcom/taursys/model/ObjectValueHolder;<init>, field_obj_tag: 0, owner_obj_tag: 2, thread_id: 0
+      method_exit: Lcom/taursys/model/ObjectValueHolder;<init>, thread_id: 0
+      method_entry: Lcom/taursys/util/DataTypes;<clinit>, thread_id: 0
+      method_exit: Lcom/taursys/util/DataTypes;<clinit>, thread_id: 0
+      method_entry: Lcom/taursys/util/DataTypes;checkJavaDataType, thread_id: 0
+      method_exit: Lcom/taursys/util/DataTypes;checkJavaDataType, thread_id: 0
+    method_exit: Lcom/taursys/model/VariantValueHolder;<init>, thread_id: 0
+      field_modi: Lcom/taursys/model/ValueHolder;valueHolder, dec_cls: Lcom/taursys/model/DefaultTextModel;, in_method: Lcom/taursys/model/DefaultTextModel;<init>, field_obj_tag: 2, owner_obj_tag: 1, thread_id: 0
+  method_exit: Lcom/taursys/model/DefaultTextModel;<init>, thread_id: 0
+  method_entry: Lcom/taursys/xml/Parameter;<init>, obj_tag: 7, thread_id: 0
+    method_entry: Lcom/taursys/xml/Component;<init>, obj_tag: 7, thread_id: 0
+    method_exit: Lcom/taursys/xml/Component;<init>, thread_id: 0
+    method_entry: Lcom/taursys/xml/Component;addEventType, obj_tag: 7, param_obj_tag: 9, thread_id: 0
+    method_exit: Lcom/taursys/xml/Component;addEventType, thread_id: 0
+    method_entry: Lcom/taursys/xml/Parameter;createDefaultModel, obj_tag: 7, thread_id: 0
+      method_entry: Lcom/taursys/model/DefaultTextModel;<init>, obj_tag: 10, thread_id: 0
+        method_entry: Lcom/taursys/model/VariantValueHolder;<init>, obj_tag: 11, thread_id: 0
+          method_entry: Lcom/taursys/model/ObjectValueHolder;<init>, obj_tag: 11, thread_id: 0
+            method_entry: Lcom/taursys/model/AbstractValueHolder;<init>, obj_tag: 11, thread_id: 0
+            method_exit: Lcom/taursys/model/AbstractValueHolder;<init>, thread_id: 0
+              field_modi: Lcom/taursys/model/ValueHolder;parentValueHolder, dec_cls: Lcom/taursys/model/ObjectValueHolder;, in_method: Lcom/taursys/model/ObjectValueHolder;<init>, field_obj_tag: 0, owner_obj_tag: 11, thread_id: 0
+          method_exit: Lcom/taursys/model/ObjectValueHolder;<init>, thread_id: 0
+          method_entry: Lcom/taursys/util/DataTypes;checkJavaDataType, thread_id: 0
+          method_exit: Lcom/taursys/util/DataTypes;checkJavaDataType, thread_id: 0
+        method_exit: Lcom/taursys/model/VariantValueHolder;<init>, thread_id: 0
+          field_modi: Lcom/taursys/model/ValueHolder;valueHolder, dec_cls: Lcom/taursys/model/DefaultTextModel;, in_method: Lcom/taursys/model/DefaultTextModel;<init>, field_obj_tag: 11, owner_obj_tag: 10, thread_id: 0
+      method_exit: Lcom/taursys/model/DefaultTextModel;<init>, thread_id: 0
+    method_exit: Lcom/taursys/xml/Parameter;createDefaultModel, thread_id: 0
+      field_modi: Lcom/taursys/model/TextModel;model, dec_cls: Lcom/taursys/xml/Parameter;, in_method: Lcom/taursys/xml/Parameter;<init>, field_obj_tag: 10, owner_obj_tag: 7, thread_id: 0
+  method_exit: Lcom/taursys/xml/Parameter;<init>, thread_id: 0
+  method_entry: Lcom/taursys/xml/Parameter;setModel, obj_tag: 7, param_obj_tag: 1, thread_id: 0
+    method_entry: Lcom/taursys/model/DefaultTextModel;getFormat, obj_tag: 1, thread_id: 0
+    method_exit: Lcom/taursys/model/DefaultTextModel;getFormat, thread_id: 0
+    method_entry: Lcom/taursys/model/DefaultTextModel;getFormat, obj_tag: 10, thread_id: 0
+    method_exit: Lcom/taursys/model/DefaultTextModel;getFormat, thread_id: 0
+    method_entry: Lcom/taursys/model/DefaultTextModel;setFormat, obj_tag: 1, param_obj_tag: 12, thread_id: 0
+      method_entry: Lcom/taursys/model/DefaultTextModel;setupFormat, obj_tag: 1, thread_id: 0
+      method_exit: Lcom/taursys/model/DefaultTextModel;setupFormat, thread_id: 0
+    method_exit: Lcom/taursys/model/DefaultTextModel;setFormat, thread_id: 0
+    method_entry: Lcom/taursys/model/DefaultTextModel;getFormatPattern, obj_tag: 10, thread_id: 0
+    method_exit: Lcom/taursys/model/DefaultTextModel;getFormatPattern, thread_id: 0
+    method_entry: Lcom/taursys/model/DefaultTextModel;setFormatPattern, obj_tag: 1, param_obj_tag: 13, thread_id: 0
+      method_entry: Lcom/taursys/model/DefaultTextModel;setupFormat, obj_tag: 1, thread_id: 0
+      method_exit: Lcom/taursys/model/DefaultTextModel;setupFormat, thread_id: 0
+    method_exit: Lcom/taursys/model/DefaultTextModel;setFormatPattern, thread_id: 0
+      field_modi: Lcom/taursys/model/TextModel;model, dec_cls: Lcom/taursys/xml/Parameter;, in_method: Lcom/taursys/xml/Parameter;setModel, field_obj_tag: 1, owner_obj_tag: 7, thread_id: 0
+  method_exit: Lcom/taursys/xml/Parameter;setModel, thread_id: 0
+  method_entry: Lcom/taursys/xml/Parameter;getText, obj_tag: 7, thread_id: 0
+    method_entry: Lcom/taursys/model/DefaultTextModel;getText, obj_tag: 1, thread_id: 0
+      method_entry: Lcom/taursys/model/DefaultTextModel;getValueHolder, obj_tag: 1, thread_id: 0
+      method_exit: Lcom/taursys/model/DefaultTextModel;getValueHolder, thread_id: 0
+      method_entry: Lcom/taursys/model/ObjectValueHolder;getPropertyValue, obj_tag: 2, param_obj_tag: 14, thread_id: 0
+      method_exit: Lcom/taursys/model/ObjectValueHolder;getPropertyValue, thread_id: 0
+      method_entry: Lcom/taursys/model/DefaultTextModel;getValueHolder, obj_tag: 1, thread_id: 0
+      method_exit: Lcom/taursys/model/DefaultTextModel;getValueHolder, thread_id: 0
+      method_entry: Lcom/taursys/model/VariantValueHolder;getJavaDataType, obj_tag: 2, param_obj_tag: 15, thread_id: 0
+      method_exit: Lcom/taursys/model/VariantValueHolder;getJavaDataType, thread_id: 0
+    method_exit: Lcom/taursys/model/DefaultTextModel;getText, thread_id: 0
+  method_exit: Lcom/taursys/xml/Parameter;getText, thread_id: 0
+method_exit: Ltest/auto/Strategy_Setter_Parameter_TextModel_3;main, thread_id: 0

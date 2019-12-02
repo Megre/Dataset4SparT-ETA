@@ -1,0 +1,237 @@
+<?xml version="1.0"?>
+<!DOCTYPE rdf:RDF [
+  <!ENTITY this 'http://anonymous.authors/ontologies/2017/11/Java.DesignPattern#'>
+  <!ENTITY owl 'http://www.w3.org/2002/07/owl#'>
+  <!ENTITY bh 'http://anonymous.authors/ontologies/2017/8/Behavior#'>
+  <!ENTITY xsd 'http://www.w3.org/2001/XMLSchema#'>
+  <!ENTITY rdfs 'http://www.w3.org/2000/01/rdf-schema#'>
+  <!ENTITY ptn 'http://anonymous.authors/ontologies/2017/10/Pattern#'>
+  <!ENTITY mgd 'http://anonymous.authors/ontologies/2017/12/Merged#'>
+  <!ENTITY jbh 'http://anonymous.authors/ontologies/2017/8/Java.Behavior#'>
+  <!ENTITY java 'http://anonymous.authors/ontologies/2017/6/Java#'>
+  <!ENTITY t 'http://anonymous.authors/ontologies/2018/10/Time#'>
+  <!ENTITY rdf 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+  <!ENTITY sbh 'http://anonymous.authors/ontologies/2018/4/StaticBehavior'>
+  <!ENTITY jd 'http://anonymous.authors/ontologies/2017/11/Java.DesignPattern#'>
+  <!ENTITY jsbh 'http://anonymous.authors/ontologies/2018/4/Java.StaticBehavior#'>
+  <!ENTITY base 'http://anonymous.authors/ontologies/2017/12/Merged#'>]>
+<rdf:RDF
+    xmlns:rdf="&rdf;"
+    xmlns:jbh="&jbh;"
+    xmlns:rdfs="&rdfs;"
+    xmlns:java="&java;"
+    xmlns:sbh="http://anonymous.authors/ontologies/2018/4/StaticBehavior"
+    xmlns:t="&t;"
+    xmlns:owl="&owl;"
+    xmlns:jd="&jd;"
+    xmlns:ptn="&ptn;"
+    xmlns:bh="&bh;"
+    xmlns:base="&base;"
+    xmlns:jsbh="&jsbh;"
+    xmlns:xsd="&xsd;">
+  <jbh:FieldModi rdf:about="&jbh;fldModi13">
+    <jbh:fieldVisitMethod>
+      <java:Method rdf:about="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.cpd.CPD.!init">
+        <jbh:isInit rdf:datatype="&xsd;boolean">true</jbh:isInit>
+      </java:Method>
+    </jbh:fieldVisitMethod>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">1</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">2</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">14</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">1</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">13</t:startsAt>
+    <jbh:visitedField>
+      <java:Field rdf:about="&java;net.sourceforge.pmd.cpd.CPD.language">
+        <java:fieldTypeIs>
+          <java:Class rdf:about="&java;net.sourceforge.pmd.cpd.Language"/>
+        </java:fieldTypeIs>
+      </java:Field>
+    </jbh:visitedField>
+  </jbh:FieldModi>
+  <jbh:FieldModi rdf:about="&jbh;fldModi11">
+    <jbh:fieldVisitMethod rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.cpd.CPD.!init"/>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">5</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">2</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">12</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">5</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">11</t:startsAt>
+    <jbh:visitedField>
+      <java:Field rdf:about="&java;net.sourceforge.pmd.cpd.CPD.tokens">
+        <java:fieldTypeIs>
+          <java:Class rdf:about="&java;net.sourceforge.pmd.cpd.Tokens"/>
+        </java:fieldTypeIs>
+      </java:Field>
+    </jbh:visitedField>
+  </jbh:FieldModi>
+  <jbh:MethodCall rdf:about="&jbh;mc21">
+    <jbh:methodCalled>
+      <java:Method rdf:about="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.cpd.JavaLanguage$JavaFileOrDirectoryFilter.!init">
+        <jbh:isInit rdf:datatype="&xsd;boolean">true</jbh:isInit>
+      </java:Method>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">22</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc20">
+        <jbh:methodCalled>
+          <java:Method rdf:about="&java;net.sourceforge.pmd.cpd.JavaLanguage.getFileFilter"/>
+        </jbh:methodCalled>
+        <t:endsAt rdf:datatype="&xsd;integer">23</t:endsAt>
+        <bh:originEvent>
+          <jbh:MethodCall rdf:about="&jbh;mc17">
+            <jbh:paramObjTag rdf:datatype="&xsd;integer">7</jbh:paramObjTag>
+            <jbh:methodCalled>
+              <java:Method rdf:about="&java;net.sourceforge.pmd.cpd.CPD.addDirectory"/>
+            </jbh:methodCalled>
+            <t:endsAt rdf:datatype="&xsd;integer">28</t:endsAt>
+            <bh:originEvent>
+              <jbh:MethodCall rdf:about="&jbh;mc16">
+                <jbh:paramObjTag rdf:datatype="&xsd;integer">7</jbh:paramObjTag>
+                <jbh:methodCalled>
+                  <java:Method rdf:about="&java;net.sourceforge.pmd.cpd.CPD.addRecursively"/>
+                </jbh:methodCalled>
+                <t:endsAt rdf:datatype="&xsd;integer">29</t:endsAt>
+                <bh:originEvent>
+                  <jbh:MethodCall rdf:about="&jbh;mc1">
+                    <jbh:methodCalled>
+                      <java:Method rdf:about="&java;test.auto.Strategy_CPD_Language_12.main"/>
+                    </jbh:methodCalled>
+                    <t:endsAt rdf:datatype="&xsd;integer">30</t:endsAt>
+                    <java:threadID rdf:datatype="&xsd;integer"
+                    >0</java:threadID>
+                    <t:startsAt rdf:datatype="&xsd;integer">1</t:startsAt>
+                  </jbh:MethodCall>
+                </bh:originEvent>
+                <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+                <jbh:methodCaller rdf:resource="&java;test.auto.Strategy_CPD_Language_12.main"/>
+                <jbh:objTag rdf:datatype="&xsd;integer">2</jbh:objTag>
+                <t:startsAt rdf:datatype="&xsd;integer">16</t:startsAt>
+              </jbh:MethodCall>
+            </bh:originEvent>
+            <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+            <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.cpd.CPD.addRecursively"/>
+            <jbh:objTag rdf:datatype="&xsd;integer">2</jbh:objTag>
+            <t:startsAt rdf:datatype="&xsd;integer">17</t:startsAt>
+          </jbh:MethodCall>
+        </bh:originEvent>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.cpd.CPD.addDirectory"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">1</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">20</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.cpd.JavaLanguage.getFileFilter"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">10</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">21</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc5">
+    <jbh:methodCalled>
+      <java:Method rdf:about="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.cpd.CPDNullListener.!init">
+        <jbh:isInit rdf:datatype="&xsd;boolean">true</jbh:isInit>
+      </java:Method>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">6</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc4">
+        <jbh:paramObjTag rdf:datatype="&xsd;integer">1</jbh:paramObjTag>
+        <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.cpd.CPD.!init"/>
+        <t:endsAt rdf:datatype="&xsd;integer">15</t:endsAt>
+        <bh:originEvent rdf:resource="&jbh;mc1"/>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;test.auto.Strategy_CPD_Language_12.main"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">2</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">4</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.cpd.CPD.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">4</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">5</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc25">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">11</jbh:paramObjTag>
+    <jbh:methodCalled>
+      <java:Method rdf:about="&java;net.sourceforge.pmd.cpd.FileFinder.scanDirectory"/>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">26</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">9</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">25</t:startsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc24">
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:paramObjTag rdf:datatype="&xsd;integer">7</jbh:paramObjTag>
+        <jbh:methodCalled>
+          <java:Method rdf:about="&java;net.sourceforge.pmd.cpd.FileFinder.findFilesFrom"/>
+        </jbh:methodCalled>
+        <t:startsAt rdf:datatype="&xsd;integer">24</t:startsAt>
+        <t:endsAt rdf:datatype="&xsd;integer">27</t:endsAt>
+        <jbh:objTag rdf:datatype="&xsd;integer">9</jbh:objTag>
+        <bh:originEvent rdf:resource="&jbh;mc17"/>
+        <jbh:paramObjTag rdf:datatype="&xsd;integer">10</jbh:paramObjTag>
+        <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.cpd.CPD.addDirectory"/>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.cpd.FileFinder.findFilesFrom"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">12</jbh:paramObjTag>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc9">
+    <jbh:methodCalled>
+      <java:Method rdf:about="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.cpd.Tokens.!init">
+        <jbh:isInit rdf:datatype="&xsd;boolean">true</jbh:isInit>
+      </java:Method>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">10</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc4"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.cpd.CPD.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">5</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">9</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc2">
+    <jbh:methodCalled>
+      <java:Method rdf:about="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.cpd.JavaLanguage.!init">
+        <jbh:isInit rdf:datatype="&xsd;boolean">true</jbh:isInit>
+      </java:Method>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">3</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc1"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;test.auto.Strategy_CPD_Language_12.main"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">1</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">2</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc18">
+    <jbh:methodCalled>
+      <java:Method rdf:about="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.cpd.FileFinder.!init">
+        <jbh:isInit rdf:datatype="&xsd;boolean">true</jbh:isInit>
+      </java:Method>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">19</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc17"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.cpd.CPD.addDirectory"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">9</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">18</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:FieldModi rdf:about="&jbh;fldModi7">
+    <jbh:fieldVisitMethod rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.cpd.CPD.!init"/>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">4</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">2</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">8</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">4</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">7</t:startsAt>
+    <jbh:visitedField>
+      <java:Field rdf:about="&java;net.sourceforge.pmd.cpd.CPD.listener">
+        <java:fieldTypeIs>
+          <java:Class rdf:about="&java;net.sourceforge.pmd.cpd.CPDListener"/>
+        </java:fieldTypeIs>
+      </java:Field>
+    </jbh:visitedField>
+  </jbh:FieldModi>
+  <java:Class rdf:about="&java;net.sourceforge.pmd.cpd.CPD">
+    <java:hasField rdf:resource="&java;net.sourceforge.pmd.cpd.CPD.language"/>
+    <java:hasField rdf:resource="&java;net.sourceforge.pmd.cpd.CPD.tokens"/>
+    <java:hasField rdf:resource="&java;net.sourceforge.pmd.cpd.CPD.listener"/>
+  </java:Class>
+</rdf:RDF>

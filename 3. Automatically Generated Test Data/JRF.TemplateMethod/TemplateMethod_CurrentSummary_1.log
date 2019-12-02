@@ -1,0 +1,56 @@
+method_entry: Ltest/auto/TemplateMethod_CurrentSummary_1;main, thread_id: 0
+  method_entry: Lorg/acm/seguin/ide/common/action/CurrentSummary;<clinit>, thread_id: 0
+  method_exit: Lorg/acm/seguin/ide/common/action/CurrentSummary;<clinit>, thread_id: 0
+  method_entry: Lorg/acm/seguin/ide/jbuilder/refactor/JBuilderCurrentSummary;<init>, obj_tag: 1, thread_id: 0
+    method_entry: Lorg/acm/seguin/ide/common/action/CurrentSummary;<init>, obj_tag: 1, thread_id: 0
+    method_exit: Lorg/acm/seguin/ide/common/action/CurrentSummary;<init>, thread_id: 0
+  method_exit: Lorg/acm/seguin/ide/jbuilder/refactor/JBuilderCurrentSummary;<init>, thread_id: 0
+  method_entry: Lorg/acm/seguin/ide/common/action/CurrentSummary;updateMetaData, obj_tag: 1, thread_id: 0
+    method_entry: Lorg/acm/seguin/ide/jbuilder/refactor/JBuilderCurrentSummary;getMetadataReloader, obj_tag: 1, thread_id: 0
+      method_entry: Lorg/acm/seguin/ide/jbuilder/UMLNodeViewerFactory;<clinit>, thread_id: 0
+      method_exit: Lorg/acm/seguin/ide/jbuilder/UMLNodeViewerFactory;<clinit>, thread_id: 0
+      method_entry: Lorg/acm/seguin/ide/jbuilder/UMLNodeViewerFactory;getFactory, thread_id: 0
+        method_entry: Lorg/acm/seguin/ide/jbuilder/UMLNodeViewerFactory;<init>, obj_tag: 2, thread_id: 0
+          method_entry: Lorg/acm/seguin/ide/jbuilder/JBuilderClassDiagramLoader;<init>, obj_tag: 3, thread_id: 0
+            method_entry: Lorg/acm/seguin/ide/common/MultipleDirClassDiagramReloader;<init>, obj_tag: 3, thread_id: 0
+              method_entry: Lorg/acm/seguin/ide/common/ClassDiagramReloader;<init>, obj_tag: 3, thread_id: 0
+                method_entry: Lorg/acm/seguin/uml/loader/ReloaderSingleton;<clinit>, thread_id: 0
+                method_exit: Lorg/acm/seguin/uml/loader/ReloaderSingleton;<clinit>, thread_id: 0
+                method_entry: Lorg/acm/seguin/uml/loader/ReloaderSingleton;register, param_obj_tag: 3, thread_id: 0
+                method_exit: Lorg/acm/seguin/uml/loader/ReloaderSingleton;register, thread_id: 0
+              method_exit: Lorg/acm/seguin/ide/common/ClassDiagramReloader;<init>, thread_id: 0
+            method_exit: Lorg/acm/seguin/ide/common/MultipleDirClassDiagramReloader;<init>, thread_id: 0
+          method_exit: Lorg/acm/seguin/ide/jbuilder/JBuilderClassDiagramLoader;<init>, thread_id: 0
+        method_exit: Lorg/acm/seguin/ide/jbuilder/UMLNodeViewerFactory;<init>, thread_id: 0
+      method_exit: Lorg/acm/seguin/ide/jbuilder/UMLNodeViewerFactory;getFactory, thread_id: 0
+      method_entry: Lorg/acm/seguin/ide/jbuilder/UMLNodeViewerFactory;getReloader, obj_tag: 2, thread_id: 0
+      method_exit: Lorg/acm/seguin/ide/jbuilder/UMLNodeViewerFactory;getReloader, thread_id: 0
+    method_exit: Lorg/acm/seguin/ide/jbuilder/refactor/JBuilderCurrentSummary;getMetadataReloader, thread_id: 0
+    method_entry: Lorg/acm/seguin/ide/common/MultipleDirClassDiagramReloader;setNecessary, obj_tag: 3, thread_id: 0
+    method_exit: Lorg/acm/seguin/ide/common/MultipleDirClassDiagramReloader;setNecessary, thread_id: 0
+    method_entry: Lorg/acm/seguin/ide/jbuilder/JBuilderClassDiagramLoader;reload, obj_tag: 3, thread_id: 0
+      method_entry: Lorg/acm/seguin/ide/common/MultipleDirClassDiagramReloader;reload, obj_tag: 3, thread_id: 0
+        method_entry: Lorg/acm/seguin/ide/common/ClassDiagramReloader;reloadDiagrams, obj_tag: 3, thread_id: 0
+          method_entry: Lorg/acm/seguin/ide/common/RefreshDiagramThread;<init>, obj_tag: 4, param_obj_tag: 5, thread_id: 0
+          method_exit: Lorg/acm/seguin/ide/common/RefreshDiagramThread;<init>, thread_id: 0
+        method_exit: Lorg/acm/seguin/ide/common/ClassDiagramReloader;reloadDiagrams, thread_id: 0
+      method_exit: Lorg/acm/seguin/ide/common/MultipleDirClassDiagramReloader;reload, thread_id: 0
+method_entry: Lorg/acm/seguin/ide/common/RefreshDiagramThread;run, obj_tag: 4, thread_id: 1
+  method_entry: Lorg/acm/seguin/ide/common/SummaryLoaderThread;<clinit>, thread_id: 1
+  method_exit: Lorg/acm/seguin/ide/common/SummaryLoaderThread;<clinit>, thread_id: 1
+  method_entry: Lorg/acm/seguin/ide/common/SummaryLoaderThread;waitForLoading, thread_id: 1
+  method_exit: Lorg/acm/seguin/ide/common/SummaryLoaderThread;waitForLoading, thread_id: 1
+method_exit: Lorg/acm/seguin/ide/common/RefreshDiagramThread;run, thread_id: 1
+      method_entry: Lorg/acm/seguin/ide/jbuilder/refactor/Browser;getActiveBrowser, thread_id: 0
+        method_entry: Lorg/acm/seguin/ide/jbuilder/refactor/Browser;<init>, obj_tag: 6, thread_id: 0
+        method_exit: Lorg/acm/seguin/ide/jbuilder/refactor/Browser;<init>, thread_id: 0
+      method_exit: Lorg/acm/seguin/ide/jbuilder/refactor/Browser;getActiveBrowser, thread_id: 0
+      method_entry: Lorg/acm/seguin/ide/jbuilder/refactor/Browser;getProjectView, obj_tag: 6, thread_id: 0
+        method_entry: Lorg/acm/seguin/ide/jbuilder/refactor/View;<init>, obj_tag: 7, thread_id: 0
+        method_exit: Lorg/acm/seguin/ide/jbuilder/refactor/View;<init>, thread_id: 0
+      method_exit: Lorg/acm/seguin/ide/jbuilder/refactor/Browser;getProjectView, thread_id: 0
+      method_entry: Lorg/acm/seguin/ide/jbuilder/refactor/View;refreshTree, obj_tag: 7, thread_id: 0
+      method_exit: Lorg/acm/seguin/ide/jbuilder/refactor/View;refreshTree, thread_id: 0
+    method_exit: Lorg/acm/seguin/ide/jbuilder/JBuilderClassDiagramLoader;reload, thread_id: 0
+  method_exit: Lorg/acm/seguin/ide/common/action/CurrentSummary;updateMetaData, thread_id: 0
+method_exit: Ltest/auto/TemplateMethod_CurrentSummary_1;main, thread_id: 0

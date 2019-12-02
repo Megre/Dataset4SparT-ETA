@@ -1,0 +1,325 @@
+method_entry: Ltest/auto/State_DefaultState_TestRunner_FailureDetailView_1;main, thread_id: 0
+  method_entry: Ljunit/runner/BaseTestRunner;<clinit>, thread_id: 0
+  method_exit: Ljunit/runner/BaseTestRunner;<clinit>, thread_id: 0
+  method_entry: Ljunit/swingui/TestRunner;<init>, obj_tag: 1, thread_id: 0
+    method_entry: Ljunit/runner/BaseTestRunner;<init>, obj_tag: 1, thread_id: 0
+      method_entry: Ljunit/runner/BaseTestRunner;readPreferences, thread_id: 0
+        method_entry: Ljunit/runner/BaseTestRunner;getPreferencesFile, thread_id: 0
+        method_exit: Ljunit/runner/BaseTestRunner;getPreferencesFile, thread_id: 0
+      method_exit: Ljunit/runner/BaseTestRunner;readPreferences, thread_id: 0
+      method_entry: Ljunit/runner/BaseTestRunner;getPreference, param_obj_tag: 3, thread_id: 0
+        method_entry: Ljunit/runner/BaseTestRunner;getPreference, param_obj_tag: 3, thread_id: 0
+        method_exit: Ljunit/runner/BaseTestRunner;getPreference, thread_id: 0
+      method_exit: Ljunit/runner/BaseTestRunner;getPreference, thread_id: 0
+    method_exit: Ljunit/runner/BaseTestRunner;<init>, thread_id: 0
+  method_exit: Ljunit/swingui/TestRunner;<init>, thread_id: 0
+  method_entry: Ljunit/swingui/TestRunner;start, obj_tag: 1, thread_id: 0
+    method_entry: Ljunit/runner/BaseTestRunner;processArguments, obj_tag: 1, thread_id: 0
+    method_exit: Ljunit/runner/BaseTestRunner;processArguments, thread_id: 0
+    method_entry: Ljunit/swingui/TestRunner;createUI, obj_tag: 1, param_obj_tag: 5, thread_id: 0
+      method_entry: Ljunit/swingui/TestRunner;createFrame, obj_tag: 1, param_obj_tag: 6, thread_id: 0
+        method_entry: Ljunit/swingui/TestRunner;loadFrameIcon, obj_tag: 1, thread_id: 0
+          method_entry: Ljunit/swingui/TestRunner;getIconResource, param_obj_tag: 7, param_obj_tag: 8, thread_id: 0
+          method_exit: Ljunit/swingui/TestRunner;getIconResource, thread_id: 0
+        method_exit: Ljunit/swingui/TestRunner;loadFrameIcon, thread_id: 0
+        method_entry: Ljunit/swingui/TestRunner$8;<init>, obj_tag: 9, thread_id: 0
+            field_modi: Ljunit/swingui/TestRunner;this$0, dec_cls: Ljunit/swingui/TestRunner$8;, in_method: Ljunit/swingui/TestRunner$8;<init>, field_obj_tag: 1, owner_obj_tag: 9, thread_id: 0
+        method_exit: Ljunit/swingui/TestRunner$8;<init>, thread_id: 0
+      method_exit: Ljunit/swingui/TestRunner;createFrame, thread_id: 0
+      method_entry: Ljunit/swingui/TestRunner;createMenus, obj_tag: 1, param_obj_tag: 10, thread_id: 0
+        method_entry: Ljunit/swingui/TestRunner;createJUnitMenu, obj_tag: 1, thread_id: 0
+          method_entry: Ljunit/swingui/TestRunner$6;<init>, obj_tag: 11, thread_id: 0
+              field_modi: Ljunit/swingui/TestRunner;this$0, dec_cls: Ljunit/swingui/TestRunner$6;, in_method: Ljunit/swingui/TestRunner$6;<init>, field_obj_tag: 1, owner_obj_tag: 11, thread_id: 0
+          method_exit: Ljunit/swingui/TestRunner$6;<init>, thread_id: 0
+          method_entry: Ljunit/swingui/TestRunner$7;<init>, obj_tag: 12, thread_id: 0
+              field_modi: Ljunit/swingui/TestRunner;this$0, dec_cls: Ljunit/swingui/TestRunner$7;, in_method: Ljunit/swingui/TestRunner$7;<init>, field_obj_tag: 1, owner_obj_tag: 12, thread_id: 0
+          method_exit: Ljunit/swingui/TestRunner$7;<init>, thread_id: 0
+        method_exit: Ljunit/swingui/TestRunner;createJUnitMenu, thread_id: 0
+      method_exit: Ljunit/swingui/TestRunner;createMenus, thread_id: 0
+      method_entry: Ljunit/swingui/TestRunner;createSuiteCombo, obj_tag: 1, thread_id: 0
+        method_entry: Ljunit/swingui/TestRunner$12;<init>, obj_tag: 13, thread_id: 0
+            field_modi: Ljunit/swingui/TestRunner;this$0, dec_cls: Ljunit/swingui/TestRunner$12;, in_method: Ljunit/swingui/TestRunner$12;<init>, field_obj_tag: 1, owner_obj_tag: 13, thread_id: 0
+        method_exit: Ljunit/swingui/TestRunner$12;<init>, thread_id: 0
+        method_entry: Ljunit/swingui/TestRunner;loadHistory, obj_tag: 1, param_obj_tag: 14, thread_id: 0
+          method_entry: Ljunit/swingui/TestRunner;getSettingsFile, obj_tag: 1, thread_id: 0
+          method_exit: Ljunit/swingui/TestRunner;getSettingsFile, thread_id: 0
+        method_exit: Ljunit/swingui/TestRunner;loadHistory, thread_id: 0
+        method_entry: Ljunit/swingui/TestRunner$13;<init>, obj_tag: 15, thread_id: 0
+            field_modi: Ljunit/swingui/TestRunner;this$0, dec_cls: Ljunit/swingui/TestRunner$13;, in_method: Ljunit/swingui/TestRunner$13;<init>, field_obj_tag: 1, owner_obj_tag: 15, thread_id: 0
+        method_exit: Ljunit/swingui/TestRunner$13;<init>, thread_id: 0
+      method_exit: Ljunit/swingui/TestRunner;createSuiteCombo, thread_id: 0
+      method_entry: Ljunit/swingui/TestRunner;createRunButton, obj_tag: 1, thread_id: 0
+        method_entry: Ljunit/swingui/TestRunner$10;<init>, obj_tag: 16, thread_id: 0
+            field_modi: Ljunit/swingui/TestRunner;this$0, dec_cls: Ljunit/swingui/TestRunner$10;, in_method: Ljunit/swingui/TestRunner$10;<init>, field_obj_tag: 1, owner_obj_tag: 16, thread_id: 0
+        method_exit: Ljunit/swingui/TestRunner$10;<init>, thread_id: 0
+      method_exit: Ljunit/swingui/TestRunner;createRunButton, thread_id: 0
+      method_entry: Ljunit/swingui/TestRunner;createBrowseButton, obj_tag: 1, thread_id: 0
+        method_entry: Ljunit/swingui/TestRunner$11;<init>, obj_tag: 18, thread_id: 0
+            field_modi: Ljunit/swingui/TestRunner;this$0, dec_cls: Ljunit/swingui/TestRunner$11;, in_method: Ljunit/swingui/TestRunner$11;<init>, field_obj_tag: 1, owner_obj_tag: 18, thread_id: 0
+        method_exit: Ljunit/swingui/TestRunner$11;<init>, thread_id: 0
+      method_exit: Ljunit/swingui/TestRunner;createBrowseButton, thread_id: 0
+      method_entry: Ljunit/swingui/TestRunner;createUseLoaderCheckBox, obj_tag: 1, thread_id: 0
+        method_entry: Ljunit/runner/BaseTestRunner;useReloadingTestSuiteLoader, obj_tag: 1, thread_id: 0
+          method_entry: Ljunit/runner/BaseTestRunner;getPreference, param_obj_tag: 19, thread_id: 0
+          method_exit: Ljunit/runner/BaseTestRunner;getPreference, thread_id: 0
+          method_entry: Ljunit/runner/BaseTestRunner;inVAJava, thread_id: 0
+          method_exit: Ljunit/runner/BaseTestRunner;inVAJava, thread_id: 0
+        method_exit: Ljunit/runner/BaseTestRunner;useReloadingTestSuiteLoader, thread_id: 0
+        method_entry: Ljunit/runner/BaseTestRunner;inVAJava, thread_id: 0
+        method_exit: Ljunit/runner/BaseTestRunner;inVAJava, thread_id: 0
+      method_exit: Ljunit/swingui/TestRunner;createUseLoaderCheckBox, thread_id: 0
+      method_entry: Ljunit/swingui/ProgressBar;<init>, obj_tag: 21, thread_id: 0
+      method_exit: Ljunit/swingui/ProgressBar;<init>, thread_id: 0
+        field_modi: Ljunit/swingui/ProgressBar;fProgressIndicator, dec_cls: Ljunit/swingui/TestRunner;, in_method: Ljunit/swingui/TestRunner;createUI, field_obj_tag: 21, owner_obj_tag: 1, thread_id: 0
+      method_entry: Ljunit/swingui/TestRunner;createCounterPanel, obj_tag: 1, thread_id: 0
+        method_entry: Ljunit/swingui/CounterPanel;<init>, obj_tag: 22, thread_id: 0
+          method_entry: Ljunit/swingui/CounterPanel;createOutputField, obj_tag: 22, thread_id: 0
+            method_entry: Ljunit/swingui/StatusLine;<clinit>, thread_id: 0
+            method_exit: Ljunit/swingui/StatusLine;<clinit>, thread_id: 0
+          method_exit: Ljunit/swingui/CounterPanel;createOutputField, thread_id: 0
+          method_entry: Ljunit/swingui/CounterPanel;createOutputField, obj_tag: 22, thread_id: 0
+          method_exit: Ljunit/swingui/CounterPanel;createOutputField, thread_id: 0
+          method_entry: Ljunit/swingui/CounterPanel;createOutputField, obj_tag: 22, thread_id: 0
+          method_exit: Ljunit/swingui/CounterPanel;createOutputField, thread_id: 0
+        method_exit: Ljunit/swingui/CounterPanel;<init>, thread_id: 0
+      method_exit: Ljunit/swingui/TestRunner;createCounterPanel, thread_id: 0
+        field_modi: Ljunit/swingui/CounterPanel;fCounterPanel, dec_cls: Ljunit/swingui/TestRunner;, in_method: Ljunit/swingui/TestRunner;createUI, field_obj_tag: 22, owner_obj_tag: 1, thread_id: 0
+      method_entry: Ljunit/swingui/TestRunner;createTestRunViews, obj_tag: 1, thread_id: 0
+        method_entry: Ljunit/swingui/FailureRunView;<init>, obj_tag: 29, param_obj_tag: 1, thread_id: 0
+            field_modi: Ljunit/swingui/TestRunContext;fRunContext, dec_cls: Ljunit/swingui/FailureRunView;, in_method: Ljunit/swingui/FailureRunView;<init>, field_obj_tag: 1, owner_obj_tag: 29, thread_id: 0
+          method_entry: Ljunit/swingui/TestRunner;getFailures, obj_tag: 1, thread_id: 0
+          method_exit: Ljunit/swingui/TestRunner;getFailures, thread_id: 0
+          method_entry: Ljunit/swingui/FailureRunView$1;<init>, obj_tag: 31, param_obj_tag: 32, thread_id: 0
+              field_modi: Ljunit/swingui/FailureRunView;this$0, dec_cls: Ljunit/swingui/FailureRunView$1;, in_method: Ljunit/swingui/FailureRunView$1;<init>, field_obj_tag: 29, owner_obj_tag: 31, thread_id: 0
+            method_entry: Ljunit/framework/TestCase;<init>, obj_tag: 31, param_obj_tag: 32, thread_id: 0
+              method_entry: Ljunit/framework/Assert;<init>, obj_tag: 31, thread_id: 0
+              method_exit: Ljunit/framework/Assert;<init>, thread_id: 0
+            method_exit: Ljunit/framework/TestCase;<init>, thread_id: 0
+          method_exit: Ljunit/swingui/FailureRunView$1;<init>, thread_id: 0
+          method_entry: Ljunit/framework/AssertionFailedError;<init>, obj_tag: 33, param_obj_tag: 34, thread_id: 0
+          method_exit: Ljunit/framework/AssertionFailedError;<init>, thread_id: 0
+          method_entry: Ljunit/framework/TestFailure;<init>, obj_tag: 35, param_obj_tag: 31, param_obj_tag: 33, thread_id: 0
+              field_modi: Ljunit/framework/Test;fFailedTest, dec_cls: Ljunit/framework/TestFailure;, in_method: Ljunit/framework/TestFailure;<init>, field_obj_tag: 31, owner_obj_tag: 35, thread_id: 0
+          method_exit: Ljunit/framework/TestFailure;<init>, thread_id: 0
+          method_entry: Ljunit/framework/TestFailure;toString, obj_tag: 35, thread_id: 0
+            method_entry: Ljunit/framework/TestCase;toString, obj_tag: 31, thread_id: 0
+              method_entry: Ljunit/framework/TestCase;name, obj_tag: 31, thread_id: 0
+              method_exit: Ljunit/framework/TestCase;name, thread_id: 0
+            method_exit: Ljunit/framework/TestCase;toString, thread_id: 0
+          method_exit: Ljunit/framework/TestFailure;toString, thread_id: 0
+          method_entry: Ljunit/swingui/FailureRunView$FailureListCellRenderer;<init>, obj_tag: 36, thread_id: 0
+            method_entry: Ljunit/swingui/FailureRunView$FailureListCellRenderer;loadIcons, obj_tag: 36, thread_id: 0
+              method_entry: Ljunit/swingui/TestRunner;getIconResource, param_obj_tag: 37, param_obj_tag: 38, thread_id: 0
+              method_exit: Ljunit/swingui/TestRunner;getIconResource, thread_id: 0
+              method_entry: Ljunit/swingui/TestRunner;getIconResource, param_obj_tag: 37, param_obj_tag: 40, thread_id: 0
+              method_exit: Ljunit/swingui/TestRunner;getIconResource, thread_id: 0
+            method_exit: Ljunit/swingui/FailureRunView$FailureListCellRenderer;loadIcons, thread_id: 0
+          method_exit: Ljunit/swingui/FailureRunView$FailureListCellRenderer;<init>, thread_id: 0
+          method_entry: Ljunit/swingui/FailureRunView$FailureListCellRenderer;getListCellRendererComponent, obj_tag: 36, param_obj_tag: 30, param_obj_tag: 35, thread_id: 0
+            method_entry: Ljunit/framework/TestFailure;failedTest, obj_tag: 35, thread_id: 0
+            method_exit: Ljunit/framework/TestFailure;failedTest, thread_id: 0
+            method_entry: Ljunit/framework/TestCase;toString, obj_tag: 31, thread_id: 0
+              method_entry: Ljunit/framework/TestCase;name, obj_tag: 31, thread_id: 0
+              method_exit: Ljunit/framework/TestCase;name, thread_id: 0
+            method_exit: Ljunit/framework/TestCase;toString, thread_id: 0
+            method_entry: Ljunit/framework/TestFailure;thrownException, obj_tag: 35, thread_id: 0
+            method_exit: Ljunit/framework/TestFailure;thrownException, thread_id: 0
+            method_entry: Ljunit/runner/BaseTestRunner;truncate, param_obj_tag: 34, thread_id: 0
+            method_exit: Ljunit/runner/BaseTestRunner;truncate, thread_id: 0
+            method_entry: Ljunit/framework/TestFailure;thrownException, obj_tag: 35, thread_id: 0
+            method_exit: Ljunit/framework/TestFailure;thrownException, thread_id: 0
+          method_exit: Ljunit/swingui/FailureRunView$FailureListCellRenderer;getListCellRendererComponent, thread_id: 0
+          method_entry: Ljunit/swingui/FailureRunView$2;<init>, obj_tag: 42, thread_id: 0
+              field_modi: Ljunit/swingui/FailureRunView;this$0, dec_cls: Ljunit/swingui/FailureRunView$2;, in_method: Ljunit/swingui/FailureRunView$2;<init>, field_obj_tag: 29, owner_obj_tag: 42, thread_id: 0
+          method_exit: Ljunit/swingui/FailureRunView$2;<init>, thread_id: 0
+        method_exit: Ljunit/swingui/FailureRunView;<init>, thread_id: 0
+        method_entry: Ljunit/swingui/FailureRunView;addTab, obj_tag: 29, param_obj_tag: 43, thread_id: 0
+          method_entry: Ljunit/swingui/TestRunner;getIconResource, param_obj_tag: 44, param_obj_tag: 40, thread_id: 0
+          method_exit: Ljunit/swingui/TestRunner;getIconResource, thread_id: 0
+        method_exit: Ljunit/swingui/FailureRunView;addTab, thread_id: 0
+        method_entry: Ljunit/swingui/TestHierarchyRunView;<init>, obj_tag: 45, param_obj_tag: 1, thread_id: 0
+            field_modi: Ljunit/swingui/TestRunContext;fTestContext, dec_cls: Ljunit/swingui/TestHierarchyRunView;, in_method: Ljunit/swingui/TestHierarchyRunView;<init>, field_obj_tag: 1, owner_obj_tag: 45, thread_id: 0
+          method_entry: Ljunit/swingui/TestSuitePanel;<init>, obj_tag: 46, thread_id: 0
+          method_exit: Ljunit/swingui/TestSuitePanel;<init>, thread_id: 0
+            field_modi: Ljunit/swingui/TestSuitePanel;fTreeBrowser, dec_cls: Ljunit/swingui/TestHierarchyRunView;, in_method: Ljunit/swingui/TestHierarchyRunView;<init>, field_obj_tag: 46, owner_obj_tag: 45, thread_id: 0
+          method_entry: Ljunit/swingui/TestSuitePanel;getTree, obj_tag: 46, thread_id: 0
+          method_exit: Ljunit/swingui/TestSuitePanel;getTree, thread_id: 0
+          method_entry: Ljunit/swingui/TestHierarchyRunView$1;<init>, obj_tag: 49, thread_id: 0
+              field_modi: Ljunit/swingui/TestHierarchyRunView;this$0, dec_cls: Ljunit/swingui/TestHierarchyRunView$1;, in_method: Ljunit/swingui/TestHierarchyRunView$1;<init>, field_obj_tag: 45, owner_obj_tag: 49, thread_id: 0
+          method_exit: Ljunit/swingui/TestHierarchyRunView$1;<init>, thread_id: 0
+        method_exit: Ljunit/swingui/TestHierarchyRunView;<init>, thread_id: 0
+        method_entry: Ljunit/swingui/TestHierarchyRunView;addTab, obj_tag: 45, param_obj_tag: 43, thread_id: 0
+          method_entry: Ljunit/swingui/TestRunner;getIconResource, param_obj_tag: 50, param_obj_tag: 51, thread_id: 0
+          method_exit: Ljunit/swingui/TestRunner;getIconResource, thread_id: 0
+        method_exit: Ljunit/swingui/TestHierarchyRunView;addTab, thread_id: 0
+        method_entry: Ljunit/swingui/TestRunner$14;<init>, obj_tag: 52, thread_id: 0
+            field_modi: Ljunit/swingui/TestRunner;this$0, dec_cls: Ljunit/swingui/TestRunner$14;, in_method: Ljunit/swingui/TestRunner$14;<init>, field_obj_tag: 1, owner_obj_tag: 52, thread_id: 0
+        method_exit: Ljunit/swingui/TestRunner$14;<init>, thread_id: 0
+      method_exit: Ljunit/swingui/TestRunner;createTestRunViews, thread_id: 0
+      method_entry: Ljunit/swingui/TestRunner;createFailedPanel, obj_tag: 1, thread_id: 0
+        method_entry: Ljunit/swingui/TestRunner$5;<init>, obj_tag: 54, thread_id: 0
+            field_modi: Ljunit/swingui/TestRunner;this$0, dec_cls: Ljunit/swingui/TestRunner$5;, in_method: Ljunit/swingui/TestRunner$5;<init>, field_obj_tag: 1, owner_obj_tag: 54, thread_id: 0
+        method_exit: Ljunit/swingui/TestRunner$5;<init>, thread_id: 0
+      method_exit: Ljunit/swingui/TestRunner;createFailedPanel, thread_id: 0
+      method_entry: Ljunit/swingui/TestRunner;createFailureDetailView, obj_tag: 1, thread_id: 0
+        method_entry: Ljunit/runner/BaseTestRunner;getPreference, param_obj_tag: 55, thread_id: 0
+        method_exit: Ljunit/runner/BaseTestRunner;getPreference, thread_id: 0
+        method_entry: Ljunit/swingui/DefaultFailureDetailView;<init>, obj_tag: 56, thread_id: 0
+        method_exit: Ljunit/swingui/DefaultFailureDetailView;<init>, thread_id: 0
+      method_exit: Ljunit/swingui/TestRunner;createFailureDetailView, thread_id: 0
+        field_modi: Ljunit/runner/FailureDetailView;fFailureView, dec_cls: Ljunit/swingui/TestRunner;, in_method: Ljunit/swingui/TestRunner;createUI, field_obj_tag: 56, owner_obj_tag: 1, thread_id: 0
+      method_entry: Ljunit/swingui/DefaultFailureDetailView;getComponent, obj_tag: 56, thread_id: 0
+      method_exit: Ljunit/swingui/DefaultFailureDetailView;getComponent, thread_id: 0
+      method_entry: Ljunit/swingui/TestRunner;createStatusLine, obj_tag: 1, thread_id: 0
+        method_entry: Ljunit/swingui/StatusLine;<init>, obj_tag: 58, thread_id: 0
+        method_exit: Ljunit/swingui/StatusLine;<init>, thread_id: 0
+      method_exit: Ljunit/swingui/TestRunner;createStatusLine, thread_id: 0
+        field_modi: Ljunit/swingui/StatusLine;fStatusLine, dec_cls: Ljunit/swingui/TestRunner;, in_method: Ljunit/swingui/TestRunner;createUI, field_obj_tag: 58, owner_obj_tag: 1, thread_id: 0
+      method_entry: Ljunit/swingui/TestRunner;createQuitButton, obj_tag: 1, thread_id: 0
+        method_entry: Ljunit/swingui/TestRunner$9;<init>, obj_tag: 59, thread_id: 0
+            field_modi: Ljunit/swingui/TestRunner;this$0, dec_cls: Ljunit/swingui/TestRunner$9;, in_method: Ljunit/swingui/TestRunner$9;<init>, field_obj_tag: 1, owner_obj_tag: 59, thread_id: 0
+        method_exit: Ljunit/swingui/TestRunner$9;<init>, thread_id: 0
+      method_exit: Ljunit/swingui/TestRunner;createQuitButton, thread_id: 0
+      method_entry: Ljunit/swingui/TestRunner;createLogo, obj_tag: 1, thread_id: 0
+        method_entry: Ljunit/swingui/TestRunner;getIconResource, param_obj_tag: 7, param_obj_tag: 61, thread_id: 0
+        method_exit: Ljunit/swingui/TestRunner;getIconResource, thread_id: 0
+        method_entry: Ljunit/runner/Version;id, thread_id: 0
+        method_exit: Ljunit/runner/Version;id, thread_id: 0
+      method_exit: Ljunit/swingui/TestRunner;createLogo, thread_id: 0
+      method_entry: Ljunit/swingui/TestRunner;addGrid, obj_tag: 1, param_obj_tag: 63, param_obj_tag: 64, thread_id: 0
+      method_exit: Ljunit/swingui/TestRunner;addGrid, thread_id: 0
+      method_entry: Ljunit/swingui/TestRunner;addGrid, obj_tag: 1, param_obj_tag: 63, param_obj_tag: 14, thread_id: 0
+      method_exit: Ljunit/swingui/TestRunner;addGrid, thread_id: 0
+      method_entry: Ljunit/swingui/TestRunner;addGrid, obj_tag: 1, param_obj_tag: 63, param_obj_tag: 65, thread_id: 0
+      method_exit: Ljunit/swingui/TestRunner;addGrid, thread_id: 0
+      method_entry: Ljunit/swingui/TestRunner;addGrid, obj_tag: 1, param_obj_tag: 63, param_obj_tag: 17, thread_id: 0
+      method_exit: Ljunit/swingui/TestRunner;addGrid, thread_id: 0
+      method_entry: Ljunit/swingui/TestRunner;addGrid, obj_tag: 1, param_obj_tag: 63, param_obj_tag: 20, thread_id: 0
+      method_exit: Ljunit/swingui/TestRunner;addGrid, thread_id: 0
+      method_entry: Ljunit/swingui/TestRunner;addGrid, obj_tag: 1, param_obj_tag: 63, param_obj_tag: 66, thread_id: 0
+      method_exit: Ljunit/swingui/TestRunner;addGrid, thread_id: 0
+      method_entry: Ljunit/swingui/TestRunner;addGrid, obj_tag: 1, param_obj_tag: 63, param_obj_tag: 21, thread_id: 0
+      method_exit: Ljunit/swingui/TestRunner;addGrid, thread_id: 0
+      method_entry: Ljunit/swingui/TestRunner;addGrid, obj_tag: 1, param_obj_tag: 63, param_obj_tag: 62, thread_id: 0
+      method_exit: Ljunit/swingui/TestRunner;addGrid, thread_id: 0
+      method_entry: Ljunit/swingui/TestRunner;addGrid, obj_tag: 1, param_obj_tag: 63, param_obj_tag: 22, thread_id: 0
+      method_exit: Ljunit/swingui/TestRunner;addGrid, thread_id: 0
+      method_entry: Ljunit/swingui/TestRunner;addGrid, obj_tag: 1, param_obj_tag: 63, param_obj_tag: 67, thread_id: 0
+      method_exit: Ljunit/swingui/TestRunner;addGrid, thread_id: 0
+      method_entry: Ljunit/swingui/TestRunner;addGrid, obj_tag: 1, param_obj_tag: 63, param_obj_tag: 68, thread_id: 0
+      method_exit: Ljunit/swingui/TestRunner;addGrid, thread_id: 0
+      method_entry: Ljunit/swingui/TestRunner;addGrid, obj_tag: 1, param_obj_tag: 63, param_obj_tag: 58, thread_id: 0
+      method_exit: Ljunit/swingui/TestRunner;addGrid, thread_id: 0
+      method_entry: Ljunit/swingui/TestRunner;addGrid, obj_tag: 1, param_obj_tag: 63, param_obj_tag: 60, thread_id: 0
+      method_exit: Ljunit/swingui/TestRunner;addGrid, thread_id: 0
+      method_entry: Ljunit/swingui/ProgressBar;setBounds, obj_tag: 21, thread_id: 0
+        method_entry: Ljunit/swingui/ProgressBar;scale, obj_tag: 21, thread_id: 0
+        method_exit: Ljunit/swingui/ProgressBar;scale, thread_id: 0
+      method_exit: Ljunit/swingui/ProgressBar;setBounds, thread_id: 0
+    method_exit: Ljunit/swingui/TestRunner;createUI, thread_id: 0
+    method_entry: Ljunit/swingui/TestRunner;setSuite, obj_tag: 1, param_obj_tag: 5, thread_id: 0
+    method_exit: Ljunit/swingui/TestRunner;setSuite, thread_id: 0
+    method_entry: Ljunit/swingui/TestRunner;runSuite, obj_tag: 1, thread_id: 0
+      method_entry: Ljunit/swingui/TestRunner;shouldReload, obj_tag: 1, thread_id: 0
+        method_entry: Ljunit/runner/BaseTestRunner;inVAJava, thread_id: 0
+        method_exit: Ljunit/runner/BaseTestRunner;inVAJava, thread_id: 0
+      method_exit: Ljunit/swingui/TestRunner;shouldReload, thread_id: 0
+      method_entry: Ljunit/runner/BaseTestRunner;setLoading, obj_tag: 1, thread_id: 0
+      method_exit: Ljunit/runner/BaseTestRunner;setLoading, thread_id: 0
+      method_entry: Ljunit/swingui/TestRunner;reset, obj_tag: 1, thread_id: 0
+        method_entry: Ljunit/swingui/CounterPanel;reset, obj_tag: 22, thread_id: 0
+          method_entry: Ljunit/swingui/CounterPanel;setLabelValue, obj_tag: 22, param_obj_tag: 25, thread_id: 0
+          method_exit: Ljunit/swingui/CounterPanel;setLabelValue, thread_id: 0
+          method_entry: Ljunit/swingui/CounterPanel;setLabelValue, obj_tag: 22, param_obj_tag: 26, thread_id: 0
+          method_exit: Ljunit/swingui/CounterPanel;setLabelValue, thread_id: 0
+          method_entry: Ljunit/swingui/CounterPanel;setLabelValue, obj_tag: 22, param_obj_tag: 27, thread_id: 0
+          method_exit: Ljunit/swingui/CounterPanel;setLabelValue, thread_id: 0
+        method_exit: Ljunit/swingui/CounterPanel;reset, thread_id: 0
+        method_entry: Ljunit/swingui/ProgressBar;reset, obj_tag: 21, thread_id: 0
+        method_exit: Ljunit/swingui/ProgressBar;reset, thread_id: 0
+        method_entry: Ljunit/swingui/DefaultFailureDetailView;clear, obj_tag: 56, thread_id: 0
+        method_exit: Ljunit/swingui/DefaultFailureDetailView;clear, thread_id: 0
+      method_exit: Ljunit/swingui/TestRunner;reset, thread_id: 0
+      method_entry: Ljunit/swingui/TestRunner;showInfo, obj_tag: 1, param_obj_tag: 70, thread_id: 0
+        method_entry: Ljunit/swingui/StatusLine;showInfo, obj_tag: 58, param_obj_tag: 70, thread_id: 0
+        method_exit: Ljunit/swingui/StatusLine;showInfo, thread_id: 0
+      method_exit: Ljunit/swingui/TestRunner;showInfo, thread_id: 0
+      method_entry: Ljunit/swingui/TestRunner;getSuiteText, obj_tag: 1, thread_id: 0
+      method_exit: Ljunit/swingui/TestRunner;getSuiteText, thread_id: 0
+      method_entry: Ljunit/runner/BaseTestRunner;getTest, obj_tag: 1, param_obj_tag: 71, thread_id: 0
+        method_entry: Ljunit/runner/BaseTestRunner;loadSuiteClass, obj_tag: 1, param_obj_tag: 71, thread_id: 0
+          method_entry: Ljunit/runner/BaseTestRunner;getLoader, obj_tag: 1, thread_id: 0
+            method_entry: Ljunit/runner/BaseTestRunner;useReloadingTestSuiteLoader, obj_tag: 1, thread_id: 0
+              method_entry: Ljunit/runner/BaseTestRunner;getPreference, param_obj_tag: 19, thread_id: 0
+              method_exit: Ljunit/runner/BaseTestRunner;getPreference, thread_id: 0
+              method_entry: Ljunit/runner/BaseTestRunner;inVAJava, thread_id: 0
+              method_exit: Ljunit/runner/BaseTestRunner;inVAJava, thread_id: 0
+            method_exit: Ljunit/runner/BaseTestRunner;useReloadingTestSuiteLoader, thread_id: 0
+            method_entry: Ljunit/runner/ReloadingTestSuiteLoader;<init>, obj_tag: 72, thread_id: 0
+            method_exit: Ljunit/runner/ReloadingTestSuiteLoader;<init>, thread_id: 0
+          method_exit: Ljunit/runner/BaseTestRunner;getLoader, thread_id: 0
+          method_entry: Ljunit/runner/ReloadingTestSuiteLoader;load, obj_tag: 72, param_obj_tag: 71, thread_id: 0
+            method_entry: Ljunit/runner/TestCaseClassLoader;<init>, obj_tag: 73, thread_id: 0
+              method_entry: Ljunit/runner/TestCaseClassLoader;<init>, obj_tag: 73, param_obj_tag: 74, thread_id: 0
+                method_entry: Ljunit/runner/TestCaseClassLoader;scanPath, obj_tag: 73, param_obj_tag: 74, thread_id: 0
+                method_exit: Ljunit/runner/TestCaseClassLoader;scanPath, thread_id: 0
+                method_entry: Ljunit/runner/TestCaseClassLoader;readExcludedPackages, obj_tag: 73, thread_id: 0
+                method_exit: Ljunit/runner/TestCaseClassLoader;readExcludedPackages, thread_id: 0
+              method_exit: Ljunit/runner/TestCaseClassLoader;<init>, thread_id: 0
+            method_exit: Ljunit/runner/TestCaseClassLoader;<init>, thread_id: 0
+            method_entry: Ljunit/runner/TestCaseClassLoader;loadClass, obj_tag: 73, param_obj_tag: 71, thread_id: 0
+              method_entry: Ljunit/runner/TestCaseClassLoader;isExcluded, obj_tag: 73, param_obj_tag: 71, thread_id: 0
+              method_exit: Ljunit/runner/TestCaseClassLoader;isExcluded, thread_id: 0
+              method_entry: Ljunit/runner/TestCaseClassLoader;lookupClassData, obj_tag: 73, param_obj_tag: 71, thread_id: 0
+                method_entry: Ljunit/runner/TestCaseClassLoader;isJar, obj_tag: 73, param_obj_tag: 78, thread_id: 0
+                method_exit: Ljunit/runner/TestCaseClassLoader;isJar, thread_id: 0
+                method_entry: Ljunit/runner/TestCaseClassLoader;loadFileData, obj_tag: 73, param_obj_tag: 78, param_obj_tag: 79, thread_id: 0
+                method_exit: Ljunit/runner/TestCaseClassLoader;loadFileData, thread_id: 0
+                method_entry: Ljunit/runner/TestCaseClassLoader;isJar, obj_tag: 73, param_obj_tag: 80, thread_id: 0
+                method_exit: Ljunit/runner/TestCaseClassLoader;isJar, thread_id: 0
+                method_entry: Ljunit/runner/TestCaseClassLoader;loadFileData, obj_tag: 73, param_obj_tag: 80, param_obj_tag: 81, thread_id: 0
+                method_exit: Ljunit/runner/TestCaseClassLoader;loadFileData, thread_id: 0
+                method_entry: Ljunit/runner/TestCaseClassLoader;isJar, obj_tag: 73, param_obj_tag: 82, thread_id: 0
+                method_exit: Ljunit/runner/TestCaseClassLoader;isJar, thread_id: 0
+                method_entry: Ljunit/runner/TestCaseClassLoader;loadFileData, obj_tag: 73, param_obj_tag: 82, param_obj_tag: 83, thread_id: 0
+                method_exit: Ljunit/runner/TestCaseClassLoader;loadFileData, thread_id: 0
+                method_entry: Ljunit/runner/TestCaseClassLoader;isJar, obj_tag: 73, param_obj_tag: 84, thread_id: 0
+                method_exit: Ljunit/runner/TestCaseClassLoader;isJar, thread_id: 0
+                method_entry: Ljunit/runner/TestCaseClassLoader;loadFileData, obj_tag: 73, param_obj_tag: 84, param_obj_tag: 85, thread_id: 0
+                method_exit: Ljunit/runner/TestCaseClassLoader;loadFileData, thread_id: 0
+              method_exit: Ljunit/runner/TestCaseClassLoader;lookupClassData, thread_id: 0
+            method_exit: Ljunit/runner/TestCaseClassLoader;loadClass, thread_id: 0
+          method_exit: Ljunit/runner/ReloadingTestSuiteLoader;load, thread_id: 0
+        method_exit: Ljunit/runner/BaseTestRunner;loadSuiteClass, thread_id: 0
+        method_entry: Ljunit/swingui/TestRunner;runFailed, obj_tag: 1, param_obj_tag: 86, thread_id: 0
+          method_entry: Ljunit/swingui/TestRunner;showStatus, obj_tag: 1, param_obj_tag: 86, thread_id: 0
+            method_entry: Ljunit/swingui/StatusLine;showError, obj_tag: 58, param_obj_tag: 86, thread_id: 0
+            method_exit: Ljunit/swingui/StatusLine;showError, thread_id: 0
+          method_exit: Ljunit/swingui/TestRunner;showStatus, thread_id: 0
+        method_exit: Ljunit/swingui/TestRunner;runFailed, thread_id: 0
+      method_exit: Ljunit/runner/BaseTestRunner;getTest, thread_id: 0
+    method_exit: Ljunit/swingui/TestRunner;runSuite, thread_id: 0
+  method_exit: Ljunit/swingui/TestRunner;start, thread_id: 0
+method_exit: Ltest/auto/State_DefaultState_TestRunner_FailureDetailView_1;main, thread_id: 0
+method_entry: Ljunit/swingui/ProgressBar;paintComponent, obj_tag: 21, param_obj_tag: 87, thread_id: 1
+  method_entry: Ljunit/swingui/ProgressBar;paintBackground, obj_tag: 21, param_obj_tag: 87, thread_id: 1
+  method_exit: Ljunit/swingui/ProgressBar;paintBackground, thread_id: 1
+  method_entry: Ljunit/swingui/ProgressBar;paintStatus, obj_tag: 21, param_obj_tag: 87, thread_id: 1
+    method_entry: Ljunit/swingui/ProgressBar;getStatusColor, obj_tag: 21, thread_id: 1
+    method_exit: Ljunit/swingui/ProgressBar;getStatusColor, thread_id: 1
+  method_exit: Ljunit/swingui/ProgressBar;paintStatus, thread_id: 1
+method_exit: Ljunit/swingui/ProgressBar;paintComponent, thread_id: 1
+method_entry: Ljunit/swingui/ProgressBar;paintComponent, obj_tag: 21, param_obj_tag: 88, thread_id: 1
+  method_entry: Ljunit/swingui/ProgressBar;paintBackground, obj_tag: 21, param_obj_tag: 88, thread_id: 1
+  method_exit: Ljunit/swingui/ProgressBar;paintBackground, thread_id: 1
+  method_entry: Ljunit/swingui/ProgressBar;paintStatus, obj_tag: 21, param_obj_tag: 88, thread_id: 1
+    method_entry: Ljunit/swingui/ProgressBar;getStatusColor, obj_tag: 21, thread_id: 1
+    method_exit: Ljunit/swingui/ProgressBar;getStatusColor, thread_id: 1
+  method_exit: Ljunit/swingui/ProgressBar;paintStatus, thread_id: 1
+method_exit: Ljunit/swingui/ProgressBar;paintComponent, thread_id: 1
+method_entry: Ljunit/swingui/TestRunner$8;windowClosing, obj_tag: 9, param_obj_tag: 89, thread_id: 1
+  method_entry: Ljunit/swingui/TestRunner;terminate, obj_tag: 1, thread_id: 1
+    method_entry: Ljunit/swingui/TestRunner;saveHistory, obj_tag: 1, thread_id: 1
+      method_entry: Ljunit/swingui/TestRunner;getSettingsFile, obj_tag: 1, thread_id: 1
+      method_exit: Ljunit/swingui/TestRunner;getSettingsFile, thread_id: 1
+    method_exit: Ljunit/swingui/TestRunner;saveHistory, thread_id: 1

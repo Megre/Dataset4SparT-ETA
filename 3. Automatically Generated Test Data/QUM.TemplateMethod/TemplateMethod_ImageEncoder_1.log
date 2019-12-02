@@ -1,0 +1,120 @@
+method_entry: Ltest/auto/TemplateMethod_ImageEncoder_1;main, thread_id: 0
+  method_entry: Lacme/ImageEncoder;<clinit>, thread_id: 0
+  method_exit: Lacme/ImageEncoder;<clinit>, thread_id: 0
+  method_entry: Lacme/GifEncoder;<init>, obj_tag: 1, param_obj_tag: 2, param_obj_tag: 3, thread_id: 0
+    method_entry: Lacme/ImageEncoder;<init>, obj_tag: 1, param_obj_tag: 2, param_obj_tag: 3, thread_id: 0
+      method_entry: Lacme/ImageEncoder;<init>, obj_tag: 1, param_obj_tag: 4, param_obj_tag: 3, thread_id: 0
+      method_exit: Lacme/ImageEncoder;<init>, thread_id: 0
+    method_exit: Lacme/ImageEncoder;<init>, thread_id: 0
+  method_exit: Lacme/GifEncoder;<init>, thread_id: 0
+  method_entry: Lacme/ImageEncoder;imageComplete, obj_tag: 1, thread_id: 0
+    method_entry: Lacme/ImageEncoder;encodeFinish, obj_tag: 1, thread_id: 0
+    method_exit: Lacme/ImageEncoder;encodeFinish, thread_id: 0
+    method_entry: Lacme/GifEncoder;encodeDone, obj_tag: 1, thread_id: 0
+      method_entry: Lacme/IntHashtable;<init>, obj_tag: 5, thread_id: 0
+        method_entry: Lacme/IntHashtable;<init>, obj_tag: 5, thread_id: 0
+        method_exit: Lacme/IntHashtable;<init>, thread_id: 0
+      method_exit: Lacme/IntHashtable;<init>, thread_id: 0
+      method_entry: Lacme/IntHashtable;elements, obj_tag: 5, thread_id: 0
+        method_entry: Lacme/IntHashtableEnumerator;<init>, obj_tag: 6, thread_id: 0
+        method_exit: Lacme/IntHashtableEnumerator;<init>, thread_id: 0
+      method_exit: Lacme/IntHashtable;elements, thread_id: 0
+      method_entry: Lacme/IntHashtableEnumerator;hasMoreElements, obj_tag: 6, thread_id: 0
+      method_exit: Lacme/IntHashtableEnumerator;hasMoreElements, thread_id: 0
+      method_entry: Lacme/GifEncoder;GIFEncode, obj_tag: 1, param_obj_tag: 3, thread_id: 0
+        method_entry: Lacme/GifEncoder;writeString, param_obj_tag: 3, param_obj_tag: 7, thread_id: 0
+        method_exit: Lacme/GifEncoder;writeString, thread_id: 0
+        method_entry: Lacme/GifEncoder;Putword, obj_tag: 1, param_obj_tag: 3, thread_id: 0
+          method_entry: Lacme/GifEncoder;Putbyte, obj_tag: 1, param_obj_tag: 3, thread_id: 0
+          method_exit: Lacme/GifEncoder;Putbyte, thread_id: 0
+          method_entry: Lacme/GifEncoder;Putbyte, obj_tag: 1, param_obj_tag: 3, thread_id: 0
+          method_exit: Lacme/GifEncoder;Putbyte, thread_id: 0
+        method_exit: Lacme/GifEncoder;Putword, thread_id: 0
+        method_entry: Lacme/GifEncoder;Putword, obj_tag: 1, param_obj_tag: 3, thread_id: 0
+          method_entry: Lacme/GifEncoder;Putbyte, obj_tag: 1, param_obj_tag: 3, thread_id: 0
+          method_exit: Lacme/GifEncoder;Putbyte, thread_id: 0
+          method_entry: Lacme/GifEncoder;Putbyte, obj_tag: 1, param_obj_tag: 3, thread_id: 0
+          method_exit: Lacme/GifEncoder;Putbyte, thread_id: 0
+        method_exit: Lacme/GifEncoder;Putword, thread_id: 0
+        method_entry: Lacme/GifEncoder;Putbyte, obj_tag: 1, param_obj_tag: 3, thread_id: 0
+        method_exit: Lacme/GifEncoder;Putbyte, thread_id: 0
+        method_entry: Lacme/GifEncoder;Putbyte, obj_tag: 1, param_obj_tag: 3, thread_id: 0
+        method_exit: Lacme/GifEncoder;Putbyte, thread_id: 0
+        method_entry: Lacme/GifEncoder;Putbyte, obj_tag: 1, param_obj_tag: 3, thread_id: 0
+        method_exit: Lacme/GifEncoder;Putbyte, thread_id: 0
+        method_entry: Lacme/GifEncoder;Putbyte, obj_tag: 1, param_obj_tag: 3, thread_id: 0
+        method_exit: Lacme/GifEncoder;Putbyte, thread_id: 0
+        method_entry: Lacme/GifEncoder;Putbyte, obj_tag: 1, param_obj_tag: 3, thread_id: 0
+        method_exit: Lacme/GifEncoder;Putbyte, thread_id: 0
+        method_entry: Lacme/GifEncoder;Putbyte, obj_tag: 1, param_obj_tag: 3, thread_id: 0
+        method_exit: Lacme/GifEncoder;Putbyte, thread_id: 0
+        method_entry: Lacme/GifEncoder;Putbyte, obj_tag: 1, param_obj_tag: 3, thread_id: 0
+        method_exit: Lacme/GifEncoder;Putbyte, thread_id: 0
+        method_entry: Lacme/GifEncoder;Putbyte, obj_tag: 1, param_obj_tag: 3, thread_id: 0
+        method_exit: Lacme/GifEncoder;Putbyte, thread_id: 0
+        method_entry: Lacme/GifEncoder;Putbyte, obj_tag: 1, param_obj_tag: 3, thread_id: 0
+        method_exit: Lacme/GifEncoder;Putbyte, thread_id: 0
+        method_entry: Lacme/GifEncoder;Putbyte, obj_tag: 1, param_obj_tag: 3, thread_id: 0
+        method_exit: Lacme/GifEncoder;Putbyte, thread_id: 0
+        method_entry: Lacme/GifEncoder;Putword, obj_tag: 1, param_obj_tag: 3, thread_id: 0
+          method_entry: Lacme/GifEncoder;Putbyte, obj_tag: 1, param_obj_tag: 3, thread_id: 0
+          method_exit: Lacme/GifEncoder;Putbyte, thread_id: 0
+          method_entry: Lacme/GifEncoder;Putbyte, obj_tag: 1, param_obj_tag: 3, thread_id: 0
+          method_exit: Lacme/GifEncoder;Putbyte, thread_id: 0
+        method_exit: Lacme/GifEncoder;Putword, thread_id: 0
+        method_entry: Lacme/GifEncoder;Putword, obj_tag: 1, param_obj_tag: 3, thread_id: 0
+          method_entry: Lacme/GifEncoder;Putbyte, obj_tag: 1, param_obj_tag: 3, thread_id: 0
+          method_exit: Lacme/GifEncoder;Putbyte, thread_id: 0
+          method_entry: Lacme/GifEncoder;Putbyte, obj_tag: 1, param_obj_tag: 3, thread_id: 0
+          method_exit: Lacme/GifEncoder;Putbyte, thread_id: 0
+        method_exit: Lacme/GifEncoder;Putword, thread_id: 0
+        method_entry: Lacme/GifEncoder;Putword, obj_tag: 1, param_obj_tag: 3, thread_id: 0
+          method_entry: Lacme/GifEncoder;Putbyte, obj_tag: 1, param_obj_tag: 3, thread_id: 0
+          method_exit: Lacme/GifEncoder;Putbyte, thread_id: 0
+          method_entry: Lacme/GifEncoder;Putbyte, obj_tag: 1, param_obj_tag: 3, thread_id: 0
+          method_exit: Lacme/GifEncoder;Putbyte, thread_id: 0
+        method_exit: Lacme/GifEncoder;Putword, thread_id: 0
+        method_entry: Lacme/GifEncoder;Putword, obj_tag: 1, param_obj_tag: 3, thread_id: 0
+          method_entry: Lacme/GifEncoder;Putbyte, obj_tag: 1, param_obj_tag: 3, thread_id: 0
+          method_exit: Lacme/GifEncoder;Putbyte, thread_id: 0
+          method_entry: Lacme/GifEncoder;Putbyte, obj_tag: 1, param_obj_tag: 3, thread_id: 0
+          method_exit: Lacme/GifEncoder;Putbyte, thread_id: 0
+        method_exit: Lacme/GifEncoder;Putword, thread_id: 0
+        method_entry: Lacme/GifEncoder;Putbyte, obj_tag: 1, param_obj_tag: 3, thread_id: 0
+        method_exit: Lacme/GifEncoder;Putbyte, thread_id: 0
+        method_entry: Lacme/GifEncoder;Putbyte, obj_tag: 1, param_obj_tag: 3, thread_id: 0
+        method_exit: Lacme/GifEncoder;Putbyte, thread_id: 0
+        method_entry: Lacme/GifEncoder;compress, obj_tag: 1, param_obj_tag: 3, thread_id: 0
+          method_entry: Lacme/GifEncoder;MAXCODE, obj_tag: 1, thread_id: 0
+          method_exit: Lacme/GifEncoder;MAXCODE, thread_id: 0
+          method_entry: Lacme/GifEncoder;char_init, obj_tag: 1, thread_id: 0
+          method_exit: Lacme/GifEncoder;char_init, thread_id: 0
+          method_entry: Lacme/GifEncoder;GIFNextPixel, obj_tag: 1, thread_id: 0
+          method_exit: Lacme/GifEncoder;GIFNextPixel, thread_id: 0
+          method_entry: Lacme/GifEncoder;cl_hash, obj_tag: 1, thread_id: 0
+          method_exit: Lacme/GifEncoder;cl_hash, thread_id: 0
+          method_entry: Lacme/GifEncoder;output, obj_tag: 1, param_obj_tag: 3, thread_id: 0
+          method_exit: Lacme/GifEncoder;output, thread_id: 0
+          method_entry: Lacme/GifEncoder;GIFNextPixel, obj_tag: 1, thread_id: 0
+          method_exit: Lacme/GifEncoder;GIFNextPixel, thread_id: 0
+          method_entry: Lacme/GifEncoder;output, obj_tag: 1, param_obj_tag: 3, thread_id: 0
+          method_exit: Lacme/GifEncoder;output, thread_id: 0
+          method_entry: Lacme/GifEncoder;output, obj_tag: 1, param_obj_tag: 3, thread_id: 0
+            method_entry: Lacme/GifEncoder;char_out, obj_tag: 1, param_obj_tag: 3, thread_id: 0
+            method_exit: Lacme/GifEncoder;char_out, thread_id: 0
+            method_entry: Lacme/GifEncoder;char_out, obj_tag: 1, param_obj_tag: 3, thread_id: 0
+            method_exit: Lacme/GifEncoder;char_out, thread_id: 0
+            method_entry: Lacme/GifEncoder;flush_char, obj_tag: 1, param_obj_tag: 3, thread_id: 0
+            method_exit: Lacme/GifEncoder;flush_char, thread_id: 0
+          method_exit: Lacme/GifEncoder;output, thread_id: 0
+        method_exit: Lacme/GifEncoder;compress, thread_id: 0
+        method_entry: Lacme/GifEncoder;Putbyte, obj_tag: 1, param_obj_tag: 3, thread_id: 0
+        method_exit: Lacme/GifEncoder;Putbyte, thread_id: 0
+        method_entry: Lacme/GifEncoder;Putbyte, obj_tag: 1, param_obj_tag: 3, thread_id: 0
+        method_exit: Lacme/GifEncoder;Putbyte, thread_id: 0
+      method_exit: Lacme/GifEncoder;GIFEncode, thread_id: 0
+    method_exit: Lacme/GifEncoder;encodeDone, thread_id: 0
+    method_entry: Lacme/ImageEncoder;stop, obj_tag: 1, thread_id: 0
+    method_exit: Lacme/ImageEncoder;stop, thread_id: 0
+  method_exit: Lacme/ImageEncoder;imageComplete, thread_id: 0
+method_exit: Ltest/auto/TemplateMethod_ImageEncoder_1;main, thread_id: 0

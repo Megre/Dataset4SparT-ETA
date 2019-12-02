@@ -1,0 +1,54 @@
+method_entry: Ltest/auto/Strategy_Setter_StandardDrawingView_Drawing_430;main, thread_id: 0
+  method_entry: LCH/ifa/draw/samples/javadraw/BouncingDrawing;<init>, obj_tag: 1, thread_id: 0
+    method_entry: LCH/ifa/draw/standard/StandardDrawing;<init>, obj_tag: 1, thread_id: 0
+      method_entry: LCH/ifa/draw/standard/CompositeFigure;<init>, obj_tag: 1, thread_id: 0
+        method_entry: LCH/ifa/draw/standard/AbstractFigure;<init>, obj_tag: 1, thread_id: 0
+        method_exit: LCH/ifa/draw/standard/AbstractFigure;<init>, thread_id: 0
+      method_exit: LCH/ifa/draw/standard/CompositeFigure;<init>, thread_id: 0
+    method_exit: LCH/ifa/draw/standard/StandardDrawing;<init>, thread_id: 0
+  method_exit: LCH/ifa/draw/samples/javadraw/BouncingDrawing;<init>, thread_id: 0
+  method_entry: LCH/ifa/draw/samples/javadraw/JavaDrawViewer;<init>, obj_tag: 4, thread_id: 0
+  method_exit: LCH/ifa/draw/samples/javadraw/JavaDrawViewer;<init>, thread_id: 0
+  method_entry: LCH/ifa/draw/standard/StandardDrawingView;<init>, obj_tag: 5, param_obj_tag: 4, thread_id: 0
+      field_modi: LCH/ifa/draw/framework/DrawingEditor;fEditor, dec_cls: LCH/ifa/draw/standard/StandardDrawingView;, in_method: LCH/ifa/draw/standard/StandardDrawingView;<init>, field_obj_tag: 4, owner_obj_tag: 5, thread_id: 0
+      field_modi: LCH/ifa/draw/framework/PointConstrainer;fConstrainer, dec_cls: LCH/ifa/draw/standard/StandardDrawingView;, in_method: LCH/ifa/draw/standard/StandardDrawingView;<init>, field_obj_tag: 0, owner_obj_tag: 5, thread_id: 0
+    method_entry: LCH/ifa/draw/standard/BufferedUpdateStrategy;<init>, obj_tag: 9, thread_id: 0
+    method_exit: LCH/ifa/draw/standard/BufferedUpdateStrategy;<init>, thread_id: 0
+    method_entry: LCH/ifa/draw/standard/StandardDrawingView;setDisplayUpdate, obj_tag: 5, param_obj_tag: 9, thread_id: 0
+        field_modi: LCH/ifa/draw/framework/Painter;fUpdateStrategy, dec_cls: LCH/ifa/draw/standard/StandardDrawingView;, in_method: LCH/ifa/draw/standard/StandardDrawingView;setDisplayUpdate, field_obj_tag: 9, owner_obj_tag: 5, thread_id: 0
+    method_exit: LCH/ifa/draw/standard/StandardDrawingView;setDisplayUpdate, thread_id: 0
+  method_exit: LCH/ifa/draw/standard/StandardDrawingView;<init>, thread_id: 0
+  method_entry: LCH/ifa/draw/standard/StandardDrawingView;setDrawing, obj_tag: 5, param_obj_tag: 1, thread_id: 0
+    method_entry: LCH/ifa/draw/standard/StandardDrawingView;clearSelection, obj_tag: 5, thread_id: 0
+      method_entry: LCH/ifa/draw/standard/StandardDrawingView;selectionElements, obj_tag: 5, thread_id: 0
+        method_entry: LCH/ifa/draw/standard/FigureEnumerator;<init>, obj_tag: 10, param_obj_tag: 8, thread_id: 0
+        method_exit: LCH/ifa/draw/standard/FigureEnumerator;<init>, thread_id: 0
+      method_exit: LCH/ifa/draw/standard/StandardDrawingView;selectionElements, thread_id: 0
+      method_entry: LCH/ifa/draw/standard/FigureEnumerator;hasMoreElements, obj_tag: 10, thread_id: 0
+      method_exit: LCH/ifa/draw/standard/FigureEnumerator;hasMoreElements, thread_id: 0
+      method_entry: LCH/ifa/draw/standard/StandardDrawingView;selectionChanged, obj_tag: 5, thread_id: 0
+        method_entry: LCH/ifa/draw/samples/javadraw/JavaDrawViewer;selectionChanged, obj_tag: 4, param_obj_tag: 5, thread_id: 0
+        method_exit: LCH/ifa/draw/samples/javadraw/JavaDrawViewer;selectionChanged, thread_id: 0
+      method_exit: LCH/ifa/draw/standard/StandardDrawingView;selectionChanged, thread_id: 0
+    method_exit: LCH/ifa/draw/standard/StandardDrawingView;clearSelection, thread_id: 0
+      field_modi: LCH/ifa/draw/framework/Drawing;fDrawing, dec_cls: LCH/ifa/draw/standard/StandardDrawingView;, in_method: LCH/ifa/draw/standard/StandardDrawingView;setDrawing, field_obj_tag: 1, owner_obj_tag: 5, thread_id: 0
+    method_entry: LCH/ifa/draw/standard/StandardDrawing;addDrawingChangeListener, obj_tag: 1, param_obj_tag: 5, thread_id: 0
+    method_exit: LCH/ifa/draw/standard/StandardDrawing;addDrawingChangeListener, thread_id: 0
+    method_entry: LCH/ifa/draw/standard/StandardDrawingView;checkMinimumSize, obj_tag: 5, thread_id: 0
+      method_entry: LCH/ifa/draw/standard/StandardDrawingView;drawing, obj_tag: 5, thread_id: 0
+      method_exit: LCH/ifa/draw/standard/StandardDrawingView;drawing, thread_id: 0
+      method_entry: LCH/ifa/draw/standard/CompositeFigure;figures, obj_tag: 1, thread_id: 0
+        method_entry: LCH/ifa/draw/standard/FigureEnumerator;<init>, obj_tag: 13, param_obj_tag: 2, thread_id: 0
+        method_exit: LCH/ifa/draw/standard/FigureEnumerator;<init>, thread_id: 0
+      method_exit: LCH/ifa/draw/standard/CompositeFigure;figures, thread_id: 0
+      method_entry: LCH/ifa/draw/standard/FigureEnumerator;hasMoreElements, obj_tag: 13, thread_id: 0
+      method_exit: LCH/ifa/draw/standard/FigureEnumerator;hasMoreElements, thread_id: 0
+    method_exit: LCH/ifa/draw/standard/StandardDrawingView;checkMinimumSize, thread_id: 0
+  method_exit: LCH/ifa/draw/standard/StandardDrawingView;setDrawing, thread_id: 0
+  method_entry: LCH/ifa/draw/standard/StandardDrawingView;unfreezeView, obj_tag: 5, thread_id: 0
+    method_entry: LCH/ifa/draw/standard/StandardDrawingView;drawing, obj_tag: 5, thread_id: 0
+    method_exit: LCH/ifa/draw/standard/StandardDrawingView;drawing, thread_id: 0
+    method_entry: LCH/ifa/draw/standard/StandardDrawing;unlock, obj_tag: 1, thread_id: 0
+    method_exit: LCH/ifa/draw/standard/StandardDrawing;unlock, thread_id: 0
+  method_exit: LCH/ifa/draw/standard/StandardDrawingView;unfreezeView, thread_id: 0
+method_exit: Ltest/auto/Strategy_Setter_StandardDrawingView_Drawing_430;main, thread_id: 0

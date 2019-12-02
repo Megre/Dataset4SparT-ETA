@@ -1,0 +1,70 @@
+method_entry: Ltest/auto/Strategy_Setter_DefaultTextModel_ValueHolder_2;main, thread_id: 0
+  method_entry: Lcom/taursys/model/VariantValueHolder;<init>, obj_tag: 1, thread_id: 0
+    method_entry: Lcom/taursys/model/ObjectValueHolder;<init>, obj_tag: 1, thread_id: 0
+      method_entry: Lcom/taursys/model/AbstractValueHolder;<init>, obj_tag: 1, thread_id: 0
+      method_exit: Lcom/taursys/model/AbstractValueHolder;<init>, thread_id: 0
+        field_modi: Lcom/taursys/model/ValueHolder;parentValueHolder, dec_cls: Lcom/taursys/model/ObjectValueHolder;, in_method: Lcom/taursys/model/ObjectValueHolder;<init>, field_obj_tag: 0, owner_obj_tag: 1, thread_id: 0
+    method_exit: Lcom/taursys/model/ObjectValueHolder;<init>, thread_id: 0
+    method_entry: Lcom/taursys/util/DataTypes;<clinit>, thread_id: 0
+    method_exit: Lcom/taursys/util/DataTypes;<clinit>, thread_id: 0
+    method_entry: Lcom/taursys/util/DataTypes;checkJavaDataType, thread_id: 0
+    method_exit: Lcom/taursys/util/DataTypes;checkJavaDataType, thread_id: 0
+  method_exit: Lcom/taursys/model/VariantValueHolder;<init>, thread_id: 0
+  method_entry: Lcom/taursys/model/DefaultTextModel;<init>, obj_tag: 6, thread_id: 0
+    method_entry: Lcom/taursys/model/VariantValueHolder;<init>, obj_tag: 7, thread_id: 0
+      method_entry: Lcom/taursys/model/ObjectValueHolder;<init>, obj_tag: 7, thread_id: 0
+        method_entry: Lcom/taursys/model/AbstractValueHolder;<init>, obj_tag: 7, thread_id: 0
+        method_exit: Lcom/taursys/model/AbstractValueHolder;<init>, thread_id: 0
+          field_modi: Lcom/taursys/model/ValueHolder;parentValueHolder, dec_cls: Lcom/taursys/model/ObjectValueHolder;, in_method: Lcom/taursys/model/ObjectValueHolder;<init>, field_obj_tag: 0, owner_obj_tag: 7, thread_id: 0
+      method_exit: Lcom/taursys/model/ObjectValueHolder;<init>, thread_id: 0
+      method_entry: Lcom/taursys/util/DataTypes;checkJavaDataType, thread_id: 0
+      method_exit: Lcom/taursys/util/DataTypes;checkJavaDataType, thread_id: 0
+    method_exit: Lcom/taursys/model/VariantValueHolder;<init>, thread_id: 0
+      field_modi: Lcom/taursys/model/ValueHolder;valueHolder, dec_cls: Lcom/taursys/model/DefaultTextModel;, in_method: Lcom/taursys/model/DefaultTextModel;<init>, field_obj_tag: 7, owner_obj_tag: 6, thread_id: 0
+  method_exit: Lcom/taursys/model/DefaultTextModel;<init>, thread_id: 0
+  method_entry: Lcom/taursys/model/DefaultTextModel;setValueHolder, obj_tag: 6, param_obj_tag: 1, thread_id: 0
+    method_entry: Lcom/taursys/model/AbstractValueHolder;removeChangeListener, obj_tag: 7, param_obj_tag: 6, thread_id: 0
+    method_exit: Lcom/taursys/model/AbstractValueHolder;removeChangeListener, thread_id: 0
+      field_modi: Lcom/taursys/model/ValueHolder;valueHolder, dec_cls: Lcom/taursys/model/DefaultTextModel;, in_method: Lcom/taursys/model/DefaultTextModel;setValueHolder, field_obj_tag: 1, owner_obj_tag: 6, thread_id: 0
+    method_entry: Lcom/taursys/model/ObjectValueHolder;addChangeListener, obj_tag: 1, param_obj_tag: 6, thread_id: 0
+      method_entry: Lcom/taursys/model/AbstractValueHolder;addChangeListener, obj_tag: 1, param_obj_tag: 6, thread_id: 0
+      method_exit: Lcom/taursys/model/AbstractValueHolder;addChangeListener, thread_id: 0
+    method_exit: Lcom/taursys/model/ObjectValueHolder;addChangeListener, thread_id: 0
+  method_exit: Lcom/taursys/model/DefaultTextModel;setValueHolder, thread_id: 0
+  method_entry: Lcom/taursys/model/DefaultTextModel;setText, obj_tag: 6, param_obj_tag: 9, thread_id: 0
+    method_entry: Lcom/taursys/model/DefaultTextModel;getValueHolder, obj_tag: 6, thread_id: 0
+    method_exit: Lcom/taursys/model/DefaultTextModel;getValueHolder, thread_id: 0
+    method_entry: Lcom/taursys/model/VariantValueHolder;getJavaDataType, obj_tag: 1, param_obj_tag: 10, thread_id: 0
+    method_exit: Lcom/taursys/model/VariantValueHolder;getJavaDataType, thread_id: 0
+    method_entry: Lcom/taursys/util/DataTypes;parse, param_obj_tag: 9, thread_id: 0
+    method_exit: Lcom/taursys/util/DataTypes;parse, thread_id: 0
+    method_entry: Lcom/taursys/util/ChainedException;<clinit>, thread_id: 0
+    method_exit: Lcom/taursys/util/ChainedException;<clinit>, thread_id: 0
+    method_entry: Lcom/taursys/model/ModelException;<clinit>, thread_id: 0
+    method_exit: Lcom/taursys/model/ModelException;<clinit>, thread_id: 0
+    method_entry: Lcom/taursys/model/ModelParseException;<clinit>, thread_id: 0
+    method_exit: Lcom/taursys/model/ModelParseException;<clinit>, thread_id: 0
+    method_entry: Lcom/taursys/model/ModelParseException;<init>, obj_tag: 14, param_obj_tag: 15, param_obj_tag: 16, param_obj_tag: 17, param_obj_tag: 9, param_obj_tag: 18, thread_id: 0
+      method_entry: Lcom/taursys/model/ModelParseException;getReasonMessage, thread_id: 0
+      method_exit: Lcom/taursys/model/ModelParseException;getReasonMessage, thread_id: 0
+      method_entry: Lcom/taursys/model/ModelException;<init>, obj_tag: 14, param_obj_tag: 19, param_obj_tag: 18, thread_id: 0
+        method_entry: Lcom/taursys/util/ChainedException;<init>, obj_tag: 14, param_obj_tag: 19, param_obj_tag: 18, thread_id: 0
+          method_entry: Lcom/taursys/util/ChainedException;<init>, obj_tag: 14, param_obj_tag: 20, thread_id: 0
+          method_exit: Lcom/taursys/util/ChainedException;<init>, thread_id: 0
+        method_exit: Lcom/taursys/util/ChainedException;<init>, thread_id: 0
+      method_exit: Lcom/taursys/model/ModelException;<init>, thread_id: 0
+      method_entry: Lcom/taursys/util/DataTypes;getJavaNameForType, thread_id: 0
+        method_entry: Lcom/taursys/util/DataTypes;checkJavaDataType, thread_id: 0
+        method_exit: Lcom/taursys/util/DataTypes;checkJavaDataType, thread_id: 0
+      method_exit: Lcom/taursys/util/DataTypes;getJavaNameForType, thread_id: 0
+      method_entry: Lcom/taursys/model/ModelParseException;setDiagnosticsInfo, obj_tag: 14, thread_id: 0
+      method_exit: Lcom/taursys/model/ModelParseException;setDiagnosticsInfo, thread_id: 0
+    method_exit: Lcom/taursys/model/ModelParseException;<init>, thread_id: 0
+  method_exit: Lcom/taursys/model/DefaultTextModel;setText, thread_id: 0
+method_exit: Ltest/auto/Strategy_Setter_DefaultTextModel_ValueHolder_2;main, thread_id: 0
+method_entry: Lcom/taursys/util/ChainedException;printStackTrace, obj_tag: 14, param_obj_tag: 26, thread_id: 0
+  method_entry: Lcom/taursys/util/ChainedException;getLocalizedMessage, obj_tag: 14, thread_id: 0
+  method_exit: Lcom/taursys/util/ChainedException;getLocalizedMessage, thread_id: 0
+  method_entry: Lcom/taursys/util/ChainedException;getCause, obj_tag: 14, thread_id: 0
+  method_exit: Lcom/taursys/util/ChainedException;getCause, thread_id: 0
+method_exit: Lcom/taursys/util/ChainedException;printStackTrace, thread_id: 0

@@ -1,0 +1,34 @@
+method_entry: Ltest/auto/TemplateMethod_AbstractFigure_20;main, thread_id: 0
+  method_entry: LCH/ifa/draw/figures/GroupFigure;<init>, obj_tag: 1, thread_id: 0
+    method_entry: LCH/ifa/draw/standard/CompositeFigure;<init>, obj_tag: 1, thread_id: 0
+      method_entry: LCH/ifa/draw/standard/AbstractFigure;<init>, obj_tag: 1, thread_id: 0
+      method_exit: LCH/ifa/draw/standard/AbstractFigure;<init>, thread_id: 0
+    method_exit: LCH/ifa/draw/standard/CompositeFigure;<init>, thread_id: 0
+  method_exit: LCH/ifa/draw/figures/GroupFigure;<init>, thread_id: 0
+  method_entry: LCH/ifa/draw/samples/javadraw/AnimationDecorator;<init>, obj_tag: 2, param_obj_tag: 1, thread_id: 0
+    method_entry: LCH/ifa/draw/standard/DecoratorFigure;<init>, obj_tag: 2, param_obj_tag: 1, thread_id: 0
+      method_entry: LCH/ifa/draw/standard/AbstractFigure;<init>, obj_tag: 2, thread_id: 0
+      method_exit: LCH/ifa/draw/standard/AbstractFigure;<init>, thread_id: 0
+      method_entry: LCH/ifa/draw/standard/DecoratorFigure;decorate, obj_tag: 2, param_obj_tag: 1, thread_id: 0
+        method_entry: LCH/ifa/draw/standard/AbstractFigure;addToContainer, obj_tag: 1, param_obj_tag: 2, thread_id: 0
+          method_entry: LCH/ifa/draw/standard/AbstractFigure;addFigureChangeListener, obj_tag: 1, param_obj_tag: 2, thread_id: 0
+            method_entry: LCH/ifa/draw/standard/FigureChangeEventMulticaster;add, param_obj_tag: 3, param_obj_tag: 2, thread_id: 0
+              method_entry: LCH/ifa/draw/standard/FigureChangeEventMulticaster;addInternal, param_obj_tag: 4, param_obj_tag: 2, thread_id: 0
+              method_exit: LCH/ifa/draw/standard/FigureChangeEventMulticaster;addInternal, thread_id: 0
+            method_exit: LCH/ifa/draw/standard/FigureChangeEventMulticaster;add, thread_id: 0
+          method_exit: LCH/ifa/draw/standard/AbstractFigure;addFigureChangeListener, thread_id: 0
+          method_entry: LCH/ifa/draw/standard/AbstractFigure;invalidate, obj_tag: 1, thread_id: 0
+            method_entry: LCH/ifa/draw/figures/GroupFigure;displayBox, obj_tag: 1, thread_id: 0
+              method_entry: LCH/ifa/draw/standard/CompositeFigure;figures, obj_tag: 1, thread_id: 0
+                method_entry: LCH/ifa/draw/standard/FigureEnumerator;<init>, obj_tag: 5, param_obj_tag: 6, thread_id: 0
+                method_exit: LCH/ifa/draw/standard/FigureEnumerator;<init>, thread_id: 0
+              method_exit: LCH/ifa/draw/standard/CompositeFigure;figures, thread_id: 0
+              method_entry: LCH/ifa/draw/standard/FigureEnumerator;nextFigure, obj_tag: 5, thread_id: 0
+              method_exit: LCH/ifa/draw/standard/FigureEnumerator;nextFigure, thread_id: 0
+            method_exit: LCH/ifa/draw/figures/GroupFigure;displayBox, thread_id: 0
+          method_exit: LCH/ifa/draw/standard/AbstractFigure;invalidate, thread_id: 0
+        method_exit: LCH/ifa/draw/standard/AbstractFigure;addToContainer, thread_id: 0
+      method_exit: LCH/ifa/draw/standard/DecoratorFigure;decorate, thread_id: 0
+    method_exit: LCH/ifa/draw/standard/DecoratorFigure;<init>, thread_id: 0
+  method_exit: LCH/ifa/draw/samples/javadraw/AnimationDecorator;<init>, thread_id: 0
+method_exit: Ltest/auto/TemplateMethod_AbstractFigure_20;main, thread_id: 0

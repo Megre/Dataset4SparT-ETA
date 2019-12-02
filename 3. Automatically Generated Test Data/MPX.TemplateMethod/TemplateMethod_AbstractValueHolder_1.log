@@ -1,0 +1,16 @@
+method_entry: Ltest/auto/TemplateMethod_AbstractValueHolder_1;main, thread_id: 0
+  method_entry: Lcom/taursys/model/VariantValueHolder;<init>, obj_tag: 1, thread_id: 0
+    method_entry: Lcom/taursys/model/ObjectValueHolder;<init>, obj_tag: 1, thread_id: 0
+      method_entry: Lcom/taursys/model/AbstractValueHolder;<init>, obj_tag: 1, thread_id: 0
+      method_exit: Lcom/taursys/model/AbstractValueHolder;<init>, thread_id: 0
+    method_exit: Lcom/taursys/model/ObjectValueHolder;<init>, thread_id: 0
+    method_entry: Lcom/taursys/util/DataTypes;<clinit>, thread_id: 0
+    method_exit: Lcom/taursys/util/DataTypes;<clinit>, thread_id: 0
+    method_entry: Lcom/taursys/util/DataTypes;checkJavaDataType, thread_id: 0
+    method_exit: Lcom/taursys/util/DataTypes;checkJavaDataType, thread_id: 0
+  method_exit: Lcom/taursys/model/VariantValueHolder;<init>, thread_id: 0
+  method_entry: Lcom/taursys/model/AbstractValueHolder;getPropertyValues, obj_tag: 1, thread_id: 0
+    method_entry: Lcom/taursys/model/ObjectValueHolder;getPropertyValue, obj_tag: 1, param_obj_tag: 2, thread_id: 0
+    method_exit: Lcom/taursys/model/ObjectValueHolder;getPropertyValue, thread_id: 0
+  method_exit: Lcom/taursys/model/AbstractValueHolder;getPropertyValues, thread_id: 0
+method_exit: Ltest/auto/TemplateMethod_AbstractValueHolder_1;main, thread_id: 0

@@ -1,0 +1,37 @@
+method_entry: Ltest/auto/Strategy_TestHierarchyRunView_TestRunContext_1;main, thread_id: 0
+  method_entry: Ljunit/runner/BaseTestRunner;<clinit>, thread_id: 0
+  method_exit: Ljunit/runner/BaseTestRunner;<clinit>, thread_id: 0
+  method_entry: Ljunit/swingui/TestRunner;<init>, obj_tag: 1, thread_id: 0
+    method_entry: Ljunit/runner/BaseTestRunner;<init>, obj_tag: 1, thread_id: 0
+      method_entry: Ljunit/runner/BaseTestRunner;readPreferences, thread_id: 0
+        method_entry: Ljunit/runner/BaseTestRunner;getPreferencesFile, thread_id: 0
+        method_exit: Ljunit/runner/BaseTestRunner;getPreferencesFile, thread_id: 0
+      method_exit: Ljunit/runner/BaseTestRunner;readPreferences, thread_id: 0
+      method_entry: Ljunit/runner/BaseTestRunner;getPreference, param_obj_tag: 3, thread_id: 0
+        method_entry: Ljunit/runner/BaseTestRunner;getPreference, param_obj_tag: 3, thread_id: 0
+        method_exit: Ljunit/runner/BaseTestRunner;getPreference, thread_id: 0
+      method_exit: Ljunit/runner/BaseTestRunner;getPreference, thread_id: 0
+    method_exit: Ljunit/runner/BaseTestRunner;<init>, thread_id: 0
+  method_exit: Ljunit/swingui/TestRunner;<init>, thread_id: 0
+  method_entry: Ljunit/swingui/TestHierarchyRunView;<init>, obj_tag: 5, param_obj_tag: 1, thread_id: 0
+      field_modi: Ljunit/swingui/TestRunContext;fTestContext, dec_cls: Ljunit/swingui/TestHierarchyRunView;, in_method: Ljunit/swingui/TestHierarchyRunView;<init>, field_obj_tag: 1, owner_obj_tag: 5, thread_id: 0
+    method_entry: Ljunit/swingui/TestSuitePanel;<init>, obj_tag: 6, thread_id: 0
+    method_exit: Ljunit/swingui/TestSuitePanel;<init>, thread_id: 0
+      field_modi: Ljunit/swingui/TestSuitePanel;fTreeBrowser, dec_cls: Ljunit/swingui/TestHierarchyRunView;, in_method: Ljunit/swingui/TestHierarchyRunView;<init>, field_obj_tag: 6, owner_obj_tag: 5, thread_id: 0
+    method_entry: Ljunit/swingui/TestSuitePanel;getTree, obj_tag: 6, thread_id: 0
+    method_exit: Ljunit/swingui/TestSuitePanel;getTree, thread_id: 0
+    method_entry: Ljunit/swingui/TestHierarchyRunView$1;<init>, obj_tag: 9, thread_id: 0
+        field_modi: Ljunit/swingui/TestHierarchyRunView;this$0, dec_cls: Ljunit/swingui/TestHierarchyRunView$1;, in_method: Ljunit/swingui/TestHierarchyRunView$1;<init>, field_obj_tag: 5, owner_obj_tag: 9, thread_id: 0
+    method_exit: Ljunit/swingui/TestHierarchyRunView$1;<init>, thread_id: 0
+  method_exit: Ljunit/swingui/TestHierarchyRunView;<init>, thread_id: 0
+  method_entry: Ljunit/swingui/TestHierarchyRunView;activate, obj_tag: 5, thread_id: 0
+    method_entry: Ljunit/swingui/TestHierarchyRunView;testSelected, obj_tag: 5, thread_id: 0
+      method_entry: Ljunit/swingui/TestHierarchyRunView;getSelectedTest, obj_tag: 5, thread_id: 0
+        method_entry: Ljunit/swingui/TestSuitePanel;getSelectedTest, obj_tag: 6, thread_id: 0
+        method_exit: Ljunit/swingui/TestSuitePanel;getSelectedTest, thread_id: 0
+      method_exit: Ljunit/swingui/TestHierarchyRunView;getSelectedTest, thread_id: 0
+      method_entry: Ljunit/swingui/TestRunner;handleTestSelected, obj_tag: 1, param_obj_tag: 10, thread_id: 0
+      method_exit: Ljunit/swingui/TestRunner;handleTestSelected, thread_id: 0
+    method_exit: Ljunit/swingui/TestHierarchyRunView;testSelected, thread_id: 0
+  method_exit: Ljunit/swingui/TestHierarchyRunView;activate, thread_id: 0
+method_exit: Ltest/auto/Strategy_TestHierarchyRunView_TestRunContext_1;main, thread_id: 0

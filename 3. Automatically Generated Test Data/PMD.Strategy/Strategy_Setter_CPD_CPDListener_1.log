@@ -1,0 +1,59 @@
+method_entry: Ltest/auto/Strategy_Setter_CPD_CPDListener_1;main, thread_id: 0
+  method_entry: Lnet/sourceforge/pmd/cpd/CPDNullListener;<init>, obj_tag: 1, thread_id: 0
+  method_exit: Lnet/sourceforge/pmd/cpd/CPDNullListener;<init>, thread_id: 0
+  method_entry: Lnet/sourceforge/pmd/cpd/PHPLanguage;<init>, obj_tag: 2, thread_id: 0
+  method_exit: Lnet/sourceforge/pmd/cpd/PHPLanguage;<init>, thread_id: 0
+  method_entry: Lnet/sourceforge/pmd/cpd/CPD;<init>, obj_tag: 3, param_obj_tag: 2, thread_id: 0
+    method_entry: Lnet/sourceforge/pmd/cpd/CPDNullListener;<init>, obj_tag: 5, thread_id: 0
+    method_exit: Lnet/sourceforge/pmd/cpd/CPDNullListener;<init>, thread_id: 0
+      field_modi: Lnet/sourceforge/pmd/cpd/CPDListener;listener, dec_cls: Lnet/sourceforge/pmd/cpd/CPD;, in_method: Lnet/sourceforge/pmd/cpd/CPD;<init>, field_obj_tag: 5, owner_obj_tag: 3, thread_id: 0
+    method_entry: Lnet/sourceforge/pmd/cpd/Tokens;<init>, obj_tag: 6, thread_id: 0
+    method_exit: Lnet/sourceforge/pmd/cpd/Tokens;<init>, thread_id: 0
+      field_modi: Lnet/sourceforge/pmd/cpd/Tokens;tokens, dec_cls: Lnet/sourceforge/pmd/cpd/CPD;, in_method: Lnet/sourceforge/pmd/cpd/CPD;<init>, field_obj_tag: 6, owner_obj_tag: 3, thread_id: 0
+      field_modi: Lnet/sourceforge/pmd/cpd/Language;language, dec_cls: Lnet/sourceforge/pmd/cpd/CPD;, in_method: Lnet/sourceforge/pmd/cpd/CPD;<init>, field_obj_tag: 2, owner_obj_tag: 3, thread_id: 0
+  method_exit: Lnet/sourceforge/pmd/cpd/CPD;<init>, thread_id: 0
+  method_entry: Lnet/sourceforge/pmd/cpd/CPD;setCpdListener, obj_tag: 3, param_obj_tag: 1, thread_id: 0
+      field_modi: Lnet/sourceforge/pmd/cpd/CPDListener;listener, dec_cls: Lnet/sourceforge/pmd/cpd/CPD;, in_method: Lnet/sourceforge/pmd/cpd/CPD;setCpdListener, field_obj_tag: 1, owner_obj_tag: 3, thread_id: 0
+  method_exit: Lnet/sourceforge/pmd/cpd/CPD;setCpdListener, thread_id: 0
+  method_entry: Lnet/sourceforge/pmd/cpd/CPD;go, obj_tag: 3, thread_id: 0
+    method_entry: Lnet/sourceforge/pmd/cpd/TokenEntry;<clinit>, thread_id: 0
+      method_entry: Lnet/sourceforge/pmd/cpd/TokenEntry;<init>, obj_tag: 8, thread_id: 0
+      method_exit: Lnet/sourceforge/pmd/cpd/TokenEntry;<init>, thread_id: 0
+        field_modi: Lnet/sourceforge/pmd/cpd/TokenEntry;EOF, dec_cls: Lnet/sourceforge/pmd/cpd/TokenEntry;, in_method: Lnet/sourceforge/pmd/cpd/TokenEntry;<clinit>, field_obj_tag: 8, owner_obj_tag: 0, thread_id: 0
+    method_exit: Lnet/sourceforge/pmd/cpd/TokenEntry;<clinit>, thread_id: 0
+    method_entry: Lnet/sourceforge/pmd/cpd/TokenEntry;clearImages, thread_id: 0
+    method_exit: Lnet/sourceforge/pmd/cpd/TokenEntry;clearImages, thread_id: 0
+    method_entry: Lnet/sourceforge/pmd/cpd/MatchAlgorithm;<init>, obj_tag: 11, param_obj_tag: 4, param_obj_tag: 6, param_obj_tag: 1, thread_id: 0
+        field_modi: Lnet/sourceforge/pmd/cpd/Tokens;tokens, dec_cls: Lnet/sourceforge/pmd/cpd/MatchAlgorithm;, in_method: Lnet/sourceforge/pmd/cpd/MatchAlgorithm;<init>, field_obj_tag: 6, owner_obj_tag: 11, thread_id: 0
+      method_entry: Lnet/sourceforge/pmd/cpd/Tokens;getTokens, obj_tag: 6, thread_id: 0
+      method_exit: Lnet/sourceforge/pmd/cpd/Tokens;getTokens, thread_id: 0
+        field_modi: Lnet/sourceforge/pmd/cpd/CPDListener;cpdListener, dec_cls: Lnet/sourceforge/pmd/cpd/MatchAlgorithm;, in_method: Lnet/sourceforge/pmd/cpd/MatchAlgorithm;<init>, field_obj_tag: 1, owner_obj_tag: 11, thread_id: 0
+    method_exit: Lnet/sourceforge/pmd/cpd/MatchAlgorithm;<init>, thread_id: 0
+      field_modi: Lnet/sourceforge/pmd/cpd/MatchAlgorithm;matchAlgorithm, dec_cls: Lnet/sourceforge/pmd/cpd/CPD;, in_method: Lnet/sourceforge/pmd/cpd/CPD;go, field_obj_tag: 11, owner_obj_tag: 3, thread_id: 0
+    method_entry: Lnet/sourceforge/pmd/cpd/MatchAlgorithm;findMatches, obj_tag: 11, thread_id: 0
+      method_entry: Lnet/sourceforge/pmd/cpd/CPDNullListener;phaseUpdate, obj_tag: 1, thread_id: 0
+      method_exit: Lnet/sourceforge/pmd/cpd/CPDNullListener;phaseUpdate, thread_id: 0
+      method_entry: Lnet/sourceforge/pmd/cpd/MatchAlgorithm;hash, obj_tag: 11, thread_id: 0
+        method_entry: Lnet/sourceforge/pmd/cpd/Tokens;size, obj_tag: 6, thread_id: 0
+        method_exit: Lnet/sourceforge/pmd/cpd/Tokens;size, thread_id: 0
+      method_exit: Lnet/sourceforge/pmd/cpd/MatchAlgorithm;hash, thread_id: 0
+      method_entry: Lnet/sourceforge/pmd/cpd/CPDNullListener;phaseUpdate, obj_tag: 1, thread_id: 0
+      method_exit: Lnet/sourceforge/pmd/cpd/CPDNullListener;phaseUpdate, thread_id: 0
+      method_entry: Lnet/sourceforge/pmd/cpd/MatchCollector;<init>, obj_tag: 12, param_obj_tag: 11, thread_id: 0
+          field_modi: Lnet/sourceforge/pmd/cpd/MatchAlgorithm;ma, dec_cls: Lnet/sourceforge/pmd/cpd/MatchCollector;, in_method: Lnet/sourceforge/pmd/cpd/MatchCollector;<init>, field_obj_tag: 11, owner_obj_tag: 12, thread_id: 0
+      method_exit: Lnet/sourceforge/pmd/cpd/MatchCollector;<init>, thread_id: 0
+      method_entry: Lnet/sourceforge/pmd/cpd/CPDNullListener;phaseUpdate, obj_tag: 1, thread_id: 0
+      method_exit: Lnet/sourceforge/pmd/cpd/CPDNullListener;phaseUpdate, thread_id: 0
+      method_entry: Lnet/sourceforge/pmd/cpd/MatchCollector;getMatches, obj_tag: 12, thread_id: 0
+        method_entry: Lnet/sourceforge/pmd/cpd/MatchCollector;groupMatches, obj_tag: 12, param_obj_tag: 15, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/Match$MatchCode;<init>, obj_tag: 16, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/Match$MatchCode;<init>, thread_id: 0
+        method_exit: Lnet/sourceforge/pmd/cpd/MatchCollector;groupMatches, thread_id: 0
+      method_exit: Lnet/sourceforge/pmd/cpd/MatchCollector;getMatches, thread_id: 0
+      method_entry: Lnet/sourceforge/pmd/cpd/MatchAlgorithm;matches, obj_tag: 11, thread_id: 0
+      method_exit: Lnet/sourceforge/pmd/cpd/MatchAlgorithm;matches, thread_id: 0
+      method_entry: Lnet/sourceforge/pmd/cpd/CPDNullListener;phaseUpdate, obj_tag: 1, thread_id: 0
+      method_exit: Lnet/sourceforge/pmd/cpd/CPDNullListener;phaseUpdate, thread_id: 0
+    method_exit: Lnet/sourceforge/pmd/cpd/MatchAlgorithm;findMatches, thread_id: 0
+  method_exit: Lnet/sourceforge/pmd/cpd/CPD;go, thread_id: 0
+method_exit: Ltest/auto/Strategy_Setter_CPD_CPDListener_1;main, thread_id: 0

@@ -1,0 +1,130 @@
+method_entry: Ltest/auto/Strategy_Setter_MDocument_TextModel_3;main, thread_id: 0
+  method_entry: Lcom/taursys/model/DefaultTextModel;<init>, obj_tag: 1, thread_id: 0
+    method_entry: Lcom/taursys/model/VariantValueHolder;<init>, obj_tag: 2, thread_id: 0
+      method_entry: Lcom/taursys/model/ObjectValueHolder;<init>, obj_tag: 2, thread_id: 0
+        method_entry: Lcom/taursys/model/AbstractValueHolder;<init>, obj_tag: 2, thread_id: 0
+        method_exit: Lcom/taursys/model/AbstractValueHolder;<init>, thread_id: 0
+          field_modi: Lcom/taursys/model/ValueHolder;parentValueHolder, dec_cls: Lcom/taursys/model/ObjectValueHolder;, in_method: Lcom/taursys/model/ObjectValueHolder;<init>, field_obj_tag: 0, owner_obj_tag: 2, thread_id: 0
+      method_exit: Lcom/taursys/model/ObjectValueHolder;<init>, thread_id: 0
+      method_entry: Lcom/taursys/util/DataTypes;<clinit>, thread_id: 0
+      method_exit: Lcom/taursys/util/DataTypes;<clinit>, thread_id: 0
+      method_entry: Lcom/taursys/util/DataTypes;checkJavaDataType, thread_id: 0
+      method_exit: Lcom/taursys/util/DataTypes;checkJavaDataType, thread_id: 0
+    method_exit: Lcom/taursys/model/VariantValueHolder;<init>, thread_id: 0
+      field_modi: Lcom/taursys/model/ValueHolder;valueHolder, dec_cls: Lcom/taursys/model/DefaultTextModel;, in_method: Lcom/taursys/model/DefaultTextModel;<init>, field_obj_tag: 2, owner_obj_tag: 1, thread_id: 0
+  method_exit: Lcom/taursys/model/DefaultTextModel;<init>, thread_id: 0
+  method_entry: Lcom/taursys/swing/MDocument;<init>, obj_tag: 7, thread_id: 0
+    method_entry: Lcom/taursys/swing/MDocument;createBranchElement, obj_tag: 7, param_obj_tag: 8, param_obj_tag: 9, thread_id: 0
+      method_entry: Lcom/taursys/swing/MDocument;setModified, obj_tag: 7, thread_id: 0
+      method_exit: Lcom/taursys/swing/MDocument;setModified, thread_id: 0
+    method_exit: Lcom/taursys/swing/MDocument;createBranchElement, thread_id: 0
+    method_entry: Lcom/taursys/swing/MDocument;createLeafElement, obj_tag: 7, param_obj_tag: 10, param_obj_tag: 11, thread_id: 0
+      method_entry: Lcom/taursys/swing/MDocument;setModified, obj_tag: 7, thread_id: 0
+      method_exit: Lcom/taursys/swing/MDocument;setModified, thread_id: 0
+    method_exit: Lcom/taursys/swing/MDocument;createLeafElement, thread_id: 0
+    method_entry: Lcom/taursys/swing/MDocument;createDefaultTextModel, obj_tag: 7, thread_id: 0
+      method_entry: Lcom/taursys/model/DefaultTextModel;<init>, obj_tag: 12, thread_id: 0
+        method_entry: Lcom/taursys/model/DefaultTextModel;createDefaultValueHolder, obj_tag: 12, thread_id: 0
+          method_entry: Lcom/taursys/model/VariantValueHolder;<init>, obj_tag: 13, thread_id: 0
+            method_entry: Lcom/taursys/model/ObjectValueHolder;<init>, obj_tag: 13, thread_id: 0
+              method_entry: Lcom/taursys/model/AbstractValueHolder;<init>, obj_tag: 13, thread_id: 0
+              method_exit: Lcom/taursys/model/AbstractValueHolder;<init>, thread_id: 0
+                field_modi: Lcom/taursys/model/ValueHolder;parentValueHolder, dec_cls: Lcom/taursys/model/ObjectValueHolder;, in_method: Lcom/taursys/model/ObjectValueHolder;<init>, field_obj_tag: 0, owner_obj_tag: 13, thread_id: 0
+            method_exit: Lcom/taursys/model/ObjectValueHolder;<init>, thread_id: 0
+            method_entry: Lcom/taursys/util/DataTypes;checkJavaDataType, thread_id: 0
+            method_exit: Lcom/taursys/util/DataTypes;checkJavaDataType, thread_id: 0
+          method_exit: Lcom/taursys/model/VariantValueHolder;<init>, thread_id: 0
+        method_exit: Lcom/taursys/model/DefaultTextModel;createDefaultValueHolder, thread_id: 0
+          field_modi: Lcom/taursys/model/ValueHolder;valueHolder, dec_cls: Lcom/taursys/model/DefaultTextModel;, in_method: Lcom/taursys/model/DefaultTextModel;<init>, field_obj_tag: 13, owner_obj_tag: 12, thread_id: 0
+      method_exit: Lcom/taursys/model/DefaultTextModel;<init>, thread_id: 0
+    method_exit: Lcom/taursys/swing/MDocument;createDefaultTextModel, thread_id: 0
+    method_entry: Lcom/taursys/swing/MDocument;setModel, obj_tag: 7, param_obj_tag: 12, thread_id: 0
+        field_modi: Lcom/taursys/model/TextModel;model, dec_cls: Lcom/taursys/swing/MDocument;, in_method: Lcom/taursys/swing/MDocument;setModel, field_obj_tag: 12, owner_obj_tag: 7, thread_id: 0
+      method_entry: Lcom/taursys/model/DefaultTextModel;addChangeListener, obj_tag: 12, param_obj_tag: 7, thread_id: 0
+      method_exit: Lcom/taursys/model/DefaultTextModel;addChangeListener, thread_id: 0
+      method_entry: Lcom/taursys/swing/MDocument;isChangeable, obj_tag: 7, thread_id: 0
+        method_entry: Lcom/taursys/swing/MDocument;getValueHolder, obj_tag: 7, thread_id: 0
+          method_entry: Lcom/taursys/model/DefaultTextModel;getValueHolder, obj_tag: 12, thread_id: 0
+          method_exit: Lcom/taursys/model/DefaultTextModel;getValueHolder, thread_id: 0
+        method_exit: Lcom/taursys/swing/MDocument;getValueHolder, thread_id: 0
+        method_entry: Lcom/taursys/swing/MDocument;getValueHolder, obj_tag: 7, thread_id: 0
+          method_entry: Lcom/taursys/model/DefaultTextModel;getValueHolder, obj_tag: 12, thread_id: 0
+          method_exit: Lcom/taursys/model/DefaultTextModel;getValueHolder, thread_id: 0
+        method_exit: Lcom/taursys/swing/MDocument;getValueHolder, thread_id: 0
+        method_entry: Lcom/taursys/swing/MDocument;getValueHolder, obj_tag: 7, thread_id: 0
+          method_entry: Lcom/taursys/model/DefaultTextModel;getValueHolder, obj_tag: 12, thread_id: 0
+          method_exit: Lcom/taursys/model/DefaultTextModel;getValueHolder, thread_id: 0
+        method_exit: Lcom/taursys/swing/MDocument;getValueHolder, thread_id: 0
+      method_exit: Lcom/taursys/swing/MDocument;isChangeable, thread_id: 0
+      method_entry: Lcom/taursys/swing/EnableEvent;<init>, obj_tag: 15, param_obj_tag: 7, thread_id: 0
+      method_exit: Lcom/taursys/swing/EnableEvent;<init>, thread_id: 0
+      method_entry: Lcom/taursys/swing/MDocument;fireEnableChange, obj_tag: 7, param_obj_tag: 15, thread_id: 0
+      method_exit: Lcom/taursys/swing/MDocument;fireEnableChange, thread_id: 0
+    method_exit: Lcom/taursys/swing/MDocument;setModel, thread_id: 0
+    method_entry: Lcom/taursys/swing/MDocument;retrieveValue, obj_tag: 7, thread_id: 0
+      method_entry: Lcom/taursys/swing/MDocument;remove, obj_tag: 7, thread_id: 0
+        method_entry: Lcom/taursys/swing/MDocument;setModified, obj_tag: 7, thread_id: 0
+        method_exit: Lcom/taursys/swing/MDocument;setModified, thread_id: 0
+      method_exit: Lcom/taursys/swing/MDocument;remove, thread_id: 0
+      method_entry: Lcom/taursys/model/DefaultTextModel;getText, obj_tag: 12, thread_id: 0
+        method_entry: Lcom/taursys/model/DefaultTextModel;getValueHolder, obj_tag: 12, thread_id: 0
+        method_exit: Lcom/taursys/model/DefaultTextModel;getValueHolder, thread_id: 0
+        method_entry: Lcom/taursys/model/ObjectValueHolder;getPropertyValue, obj_tag: 13, param_obj_tag: 16, thread_id: 0
+        method_exit: Lcom/taursys/model/ObjectValueHolder;getPropertyValue, thread_id: 0
+        method_entry: Lcom/taursys/model/DefaultTextModel;getValueHolder, obj_tag: 12, thread_id: 0
+        method_exit: Lcom/taursys/model/DefaultTextModel;getValueHolder, thread_id: 0
+        method_entry: Lcom/taursys/model/VariantValueHolder;getJavaDataType, obj_tag: 13, param_obj_tag: 17, thread_id: 0
+        method_exit: Lcom/taursys/model/VariantValueHolder;getJavaDataType, thread_id: 0
+      method_exit: Lcom/taursys/model/DefaultTextModel;getText, thread_id: 0
+      method_entry: Lcom/taursys/swing/MDocument;insertString, obj_tag: 7, param_obj_tag: 18, param_obj_tag: 19, thread_id: 0
+        method_entry: Lcom/taursys/swing/MDocument;setModified, obj_tag: 7, thread_id: 0
+        method_exit: Lcom/taursys/swing/MDocument;setModified, thread_id: 0
+      method_exit: Lcom/taursys/swing/MDocument;insertString, thread_id: 0
+      method_entry: Lcom/taursys/swing/MDocument;setModified, obj_tag: 7, thread_id: 0
+      method_exit: Lcom/taursys/swing/MDocument;setModified, thread_id: 0
+    method_exit: Lcom/taursys/swing/MDocument;retrieveValue, thread_id: 0
+  method_exit: Lcom/taursys/swing/MDocument;<init>, thread_id: 0
+  method_entry: Lcom/taursys/swing/MDocument;setModel, obj_tag: 7, param_obj_tag: 1, thread_id: 0
+    method_entry: Lcom/taursys/model/DefaultTextModel;getFormat, obj_tag: 1, thread_id: 0
+    method_exit: Lcom/taursys/model/DefaultTextModel;getFormat, thread_id: 0
+    method_entry: Lcom/taursys/model/DefaultTextModel;getFormat, obj_tag: 12, thread_id: 0
+    method_exit: Lcom/taursys/model/DefaultTextModel;getFormat, thread_id: 0
+    method_entry: Lcom/taursys/model/DefaultTextModel;setFormat, obj_tag: 1, param_obj_tag: 20, thread_id: 0
+      method_entry: Lcom/taursys/model/DefaultTextModel;setupFormat, obj_tag: 1, thread_id: 0
+      method_exit: Lcom/taursys/model/DefaultTextModel;setupFormat, thread_id: 0
+    method_exit: Lcom/taursys/model/DefaultTextModel;setFormat, thread_id: 0
+    method_entry: Lcom/taursys/model/DefaultTextModel;getFormatPattern, obj_tag: 12, thread_id: 0
+    method_exit: Lcom/taursys/model/DefaultTextModel;getFormatPattern, thread_id: 0
+    method_entry: Lcom/taursys/model/DefaultTextModel;setFormatPattern, obj_tag: 1, param_obj_tag: 21, thread_id: 0
+      method_entry: Lcom/taursys/model/DefaultTextModel;setupFormat, obj_tag: 1, thread_id: 0
+      method_exit: Lcom/taursys/model/DefaultTextModel;setupFormat, thread_id: 0
+    method_exit: Lcom/taursys/model/DefaultTextModel;setFormatPattern, thread_id: 0
+    method_entry: Lcom/taursys/model/DefaultTextModel;removeChangeListener, obj_tag: 12, param_obj_tag: 7, thread_id: 0
+    method_exit: Lcom/taursys/model/DefaultTextModel;removeChangeListener, thread_id: 0
+      field_modi: Lcom/taursys/model/TextModel;model, dec_cls: Lcom/taursys/swing/MDocument;, in_method: Lcom/taursys/swing/MDocument;setModel, field_obj_tag: 1, owner_obj_tag: 7, thread_id: 0
+    method_entry: Lcom/taursys/model/DefaultTextModel;addChangeListener, obj_tag: 1, param_obj_tag: 7, thread_id: 0
+    method_exit: Lcom/taursys/model/DefaultTextModel;addChangeListener, thread_id: 0
+    method_entry: Lcom/taursys/swing/MDocument;isChangeable, obj_tag: 7, thread_id: 0
+      method_entry: Lcom/taursys/swing/MDocument;getValueHolder, obj_tag: 7, thread_id: 0
+        method_entry: Lcom/taursys/model/DefaultTextModel;getValueHolder, obj_tag: 1, thread_id: 0
+        method_exit: Lcom/taursys/model/DefaultTextModel;getValueHolder, thread_id: 0
+      method_exit: Lcom/taursys/swing/MDocument;getValueHolder, thread_id: 0
+      method_entry: Lcom/taursys/swing/MDocument;getValueHolder, obj_tag: 7, thread_id: 0
+        method_entry: Lcom/taursys/model/DefaultTextModel;getValueHolder, obj_tag: 1, thread_id: 0
+        method_exit: Lcom/taursys/model/DefaultTextModel;getValueHolder, thread_id: 0
+      method_exit: Lcom/taursys/swing/MDocument;getValueHolder, thread_id: 0
+      method_entry: Lcom/taursys/swing/MDocument;getValueHolder, obj_tag: 7, thread_id: 0
+        method_entry: Lcom/taursys/model/DefaultTextModel;getValueHolder, obj_tag: 1, thread_id: 0
+        method_exit: Lcom/taursys/model/DefaultTextModel;getValueHolder, thread_id: 0
+      method_exit: Lcom/taursys/swing/MDocument;getValueHolder, thread_id: 0
+    method_exit: Lcom/taursys/swing/MDocument;isChangeable, thread_id: 0
+    method_entry: Lcom/taursys/swing/EnableEvent;<init>, obj_tag: 24, param_obj_tag: 7, thread_id: 0
+    method_exit: Lcom/taursys/swing/EnableEvent;<init>, thread_id: 0
+    method_entry: Lcom/taursys/swing/MDocument;fireEnableChange, obj_tag: 7, param_obj_tag: 24, thread_id: 0
+    method_exit: Lcom/taursys/swing/MDocument;fireEnableChange, thread_id: 0
+  method_exit: Lcom/taursys/swing/MDocument;setModel, thread_id: 0
+  method_entry: Lcom/taursys/swing/MDocument;getFormat, obj_tag: 7, thread_id: 0
+    method_entry: Lcom/taursys/model/DefaultTextModel;getFormat, obj_tag: 1, thread_id: 0
+    method_exit: Lcom/taursys/model/DefaultTextModel;getFormat, thread_id: 0
+  method_exit: Lcom/taursys/swing/MDocument;getFormat, thread_id: 0
+method_exit: Ltest/auto/Strategy_Setter_MDocument_TextModel_3;main, thread_id: 0

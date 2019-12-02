@@ -1,0 +1,12 @@
+method_entry: Ltest/auto/TemplateMethod_Settings_2;main, thread_id: 0
+  method_entry: Lcom/taursys/tools/UserSettings;<init>, obj_tag: 1, thread_id: 0
+    method_entry: Lcom/taursys/tools/Settings;<init>, obj_tag: 1, param_obj_tag: 2, thread_id: 0
+    method_exit: Lcom/taursys/tools/Settings;<init>, thread_id: 0
+  method_exit: Lcom/taursys/tools/UserSettings;<init>, thread_id: 0
+  method_entry: Lcom/taursys/tools/Settings;loadSettings, obj_tag: 1, thread_id: 0
+    method_entry: Lcom/taursys/tools/UserSettings;getPropertyFileName, obj_tag: 1, thread_id: 0
+    method_exit: Lcom/taursys/tools/UserSettings;getPropertyFileName, thread_id: 0
+    method_entry: Lcom/taursys/tools/Settings;loadSettings, obj_tag: 1, param_obj_tag: 3, thread_id: 0
+    method_exit: Lcom/taursys/tools/Settings;loadSettings, thread_id: 0
+  method_exit: Lcom/taursys/tools/Settings;loadSettings, thread_id: 0
+method_exit: Ltest/auto/TemplateMethod_Settings_2;main, thread_id: 0

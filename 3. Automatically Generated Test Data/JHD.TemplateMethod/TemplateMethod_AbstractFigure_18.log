@@ -1,0 +1,10 @@
+method_entry: Ltest/auto/TemplateMethod_AbstractFigure_18;main, thread_id: 0
+  method_entry: LCH/ifa/draw/samples/javadraw/AnimationDecorator;<init>, obj_tag: 1, thread_id: 0
+    method_entry: LCH/ifa/draw/standard/DecoratorFigure;<init>, obj_tag: 1, thread_id: 0
+      method_entry: LCH/ifa/draw/standard/AbstractFigure;<init>, obj_tag: 1, thread_id: 0
+      method_exit: LCH/ifa/draw/standard/AbstractFigure;<init>, thread_id: 0
+    method_exit: LCH/ifa/draw/standard/DecoratorFigure;<init>, thread_id: 0
+  method_exit: LCH/ifa/draw/samples/javadraw/AnimationDecorator;<init>, thread_id: 0
+  method_entry: LCH/ifa/draw/standard/DecoratorFigure;moveBy, obj_tag: 1, thread_id: 0
+  method_exit: LCH/ifa/draw/standard/DecoratorFigure;moveBy, thread_id: 0
+method_exit: Ltest/auto/TemplateMethod_AbstractFigure_18;main, thread_id: 0

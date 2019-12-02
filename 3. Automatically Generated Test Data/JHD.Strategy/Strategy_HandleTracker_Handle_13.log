@@ -1,0 +1,116 @@
+method_entry: Ltest/auto/Strategy_HandleTracker_Handle_13;main, thread_id: 0
+  method_entry: LCH/ifa/draw/figures/AttributeFigure;<clinit>, thread_id: 0
+      field_modi: LCH/ifa/draw/figures/FigureAttributes;fgDefaultAttributes, dec_cls: LCH/ifa/draw/figures/AttributeFigure;, in_method: LCH/ifa/draw/figures/AttributeFigure;<clinit>, field_obj_tag: 0, owner_obj_tag: 0, thread_id: 0
+  method_exit: LCH/ifa/draw/figures/AttributeFigure;<clinit>, thread_id: 0
+  method_entry: LCH/ifa/draw/figures/TextFigure;<clinit>, thread_id: 0
+  method_exit: LCH/ifa/draw/figures/TextFigure;<clinit>, thread_id: 0
+  method_entry: LCH/ifa/draw/figures/NumberTextFigure;<init>, obj_tag: 2, thread_id: 0
+    method_entry: LCH/ifa/draw/figures/TextFigure;<init>, obj_tag: 2, thread_id: 0
+      method_entry: LCH/ifa/draw/figures/AttributeFigure;<init>, obj_tag: 2, thread_id: 0
+        method_entry: LCH/ifa/draw/standard/AbstractFigure;<init>, obj_tag: 2, thread_id: 0
+        method_exit: LCH/ifa/draw/standard/AbstractFigure;<init>, thread_id: 0
+      method_exit: LCH/ifa/draw/figures/AttributeFigure;<init>, thread_id: 0
+        field_modi: LCH/ifa/draw/framework/Figure;fObservedFigure, dec_cls: LCH/ifa/draw/figures/TextFigure;, in_method: LCH/ifa/draw/figures/TextFigure;<init>, field_obj_tag: 0, owner_obj_tag: 2, thread_id: 0
+        field_modi: LCH/ifa/draw/standard/OffsetLocator;fLocator, dec_cls: LCH/ifa/draw/figures/TextFigure;, in_method: LCH/ifa/draw/figures/TextFigure;<init>, field_obj_tag: 0, owner_obj_tag: 2, thread_id: 0
+      method_entry: LCH/ifa/draw/figures/TextFigure;createCurrentFont, thread_id: 0
+      method_exit: LCH/ifa/draw/figures/TextFigure;createCurrentFont, thread_id: 0
+      method_entry: LCH/ifa/draw/util/ColorMap;<clinit>, thread_id: 0
+        method_entry: LCH/ifa/draw/util/ColorEntry;<init>, obj_tag: 4, param_obj_tag: 5, param_obj_tag: 6, thread_id: 0
+        method_exit: LCH/ifa/draw/util/ColorEntry;<init>, thread_id: 0
+        method_entry: LCH/ifa/draw/util/ColorEntry;<init>, obj_tag: 7, param_obj_tag: 8, param_obj_tag: 9, thread_id: 0
+        method_exit: LCH/ifa/draw/util/ColorEntry;<init>, thread_id: 0
+        method_entry: LCH/ifa/draw/util/ColorEntry;<init>, obj_tag: 10, param_obj_tag: 11, param_obj_tag: 12, thread_id: 0
+        method_exit: LCH/ifa/draw/util/ColorEntry;<init>, thread_id: 0
+        method_entry: LCH/ifa/draw/util/ColorEntry;<init>, obj_tag: 13, param_obj_tag: 14, param_obj_tag: 15, thread_id: 0
+        method_exit: LCH/ifa/draw/util/ColorEntry;<init>, thread_id: 0
+        method_entry: LCH/ifa/draw/util/ColorEntry;<init>, obj_tag: 16, param_obj_tag: 17, param_obj_tag: 18, thread_id: 0
+        method_exit: LCH/ifa/draw/util/ColorEntry;<init>, thread_id: 0
+        method_entry: LCH/ifa/draw/util/ColorEntry;<init>, obj_tag: 19, param_obj_tag: 20, param_obj_tag: 21, thread_id: 0
+        method_exit: LCH/ifa/draw/util/ColorEntry;<init>, thread_id: 0
+        method_entry: LCH/ifa/draw/util/ColorEntry;<init>, obj_tag: 22, param_obj_tag: 23, param_obj_tag: 24, thread_id: 0
+        method_exit: LCH/ifa/draw/util/ColorEntry;<init>, thread_id: 0
+        method_entry: LCH/ifa/draw/util/ColorEntry;<init>, obj_tag: 25, param_obj_tag: 26, param_obj_tag: 27, thread_id: 0
+        method_exit: LCH/ifa/draw/util/ColorEntry;<init>, thread_id: 0
+        method_entry: LCH/ifa/draw/util/ColorEntry;<init>, obj_tag: 28, param_obj_tag: 29, param_obj_tag: 30, thread_id: 0
+        method_exit: LCH/ifa/draw/util/ColorEntry;<init>, thread_id: 0
+        method_entry: LCH/ifa/draw/util/ColorEntry;<init>, obj_tag: 31, param_obj_tag: 32, param_obj_tag: 33, thread_id: 0
+        method_exit: LCH/ifa/draw/util/ColorEntry;<init>, thread_id: 0
+        method_entry: LCH/ifa/draw/util/ColorEntry;<init>, obj_tag: 34, param_obj_tag: 35, param_obj_tag: 36, thread_id: 0
+        method_exit: LCH/ifa/draw/util/ColorEntry;<init>, thread_id: 0
+        method_entry: LCH/ifa/draw/util/ColorEntry;<init>, obj_tag: 37, param_obj_tag: 38, param_obj_tag: 39, thread_id: 0
+        method_exit: LCH/ifa/draw/util/ColorEntry;<init>, thread_id: 0
+        method_entry: LCH/ifa/draw/util/ColorEntry;<init>, obj_tag: 40, param_obj_tag: 41, param_obj_tag: 42, thread_id: 0
+        method_exit: LCH/ifa/draw/util/ColorEntry;<init>, thread_id: 0
+        method_entry: LCH/ifa/draw/util/ColorEntry;<init>, obj_tag: 43, param_obj_tag: 44, param_obj_tag: 45, thread_id: 0
+        method_exit: LCH/ifa/draw/util/ColorEntry;<init>, thread_id: 0
+        method_entry: LCH/ifa/draw/util/ColorEntry;<init>, obj_tag: 46, param_obj_tag: 47, param_obj_tag: 48, thread_id: 0
+        method_exit: LCH/ifa/draw/util/ColorEntry;<init>, thread_id: 0
+      method_exit: LCH/ifa/draw/util/ColorMap;<clinit>, thread_id: 0
+      method_entry: LCH/ifa/draw/util/ColorMap;color, param_obj_tag: 47, thread_id: 0
+      method_exit: LCH/ifa/draw/util/ColorMap;color, thread_id: 0
+      method_entry: LCH/ifa/draw/figures/TextFigure;setAttribute, obj_tag: 2, param_obj_tag: 50, param_obj_tag: 48, thread_id: 0
+        method_entry: LCH/ifa/draw/figures/TextFigure;getFont, obj_tag: 2, thread_id: 0
+        method_exit: LCH/ifa/draw/figures/TextFigure;getFont, thread_id: 0
+        method_entry: LCH/ifa/draw/figures/AttributeFigure;setAttribute, obj_tag: 2, param_obj_tag: 50, param_obj_tag: 48, thread_id: 0
+          method_entry: LCH/ifa/draw/figures/FigureAttributes;<init>, obj_tag: 51, thread_id: 0
+          method_exit: LCH/ifa/draw/figures/FigureAttributes;<init>, thread_id: 0
+            field_modi: LCH/ifa/draw/figures/FigureAttributes;fAttributes, dec_cls: LCH/ifa/draw/figures/AttributeFigure;, in_method: LCH/ifa/draw/figures/AttributeFigure;setAttribute, field_obj_tag: 51, owner_obj_tag: 2, thread_id: 0
+          method_entry: LCH/ifa/draw/figures/FigureAttributes;set, obj_tag: 51, param_obj_tag: 50, param_obj_tag: 48, thread_id: 0
+          method_exit: LCH/ifa/draw/figures/FigureAttributes;set, thread_id: 0
+          method_entry: LCH/ifa/draw/figures/TextFigure;changed, obj_tag: 2, thread_id: 0
+            method_entry: LCH/ifa/draw/standard/AbstractFigure;changed, obj_tag: 2, thread_id: 0
+              method_entry: LCH/ifa/draw/standard/AbstractFigure;invalidate, obj_tag: 2, thread_id: 0
+              method_exit: LCH/ifa/draw/standard/AbstractFigure;invalidate, thread_id: 0
+            method_exit: LCH/ifa/draw/standard/AbstractFigure;changed, thread_id: 0
+            method_entry: LCH/ifa/draw/figures/TextFigure;updateLocation, obj_tag: 2, thread_id: 0
+            method_exit: LCH/ifa/draw/figures/TextFigure;updateLocation, thread_id: 0
+          method_exit: LCH/ifa/draw/figures/TextFigure;changed, thread_id: 0
+        method_exit: LCH/ifa/draw/figures/AttributeFigure;setAttribute, thread_id: 0
+      method_exit: LCH/ifa/draw/figures/TextFigure;setAttribute, thread_id: 0
+    method_exit: LCH/ifa/draw/figures/TextFigure;<init>, thread_id: 0
+  method_exit: LCH/ifa/draw/figures/NumberTextFigure;<init>, thread_id: 0
+  method_entry: LCH/ifa/draw/standard/OffsetLocator;<init>, obj_tag: 54, thread_id: 0
+    method_entry: LCH/ifa/draw/standard/AbstractLocator;<init>, obj_tag: 54, thread_id: 0
+    method_exit: LCH/ifa/draw/standard/AbstractLocator;<init>, thread_id: 0
+      field_modi: LCH/ifa/draw/framework/Locator;fBase, dec_cls: LCH/ifa/draw/standard/OffsetLocator;, in_method: LCH/ifa/draw/standard/OffsetLocator;<init>, field_obj_tag: 0, owner_obj_tag: 54, thread_id: 0
+  method_exit: LCH/ifa/draw/standard/OffsetLocator;<init>, thread_id: 0
+  method_entry: LCH/ifa/draw/figures/FontSizeHandle;<init>, obj_tag: 55, param_obj_tag: 2, param_obj_tag: 54, thread_id: 0
+    method_entry: LCH/ifa/draw/standard/LocatorHandle;<init>, obj_tag: 55, param_obj_tag: 2, param_obj_tag: 54, thread_id: 0
+      method_entry: LCH/ifa/draw/standard/AbstractHandle;<init>, obj_tag: 55, param_obj_tag: 2, thread_id: 0
+          field_modi: LCH/ifa/draw/framework/Figure;fOwner, dec_cls: LCH/ifa/draw/standard/AbstractHandle;, in_method: LCH/ifa/draw/standard/AbstractHandle;<init>, field_obj_tag: 2, owner_obj_tag: 55, thread_id: 0
+      method_exit: LCH/ifa/draw/standard/AbstractHandle;<init>, thread_id: 0
+        field_modi: LCH/ifa/draw/framework/Locator;fLocator, dec_cls: LCH/ifa/draw/standard/LocatorHandle;, in_method: LCH/ifa/draw/standard/LocatorHandle;<init>, field_obj_tag: 54, owner_obj_tag: 55, thread_id: 0
+    method_exit: LCH/ifa/draw/standard/LocatorHandle;<init>, thread_id: 0
+  method_exit: LCH/ifa/draw/figures/FontSizeHandle;<init>, thread_id: 0
+  method_entry: LCH/ifa/draw/applet/DrawApplet;<clinit>, thread_id: 0
+  method_exit: LCH/ifa/draw/applet/DrawApplet;<clinit>, thread_id: 0
+  method_entry: LCH/ifa/draw/samples/nothing/NothingApplet;<init>, obj_tag: 57, thread_id: 0
+    method_entry: LCH/ifa/draw/applet/DrawApplet;<init>, obj_tag: 57, thread_id: 0
+    method_exit: LCH/ifa/draw/applet/DrawApplet;<init>, thread_id: 0
+  method_exit: LCH/ifa/draw/samples/nothing/NothingApplet;<init>, thread_id: 0
+  method_entry: LCH/ifa/draw/standard/StandardDrawingView;<init>, obj_tag: 58, param_obj_tag: 57, thread_id: 0
+      field_modi: LCH/ifa/draw/framework/DrawingEditor;fEditor, dec_cls: LCH/ifa/draw/standard/StandardDrawingView;, in_method: LCH/ifa/draw/standard/StandardDrawingView;<init>, field_obj_tag: 57, owner_obj_tag: 58, thread_id: 0
+      field_modi: LCH/ifa/draw/framework/PointConstrainer;fConstrainer, dec_cls: LCH/ifa/draw/standard/StandardDrawingView;, in_method: LCH/ifa/draw/standard/StandardDrawingView;<init>, field_obj_tag: 0, owner_obj_tag: 58, thread_id: 0
+    method_entry: LCH/ifa/draw/standard/BufferedUpdateStrategy;<init>, obj_tag: 62, thread_id: 0
+    method_exit: LCH/ifa/draw/standard/BufferedUpdateStrategy;<init>, thread_id: 0
+    method_entry: LCH/ifa/draw/standard/StandardDrawingView;setDisplayUpdate, obj_tag: 58, param_obj_tag: 62, thread_id: 0
+        field_modi: LCH/ifa/draw/framework/Painter;fUpdateStrategy, dec_cls: LCH/ifa/draw/standard/StandardDrawingView;, in_method: LCH/ifa/draw/standard/StandardDrawingView;setDisplayUpdate, field_obj_tag: 62, owner_obj_tag: 58, thread_id: 0
+    method_exit: LCH/ifa/draw/standard/StandardDrawingView;setDisplayUpdate, thread_id: 0
+  method_exit: LCH/ifa/draw/standard/StandardDrawingView;<init>, thread_id: 0
+  method_entry: LCH/ifa/draw/standard/HandleTracker;<init>, obj_tag: 63, param_obj_tag: 58, param_obj_tag: 55, thread_id: 0
+    method_entry: LCH/ifa/draw/standard/AbstractTool;<init>, obj_tag: 63, param_obj_tag: 58, thread_id: 0
+        field_modi: LCH/ifa/draw/framework/DrawingView;fView, dec_cls: LCH/ifa/draw/standard/AbstractTool;, in_method: LCH/ifa/draw/standard/AbstractTool;<init>, field_obj_tag: 58, owner_obj_tag: 63, thread_id: 0
+    method_exit: LCH/ifa/draw/standard/AbstractTool;<init>, thread_id: 0
+      field_modi: LCH/ifa/draw/framework/Handle;fAnchorHandle, dec_cls: LCH/ifa/draw/standard/HandleTracker;, in_method: LCH/ifa/draw/standard/HandleTracker;<init>, field_obj_tag: 55, owner_obj_tag: 63, thread_id: 0
+  method_exit: LCH/ifa/draw/standard/HandleTracker;<init>, thread_id: 0
+  method_entry: LCH/ifa/draw/standard/HandleTracker;mouseDrag, obj_tag: 63, param_obj_tag: 64, thread_id: 0
+    method_entry: LCH/ifa/draw/standard/AbstractTool;mouseDrag, obj_tag: 63, param_obj_tag: 64, thread_id: 0
+    method_exit: LCH/ifa/draw/standard/AbstractTool;mouseDrag, thread_id: 0
+    method_entry: LCH/ifa/draw/standard/AbstractTool;view, obj_tag: 63, thread_id: 0
+    method_exit: LCH/ifa/draw/standard/AbstractTool;view, thread_id: 0
+    method_entry: LCH/ifa/draw/figures/FontSizeHandle;invokeStep, obj_tag: 55, param_obj_tag: 58, thread_id: 0
+      method_entry: LCH/ifa/draw/standard/AbstractHandle;owner, obj_tag: 55, thread_id: 0
+      method_exit: LCH/ifa/draw/standard/AbstractHandle;owner, thread_id: 0
+    method_exit: LCH/ifa/draw/figures/FontSizeHandle;invokeStep, thread_id: 0
+  method_exit: LCH/ifa/draw/standard/HandleTracker;mouseDrag, thread_id: 0
+method_exit: Ltest/auto/Strategy_HandleTracker_Handle_13;main, thread_id: 0

@@ -1,0 +1,94 @@
+method_entry: Ltest/auto/Strategy_SummaryTraversal_LoadStatus_2;main, thread_id: 0
+  method_entry: Lorg/acm/seguin/summary/load/TextLoadStatus;<init>, obj_tag: 1, thread_id: 0
+  method_exit: Lorg/acm/seguin/summary/load/TextLoadStatus;<init>, thread_id: 0
+  method_entry: Lorg/acm/seguin/summary/SummaryTraversal;<clinit>, thread_id: 0
+      field_modi: Lorg/acm/seguin/summary/FrameworkLoader;framework, dec_cls: Lorg/acm/seguin/summary/SummaryTraversal;, in_method: Lorg/acm/seguin/summary/SummaryTraversal;<clinit>, field_obj_tag: 0, owner_obj_tag: 0, thread_id: 0
+  method_exit: Lorg/acm/seguin/summary/SummaryTraversal;<clinit>, thread_id: 0
+  method_entry: Lorg/acm/seguin/summary/SummaryTraversal;<init>, obj_tag: 2, param_obj_tag: 3, param_obj_tag: 1, thread_id: 0
+    method_entry: Lorg/acm/seguin/io/DirectoryTreeTraversal;<init>, obj_tag: 2, param_obj_tag: 3, thread_id: 0
+    method_exit: Lorg/acm/seguin/io/DirectoryTreeTraversal;<init>, thread_id: 0
+      field_modi: Lorg/acm/seguin/summary/load/LoadStatus;status, dec_cls: Lorg/acm/seguin/summary/SummaryTraversal;, in_method: Lorg/acm/seguin/summary/SummaryTraversal;<init>, field_obj_tag: 1, owner_obj_tag: 2, thread_id: 0
+    method_entry: Lorg/acm/seguin/summary/FrameworkFileSummaryLoader;<init>, obj_tag: 5, param_obj_tag: 1, thread_id: 0
+      method_entry: Lorg/acm/seguin/summary/FrameworkLoader;<init>, obj_tag: 5, thread_id: 0
+      method_exit: Lorg/acm/seguin/summary/FrameworkLoader;<init>, thread_id: 0
+        field_modi: Lorg/acm/seguin/summary/load/LoadStatus;status, dec_cls: Lorg/acm/seguin/summary/FrameworkFileSummaryLoader;, in_method: Lorg/acm/seguin/summary/FrameworkFileSummaryLoader;<init>, field_obj_tag: 1, owner_obj_tag: 5, thread_id: 0
+      method_entry: Lorg/acm/seguin/util/FileSettings;<clinit>, thread_id: 0
+      method_exit: Lorg/acm/seguin/util/FileSettings;<clinit>, thread_id: 0
+      method_entry: Lorg/acm/seguin/util/FileSettings;getSettings, param_obj_tag: 6, param_obj_tag: 7, thread_id: 0
+        method_entry: Lorg/acm/seguin/util/FileSettings;init, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;initRootDir, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;initRootDir, thread_id: 0
+        method_exit: Lorg/acm/seguin/util/FileSettings;init, thread_id: 0
+        method_entry: Lorg/acm/seguin/util/FileSettings;<init>, obj_tag: 10, param_obj_tag: 6, param_obj_tag: 7, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;getSettingsRoot, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;getSettingsRoot, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;load, obj_tag: 10, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 10, param_obj_tag: 13, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 10, param_obj_tag: 14, thread_id: 0
+              method_entry: Lorg/acm/seguin/util/FileSettings;getSpecial, obj_tag: 10, thread_id: 0
+              method_exit: Lorg/acm/seguin/util/FileSettings;getSpecial, thread_id: 0
+              method_entry: Lorg/acm/seguin/util/FileSettings;getSpecial, obj_tag: 10, thread_id: 0
+              method_exit: Lorg/acm/seguin/util/FileSettings;getSpecial, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 10, param_obj_tag: 15, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 10, param_obj_tag: 16, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 10, param_obj_tag: 17, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 10, param_obj_tag: 18, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 10, param_obj_tag: 19, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;setReloadNow, obj_tag: 10, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;setReloadNow, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;load, thread_id: 0
+            field_modi: Lorg/acm/seguin/util/FileSettings;parent, dec_cls: Lorg/acm/seguin/util/FileSettings;, in_method: Lorg/acm/seguin/util/FileSettings;<init>, field_obj_tag: 0, owner_obj_tag: 10, thread_id: 0
+        method_exit: Lorg/acm/seguin/util/FileSettings;<init>, thread_id: 0
+      method_exit: Lorg/acm/seguin/util/FileSettings;getSettings, thread_id: 0
+      method_entry: Lorg/acm/seguin/util/FileSettings;getString, obj_tag: 10, param_obj_tag: 20, thread_id: 0
+        method_entry: Lorg/acm/seguin/util/FileSettings;isUpToDate, obj_tag: 10, thread_id: 0
+        method_exit: Lorg/acm/seguin/util/FileSettings;isUpToDate, thread_id: 0
+      method_exit: Lorg/acm/seguin/util/FileSettings;getString, thread_id: 0
+    method_exit: Lorg/acm/seguin/summary/FrameworkFileSummaryLoader;<init>, thread_id: 0
+      field_modi: Lorg/acm/seguin/summary/FrameworkLoader;framework, dec_cls: Lorg/acm/seguin/summary/SummaryTraversal;, in_method: Lorg/acm/seguin/summary/SummaryTraversal;<init>, field_obj_tag: 5, owner_obj_tag: 0, thread_id: 0
+    method_entry: Lorg/acm/seguin/util/FileSettings;getSettings, param_obj_tag: 6, param_obj_tag: 7, thread_id: 0
+    method_exit: Lorg/acm/seguin/util/FileSettings;getSettings, thread_id: 0
+    method_entry: Lorg/acm/seguin/util/FileSettings;setContinuallyReload, obj_tag: 10, thread_id: 0
+    method_exit: Lorg/acm/seguin/util/FileSettings;setContinuallyReload, thread_id: 0
+    method_entry: Lorg/acm/seguin/util/FileSettings;getString, obj_tag: 10, param_obj_tag: 22, thread_id: 0
+      method_entry: Lorg/acm/seguin/util/FileSettings;isUpToDate, obj_tag: 10, thread_id: 0
+      method_exit: Lorg/acm/seguin/util/FileSettings;isUpToDate, thread_id: 0
+    method_exit: Lorg/acm/seguin/util/FileSettings;getString, thread_id: 0
+  method_exit: Lorg/acm/seguin/summary/SummaryTraversal;<init>, thread_id: 0
+  method_entry: Lorg/acm/seguin/summary/SummaryTraversal;go, obj_tag: 2, thread_id: 0
+    method_entry: Lorg/acm/seguin/summary/FrameworkFileSummaryLoader;run, obj_tag: 5, thread_id: 0
+      method_entry: Lorg/acm/seguin/tools/stub/StubGenerator;waitForLoaded, thread_id: 0
+      method_exit: Lorg/acm/seguin/tools/stub/StubGenerator;waitForLoaded, thread_id: 0
+      method_entry: Lorg/acm/seguin/summary/PackageSummary;getPackageSummary, param_obj_tag: 24, thread_id: 0
+        method_entry: Lorg/acm/seguin/summary/PackageSummary;init, thread_id: 0
+        method_exit: Lorg/acm/seguin/summary/PackageSummary;init, thread_id: 0
+        method_entry: Lorg/acm/seguin/summary/PackageSummary;<init>, obj_tag: 26, param_obj_tag: 24, thread_id: 0
+          method_entry: Lorg/acm/seguin/summary/Summary;<init>, obj_tag: 26, param_obj_tag: 27, thread_id: 0
+              field_modi: Lorg/acm/seguin/summary/Summary;parent, dec_cls: Lorg/acm/seguin/summary/Summary;, in_method: Lorg/acm/seguin/summary/Summary;<init>, field_obj_tag: 0, owner_obj_tag: 26, thread_id: 0
+          method_exit: Lorg/acm/seguin/summary/Summary;<init>, thread_id: 0
+        method_exit: Lorg/acm/seguin/summary/PackageSummary;<init>, thread_id: 0
+      method_exit: Lorg/acm/seguin/summary/PackageSummary;getPackageSummary, thread_id: 0
+      method_entry: Lorg/acm/seguin/tools/stub/StubFile;<clinit>, thread_id: 0
+      method_exit: Lorg/acm/seguin/tools/stub/StubFile;<clinit>, thread_id: 0
+      method_entry: Lorg/acm/seguin/tools/stub/StubFile;waitForCreation, thread_id: 0
+      method_exit: Lorg/acm/seguin/tools/stub/StubFile;waitForCreation, thread_id: 0
+    method_exit: Lorg/acm/seguin/summary/FrameworkFileSummaryLoader;run, thread_id: 0
+    method_entry: Lorg/acm/seguin/summary/load/TextLoadStatus;setRoot, obj_tag: 1, param_obj_tag: 28, thread_id: 0
+    method_exit: Lorg/acm/seguin/summary/load/TextLoadStatus;setRoot, thread_id: 0
+    method_entry: Lorg/acm/seguin/summary/FileSummary;removeDeletedSummaries, thread_id: 0
+      method_entry: Lorg/acm/seguin/summary/FileSummary;init, thread_id: 0
+      method_exit: Lorg/acm/seguin/summary/FileSummary;init, thread_id: 0
+    method_exit: Lorg/acm/seguin/summary/FileSummary;removeDeletedSummaries, thread_id: 0
+    method_entry: Lorg/acm/seguin/io/DirectoryTreeTraversal;go, obj_tag: 2, thread_id: 0
+    method_exit: Lorg/acm/seguin/io/DirectoryTreeTraversal;go, thread_id: 0
+    method_entry: Lorg/acm/seguin/summary/load/TextLoadStatus;done, obj_tag: 1, thread_id: 0
+    method_exit: Lorg/acm/seguin/summary/load/TextLoadStatus;done, thread_id: 0
+  method_exit: Lorg/acm/seguin/summary/SummaryTraversal;go, thread_id: 0
+method_exit: Ltest/auto/Strategy_SummaryTraversal_LoadStatus_2;main, thread_id: 0

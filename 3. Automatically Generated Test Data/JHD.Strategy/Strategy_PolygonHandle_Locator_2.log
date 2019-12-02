@@ -1,0 +1,31 @@
+method_entry: Ltest/auto/Strategy_PolygonHandle_Locator_2;main, thread_id: 0
+  method_entry: LCH/ifa/draw/standard/RelativeLocator;<init>, obj_tag: 1, thread_id: 0
+    method_entry: LCH/ifa/draw/standard/AbstractLocator;<init>, obj_tag: 1, thread_id: 0
+    method_exit: LCH/ifa/draw/standard/AbstractLocator;<init>, thread_id: 0
+  method_exit: LCH/ifa/draw/standard/RelativeLocator;<init>, thread_id: 0
+  method_entry: LCH/ifa/draw/figures/AttributeFigure;<clinit>, thread_id: 0
+      field_modi: LCH/ifa/draw/figures/FigureAttributes;fgDefaultAttributes, dec_cls: LCH/ifa/draw/figures/AttributeFigure;, in_method: LCH/ifa/draw/figures/AttributeFigure;<clinit>, field_obj_tag: 0, owner_obj_tag: 0, thread_id: 0
+  method_exit: LCH/ifa/draw/figures/AttributeFigure;<clinit>, thread_id: 0
+  method_entry: LCH/ifa/draw/contrib/PolygonFigure;<init>, obj_tag: 2, param_obj_tag: 3, thread_id: 0
+    method_entry: LCH/ifa/draw/figures/AttributeFigure;<init>, obj_tag: 2, thread_id: 0
+      method_entry: LCH/ifa/draw/standard/AbstractFigure;<init>, obj_tag: 2, thread_id: 0
+      method_exit: LCH/ifa/draw/standard/AbstractFigure;<init>, thread_id: 0
+    method_exit: LCH/ifa/draw/figures/AttributeFigure;<init>, thread_id: 0
+  method_exit: LCH/ifa/draw/contrib/PolygonFigure;<init>, thread_id: 0
+  method_entry: LCH/ifa/draw/contrib/PolygonHandle;<init>, obj_tag: 6, param_obj_tag: 2, param_obj_tag: 1, thread_id: 0
+    method_entry: LCH/ifa/draw/standard/AbstractHandle;<init>, obj_tag: 6, param_obj_tag: 2, thread_id: 0
+        field_modi: LCH/ifa/draw/framework/Figure;fOwner, dec_cls: LCH/ifa/draw/standard/AbstractHandle;, in_method: LCH/ifa/draw/standard/AbstractHandle;<init>, field_obj_tag: 2, owner_obj_tag: 6, thread_id: 0
+    method_exit: LCH/ifa/draw/standard/AbstractHandle;<init>, thread_id: 0
+      field_modi: LCH/ifa/draw/framework/Locator;fLocator, dec_cls: LCH/ifa/draw/contrib/PolygonHandle;, in_method: LCH/ifa/draw/contrib/PolygonHandle;<init>, field_obj_tag: 1, owner_obj_tag: 6, thread_id: 0
+  method_exit: LCH/ifa/draw/contrib/PolygonHandle;<init>, thread_id: 0
+  method_entry: LCH/ifa/draw/contrib/PolygonHandle;locate, obj_tag: 6, thread_id: 0
+    method_entry: LCH/ifa/draw/standard/AbstractHandle;owner, obj_tag: 6, thread_id: 0
+    method_exit: LCH/ifa/draw/standard/AbstractHandle;owner, thread_id: 0
+    method_entry: LCH/ifa/draw/standard/RelativeLocator;locate, obj_tag: 1, param_obj_tag: 2, thread_id: 0
+      method_entry: LCH/ifa/draw/contrib/PolygonFigure;displayBox, obj_tag: 2, thread_id: 0
+        method_entry: LCH/ifa/draw/contrib/PolygonFigure;bounds, param_obj_tag: 5, thread_id: 0
+        method_exit: LCH/ifa/draw/contrib/PolygonFigure;bounds, thread_id: 0
+      method_exit: LCH/ifa/draw/contrib/PolygonFigure;displayBox, thread_id: 0
+    method_exit: LCH/ifa/draw/standard/RelativeLocator;locate, thread_id: 0
+  method_exit: LCH/ifa/draw/contrib/PolygonHandle;locate, thread_id: 0
+method_exit: Ltest/auto/Strategy_PolygonHandle_Locator_2;main, thread_id: 0

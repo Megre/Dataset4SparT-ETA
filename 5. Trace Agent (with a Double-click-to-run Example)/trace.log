@@ -1,0 +1,18 @@
+method_entry: Lexample/Door;main, thread_id: 0
+  method_entry: Lexample/OpenState;<init>, obj_tag: 1, thread_id: 0
+  method_exit: Lexample/OpenState;<init>, thread_id: 0
+  method_entry: Lexample/Door;<init>, obj_tag: 2, param_obj_tag: 1, thread_id: 0
+    method_entry: Lexample/Door;setState, obj_tag: 2, param_obj_tag: 1, thread_id: 0
+        field_modi: Lexample/DoorState;state, dec_cls: Lexample/Door;, in_method: Lexample/Door;setState, field_obj_tag: 1, owner_obj_tag: 2, thread_id: 0
+    method_exit: Lexample/Door;setState, thread_id: 0
+  method_exit: Lexample/Door;<init>, thread_id: 0
+  method_entry: Lexample/Door;touch, obj_tag: 2, thread_id: 0
+    method_entry: Lexample/OpenState;touch, obj_tag: 1, param_obj_tag: 2, thread_id: 0
+      method_entry: Lexample/ClosedState;<init>, obj_tag: 3, thread_id: 0
+      method_exit: Lexample/ClosedState;<init>, thread_id: 0
+      method_entry: Lexample/Door;setState, obj_tag: 2, param_obj_tag: 3, thread_id: 0
+          field_modi: Lexample/DoorState;state, dec_cls: Lexample/Door;, in_method: Lexample/Door;setState, field_obj_tag: 3, owner_obj_tag: 2, thread_id: 0
+      method_exit: Lexample/Door;setState, thread_id: 0
+    method_exit: Lexample/OpenState;touch, thread_id: 0
+  method_exit: Lexample/Door;touch, thread_id: 0
+method_exit: Lexample/Door;main, thread_id: 0

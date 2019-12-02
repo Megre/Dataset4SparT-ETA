@@ -1,0 +1,50 @@
+method_entry: Ltest/auto/TemplateMethod_MetricsReport_4;main, thread_id: 0
+  method_entry: Lorg/acm/seguin/metrics/CommaDelimitedReport;<init>, obj_tag: 1, thread_id: 0
+    method_entry: Lorg/acm/seguin/metrics/MetricsReport;<init>, obj_tag: 1, thread_id: 0
+    method_exit: Lorg/acm/seguin/metrics/MetricsReport;<init>, thread_id: 0
+  method_exit: Lorg/acm/seguin/metrics/CommaDelimitedReport;<init>, thread_id: 0
+  method_entry: Lorg/acm/seguin/metrics/MethodMetrics;<init>, obj_tag: 2, param_obj_tag: 3, param_obj_tag: 3, param_obj_tag: 3, thread_id: 0
+  method_exit: Lorg/acm/seguin/metrics/MethodMetrics;<init>, thread_id: 0
+  method_entry: Lorg/acm/seguin/metrics/MetricsReport;methodReport, obj_tag: 1, param_obj_tag: 2, thread_id: 0
+    method_entry: Lorg/acm/seguin/metrics/MethodMetrics;getPackageName, obj_tag: 2, thread_id: 0
+    method_exit: Lorg/acm/seguin/metrics/MethodMetrics;getPackageName, thread_id: 0
+    method_entry: Lorg/acm/seguin/metrics/MethodMetrics;getTypeName, obj_tag: 2, thread_id: 0
+    method_exit: Lorg/acm/seguin/metrics/MethodMetrics;getTypeName, thread_id: 0
+    method_entry: Lorg/acm/seguin/metrics/MethodMetrics;getMethodName, obj_tag: 2, thread_id: 0
+    method_exit: Lorg/acm/seguin/metrics/MethodMetrics;getMethodName, thread_id: 0
+    method_entry: Lorg/acm/seguin/metrics/MethodMetrics;getStatementCount, obj_tag: 2, thread_id: 0
+    method_exit: Lorg/acm/seguin/metrics/MethodMetrics;getStatementCount, thread_id: 0
+    method_entry: Lorg/acm/seguin/metrics/CommaDelimitedReport;reportStatement, obj_tag: 1, param_obj_tag: 3, param_obj_tag: 3, param_obj_tag: 3, thread_id: 0
+    method_exit: Lorg/acm/seguin/metrics/CommaDelimitedReport;reportStatement, thread_id: 0
+    method_entry: Lorg/acm/seguin/metrics/MethodMetrics;getPackageName, obj_tag: 2, thread_id: 0
+    method_exit: Lorg/acm/seguin/metrics/MethodMetrics;getPackageName, thread_id: 0
+    method_entry: Lorg/acm/seguin/metrics/MethodMetrics;getTypeName, obj_tag: 2, thread_id: 0
+    method_exit: Lorg/acm/seguin/metrics/MethodMetrics;getTypeName, thread_id: 0
+    method_entry: Lorg/acm/seguin/metrics/MethodMetrics;getMethodName, obj_tag: 2, thread_id: 0
+    method_exit: Lorg/acm/seguin/metrics/MethodMetrics;getMethodName, thread_id: 0
+    method_entry: Lorg/acm/seguin/metrics/MethodMetrics;getParameterCount, obj_tag: 2, thread_id: 0
+    method_exit: Lorg/acm/seguin/metrics/MethodMetrics;getParameterCount, thread_id: 0
+    method_entry: Lorg/acm/seguin/metrics/CommaDelimitedReport;reportParameters, obj_tag: 1, param_obj_tag: 3, param_obj_tag: 3, param_obj_tag: 3, thread_id: 0
+    method_exit: Lorg/acm/seguin/metrics/CommaDelimitedReport;reportParameters, thread_id: 0
+    method_entry: Lorg/acm/seguin/metrics/MethodMetrics;getPackageName, obj_tag: 2, thread_id: 0
+    method_exit: Lorg/acm/seguin/metrics/MethodMetrics;getPackageName, thread_id: 0
+    method_entry: Lorg/acm/seguin/metrics/MethodMetrics;getTypeName, obj_tag: 2, thread_id: 0
+    method_exit: Lorg/acm/seguin/metrics/MethodMetrics;getTypeName, thread_id: 0
+    method_entry: Lorg/acm/seguin/metrics/MethodMetrics;getMethodName, obj_tag: 2, thread_id: 0
+    method_exit: Lorg/acm/seguin/metrics/MethodMetrics;getMethodName, thread_id: 0
+    method_entry: Lorg/acm/seguin/metrics/MethodMetrics;getLinesOfCode, obj_tag: 2, thread_id: 0
+    method_exit: Lorg/acm/seguin/metrics/MethodMetrics;getLinesOfCode, thread_id: 0
+    method_entry: Lorg/acm/seguin/metrics/CommaDelimitedReport;reportLinesOfCode, obj_tag: 1, param_obj_tag: 3, param_obj_tag: 3, param_obj_tag: 3, thread_id: 0
+    method_exit: Lorg/acm/seguin/metrics/CommaDelimitedReport;reportLinesOfCode, thread_id: 0
+    method_entry: Lorg/acm/seguin/metrics/MethodMetrics;getPackageName, obj_tag: 2, thread_id: 0
+    method_exit: Lorg/acm/seguin/metrics/MethodMetrics;getPackageName, thread_id: 0
+    method_entry: Lorg/acm/seguin/metrics/MethodMetrics;getTypeName, obj_tag: 2, thread_id: 0
+    method_exit: Lorg/acm/seguin/metrics/MethodMetrics;getTypeName, thread_id: 0
+    method_entry: Lorg/acm/seguin/metrics/MethodMetrics;getMethodName, obj_tag: 2, thread_id: 0
+    method_exit: Lorg/acm/seguin/metrics/MethodMetrics;getMethodName, thread_id: 0
+    method_entry: Lorg/acm/seguin/metrics/MethodMetrics;getBlockDepth, obj_tag: 2, thread_id: 0
+    method_exit: Lorg/acm/seguin/metrics/MethodMetrics;getBlockDepth, thread_id: 0
+    method_entry: Lorg/acm/seguin/metrics/CommaDelimitedReport;reportBlockDepth, obj_tag: 1, param_obj_tag: 3, param_obj_tag: 3, param_obj_tag: 3, thread_id: 0
+    method_exit: Lorg/acm/seguin/metrics/CommaDelimitedReport;reportBlockDepth, thread_id: 0
+  method_exit: Lorg/acm/seguin/metrics/MetricsReport;methodReport, thread_id: 0
+method_exit: Ltest/auto/TemplateMethod_MetricsReport_4;main, thread_id: 0

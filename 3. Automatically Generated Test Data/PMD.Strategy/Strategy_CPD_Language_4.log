@@ -1,0 +1,820 @@
+method_entry: Ltest/auto/Strategy_CPD_Language_4;main, thread_id: 0
+  method_entry: Lnet/sourceforge/pmd/cpd/CPPLanguage;<init>, obj_tag: 1, thread_id: 0
+  method_exit: Lnet/sourceforge/pmd/cpd/CPPLanguage;<init>, thread_id: 0
+  method_entry: Lnet/sourceforge/pmd/cpd/CPD;<init>, obj_tag: 2, param_obj_tag: 1, thread_id: 0
+    method_entry: Lnet/sourceforge/pmd/cpd/CPDNullListener;<init>, obj_tag: 4, thread_id: 0
+    method_exit: Lnet/sourceforge/pmd/cpd/CPDNullListener;<init>, thread_id: 0
+      field_modi: Lnet/sourceforge/pmd/cpd/CPDListener;listener, dec_cls: Lnet/sourceforge/pmd/cpd/CPD;, in_method: Lnet/sourceforge/pmd/cpd/CPD;<init>, field_obj_tag: 4, owner_obj_tag: 2, thread_id: 0
+    method_entry: Lnet/sourceforge/pmd/cpd/Tokens;<init>, obj_tag: 5, thread_id: 0
+    method_exit: Lnet/sourceforge/pmd/cpd/Tokens;<init>, thread_id: 0
+      field_modi: Lnet/sourceforge/pmd/cpd/Tokens;tokens, dec_cls: Lnet/sourceforge/pmd/cpd/CPD;, in_method: Lnet/sourceforge/pmd/cpd/CPD;<init>, field_obj_tag: 5, owner_obj_tag: 2, thread_id: 0
+      field_modi: Lnet/sourceforge/pmd/cpd/Language;language, dec_cls: Lnet/sourceforge/pmd/cpd/CPD;, in_method: Lnet/sourceforge/pmd/cpd/CPD;<init>, field_obj_tag: 1, owner_obj_tag: 2, thread_id: 0
+  method_exit: Lnet/sourceforge/pmd/cpd/CPD;<init>, thread_id: 0
+  method_entry: Lnet/sourceforge/pmd/cpd/CPD;add, obj_tag: 2, param_obj_tag: 7, thread_id: 0
+    method_entry: Lnet/sourceforge/pmd/cpd/CPD;add, obj_tag: 2, param_obj_tag: 7, thread_id: 0
+      method_entry: Lnet/sourceforge/pmd/cpd/CPDNullListener;addedFile, obj_tag: 4, param_obj_tag: 7, thread_id: 0
+      method_exit: Lnet/sourceforge/pmd/cpd/CPDNullListener;addedFile, thread_id: 0
+      method_entry: Lnet/sourceforge/pmd/cpd/SourceCode;<init>, obj_tag: 8, param_obj_tag: 9, thread_id: 0
+      method_exit: Lnet/sourceforge/pmd/cpd/SourceCode;<init>, thread_id: 0
+      method_entry: Lnet/sourceforge/pmd/cpd/CPPLanguage;getTokenizer, obj_tag: 1, thread_id: 0
+        method_entry: Lnet/sourceforge/pmd/cpd/CPPTokenizer;<init>, obj_tag: 10, thread_id: 0
+        method_exit: Lnet/sourceforge/pmd/cpd/CPPTokenizer;<init>, thread_id: 0
+      method_exit: Lnet/sourceforge/pmd/cpd/CPPLanguage;getTokenizer, thread_id: 0
+      method_entry: Lnet/sourceforge/pmd/cpd/CPPTokenizer;tokenize, obj_tag: 10, param_obj_tag: 8, param_obj_tag: 5, thread_id: 0
+        method_entry: Lnet/sourceforge/pmd/cpd/SourceCode;getCodeBuffer, obj_tag: 8, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/SourceCode;getCode, obj_tag: 8, thread_id: 0
+            method_entry: Lnet/sourceforge/pmd/cpd/SourceCode;readSource, obj_tag: 8, param_obj_tag: 12, thread_id: 0
+            method_exit: Lnet/sourceforge/pmd/cpd/SourceCode;readSource, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/SourceCode;getCode, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/PMD;<clinit>, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/PMD;<clinit>, thread_id: 0
+        method_exit: Lnet/sourceforge/pmd/cpd/SourceCode;getCodeBuffer, thread_id: 0
+        method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser;<clinit>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser;jj_la1_0, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser;jj_la1_0, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser;jj_la1_1, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser;jj_la1_1, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser;jj_la1_2, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser;jj_la1_2, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser;jj_la1_3, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser;jj_la1_3, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser;jj_la1_4, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser;jj_la1_4, thread_id: 0
+        method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser;<clinit>, thread_id: 0
+        method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser;<init>, obj_tag: 25, param_obj_tag: 26, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/SimpleCharStream;<clinit>, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/SimpleCharStream;<clinit>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/SimpleCharStream;<init>, obj_tag: 27, param_obj_tag: 26, thread_id: 0
+            method_entry: Lnet/sourceforge/pmd/cpd/cppast/SimpleCharStream;<init>, obj_tag: 27, param_obj_tag: 26, thread_id: 0
+            method_exit: Lnet/sourceforge/pmd/cpd/cppast/SimpleCharStream;<init>, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/SimpleCharStream;<init>, thread_id: 0
+            field_modi: Lnet/sourceforge/pmd/cpd/cppast/SimpleCharStream;jj_input_stream, dec_cls: Lnet/sourceforge/pmd/cpd/cppast/CPPParser;, in_method: Lnet/sourceforge/pmd/cpd/cppast/CPPParser;<init>, field_obj_tag: 27, owner_obj_tag: 0, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParserTokenManager;<clinit>, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParserTokenManager;<clinit>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParserTokenManager;<init>, obj_tag: 42, param_obj_tag: 27, thread_id: 0
+              field_modi: Lnet/sourceforge/pmd/cpd/cppast/SimpleCharStream;input_stream, dec_cls: Lnet/sourceforge/pmd/cpd/cppast/CPPParserTokenManager;, in_method: Lnet/sourceforge/pmd/cpd/cppast/CPPParserTokenManager;<init>, field_obj_tag: 27, owner_obj_tag: 0, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParserTokenManager;<init>, thread_id: 0
+            field_modi: Lnet/sourceforge/pmd/cpd/cppast/CPPParserTokenManager;token_source, dec_cls: Lnet/sourceforge/pmd/cpd/cppast/CPPParser;, in_method: Lnet/sourceforge/pmd/cpd/cppast/CPPParser;<init>, field_obj_tag: 42, owner_obj_tag: 0, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/Token;<init>, obj_tag: 43, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/Token;<init>, thread_id: 0
+            field_modi: Lnet/sourceforge/pmd/cpd/cppast/Token;token, dec_cls: Lnet/sourceforge/pmd/cpd/cppast/CPPParser;, in_method: Lnet/sourceforge/pmd/cpd/cppast/CPPParser;<init>, field_obj_tag: 43, owner_obj_tag: 0, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 44, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 45, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 46, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 47, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 48, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 49, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 50, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 51, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 52, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 53, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 54, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 55, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 56, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 57, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 58, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 59, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 60, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 61, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 62, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 63, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 64, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 65, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 66, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 67, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 68, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 69, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 70, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 71, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 72, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 73, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 74, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 75, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 76, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 77, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 78, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 79, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 80, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 81, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 82, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 83, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 84, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 85, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 86, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 87, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 88, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 89, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 90, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 91, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 92, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 93, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 94, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 95, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 96, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 97, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 98, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 99, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 100, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 101, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 102, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 103, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 104, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 105, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 106, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 107, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 108, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 109, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 110, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 111, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 112, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 113, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 114, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 115, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 116, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 117, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 118, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 119, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 120, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 121, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 122, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 123, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 124, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 125, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 126, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 127, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 128, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 129, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 130, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 131, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 132, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 133, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 134, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 135, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 136, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 137, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 138, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 139, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 140, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 141, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 142, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 143, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 144, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 145, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 146, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 147, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 148, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 149, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 150, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 151, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 152, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 153, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 154, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 155, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 156, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 157, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 158, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 159, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 160, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 161, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 162, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 163, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 164, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 165, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 166, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 167, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 168, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 169, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 170, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 171, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 172, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 173, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 174, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 175, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 176, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 177, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 178, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 179, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 180, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 181, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+        method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser;<init>, thread_id: 0
+        method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser;ReInit, param_obj_tag: 182, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/SimpleCharStream;ReInit, obj_tag: 27, param_obj_tag: 182, thread_id: 0
+            method_entry: Lnet/sourceforge/pmd/cpd/cppast/SimpleCharStream;ReInit, obj_tag: 27, param_obj_tag: 182, thread_id: 0
+            method_exit: Lnet/sourceforge/pmd/cpd/cppast/SimpleCharStream;ReInit, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/SimpleCharStream;ReInit, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParserTokenManager;ReInit, param_obj_tag: 27, thread_id: 0
+              field_modi: Lnet/sourceforge/pmd/cpd/cppast/SimpleCharStream;input_stream, dec_cls: Lnet/sourceforge/pmd/cpd/cppast/CPPParserTokenManager;, in_method: Lnet/sourceforge/pmd/cpd/cppast/CPPParserTokenManager;ReInit, field_obj_tag: 27, owner_obj_tag: 0, thread_id: 0
+            method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParserTokenManager;ReInitRounds, thread_id: 0
+            method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParserTokenManager;ReInitRounds, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParserTokenManager;ReInit, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/Token;<init>, obj_tag: 183, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/Token;<init>, thread_id: 0
+            field_modi: Lnet/sourceforge/pmd/cpd/cppast/Token;token, dec_cls: Lnet/sourceforge/pmd/cpd/cppast/CPPParser;, in_method: Lnet/sourceforge/pmd/cpd/cppast/CPPParser;ReInit, field_obj_tag: 183, owner_obj_tag: 0, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 184, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 185, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 186, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 187, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 188, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 189, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 190, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 191, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 192, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 193, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 194, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 195, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 196, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 197, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 198, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 199, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 200, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 201, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 202, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 203, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 204, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 205, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 206, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 207, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 208, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 209, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 210, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 211, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 212, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 213, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 214, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 215, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 216, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 217, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 218, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 219, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 220, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 221, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 222, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 223, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 224, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 225, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 226, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 227, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 228, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 229, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 230, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 231, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 232, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 233, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 234, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 235, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 236, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 237, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 238, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 239, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 240, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 241, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 242, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 243, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 244, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 245, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 246, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 247, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 248, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 249, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 250, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 251, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 252, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 253, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 254, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 255, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 256, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 257, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 258, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 259, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 260, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 261, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 262, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 263, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 264, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 265, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 266, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 267, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 268, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 269, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 270, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 271, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 272, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 273, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 274, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 275, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 276, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 277, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 278, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 279, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 280, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 281, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 282, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 283, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 284, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 285, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 286, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 287, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 288, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 289, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 290, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 291, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 292, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 293, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 294, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 295, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 296, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 297, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 298, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 299, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 300, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 301, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 302, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 303, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 304, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 305, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 306, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 307, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 308, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 309, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 310, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 311, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 312, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 313, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 314, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 315, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 316, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 317, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 318, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 319, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 320, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, obj_tag: 321, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser$JJCalls;<init>, thread_id: 0
+        method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParser;ReInit, thread_id: 0
+        method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParserTokenManager;getNextToken, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/SimpleCharStream;BeginToken, thread_id: 0
+            method_entry: Lnet/sourceforge/pmd/cpd/cppast/SimpleCharStream;readChar, thread_id: 0
+              method_entry: Lnet/sourceforge/pmd/cpd/cppast/SimpleCharStream;FillBuff, thread_id: 0
+              method_exit: Lnet/sourceforge/pmd/cpd/cppast/SimpleCharStream;FillBuff, thread_id: 0
+              method_entry: Lnet/sourceforge/pmd/cpd/cppast/SimpleCharStream;UpdateLineColumn, thread_id: 0
+              method_exit: Lnet/sourceforge/pmd/cpd/cppast/SimpleCharStream;UpdateLineColumn, thread_id: 0
+            method_exit: Lnet/sourceforge/pmd/cpd/cppast/SimpleCharStream;readChar, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/SimpleCharStream;BeginToken, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/SimpleCharStream;backup, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/SimpleCharStream;backup, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParserTokenManager;jjMoveStringLiteralDfa0_0, thread_id: 0
+            method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParserTokenManager;jjMoveStringLiteralDfa1_0, thread_id: 0
+              method_entry: Lnet/sourceforge/pmd/cpd/cppast/SimpleCharStream;readChar, thread_id: 0
+                method_entry: Lnet/sourceforge/pmd/cpd/cppast/SimpleCharStream;UpdateLineColumn, thread_id: 0
+                method_exit: Lnet/sourceforge/pmd/cpd/cppast/SimpleCharStream;UpdateLineColumn, thread_id: 0
+              method_exit: Lnet/sourceforge/pmd/cpd/cppast/SimpleCharStream;readChar, thread_id: 0
+              method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParserTokenManager;jjMoveStringLiteralDfa2_0, thread_id: 0
+                method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParserTokenManager;jjStartNfa_0, thread_id: 0
+                  method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParserTokenManager;jjStopStringLiteralDfa_0, thread_id: 0
+                  method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParserTokenManager;jjStopStringLiteralDfa_0, thread_id: 0
+                  method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParserTokenManager;jjMoveNfa_0, thread_id: 0
+                    method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParserTokenManager;jjCheckNAdd, thread_id: 0
+                    method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParserTokenManager;jjCheckNAdd, thread_id: 0
+                    method_entry: Lnet/sourceforge/pmd/cpd/cppast/SimpleCharStream;readChar, thread_id: 0
+                      method_entry: Lnet/sourceforge/pmd/cpd/cppast/SimpleCharStream;UpdateLineColumn, thread_id: 0
+                      method_exit: Lnet/sourceforge/pmd/cpd/cppast/SimpleCharStream;UpdateLineColumn, thread_id: 0
+                    method_exit: Lnet/sourceforge/pmd/cpd/cppast/SimpleCharStream;readChar, thread_id: 0
+                    method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParserTokenManager;jjCheckNAdd, thread_id: 0
+                    method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParserTokenManager;jjCheckNAdd, thread_id: 0
+                    method_entry: Lnet/sourceforge/pmd/cpd/cppast/SimpleCharStream;readChar, thread_id: 0
+                      method_entry: Lnet/sourceforge/pmd/cpd/cppast/SimpleCharStream;UpdateLineColumn, thread_id: 0
+                      method_exit: Lnet/sourceforge/pmd/cpd/cppast/SimpleCharStream;UpdateLineColumn, thread_id: 0
+                    method_exit: Lnet/sourceforge/pmd/cpd/cppast/SimpleCharStream;readChar, thread_id: 0
+                  method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParserTokenManager;jjMoveNfa_0, thread_id: 0
+                method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParserTokenManager;jjStartNfa_0, thread_id: 0
+              method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParserTokenManager;jjMoveStringLiteralDfa2_0, thread_id: 0
+            method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParserTokenManager;jjMoveStringLiteralDfa1_0, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParserTokenManager;jjMoveStringLiteralDfa0_0, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/SimpleCharStream;backup, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/SimpleCharStream;backup, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParserTokenManager;jjFillToken, thread_id: 0
+            method_entry: Lnet/sourceforge/pmd/cpd/cppast/Token;newToken, thread_id: 0
+              method_entry: Lnet/sourceforge/pmd/cpd/cppast/Token;<init>, obj_tag: 322, thread_id: 0
+              method_exit: Lnet/sourceforge/pmd/cpd/cppast/Token;<init>, thread_id: 0
+            method_exit: Lnet/sourceforge/pmd/cpd/cppast/Token;newToken, thread_id: 0
+            method_entry: Lnet/sourceforge/pmd/cpd/cppast/SimpleCharStream;GetImage, thread_id: 0
+            method_exit: Lnet/sourceforge/pmd/cpd/cppast/SimpleCharStream;GetImage, thread_id: 0
+            method_entry: Lnet/sourceforge/pmd/cpd/cppast/SimpleCharStream;getBeginLine, thread_id: 0
+            method_exit: Lnet/sourceforge/pmd/cpd/cppast/SimpleCharStream;getBeginLine, thread_id: 0
+            method_entry: Lnet/sourceforge/pmd/cpd/cppast/SimpleCharStream;getBeginColumn, thread_id: 0
+            method_exit: Lnet/sourceforge/pmd/cpd/cppast/SimpleCharStream;getBeginColumn, thread_id: 0
+            method_entry: Lnet/sourceforge/pmd/cpd/cppast/SimpleCharStream;getEndLine, thread_id: 0
+            method_exit: Lnet/sourceforge/pmd/cpd/cppast/SimpleCharStream;getEndLine, thread_id: 0
+            method_entry: Lnet/sourceforge/pmd/cpd/cppast/SimpleCharStream;getEndColumn, thread_id: 0
+            method_exit: Lnet/sourceforge/pmd/cpd/cppast/SimpleCharStream;getEndColumn, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParserTokenManager;jjFillToken, thread_id: 0
+        method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParserTokenManager;getNextToken, thread_id: 0
+        method_entry: Lnet/sourceforge/pmd/cpd/TokenEntry;<clinit>, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/TokenEntry;<init>, obj_tag: 324, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/TokenEntry;<init>, thread_id: 0
+            field_modi: Lnet/sourceforge/pmd/cpd/TokenEntry;EOF, dec_cls: Lnet/sourceforge/pmd/cpd/TokenEntry;, in_method: Lnet/sourceforge/pmd/cpd/TokenEntry;<clinit>, field_obj_tag: 324, owner_obj_tag: 0, thread_id: 0
+        method_exit: Lnet/sourceforge/pmd/cpd/TokenEntry;<clinit>, thread_id: 0
+        method_entry: Lnet/sourceforge/pmd/cpd/SourceCode;getFileName, obj_tag: 8, thread_id: 0
+        method_exit: Lnet/sourceforge/pmd/cpd/SourceCode;getFileName, thread_id: 0
+        method_entry: Lnet/sourceforge/pmd/cpd/TokenEntry;<init>, obj_tag: 327, param_obj_tag: 323, param_obj_tag: 9, thread_id: 0
+        method_exit: Lnet/sourceforge/pmd/cpd/TokenEntry;<init>, thread_id: 0
+        method_entry: Lnet/sourceforge/pmd/cpd/Tokens;add, obj_tag: 5, param_obj_tag: 327, thread_id: 0
+        method_exit: Lnet/sourceforge/pmd/cpd/Tokens;add, thread_id: 0
+        method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParserTokenManager;getNextToken, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/SimpleCharStream;BeginToken, thread_id: 0
+            method_entry: Lnet/sourceforge/pmd/cpd/cppast/SimpleCharStream;readChar, thread_id: 0
+            method_exit: Lnet/sourceforge/pmd/cpd/cppast/SimpleCharStream;readChar, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/SimpleCharStream;BeginToken, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/SimpleCharStream;backup, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/SimpleCharStream;backup, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/SimpleCharStream;BeginToken, thread_id: 0
+            method_entry: Lnet/sourceforge/pmd/cpd/cppast/SimpleCharStream;readChar, thread_id: 0
+              method_entry: Lnet/sourceforge/pmd/cpd/cppast/SimpleCharStream;UpdateLineColumn, thread_id: 0
+              method_exit: Lnet/sourceforge/pmd/cpd/cppast/SimpleCharStream;UpdateLineColumn, thread_id: 0
+            method_exit: Lnet/sourceforge/pmd/cpd/cppast/SimpleCharStream;readChar, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/SimpleCharStream;BeginToken, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParserTokenManager;jjMoveStringLiteralDfa0_0, thread_id: 0
+            method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParserTokenManager;jjMoveStringLiteralDfa1_0, thread_id: 0
+              method_entry: Lnet/sourceforge/pmd/cpd/cppast/SimpleCharStream;readChar, thread_id: 0
+                method_entry: Lnet/sourceforge/pmd/cpd/cppast/SimpleCharStream;UpdateLineColumn, thread_id: 0
+                method_exit: Lnet/sourceforge/pmd/cpd/cppast/SimpleCharStream;UpdateLineColumn, thread_id: 0
+              method_exit: Lnet/sourceforge/pmd/cpd/cppast/SimpleCharStream;readChar, thread_id: 0
+              method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParserTokenManager;jjMoveStringLiteralDfa2_0, thread_id: 0
+                method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParserTokenManager;jjStartNfa_0, thread_id: 0
+                  method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParserTokenManager;jjStopStringLiteralDfa_0, thread_id: 0
+                  method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParserTokenManager;jjStopStringLiteralDfa_0, thread_id: 0
+                  method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParserTokenManager;jjMoveNfa_0, thread_id: 0
+                    method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParserTokenManager;jjCheckNAdd, thread_id: 0
+                    method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParserTokenManager;jjCheckNAdd, thread_id: 0
+                    method_entry: Lnet/sourceforge/pmd/cpd/cppast/SimpleCharStream;readChar, thread_id: 0
+                      method_entry: Lnet/sourceforge/pmd/cpd/cppast/SimpleCharStream;UpdateLineColumn, thread_id: 0
+                      method_exit: Lnet/sourceforge/pmd/cpd/cppast/SimpleCharStream;UpdateLineColumn, thread_id: 0
+                    method_exit: Lnet/sourceforge/pmd/cpd/cppast/SimpleCharStream;readChar, thread_id: 0
+                    method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParserTokenManager;jjCheckNAdd, thread_id: 0
+                    method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParserTokenManager;jjCheckNAdd, thread_id: 0
+                    method_entry: Lnet/sourceforge/pmd/cpd/cppast/SimpleCharStream;readChar, thread_id: 0
+                      method_entry: Lnet/sourceforge/pmd/cpd/cppast/SimpleCharStream;UpdateLineColumn, thread_id: 0
+                      method_exit: Lnet/sourceforge/pmd/cpd/cppast/SimpleCharStream;UpdateLineColumn, thread_id: 0
+                    method_exit: Lnet/sourceforge/pmd/cpd/cppast/SimpleCharStream;readChar, thread_id: 0
+                    method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParserTokenManager;jjCheckNAdd, thread_id: 0
+                    method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParserTokenManager;jjCheckNAdd, thread_id: 0
+                    method_entry: Lnet/sourceforge/pmd/cpd/cppast/SimpleCharStream;readChar, thread_id: 0
+                      method_entry: Lnet/sourceforge/pmd/cpd/cppast/SimpleCharStream;UpdateLineColumn, thread_id: 0
+                      method_exit: Lnet/sourceforge/pmd/cpd/cppast/SimpleCharStream;UpdateLineColumn, thread_id: 0
+                    method_exit: Lnet/sourceforge/pmd/cpd/cppast/SimpleCharStream;readChar, thread_id: 0
+                  method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParserTokenManager;jjMoveNfa_0, thread_id: 0
+                method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParserTokenManager;jjStartNfa_0, thread_id: 0
+              method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParserTokenManager;jjMoveStringLiteralDfa2_0, thread_id: 0
+            method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParserTokenManager;jjMoveStringLiteralDfa1_0, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParserTokenManager;jjMoveStringLiteralDfa0_0, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/SimpleCharStream;backup, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/SimpleCharStream;backup, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParserTokenManager;jjFillToken, thread_id: 0
+            method_entry: Lnet/sourceforge/pmd/cpd/cppast/Token;newToken, thread_id: 0
+              method_entry: Lnet/sourceforge/pmd/cpd/cppast/Token;<init>, obj_tag: 328, thread_id: 0
+              method_exit: Lnet/sourceforge/pmd/cpd/cppast/Token;<init>, thread_id: 0
+            method_exit: Lnet/sourceforge/pmd/cpd/cppast/Token;newToken, thread_id: 0
+            method_entry: Lnet/sourceforge/pmd/cpd/cppast/SimpleCharStream;GetImage, thread_id: 0
+            method_exit: Lnet/sourceforge/pmd/cpd/cppast/SimpleCharStream;GetImage, thread_id: 0
+            method_entry: Lnet/sourceforge/pmd/cpd/cppast/SimpleCharStream;getBeginLine, thread_id: 0
+            method_exit: Lnet/sourceforge/pmd/cpd/cppast/SimpleCharStream;getBeginLine, thread_id: 0
+            method_entry: Lnet/sourceforge/pmd/cpd/cppast/SimpleCharStream;getBeginColumn, thread_id: 0
+            method_exit: Lnet/sourceforge/pmd/cpd/cppast/SimpleCharStream;getBeginColumn, thread_id: 0
+            method_entry: Lnet/sourceforge/pmd/cpd/cppast/SimpleCharStream;getEndLine, thread_id: 0
+            method_exit: Lnet/sourceforge/pmd/cpd/cppast/SimpleCharStream;getEndLine, thread_id: 0
+            method_entry: Lnet/sourceforge/pmd/cpd/cppast/SimpleCharStream;getEndColumn, thread_id: 0
+            method_exit: Lnet/sourceforge/pmd/cpd/cppast/SimpleCharStream;getEndColumn, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParserTokenManager;jjFillToken, thread_id: 0
+        method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParserTokenManager;getNextToken, thread_id: 0
+        method_entry: Lnet/sourceforge/pmd/cpd/SourceCode;getFileName, obj_tag: 8, thread_id: 0
+        method_exit: Lnet/sourceforge/pmd/cpd/SourceCode;getFileName, thread_id: 0
+        method_entry: Lnet/sourceforge/pmd/cpd/TokenEntry;<init>, obj_tag: 330, param_obj_tag: 329, param_obj_tag: 9, thread_id: 0
+        method_exit: Lnet/sourceforge/pmd/cpd/TokenEntry;<init>, thread_id: 0
+        method_entry: Lnet/sourceforge/pmd/cpd/Tokens;add, obj_tag: 5, param_obj_tag: 330, thread_id: 0
+        method_exit: Lnet/sourceforge/pmd/cpd/Tokens;add, thread_id: 0
+        method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParserTokenManager;getNextToken, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/SimpleCharStream;BeginToken, thread_id: 0
+            method_entry: Lnet/sourceforge/pmd/cpd/cppast/SimpleCharStream;readChar, thread_id: 0
+            method_exit: Lnet/sourceforge/pmd/cpd/cppast/SimpleCharStream;readChar, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/SimpleCharStream;BeginToken, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/SimpleCharStream;backup, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/SimpleCharStream;backup, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParserTokenManager;jjMoveStringLiteralDfa0_0, thread_id: 0
+            method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParserTokenManager;jjMoveStringLiteralDfa1_0, thread_id: 0
+              method_entry: Lnet/sourceforge/pmd/cpd/cppast/SimpleCharStream;readChar, thread_id: 0
+                method_entry: Lnet/sourceforge/pmd/cpd/cppast/SimpleCharStream;UpdateLineColumn, thread_id: 0
+                method_exit: Lnet/sourceforge/pmd/cpd/cppast/SimpleCharStream;UpdateLineColumn, thread_id: 0
+              method_exit: Lnet/sourceforge/pmd/cpd/cppast/SimpleCharStream;readChar, thread_id: 0
+              method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParserTokenManager;jjStopAtPos, thread_id: 0
+              method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParserTokenManager;jjStopAtPos, thread_id: 0
+            method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParserTokenManager;jjMoveStringLiteralDfa1_0, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParserTokenManager;jjMoveStringLiteralDfa0_0, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/SimpleCharStream;BeginToken, thread_id: 0
+            method_entry: Lnet/sourceforge/pmd/cpd/cppast/SimpleCharStream;readChar, thread_id: 0
+              method_entry: Lnet/sourceforge/pmd/cpd/cppast/SimpleCharStream;FillBuff, thread_id: 0
+                method_entry: Lnet/sourceforge/pmd/cpd/cppast/SimpleCharStream;backup, thread_id: 0
+                method_exit: Lnet/sourceforge/pmd/cpd/cppast/SimpleCharStream;backup, thread_id: 0
+              method_exit: Lnet/sourceforge/pmd/cpd/cppast/SimpleCharStream;FillBuff, thread_id: 0
+            method_exit: Lnet/sourceforge/pmd/cpd/cppast/SimpleCharStream;readChar, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/SimpleCharStream;BeginToken, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/cppast/CPPParserTokenManager;jjFillToken, thread_id: 0
+            method_entry: Lnet/sourceforge/pmd/cpd/cppast/Token;newToken, thread_id: 0
+              method_entry: Lnet/sourceforge/pmd/cpd/cppast/Token;<init>, obj_tag: 331, thread_id: 0
+              method_exit: Lnet/sourceforge/pmd/cpd/cppast/Token;<init>, thread_id: 0
+            method_exit: Lnet/sourceforge/pmd/cpd/cppast/Token;newToken, thread_id: 0
+            method_entry: Lnet/sourceforge/pmd/cpd/cppast/SimpleCharStream;getBeginLine, thread_id: 0
+            method_exit: Lnet/sourceforge/pmd/cpd/cppast/SimpleCharStream;getBeginLine, thread_id: 0
+            method_entry: Lnet/sourceforge/pmd/cpd/cppast/SimpleCharStream;getBeginColumn, thread_id: 0
+            method_exit: Lnet/sourceforge/pmd/cpd/cppast/SimpleCharStream;getBeginColumn, thread_id: 0
+            method_entry: Lnet/sourceforge/pmd/cpd/cppast/SimpleCharStream;getEndLine, thread_id: 0
+            method_exit: Lnet/sourceforge/pmd/cpd/cppast/SimpleCharStream;getEndLine, thread_id: 0
+            method_entry: Lnet/sourceforge/pmd/cpd/cppast/SimpleCharStream;getEndColumn, thread_id: 0
+            method_exit: Lnet/sourceforge/pmd/cpd/cppast/SimpleCharStream;getEndColumn, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParserTokenManager;jjFillToken, thread_id: 0
+        method_exit: Lnet/sourceforge/pmd/cpd/cppast/CPPParserTokenManager;getNextToken, thread_id: 0
+        method_entry: Lnet/sourceforge/pmd/cpd/TokenEntry;getEOF, thread_id: 0
+        method_exit: Lnet/sourceforge/pmd/cpd/TokenEntry;getEOF, thread_id: 0
+        method_entry: Lnet/sourceforge/pmd/cpd/Tokens;add, obj_tag: 5, param_obj_tag: 324, thread_id: 0
+        method_exit: Lnet/sourceforge/pmd/cpd/Tokens;add, thread_id: 0
+        method_entry: Lnet/sourceforge/pmd/cpd/SourceCode;getFileName, obj_tag: 8, thread_id: 0
+        method_exit: Lnet/sourceforge/pmd/cpd/SourceCode;getFileName, thread_id: 0
+      method_exit: Lnet/sourceforge/pmd/cpd/CPPTokenizer;tokenize, thread_id: 0
+      method_entry: Lnet/sourceforge/pmd/cpd/SourceCode;getFileName, obj_tag: 8, thread_id: 0
+      method_exit: Lnet/sourceforge/pmd/cpd/SourceCode;getFileName, thread_id: 0
+    method_exit: Lnet/sourceforge/pmd/cpd/CPD;add, thread_id: 0
+  method_exit: Lnet/sourceforge/pmd/cpd/CPD;add, thread_id: 0
+method_exit: Ltest/auto/Strategy_CPD_Language_4;main, thread_id: 0

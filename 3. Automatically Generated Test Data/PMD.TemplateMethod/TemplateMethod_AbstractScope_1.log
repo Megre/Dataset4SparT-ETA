@@ -1,0 +1,24 @@
+method_entry: Ltest/auto/TemplateMethod_AbstractScope_1;main, thread_id: 0
+  method_entry: Lnet/sourceforge/pmd/symboltable/ClassScope;<clinit>, thread_id: 0
+  method_exit: Lnet/sourceforge/pmd/symboltable/ClassScope;<clinit>, thread_id: 0
+  method_entry: Lnet/sourceforge/pmd/symboltable/ClassScope;<init>, obj_tag: 1, param_obj_tag: 2, thread_id: 0
+    method_entry: Lnet/sourceforge/pmd/symboltable/AbstractScope;<init>, obj_tag: 1, thread_id: 0
+    method_exit: Lnet/sourceforge/pmd/symboltable/AbstractScope;<init>, thread_id: 0
+  method_exit: Lnet/sourceforge/pmd/symboltable/ClassScope;<init>, thread_id: 0
+  method_entry: Lnet/sourceforge/pmd/ast/ASTEnumDeclaration;<init>, obj_tag: 3, thread_id: 0
+    method_entry: Lnet/sourceforge/pmd/ast/AccessNode;<init>, obj_tag: 3, thread_id: 0
+      method_entry: Lnet/sourceforge/pmd/ast/SimpleNode;<init>, obj_tag: 3, thread_id: 0
+      method_exit: Lnet/sourceforge/pmd/ast/SimpleNode;<init>, thread_id: 0
+    method_exit: Lnet/sourceforge/pmd/ast/AccessNode;<init>, thread_id: 0
+  method_exit: Lnet/sourceforge/pmd/ast/ASTEnumDeclaration;<init>, thread_id: 0
+  method_entry: Lnet/sourceforge/pmd/symboltable/NameOccurrence;<init>, obj_tag: 4, param_obj_tag: 3, param_obj_tag: 2, thread_id: 0
+  method_exit: Lnet/sourceforge/pmd/symboltable/NameOccurrence;<init>, thread_id: 0
+  method_entry: Lnet/sourceforge/pmd/symboltable/AbstractScope;contains, obj_tag: 1, param_obj_tag: 4, thread_id: 0
+    method_entry: Lnet/sourceforge/pmd/symboltable/ClassScope;findVariableHere, obj_tag: 1, param_obj_tag: 4, thread_id: 0
+      method_entry: Lnet/sourceforge/pmd/symboltable/NameOccurrence;isThisOrSuper, obj_tag: 4, thread_id: 0
+      method_exit: Lnet/sourceforge/pmd/symboltable/NameOccurrence;isThisOrSuper, thread_id: 0
+      method_entry: Lnet/sourceforge/pmd/symboltable/NameOccurrence;getImage, obj_tag: 4, thread_id: 0
+      method_exit: Lnet/sourceforge/pmd/symboltable/NameOccurrence;getImage, thread_id: 0
+    method_exit: Lnet/sourceforge/pmd/symboltable/ClassScope;findVariableHere, thread_id: 0
+  method_exit: Lnet/sourceforge/pmd/symboltable/AbstractScope;contains, thread_id: 0
+method_exit: Ltest/auto/TemplateMethod_AbstractScope_1;main, thread_id: 0

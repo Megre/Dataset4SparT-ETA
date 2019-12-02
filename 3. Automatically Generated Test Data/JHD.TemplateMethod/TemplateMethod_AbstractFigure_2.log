@@ -1,0 +1,26 @@
+method_entry: Ltest/auto/TemplateMethod_AbstractFigure_2;main, thread_id: 0
+  method_entry: LCH/ifa/draw/figures/AttributeFigure;<clinit>, thread_id: 0
+  method_exit: LCH/ifa/draw/figures/AttributeFigure;<clinit>, thread_id: 0
+  method_entry: LCH/ifa/draw/contrib/DiamondFigure;<init>, obj_tag: 1, param_obj_tag: 2, param_obj_tag: 3, thread_id: 0
+    method_entry: LCH/ifa/draw/figures/RectangleFigure;<init>, obj_tag: 1, param_obj_tag: 2, param_obj_tag: 3, thread_id: 0
+      method_entry: LCH/ifa/draw/figures/AttributeFigure;<init>, obj_tag: 1, thread_id: 0
+        method_entry: LCH/ifa/draw/standard/AbstractFigure;<init>, obj_tag: 1, thread_id: 0
+        method_exit: LCH/ifa/draw/standard/AbstractFigure;<init>, thread_id: 0
+      method_exit: LCH/ifa/draw/figures/AttributeFigure;<init>, thread_id: 0
+      method_entry: LCH/ifa/draw/figures/RectangleFigure;basicDisplayBox, obj_tag: 1, param_obj_tag: 2, param_obj_tag: 3, thread_id: 0
+      method_exit: LCH/ifa/draw/figures/RectangleFigure;basicDisplayBox, thread_id: 0
+    method_exit: LCH/ifa/draw/figures/RectangleFigure;<init>, thread_id: 0
+  method_exit: LCH/ifa/draw/contrib/DiamondFigure;<init>, thread_id: 0
+  method_entry: LCH/ifa/draw/standard/AbstractFigure;moveBy, obj_tag: 1, thread_id: 0
+    method_entry: LCH/ifa/draw/standard/AbstractFigure;willChange, obj_tag: 1, thread_id: 0
+      method_entry: LCH/ifa/draw/standard/AbstractFigure;invalidate, obj_tag: 1, thread_id: 0
+      method_exit: LCH/ifa/draw/standard/AbstractFigure;invalidate, thread_id: 0
+    method_exit: LCH/ifa/draw/standard/AbstractFigure;willChange, thread_id: 0
+    method_entry: LCH/ifa/draw/figures/RectangleFigure;basicMoveBy, obj_tag: 1, thread_id: 0
+    method_exit: LCH/ifa/draw/figures/RectangleFigure;basicMoveBy, thread_id: 0
+    method_entry: LCH/ifa/draw/standard/AbstractFigure;changed, obj_tag: 1, thread_id: 0
+      method_entry: LCH/ifa/draw/standard/AbstractFigure;invalidate, obj_tag: 1, thread_id: 0
+      method_exit: LCH/ifa/draw/standard/AbstractFigure;invalidate, thread_id: 0
+    method_exit: LCH/ifa/draw/standard/AbstractFigure;changed, thread_id: 0
+  method_exit: LCH/ifa/draw/standard/AbstractFigure;moveBy, thread_id: 0
+method_exit: Ltest/auto/TemplateMethod_AbstractFigure_2;main, thread_id: 0

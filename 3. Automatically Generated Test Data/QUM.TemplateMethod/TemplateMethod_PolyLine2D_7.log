@@ -1,0 +1,28 @@
+method_entry: Ltest/auto/TemplateMethod_PolyLine2D_7;main, thread_id: 0
+  method_entry: Ldiagram/figures/PolygonFigure;<clinit>, thread_id: 0
+  method_exit: Ldiagram/figures/PolygonFigure;<clinit>, thread_id: 0
+  method_entry: Ldiagram/figures/PolygonFigure;<init>, obj_tag: 1, thread_id: 0
+    method_entry: Ldiagram/figures/PolygonFigure;generateLocalHash, thread_id: 0
+    method_exit: Ldiagram/figures/PolygonFigure;generateLocalHash, thread_id: 0
+  method_exit: Ldiagram/figures/PolygonFigure;<init>, thread_id: 0
+  method_entry: Ldiagram/figures/RectangularFigure;<clinit>, thread_id: 0
+  method_exit: Ldiagram/figures/RectangularFigure;<clinit>, thread_id: 0
+  method_entry: Ldiagram/figures/RectangularFigure;<init>, obj_tag: 2, thread_id: 0
+    method_entry: Ldiagram/figures/RectangularFigure;<init>, obj_tag: 2, thread_id: 0
+      method_entry: Ldiagram/figures/RectangularFigure;generateLocalHash, thread_id: 0
+      method_exit: Ldiagram/figures/RectangularFigure;generateLocalHash, thread_id: 0
+    method_exit: Ldiagram/figures/RectangularFigure;<init>, thread_id: 0
+  method_exit: Ldiagram/figures/RectangularFigure;<init>, thread_id: 0
+  method_entry: Luml/diagram/CompositionLink;<init>, obj_tag: 3, param_obj_tag: 1, param_obj_tag: 2, thread_id: 0
+    method_entry: Ldiagram/figures/PolyLink;<init>, obj_tag: 3, param_obj_tag: 1, param_obj_tag: 2, thread_id: 0
+      method_entry: Ldiagram/shape/PolyLine2D$Double;<init>, obj_tag: 3, thread_id: 0
+        method_entry: Ldiagram/shape/PolyLine2D;<init>, obj_tag: 3, thread_id: 0
+        method_exit: Ldiagram/shape/PolyLine2D;<init>, thread_id: 0
+      method_exit: Ldiagram/shape/PolyLine2D$Double;<init>, thread_id: 0
+    method_exit: Ldiagram/figures/PolyLink;<init>, thread_id: 0
+  method_exit: Luml/diagram/CompositionLink;<init>, thread_id: 0
+  method_entry: Ldiagram/shape/PolyLine2D;split, obj_tag: 3, param_obj_tag: 4, thread_id: 0
+    method_entry: Ldiagram/shape/PolyLine2D$Double;split, obj_tag: 3, thread_id: 0
+    method_exit: Ldiagram/shape/PolyLine2D$Double;split, thread_id: 0
+  method_exit: Ldiagram/shape/PolyLine2D;split, thread_id: 0
+method_exit: Ltest/auto/TemplateMethod_PolyLine2D_7;main, thread_id: 0

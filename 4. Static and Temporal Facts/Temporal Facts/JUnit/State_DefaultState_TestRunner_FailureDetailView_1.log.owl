@@ -1,0 +1,2147 @@
+<?xml version="1.0"?>
+<!DOCTYPE rdf:RDF [
+  <!ENTITY this 'http://anonymous.authors/ontologies/2017/11/Java.DesignPattern#'>
+  <!ENTITY owl 'http://www.w3.org/2002/07/owl#'>
+  <!ENTITY bh 'http://anonymous.authors/ontologies/2017/8/Behavior#'>
+  <!ENTITY xsd 'http://www.w3.org/2001/XMLSchema#'>
+  <!ENTITY rdfs 'http://www.w3.org/2000/01/rdf-schema#'>
+  <!ENTITY ptn 'http://anonymous.authors/ontologies/2017/10/Pattern#'>
+  <!ENTITY mgd 'http://anonymous.authors/ontologies/2017/12/Merged#'>
+  <!ENTITY jbh 'http://anonymous.authors/ontologies/2017/8/Java.Behavior#'>
+  <!ENTITY java 'http://anonymous.authors/ontologies/2017/6/Java#'>
+  <!ENTITY t 'http://anonymous.authors/ontologies/2018/10/Time#'>
+  <!ENTITY rdf 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+  <!ENTITY sbh 'http://anonymous.authors/ontologies/2018/4/StaticBehavior'>
+  <!ENTITY jd 'http://anonymous.authors/ontologies/2017/11/Java.DesignPattern#'>
+  <!ENTITY jsbh 'http://anonymous.authors/ontologies/2018/4/Java.StaticBehavior#'>
+  <!ENTITY base 'http://anonymous.authors/ontologies/2017/12/Merged#'>]>
+<rdf:RDF
+    xmlns:rdf="&rdf;"
+    xmlns:jbh="&jbh;"
+    xmlns:rdfs="&rdfs;"
+    xmlns:java="&java;"
+    xmlns:sbh="http://anonymous.authors/ontologies/2018/4/StaticBehavior"
+    xmlns:t="&t;"
+    xmlns:owl="&owl;"
+    xmlns:jd="&jd;"
+    xmlns:ptn="&ptn;"
+    xmlns:bh="&bh;"
+    xmlns:base="&base;"
+    xmlns:jsbh="&jsbh;"
+    xmlns:xsd="&xsd;">
+  <jbh:MethodCall rdf:about="&jbh;mc61">
+    <jbh:methodCalled>
+      <java:Method rdf:about="http://anonymous.authors/ontologies/2017/6/Java#junit.swingui.TestRunner$11.!init">
+        <jbh:isInit rdf:datatype="&xsd;boolean">true</jbh:isInit>
+      </java:Method>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">64</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc60">
+        <jbh:methodCalled>
+          <java:Method rdf:about="&java;junit.swingui.TestRunner.createBrowseButton"/>
+        </jbh:methodCalled>
+        <t:endsAt rdf:datatype="&xsd;integer">65</t:endsAt>
+        <bh:originEvent>
+          <jbh:MethodCall rdf:about="&jbh;mc17">
+            <jbh:paramObjTag rdf:datatype="&xsd;integer">5</jbh:paramObjTag>
+            <jbh:methodCalled>
+              <java:Method rdf:about="&java;junit.swingui.TestRunner.createUI"/>
+            </jbh:methodCalled>
+            <t:endsAt rdf:datatype="&xsd;integer">236</t:endsAt>
+            <bh:originEvent>
+              <jbh:MethodCall rdf:about="&jbh;mc14">
+                <jbh:methodCalled>
+                  <java:Method rdf:about="&java;junit.swingui.TestRunner.start"/>
+                </jbh:methodCalled>
+                <t:endsAt rdf:datatype="&xsd;integer">319</t:endsAt>
+                <bh:originEvent>
+                  <jbh:MethodCall rdf:about="&jbh;mc1">
+                    <jbh:methodCalled>
+                      <java:Method rdf:about="&java;test.auto.State_DefaultState_TestRunner_FailureDetailView_1.main"/>
+                    </jbh:methodCalled>
+                    <t:endsAt rdf:datatype="&xsd;integer">320</t:endsAt>
+                    <java:threadID rdf:datatype="&xsd;integer"
+                    >0</java:threadID>
+                    <t:startsAt rdf:datatype="&xsd;integer">1</t:startsAt>
+                  </jbh:MethodCall>
+                </bh:originEvent>
+                <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+                <jbh:methodCaller rdf:resource="&java;test.auto.State_DefaultState_TestRunner_FailureDetailView_1.main"/>
+                <jbh:objTag rdf:datatype="&xsd;integer">1</jbh:objTag>
+                <t:startsAt rdf:datatype="&xsd;integer">14</t:startsAt>
+              </jbh:MethodCall>
+            </bh:originEvent>
+            <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+            <jbh:methodCaller rdf:resource="&java;junit.swingui.TestRunner.start"/>
+            <jbh:objTag rdf:datatype="&xsd;integer">1</jbh:objTag>
+            <t:startsAt rdf:datatype="&xsd;integer">17</t:startsAt>
+          </jbh:MethodCall>
+        </bh:originEvent>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;junit.swingui.TestRunner.createUI"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">1</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">60</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;junit.swingui.TestRunner.createBrowseButton"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">18</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">61</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc73">
+    <jbh:methodCalled>
+      <java:Method rdf:about="&java;junit.runner.BaseTestRunner.inVAJava"/>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">74</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc66">
+        <jbh:methodCalled>
+          <java:Method rdf:about="&java;junit.swingui.TestRunner.createUseLoaderCheckBox"/>
+        </jbh:methodCalled>
+        <t:endsAt rdf:datatype="&xsd;integer">75</t:endsAt>
+        <bh:originEvent rdf:resource="&jbh;mc17"/>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;junit.swingui.TestRunner.createUI"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">1</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">66</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;junit.swingui.TestRunner.createUseLoaderCheckBox"/>
+    <t:startsAt rdf:datatype="&xsd;integer">73</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:FieldModi rdf:about="&jbh;fldModi35">
+    <jbh:fieldVisitMethod>
+      <java:Method rdf:about="http://anonymous.authors/ontologies/2017/6/Java#junit.swingui.TestRunner$7.!init">
+        <jbh:isInit rdf:datatype="&xsd;boolean">true</jbh:isInit>
+      </java:Method>
+    </jbh:fieldVisitMethod>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">1</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">12</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">36</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">1</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">35</t:startsAt>
+    <jbh:visitedField>
+      <java:Field rdf:about="http://anonymous.authors/ontologies/2017/6/Java#junit.swingui.TestRunner$7.this$0">
+        <java:fieldTypeIs>
+          <java:Class rdf:about="&java;junit.swingui.TestRunner">
+            <java:hasField>
+              <java:Field rdf:about="&java;junit.swingui.TestRunner.fFailureView">
+                <java:fieldTypeIs>
+                  <java:Class rdf:about="&java;junit.runner.FailureDetailView"/>
+                </java:fieldTypeIs>
+              </java:Field>
+            </java:hasField>
+            <java:hasField>
+              <java:Field rdf:about="&java;junit.swingui.TestRunner.fStatusLine">
+                <java:fieldTypeIs>
+                  <java:Class rdf:about="&java;junit.swingui.StatusLine"/>
+                </java:fieldTypeIs>
+              </java:Field>
+            </java:hasField>
+            <java:hasField>
+              <java:Field rdf:about="&java;junit.swingui.TestRunner.fCounterPanel">
+                <java:fieldTypeIs>
+                  <java:Class rdf:about="&java;junit.swingui.CounterPanel"/>
+                </java:fieldTypeIs>
+              </java:Field>
+            </java:hasField>
+            <java:hasField>
+              <java:Field rdf:about="&java;junit.swingui.TestRunner.fProgressIndicator">
+                <java:fieldTypeIs>
+                  <java:Class rdf:about="&java;junit.swingui.ProgressBar"/>
+                </java:fieldTypeIs>
+              </java:Field>
+            </java:hasField>
+          </java:Class>
+        </java:fieldTypeIs>
+      </java:Field>
+    </jbh:visitedField>
+  </jbh:FieldModi>
+  <jbh:MethodCall rdf:about="&jbh;mc102">
+    <jbh:methodCalled>
+      <java:Method rdf:about="http://anonymous.authors/ontologies/2017/6/Java#junit.framework.Assert.!init">
+        <jbh:isInit rdf:datatype="&xsd;boolean">true</jbh:isInit>
+      </java:Method>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">103</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc101">
+        <jbh:paramObjTag rdf:datatype="&xsd;integer">32</jbh:paramObjTag>
+        <jbh:methodCalled>
+          <java:Method rdf:about="http://anonymous.authors/ontologies/2017/6/Java#junit.framework.TestCase.!init">
+            <jbh:isInit rdf:datatype="&xsd;boolean">true</jbh:isInit>
+          </java:Method>
+        </jbh:methodCalled>
+        <t:endsAt rdf:datatype="&xsd;integer">104</t:endsAt>
+        <bh:originEvent>
+          <jbh:MethodCall rdf:about="&jbh;mc98">
+            <jbh:paramObjTag rdf:datatype="&xsd;integer">32</jbh:paramObjTag>
+            <jbh:methodCalled>
+              <java:Method rdf:about="http://anonymous.authors/ontologies/2017/6/Java#junit.swingui.FailureRunView$1.!init">
+                <jbh:isInit rdf:datatype="&xsd;boolean">true</jbh:isInit>
+              </java:Method>
+            </jbh:methodCalled>
+            <t:endsAt rdf:datatype="&xsd;integer">105</t:endsAt>
+            <bh:originEvent>
+              <jbh:MethodCall rdf:about="&jbh;mc93">
+                <jbh:paramObjTag rdf:datatype="&xsd;integer">1</jbh:paramObjTag>
+                <jbh:methodCalled>
+                  <java:Method rdf:about="http://anonymous.authors/ontologies/2017/6/Java#junit.swingui.FailureRunView.!init">
+                    <jbh:isInit rdf:datatype="&xsd;boolean">true</jbh:isInit>
+                  </java:Method>
+                </jbh:methodCalled>
+                <t:endsAt rdf:datatype="&xsd;integer">144</t:endsAt>
+                <bh:originEvent>
+                  <jbh:MethodCall rdf:about="&jbh;mc92">
+                    <jbh:methodCalled>
+                      <java:Method rdf:about="&java;junit.swingui.TestRunner.createTestRunViews"/>
+                    </jbh:methodCalled>
+                    <t:endsAt rdf:datatype="&xsd;integer">171</t:endsAt>
+                    <bh:originEvent rdf:resource="&jbh;mc17"/>
+                    <java:threadID rdf:datatype="&xsd;integer"
+                    >0</java:threadID>
+                    <jbh:methodCaller rdf:resource="&java;junit.swingui.TestRunner.createUI"/>
+                    <jbh:objTag rdf:datatype="&xsd;integer">1</jbh:objTag>
+                    <t:startsAt rdf:datatype="&xsd;integer">92</t:startsAt>
+                  </jbh:MethodCall>
+                </bh:originEvent>
+                <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+                <jbh:methodCaller rdf:resource="&java;junit.swingui.TestRunner.createTestRunViews"/>
+                <jbh:objTag rdf:datatype="&xsd;integer">29</jbh:objTag>
+                <t:startsAt rdf:datatype="&xsd;integer">93</t:startsAt>
+              </jbh:MethodCall>
+            </bh:originEvent>
+            <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+            <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#junit.swingui.FailureRunView.!init"/>
+            <jbh:objTag rdf:datatype="&xsd;integer">31</jbh:objTag>
+            <t:startsAt rdf:datatype="&xsd;integer">98</t:startsAt>
+          </jbh:MethodCall>
+        </bh:originEvent>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#junit.swingui.FailureRunView$1.!init"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">31</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">101</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#junit.framework.TestCase.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">31</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">102</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc114">
+    <jbh:methodCalled>
+      <java:Method rdf:about="&java;junit.framework.TestCase.name"/>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">115</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc113">
+        <jbh:methodCalled>
+          <java:Method rdf:about="&java;junit.framework.TestCase.toString"/>
+        </jbh:methodCalled>
+        <t:endsAt rdf:datatype="&xsd;integer">116</t:endsAt>
+        <bh:originEvent>
+          <jbh:MethodCall rdf:about="&jbh;mc112">
+            <jbh:methodCalled>
+              <java:Method rdf:about="&java;junit.framework.TestFailure.toString"/>
+            </jbh:methodCalled>
+            <t:endsAt rdf:datatype="&xsd;integer">117</t:endsAt>
+            <bh:originEvent rdf:resource="&jbh;mc93"/>
+            <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+            <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#junit.swingui.FailureRunView.!init"/>
+            <jbh:objTag rdf:datatype="&xsd;integer">35</jbh:objTag>
+            <t:startsAt rdf:datatype="&xsd;integer">112</t:startsAt>
+          </jbh:MethodCall>
+        </bh:originEvent>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;junit.framework.TestFailure.toString"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">31</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">113</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;junit.framework.TestCase.toString"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">31</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">114</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc291">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">78</jbh:paramObjTag>
+    <jbh:methodCalled>
+      <java:Method rdf:about="&java;junit.runner.TestCaseClassLoader.isJar"/>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">292</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc290">
+        <jbh:paramObjTag rdf:datatype="&xsd;integer">71</jbh:paramObjTag>
+        <jbh:methodCalled>
+          <java:Method rdf:about="&java;junit.runner.TestCaseClassLoader.lookupClassData"/>
+        </jbh:methodCalled>
+        <t:endsAt rdf:datatype="&xsd;integer">307</t:endsAt>
+        <bh:originEvent>
+          <jbh:MethodCall rdf:about="&jbh;mc287">
+            <jbh:paramObjTag rdf:datatype="&xsd;integer">71</jbh:paramObjTag>
+            <jbh:methodCalled>
+              <java:Method rdf:about="&java;junit.runner.TestCaseClassLoader.loadClass"/>
+            </jbh:methodCalled>
+            <t:endsAt rdf:datatype="&xsd;integer">308</t:endsAt>
+            <bh:originEvent>
+              <jbh:MethodCall rdf:about="&jbh;mc278">
+                <jbh:paramObjTag rdf:datatype="&xsd;integer">71</jbh:paramObjTag>
+                <jbh:methodCalled>
+                  <java:Method rdf:about="&java;junit.runner.ReloadingTestSuiteLoader.load"/>
+                </jbh:methodCalled>
+                <t:endsAt rdf:datatype="&xsd;integer">309</t:endsAt>
+                <bh:originEvent>
+                  <jbh:MethodCall rdf:about="&jbh;mc267">
+                    <jbh:paramObjTag rdf:datatype="&xsd;integer"
+                    >71</jbh:paramObjTag>
+                    <jbh:methodCalled>
+                      <java:Method rdf:about="&java;junit.runner.BaseTestRunner.loadSuiteClass"/>
+                    </jbh:methodCalled>
+                    <t:endsAt rdf:datatype="&xsd;integer">310</t:endsAt>
+                    <bh:originEvent>
+                      <jbh:MethodCall rdf:about="&jbh;mc266">
+                        <jbh:paramObjTag rdf:datatype="&xsd;integer"
+                        >71</jbh:paramObjTag>
+                        <jbh:methodCalled>
+                          <java:Method rdf:about="&java;junit.runner.BaseTestRunner.getTest"/>
+                        </jbh:methodCalled>
+                        <t:endsAt rdf:datatype="&xsd;integer"
+                        >317</t:endsAt>
+                        <bh:originEvent>
+                          <jbh:MethodCall rdf:about="&jbh;mc239">
+                            <jbh:methodCalled>
+                              <java:Method rdf:about="&java;junit.swingui.TestRunner.runSuite"/>
+                            </jbh:methodCalled>
+                            <t:endsAt rdf:datatype="&xsd;integer"
+                            >318</t:endsAt>
+                            <bh:originEvent rdf:resource="&jbh;mc14"/>
+                            <java:threadID rdf:datatype="&xsd;integer"
+                            >0</java:threadID>
+                            <jbh:methodCaller rdf:resource="&java;junit.swingui.TestRunner.start"/>
+                            <jbh:objTag rdf:datatype="&xsd;integer"
+                            >1</jbh:objTag>
+                            <t:startsAt rdf:datatype="&xsd;integer"
+                            >239</t:startsAt>
+                          </jbh:MethodCall>
+                        </bh:originEvent>
+                        <java:threadID rdf:datatype="&xsd;integer"
+                        >0</java:threadID>
+                        <jbh:methodCaller rdf:resource="&java;junit.swingui.TestRunner.runSuite"/>
+                        <jbh:objTag rdf:datatype="&xsd;integer"
+                        >1</jbh:objTag>
+                        <t:startsAt rdf:datatype="&xsd;integer"
+                        >266</t:startsAt>
+                      </jbh:MethodCall>
+                    </bh:originEvent>
+                    <java:threadID rdf:datatype="&xsd;integer"
+                    >0</java:threadID>
+                    <jbh:methodCaller rdf:resource="&java;junit.runner.BaseTestRunner.getTest"/>
+                    <jbh:objTag rdf:datatype="&xsd;integer">1</jbh:objTag>
+                    <t:startsAt rdf:datatype="&xsd;integer">267</t:startsAt>
+                  </jbh:MethodCall>
+                </bh:originEvent>
+                <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+                <jbh:methodCaller rdf:resource="&java;junit.runner.BaseTestRunner.loadSuiteClass"/>
+                <jbh:objTag rdf:datatype="&xsd;integer">72</jbh:objTag>
+                <t:startsAt rdf:datatype="&xsd;integer">278</t:startsAt>
+              </jbh:MethodCall>
+            </bh:originEvent>
+            <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+            <jbh:methodCaller rdf:resource="&java;junit.runner.ReloadingTestSuiteLoader.load"/>
+            <jbh:objTag rdf:datatype="&xsd;integer">73</jbh:objTag>
+            <t:startsAt rdf:datatype="&xsd;integer">287</t:startsAt>
+          </jbh:MethodCall>
+        </bh:originEvent>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;junit.runner.TestCaseClassLoader.loadClass"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">73</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">290</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;junit.runner.TestCaseClassLoader.lookupClassData"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">73</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">291</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:FieldModi rdf:about="&jbh;fldModi141">
+    <jbh:fieldVisitMethod>
+      <java:Method rdf:about="http://anonymous.authors/ontologies/2017/6/Java#junit.swingui.FailureRunView$2.!init">
+        <jbh:isInit rdf:datatype="&xsd;boolean">true</jbh:isInit>
+      </java:Method>
+    </jbh:fieldVisitMethod>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">29</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">42</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">142</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">29</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">141</t:startsAt>
+    <jbh:visitedField>
+      <java:Field rdf:about="http://anonymous.authors/ontologies/2017/6/Java#junit.swingui.FailureRunView$2.this$0">
+        <java:fieldTypeIs>
+          <java:Class rdf:about="&java;junit.swingui.FailureRunView">
+            <java:hasField>
+              <java:Field rdf:about="&java;junit.swingui.FailureRunView.fRunContext">
+                <java:fieldTypeIs>
+                  <java:Class rdf:about="&java;junit.swingui.TestRunContext"/>
+                </java:fieldTypeIs>
+              </java:Field>
+            </java:hasField>
+          </java:Class>
+        </java:fieldTypeIs>
+      </java:Field>
+    </jbh:visitedField>
+  </jbh:FieldModi>
+  <jbh:MethodCall rdf:about="&jbh;mc222">
+    <t:endsAt rdf:datatype="&xsd;integer">223</t:endsAt>
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">63</jbh:paramObjTag>
+    <jbh:methodCalled>
+      <java:Method rdf:about="&java;junit.swingui.TestRunner.addGrid"/>
+    </jbh:methodCalled>
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">22</jbh:paramObjTag>
+    <jbh:methodCaller rdf:resource="&java;junit.swingui.TestRunner.createUI"/>
+    <bh:originEvent rdf:resource="&jbh;mc17"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <t:startsAt rdf:datatype="&xsd;integer">222</t:startsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">1</jbh:objTag>
+  </jbh:MethodCall>
+  <jbh:FieldModi rdf:about="&jbh;fldModi24">
+    <jbh:fieldVisitMethod>
+      <java:Method rdf:about="http://anonymous.authors/ontologies/2017/6/Java#junit.swingui.TestRunner$8.!init">
+        <jbh:isInit rdf:datatype="&xsd;boolean">true</jbh:isInit>
+      </java:Method>
+    </jbh:fieldVisitMethod>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">1</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">9</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">25</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">1</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">24</t:startsAt>
+    <jbh:visitedField>
+      <java:Field rdf:about="http://anonymous.authors/ontologies/2017/6/Java#junit.swingui.TestRunner$8.this$0">
+        <java:fieldTypeIs rdf:resource="&java;junit.swingui.TestRunner"/>
+      </java:Field>
+    </jbh:visitedField>
+  </jbh:FieldModi>
+  <jbh:MethodCall rdf:about="&jbh;mc84">
+    <jbh:methodCalled>
+      <java:Method rdf:about="&java;junit.swingui.CounterPanel.createOutputField"/>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">85</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc81">
+        <jbh:methodCalled>
+          <java:Method rdf:about="http://anonymous.authors/ontologies/2017/6/Java#junit.swingui.CounterPanel.!init">
+            <jbh:isInit rdf:datatype="&xsd;boolean">true</jbh:isInit>
+          </java:Method>
+        </jbh:methodCalled>
+        <t:endsAt rdf:datatype="&xsd;integer">88</t:endsAt>
+        <bh:originEvent>
+          <jbh:MethodCall rdf:about="&jbh;mc80">
+            <jbh:methodCalled>
+              <java:Method rdf:about="&java;junit.swingui.TestRunner.createCounterPanel"/>
+            </jbh:methodCalled>
+            <t:endsAt rdf:datatype="&xsd;integer">89</t:endsAt>
+            <bh:originEvent rdf:resource="&jbh;mc17"/>
+            <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+            <jbh:methodCaller rdf:resource="&java;junit.swingui.TestRunner.createUI"/>
+            <jbh:objTag rdf:datatype="&xsd;integer">1</jbh:objTag>
+            <t:startsAt rdf:datatype="&xsd;integer">80</t:startsAt>
+          </jbh:MethodCall>
+        </bh:originEvent>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;junit.swingui.TestRunner.createCounterPanel"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">22</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">81</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#junit.swingui.CounterPanel.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">22</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">84</t:startsAt>
+  </jbh:MethodCall>
+  <java:Class rdf:about="http://anonymous.authors/ontologies/2017/6/Java#junit.swingui.TestRunner$6">
+    <java:hasField>
+      <java:Field rdf:about="http://anonymous.authors/ontologies/2017/6/Java#junit.swingui.TestRunner$6.this$0">
+        <java:fieldTypeIs rdf:resource="&java;junit.swingui.TestRunner"/>
+      </java:Field>
+    </java:hasField>
+  </java:Class>
+  <jbh:MethodCall rdf:about="&jbh;mc96">
+    <jbh:methodCalled>
+      <java:Method rdf:about="&java;junit.swingui.TestRunner.getFailures"/>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">97</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc93"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#junit.swingui.FailureRunView.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">1</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">96</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:FieldModi rdf:about="&jbh;fldModi109">
+    <jbh:fieldVisitMethod>
+      <java:Method rdf:about="http://anonymous.authors/ontologies/2017/6/Java#junit.framework.TestFailure.!init">
+        <jbh:isInit rdf:datatype="&xsd;boolean">true</jbh:isInit>
+      </java:Method>
+    </jbh:fieldVisitMethod>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">31</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">35</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">110</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">31</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">109</t:startsAt>
+    <jbh:visitedField>
+      <java:Field rdf:about="&java;junit.framework.TestFailure.fFailedTest">
+        <java:fieldTypeIs>
+          <java:Class rdf:about="&java;junit.framework.Test"/>
+        </java:fieldTypeIs>
+      </java:Field>
+    </jbh:visitedField>
+  </jbh:FieldModi>
+  <jbh:MethodCall rdf:about="&jbh;mc137">
+    <jbh:methodCalled>
+      <java:Method rdf:about="&java;junit.framework.TestFailure.thrownException"/>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">138</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc126">
+        <bh:originEvent rdf:resource="&jbh;mc93"/>
+        <jbh:paramObjTag rdf:datatype="&xsd;integer">35</jbh:paramObjTag>
+        <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#junit.swingui.FailureRunView.!init"/>
+        <jbh:methodCalled>
+          <java:Method rdf:about="http://anonymous.authors/ontologies/2017/6/Java#junit.swingui.FailureRunView$FailureListCellRenderer.getListCellRendererComponent"/>
+        </jbh:methodCalled>
+        <t:endsAt rdf:datatype="&xsd;integer">139</t:endsAt>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:objTag rdf:datatype="&xsd;integer">36</jbh:objTag>
+        <jbh:paramObjTag rdf:datatype="&xsd;integer">30</jbh:paramObjTag>
+        <t:startsAt rdf:datatype="&xsd;integer">126</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#junit.swingui.FailureRunView$FailureListCellRenderer.getListCellRendererComponent"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">35</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">137</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc210">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">63</jbh:paramObjTag>
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">65</jbh:paramObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">211</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">1</jbh:objTag>
+    <bh:originEvent rdf:resource="&jbh;mc17"/>
+    <t:startsAt rdf:datatype="&xsd;integer">210</t:startsAt>
+    <jbh:methodCaller rdf:resource="&java;junit.swingui.TestRunner.createUI"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCalled rdf:resource="&java;junit.swingui.TestRunner.addGrid"/>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc181">
+    <jbh:methodCalled>
+      <java:Method rdf:about="http://anonymous.authors/ontologies/2017/6/Java#junit.swingui.DefaultFailureDetailView.!init">
+        <jbh:isInit rdf:datatype="&xsd;boolean">true</jbh:isInit>
+      </java:Method>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">182</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc178">
+        <jbh:methodCalled>
+          <java:Method rdf:about="&java;junit.swingui.TestRunner.createFailureDetailView"/>
+        </jbh:methodCalled>
+        <t:endsAt rdf:datatype="&xsd;integer">183</t:endsAt>
+        <bh:originEvent rdf:resource="&jbh;mc17"/>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;junit.swingui.TestRunner.createUI"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">1</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">178</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;junit.swingui.TestRunner.createFailureDetailView"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">56</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">181</t:startsAt>
+  </jbh:MethodCall>
+  <java:Class rdf:about="http://anonymous.authors/ontologies/2017/6/Java#junit.swingui.TestRunner$5">
+    <java:hasField>
+      <java:Field rdf:about="http://anonymous.authors/ontologies/2017/6/Java#junit.swingui.TestRunner$5.this$0">
+        <java:fieldTypeIs rdf:resource="&java;junit.swingui.TestRunner"/>
+      </java:Field>
+    </java:hasField>
+  </java:Class>
+  <jbh:FieldModi rdf:about="&jbh;fldModi168">
+    <jbh:fieldVisitMethod>
+      <java:Method rdf:about="http://anonymous.authors/ontologies/2017/6/Java#junit.swingui.TestRunner$14.!init">
+        <jbh:isInit rdf:datatype="&xsd;boolean">true</jbh:isInit>
+      </java:Method>
+    </jbh:fieldVisitMethod>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">1</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">52</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">169</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">1</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">168</t:startsAt>
+    <jbh:visitedField>
+      <java:Field rdf:about="http://anonymous.authors/ontologies/2017/6/Java#junit.swingui.TestRunner$14.this$0">
+        <java:fieldTypeIs rdf:resource="&java;junit.swingui.TestRunner"/>
+      </java:Field>
+    </jbh:visitedField>
+  </jbh:FieldModi>
+  <jbh:MethodCall rdf:about="&jbh;mc322">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">87</jbh:paramObjTag>
+    <jbh:methodCalled>
+      <java:Method rdf:about="&java;junit.swingui.ProgressBar.paintBackground"/>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">323</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc321">
+        <jbh:paramObjTag rdf:datatype="&xsd;integer">87</jbh:paramObjTag>
+        <jbh:methodCalled>
+          <java:Method rdf:about="&java;junit.swingui.ProgressBar.paintComponent"/>
+        </jbh:methodCalled>
+        <t:endsAt rdf:datatype="&xsd;integer">328</t:endsAt>
+        <java:threadID rdf:datatype="&xsd;integer">1</java:threadID>
+        <jbh:objTag rdf:datatype="&xsd;integer">21</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">321</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">1</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;junit.swingui.ProgressBar.paintComponent"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">21</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">322</t:startsAt>
+  </jbh:MethodCall>
+  <java:Class rdf:about="http://anonymous.authors/ontologies/2017/6/Java#junit.swingui.TestRunner$7">
+    <java:hasField rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#junit.swingui.TestRunner$7.this$0"/>
+  </java:Class>
+  <jbh:MethodCall rdf:about="&jbh;mc201">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">61</jbh:paramObjTag>
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">7</jbh:paramObjTag>
+    <jbh:methodCalled>
+      <java:Method rdf:about="&java;junit.swingui.TestRunner.getIconResource"/>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">202</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc200">
+        <jbh:methodCalled>
+          <java:Method rdf:about="&java;junit.swingui.TestRunner.createLogo"/>
+        </jbh:methodCalled>
+        <t:endsAt rdf:datatype="&xsd;integer">205</t:endsAt>
+        <bh:originEvent rdf:resource="&jbh;mc17"/>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;junit.swingui.TestRunner.createUI"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">1</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">200</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;junit.swingui.TestRunner.createLogo"/>
+    <t:startsAt rdf:datatype="&xsd;integer">201</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc237">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">5</jbh:paramObjTag>
+    <jbh:methodCalled>
+      <java:Method rdf:about="&java;junit.swingui.TestRunner.setSuite"/>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">238</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc14"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;junit.swingui.TestRunner.start"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">1</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">237</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc293">
+    <t:endsAt rdf:datatype="&xsd;integer">294</t:endsAt>
+    <jbh:methodCalled>
+      <java:Method rdf:about="&java;junit.runner.TestCaseClassLoader.loadFileData"/>
+    </jbh:methodCalled>
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">79</jbh:paramObjTag>
+    <t:startsAt rdf:datatype="&xsd;integer">293</t:startsAt>
+    <jbh:methodCaller rdf:resource="&java;junit.runner.TestCaseClassLoader.lookupClassData"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <bh:originEvent rdf:resource="&jbh;mc290"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">73</jbh:objTag>
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">78</jbh:paramObjTag>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc281">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">74</jbh:paramObjTag>
+    <jbh:methodCalled>
+      <java:Method rdf:about="&java;junit.runner.TestCaseClassLoader.scanPath"/>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">282</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc280">
+        <jbh:paramObjTag rdf:datatype="&xsd;integer">74</jbh:paramObjTag>
+        <jbh:methodCalled>
+          <java:Method rdf:about="http://anonymous.authors/ontologies/2017/6/Java#junit.runner.TestCaseClassLoader.!init">
+            <jbh:isInit rdf:datatype="&xsd;boolean">true</jbh:isInit>
+          </java:Method>
+        </jbh:methodCalled>
+        <t:endsAt rdf:datatype="&xsd;integer">285</t:endsAt>
+        <bh:originEvent>
+          <jbh:MethodCall rdf:about="&jbh;mc279">
+            <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#junit.runner.TestCaseClassLoader.!init"/>
+            <t:endsAt rdf:datatype="&xsd;integer">286</t:endsAt>
+            <bh:originEvent rdf:resource="&jbh;mc278"/>
+            <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+            <jbh:methodCaller rdf:resource="&java;junit.runner.ReloadingTestSuiteLoader.load"/>
+            <jbh:objTag rdf:datatype="&xsd;integer">73</jbh:objTag>
+            <t:startsAt rdf:datatype="&xsd;integer">279</t:startsAt>
+          </jbh:MethodCall>
+        </bh:originEvent>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#junit.runner.TestCaseClassLoader.!init"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">73</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">280</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#junit.runner.TestCaseClassLoader.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">73</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">281</t:startsAt>
+  </jbh:MethodCall>
+  <java:Class rdf:about="http://anonymous.authors/ontologies/2017/6/Java#junit.swingui.TestRunner$13">
+    <java:hasField>
+      <java:Field rdf:about="http://anonymous.authors/ontologies/2017/6/Java#junit.swingui.TestRunner$13.this$0">
+        <java:fieldTypeIs rdf:resource="&java;junit.swingui.TestRunner"/>
+      </java:Field>
+    </java:hasField>
+  </java:Class>
+  <jbh:MethodCall rdf:about="&jbh;mc127">
+    <jbh:methodCalled>
+      <java:Method rdf:about="&java;junit.framework.TestFailure.failedTest"/>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">128</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc126"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#junit.swingui.FailureRunView$FailureListCellRenderer.getListCellRendererComponent"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">35</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">127</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc224">
+    <t:startsAt rdf:datatype="&xsd;integer">224</t:startsAt>
+    <t:endsAt rdf:datatype="&xsd;integer">225</t:endsAt>
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">63</jbh:paramObjTag>
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">67</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="&java;junit.swingui.TestRunner.addGrid"/>
+    <jbh:methodCaller rdf:resource="&java;junit.swingui.TestRunner.createUI"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">1</jbh:objTag>
+    <bh:originEvent rdf:resource="&jbh;mc17"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc212">
+    <jbh:methodCalled rdf:resource="&java;junit.swingui.TestRunner.addGrid"/>
+    <jbh:methodCaller rdf:resource="&java;junit.swingui.TestRunner.createUI"/>
+    <bh:originEvent rdf:resource="&jbh;mc17"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">1</jbh:objTag>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">63</jbh:paramObjTag>
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">17</jbh:paramObjTag>
+    <t:startsAt rdf:datatype="&xsd;integer">212</t:startsAt>
+    <t:endsAt rdf:datatype="&xsd;integer">213</t:endsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc333">
+    <jbh:methodCalled>
+      <java:Method rdf:about="&java;junit.swingui.ProgressBar.getStatusColor"/>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">334</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc332">
+        <jbh:paramObjTag rdf:datatype="&xsd;integer">88</jbh:paramObjTag>
+        <jbh:methodCalled>
+          <java:Method rdf:about="&java;junit.swingui.ProgressBar.paintStatus"/>
+        </jbh:methodCalled>
+        <t:endsAt rdf:datatype="&xsd;integer">335</t:endsAt>
+        <bh:originEvent>
+          <jbh:MethodCall rdf:about="&jbh;mc329">
+            <jbh:paramObjTag rdf:datatype="&xsd;integer">88</jbh:paramObjTag>
+            <jbh:methodCalled rdf:resource="&java;junit.swingui.ProgressBar.paintComponent"/>
+            <t:endsAt rdf:datatype="&xsd;integer">336</t:endsAt>
+            <java:threadID rdf:datatype="&xsd;integer">1</java:threadID>
+            <jbh:objTag rdf:datatype="&xsd;integer">21</jbh:objTag>
+            <t:startsAt rdf:datatype="&xsd;integer">329</t:startsAt>
+          </jbh:MethodCall>
+        </bh:originEvent>
+        <java:threadID rdf:datatype="&xsd;integer">1</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;junit.swingui.ProgressBar.paintComponent"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">21</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">332</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">1</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;junit.swingui.ProgressBar.paintStatus"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">21</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">333</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc86">
+    <jbh:methodCalled rdf:resource="&java;junit.swingui.CounterPanel.createOutputField"/>
+    <t:endsAt rdf:datatype="&xsd;integer">87</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc81"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#junit.swingui.CounterPanel.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">22</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">86</t:startsAt>
+  </jbh:MethodCall>
+  <java:Class rdf:about="http://anonymous.authors/ontologies/2017/6/Java#junit.swingui.TestRunner$8">
+    <java:hasField rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#junit.swingui.TestRunner$8.this$0"/>
+  </java:Class>
+  <jbh:MethodCall rdf:about="&jbh;mc248">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">25</jbh:paramObjTag>
+    <jbh:methodCalled>
+      <java:Method rdf:about="&java;junit.swingui.CounterPanel.setLabelValue"/>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">249</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc247">
+        <jbh:methodCalled>
+          <java:Method rdf:about="&java;junit.swingui.CounterPanel.reset"/>
+        </jbh:methodCalled>
+        <t:endsAt rdf:datatype="&xsd;integer">254</t:endsAt>
+        <bh:originEvent>
+          <jbh:MethodCall rdf:about="&jbh;mc246">
+            <jbh:methodCalled>
+              <java:Method rdf:about="&java;junit.swingui.TestRunner.reset"/>
+            </jbh:methodCalled>
+            <t:endsAt rdf:datatype="&xsd;integer">259</t:endsAt>
+            <bh:originEvent rdf:resource="&jbh;mc239"/>
+            <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+            <jbh:methodCaller rdf:resource="&java;junit.swingui.TestRunner.runSuite"/>
+            <jbh:objTag rdf:datatype="&xsd;integer">1</jbh:objTag>
+            <t:startsAt rdf:datatype="&xsd;integer">246</t:startsAt>
+          </jbh:MethodCall>
+        </bh:originEvent>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;junit.swingui.TestRunner.reset"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">22</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">247</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;junit.swingui.CounterPanel.reset"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">22</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">248</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc195">
+    <jbh:methodCalled>
+      <java:Method rdf:about="http://anonymous.authors/ontologies/2017/6/Java#junit.swingui.TestRunner$9.!init">
+        <jbh:isInit rdf:datatype="&xsd;boolean">true</jbh:isInit>
+      </java:Method>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">198</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc194">
+        <jbh:methodCalled>
+          <java:Method rdf:about="&java;junit.swingui.TestRunner.createQuitButton"/>
+        </jbh:methodCalled>
+        <t:endsAt rdf:datatype="&xsd;integer">199</t:endsAt>
+        <bh:originEvent rdf:resource="&jbh;mc17"/>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;junit.swingui.TestRunner.createUI"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">1</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">194</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;junit.swingui.TestRunner.createQuitButton"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">59</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">195</t:startsAt>
+  </jbh:MethodCall>
+  <java:Class rdf:about="http://anonymous.authors/ontologies/2017/6/Java#junit.swingui.TestRunner$14">
+    <java:hasField rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#junit.swingui.TestRunner$14.this$0"/>
+  </java:Class>
+  <jbh:FieldModi rdf:about="&jbh;fldModi154">
+    <jbh:fieldVisitMethod>
+      <java:Method rdf:about="http://anonymous.authors/ontologies/2017/6/Java#junit.swingui.TestHierarchyRunView.!init">
+        <jbh:isInit rdf:datatype="&xsd;boolean">true</jbh:isInit>
+      </java:Method>
+    </jbh:fieldVisitMethod>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">46</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">45</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">155</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">46</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">154</t:startsAt>
+    <jbh:visitedField>
+      <java:Field rdf:about="&java;junit.swingui.TestHierarchyRunView.fTreeBrowser">
+        <java:fieldTypeIs>
+          <java:Class rdf:about="&java;junit.swingui.TestSuitePanel"/>
+        </java:fieldTypeIs>
+      </java:Field>
+    </jbh:visitedField>
+  </jbh:FieldModi>
+  <jbh:FieldModi rdf:about="&jbh;fldModi90">
+    <jbh:fieldVisitMethod rdf:resource="&java;junit.swingui.TestRunner.createUI"/>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">22</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">1</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">91</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">22</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">90</t:startsAt>
+    <jbh:visitedField rdf:resource="&java;junit.swingui.TestRunner.fCounterPanel"/>
+  </jbh:FieldModi>
+  <jbh:MethodCall rdf:about="&jbh;mc106">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">34</jbh:paramObjTag>
+    <jbh:methodCalled>
+      <java:Method rdf:about="http://anonymous.authors/ontologies/2017/6/Java#junit.framework.AssertionFailedError.!init">
+        <jbh:isInit rdf:datatype="&xsd;boolean">true</jbh:isInit>
+      </java:Method>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">107</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc93"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#junit.swingui.FailureRunView.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">33</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">106</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc203">
+    <jbh:methodCalled>
+      <java:Method rdf:about="&java;junit.runner.Version.id"/>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">204</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc200"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;junit.swingui.TestRunner.createLogo"/>
+    <t:startsAt rdf:datatype="&xsd;integer">203</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc283">
+    <jbh:methodCalled>
+      <java:Method rdf:about="&java;junit.runner.TestCaseClassLoader.readExcludedPackages"/>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">284</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc280"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#junit.runner.TestCaseClassLoader.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">73</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">283</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc186">
+    <jbh:methodCalled>
+      <java:Method rdf:about="&java;junit.swingui.DefaultFailureDetailView.getComponent"/>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">187</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc17"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;junit.swingui.TestRunner.createUI"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">56</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">186</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc49">
+    <jbh:methodCalled>
+      <java:Method rdf:about="http://anonymous.authors/ontologies/2017/6/Java#junit.swingui.TestRunner$13.!init">
+        <jbh:isInit rdf:datatype="&xsd;boolean">true</jbh:isInit>
+      </java:Method>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">52</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc40">
+        <jbh:methodCalled>
+          <java:Method rdf:about="&java;junit.swingui.TestRunner.createSuiteCombo"/>
+        </jbh:methodCalled>
+        <t:endsAt rdf:datatype="&xsd;integer">53</t:endsAt>
+        <bh:originEvent rdf:resource="&jbh;mc17"/>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;junit.swingui.TestRunner.createUI"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">1</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">40</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;junit.swingui.TestRunner.createSuiteCombo"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">15</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">49</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc295">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">80</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="&java;junit.runner.TestCaseClassLoader.isJar"/>
+    <t:endsAt rdf:datatype="&xsd;integer">296</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc290"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;junit.runner.TestCaseClassLoader.lookupClassData"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">73</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">295</t:startsAt>
+  </jbh:MethodCall>
+  <java:Class rdf:about="http://anonymous.authors/ontologies/2017/6/Java#junit.swingui.TestRunner$11">
+    <java:hasField>
+      <java:Field rdf:about="http://anonymous.authors/ontologies/2017/6/Java#junit.swingui.TestRunner$11.this$0">
+        <java:fieldTypeIs rdf:resource="&java;junit.swingui.TestRunner"/>
+      </java:Field>
+    </java:hasField>
+  </java:Class>
+  <jbh:MethodCall rdf:about="&jbh;mc214">
+    <t:endsAt rdf:datatype="&xsd;integer">215</t:endsAt>
+    <jbh:methodCaller rdf:resource="&java;junit.swingui.TestRunner.createUI"/>
+    <bh:originEvent rdf:resource="&jbh;mc17"/>
+    <jbh:methodCalled rdf:resource="&java;junit.swingui.TestRunner.addGrid"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:objTag rdf:datatype="&xsd;integer">1</jbh:objTag>
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">20</jbh:paramObjTag>
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">63</jbh:paramObjTag>
+    <t:startsAt rdf:datatype="&xsd;integer">214</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc226">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">63</jbh:paramObjTag>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <bh:originEvent rdf:resource="&jbh;mc17"/>
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">68</jbh:paramObjTag>
+    <t:startsAt rdf:datatype="&xsd;integer">226</t:startsAt>
+    <jbh:methodCaller rdf:resource="&java;junit.swingui.TestRunner.createUI"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">1</jbh:objTag>
+    <t:endsAt rdf:datatype="&xsd;integer">227</t:endsAt>
+    <jbh:methodCalled rdf:resource="&java;junit.swingui.TestRunner.addGrid"/>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc270">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">19</jbh:paramObjTag>
+    <jbh:methodCalled>
+      <java:Method rdf:about="&java;junit.runner.BaseTestRunner.getPreference"/>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">271</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc269">
+        <jbh:methodCalled>
+          <java:Method rdf:about="&java;junit.runner.BaseTestRunner.useReloadingTestSuiteLoader"/>
+        </jbh:methodCalled>
+        <t:endsAt rdf:datatype="&xsd;integer">274</t:endsAt>
+        <bh:originEvent>
+          <jbh:MethodCall rdf:about="&jbh;mc268">
+            <jbh:methodCalled>
+              <java:Method rdf:about="&java;junit.runner.BaseTestRunner.getLoader"/>
+            </jbh:methodCalled>
+            <t:endsAt rdf:datatype="&xsd;integer">277</t:endsAt>
+            <bh:originEvent rdf:resource="&jbh;mc267"/>
+            <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+            <jbh:methodCaller rdf:resource="&java;junit.runner.BaseTestRunner.loadSuiteClass"/>
+            <jbh:objTag rdf:datatype="&xsd;integer">1</jbh:objTag>
+            <t:startsAt rdf:datatype="&xsd;integer">268</t:startsAt>
+          </jbh:MethodCall>
+        </bh:originEvent>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;junit.runner.BaseTestRunner.getLoader"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">1</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">269</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;junit.runner.BaseTestRunner.useReloadingTestSuiteLoader"/>
+    <t:startsAt rdf:datatype="&xsd;integer">270</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc173">
+    <jbh:methodCalled>
+      <java:Method rdf:about="http://anonymous.authors/ontologies/2017/6/Java#junit.swingui.TestRunner$5.!init">
+        <jbh:isInit rdf:datatype="&xsd;boolean">true</jbh:isInit>
+      </java:Method>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">176</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc172">
+        <jbh:methodCalled>
+          <java:Method rdf:about="&java;junit.swingui.TestRunner.createFailedPanel"/>
+        </jbh:methodCalled>
+        <t:endsAt rdf:datatype="&xsd;integer">177</t:endsAt>
+        <bh:originEvent rdf:resource="&jbh;mc17"/>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;junit.swingui.TestRunner.createUI"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">1</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">172</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;junit.swingui.TestRunner.createFailedPanel"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">54</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">173</t:startsAt>
+  </jbh:MethodCall>
+  <java:Class rdf:about="http://anonymous.authors/ontologies/2017/6/Java#junit.swingui.TestRunner$12">
+    <java:hasField>
+      <java:Field rdf:about="http://anonymous.authors/ontologies/2017/6/Java#junit.swingui.TestRunner$12.this$0">
+        <java:fieldTypeIs rdf:resource="&java;junit.swingui.TestRunner"/>
+      </java:Field>
+    </java:hasField>
+  </java:Class>
+  <java:Class rdf:about="&java;junit.framework.TestFailure">
+    <java:hasField rdf:resource="&java;junit.framework.TestFailure.fFailedTest"/>
+  </java:Class>
+  <jbh:FieldModi rdf:about="&jbh;fldModi196">
+    <jbh:fieldVisitMethod rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#junit.swingui.TestRunner$9.!init"/>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">1</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">59</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">197</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">1</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">196</t:startsAt>
+    <jbh:visitedField>
+      <java:Field rdf:about="http://anonymous.authors/ontologies/2017/6/Java#junit.swingui.TestRunner$9.this$0">
+        <java:fieldTypeIs rdf:resource="&java;junit.swingui.TestRunner"/>
+      </java:Field>
+    </jbh:visitedField>
+  </jbh:FieldModi>
+  <jbh:FieldModi rdf:about="&jbh;fldModi184">
+    <jbh:fieldVisitMethod rdf:resource="&java;junit.swingui.TestRunner.createUI"/>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">56</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">1</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">185</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">56</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">184</t:startsAt>
+    <jbh:visitedField rdf:resource="&java;junit.swingui.TestRunner.fFailureView"/>
+  </jbh:FieldModi>
+  <jbh:MethodCall rdf:about="&jbh;mc108">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">31</jbh:paramObjTag>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#junit.swingui.FailureRunView.!init"/>
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">33</jbh:paramObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">111</t:endsAt>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <bh:originEvent rdf:resource="&jbh;mc93"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">35</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">108</t:startsAt>
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#junit.framework.TestFailure.!init"/>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc152">
+    <jbh:methodCalled>
+      <java:Method rdf:about="http://anonymous.authors/ontologies/2017/6/Java#junit.swingui.TestSuitePanel.!init">
+        <jbh:isInit rdf:datatype="&xsd;boolean">true</jbh:isInit>
+      </java:Method>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">153</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc149">
+        <jbh:paramObjTag rdf:datatype="&xsd;integer">1</jbh:paramObjTag>
+        <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#junit.swingui.TestHierarchyRunView.!init"/>
+        <t:endsAt rdf:datatype="&xsd;integer">162</t:endsAt>
+        <bh:originEvent rdf:resource="&jbh;mc92"/>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;junit.swingui.TestRunner.createTestRunViews"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">45</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">149</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#junit.swingui.TestHierarchyRunView.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">46</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">152</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc261">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">70</jbh:paramObjTag>
+    <jbh:methodCalled>
+      <java:Method rdf:about="&java;junit.swingui.StatusLine.showInfo"/>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">262</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc260">
+        <jbh:paramObjTag rdf:datatype="&xsd;integer">70</jbh:paramObjTag>
+        <jbh:methodCalled>
+          <java:Method rdf:about="&java;junit.swingui.TestRunner.showInfo"/>
+        </jbh:methodCalled>
+        <t:endsAt rdf:datatype="&xsd;integer">263</t:endsAt>
+        <bh:originEvent rdf:resource="&jbh;mc239"/>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;junit.swingui.TestRunner.runSuite"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">1</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">260</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;junit.swingui.TestRunner.showInfo"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">58</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">261</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc164">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">51</jbh:paramObjTag>
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">50</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="&java;junit.swingui.TestRunner.getIconResource"/>
+    <t:endsAt rdf:datatype="&xsd;integer">165</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc163">
+        <jbh:paramObjTag rdf:datatype="&xsd;integer">43</jbh:paramObjTag>
+        <jbh:methodCalled>
+          <java:Method rdf:about="&java;junit.swingui.TestHierarchyRunView.addTab"/>
+        </jbh:methodCalled>
+        <t:endsAt rdf:datatype="&xsd;integer">166</t:endsAt>
+        <bh:originEvent rdf:resource="&jbh;mc92"/>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;junit.swingui.TestRunner.createTestRunViews"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">45</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">163</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;junit.swingui.TestHierarchyRunView.addTab"/>
+    <t:startsAt rdf:datatype="&xsd;integer">164</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc15">
+    <jbh:methodCalled>
+      <java:Method rdf:about="&java;junit.runner.BaseTestRunner.processArguments"/>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">16</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc14"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;junit.swingui.TestRunner.start"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">1</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">15</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc297">
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">81</jbh:paramObjTag>
+    <jbh:methodCaller rdf:resource="&java;junit.runner.TestCaseClassLoader.lookupClassData"/>
+    <t:startsAt rdf:datatype="&xsd;integer">297</t:startsAt>
+    <t:endsAt rdf:datatype="&xsd;integer">298</t:endsAt>
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">80</jbh:paramObjTag>
+    <jbh:objTag rdf:datatype="&xsd;integer">73</jbh:objTag>
+    <jbh:methodCalled rdf:resource="&java;junit.runner.TestCaseClassLoader.loadFileData"/>
+    <bh:originEvent rdf:resource="&jbh;mc290"/>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc140">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#junit.swingui.FailureRunView$2.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">143</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc93"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#junit.swingui.FailureRunView.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">42</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">140</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc313">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">86</jbh:paramObjTag>
+    <jbh:methodCalled>
+      <java:Method rdf:about="&java;junit.swingui.StatusLine.showError"/>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">314</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc312">
+        <jbh:paramObjTag rdf:datatype="&xsd;integer">86</jbh:paramObjTag>
+        <jbh:methodCalled>
+          <java:Method rdf:about="&java;junit.swingui.TestRunner.showStatus"/>
+        </jbh:methodCalled>
+        <t:endsAt rdf:datatype="&xsd;integer">315</t:endsAt>
+        <bh:originEvent>
+          <jbh:MethodCall rdf:about="&jbh;mc311">
+            <jbh:paramObjTag rdf:datatype="&xsd;integer">86</jbh:paramObjTag>
+            <jbh:methodCalled>
+              <java:Method rdf:about="&java;junit.swingui.TestRunner.runFailed"/>
+            </jbh:methodCalled>
+            <t:endsAt rdf:datatype="&xsd;integer">316</t:endsAt>
+            <bh:originEvent rdf:resource="&jbh;mc266"/>
+            <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+            <jbh:methodCaller rdf:resource="&java;junit.runner.BaseTestRunner.getTest"/>
+            <jbh:objTag rdf:datatype="&xsd;integer">1</jbh:objTag>
+            <t:startsAt rdf:datatype="&xsd;integer">311</t:startsAt>
+          </jbh:MethodCall>
+        </bh:originEvent>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;junit.swingui.TestRunner.runFailed"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">1</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">312</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;junit.swingui.TestRunner.showStatus"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">58</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">313</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc70">
+    <jbh:methodCalled rdf:resource="&java;junit.runner.BaseTestRunner.inVAJava"/>
+    <t:endsAt rdf:datatype="&xsd;integer">71</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc67">
+        <jbh:methodCalled rdf:resource="&java;junit.runner.BaseTestRunner.useReloadingTestSuiteLoader"/>
+        <t:endsAt rdf:datatype="&xsd;integer">72</t:endsAt>
+        <bh:originEvent rdf:resource="&jbh;mc66"/>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;junit.swingui.TestRunner.createUseLoaderCheckBox"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">1</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">67</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;junit.runner.BaseTestRunner.useReloadingTestSuiteLoader"/>
+    <t:startsAt rdf:datatype="&xsd;integer">70</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc301">
+    <bh:originEvent rdf:resource="&jbh;mc290"/>
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">82</jbh:paramObjTag>
+    <jbh:methodCaller rdf:resource="&java;junit.runner.TestCaseClassLoader.lookupClassData"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">83</jbh:paramObjTag>
+    <jbh:objTag rdf:datatype="&xsd;integer">73</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">301</t:startsAt>
+    <t:endsAt rdf:datatype="&xsd;integer">302</t:endsAt>
+    <jbh:methodCalled rdf:resource="&java;junit.runner.TestCaseClassLoader.loadFileData"/>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc82">
+    <jbh:methodCalled rdf:resource="&java;junit.swingui.CounterPanel.createOutputField"/>
+    <t:endsAt rdf:datatype="&xsd;integer">83</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc81"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#junit.swingui.CounterPanel.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">22</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">82</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc228">
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">63</jbh:paramObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">229</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc17"/>
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">58</jbh:paramObjTag>
+    <jbh:objTag rdf:datatype="&xsd;integer">1</jbh:objTag>
+    <jbh:methodCaller rdf:resource="&java;junit.swingui.TestRunner.createUI"/>
+    <t:startsAt rdf:datatype="&xsd;integer">228</t:startsAt>
+    <jbh:methodCalled rdf:resource="&java;junit.swingui.TestRunner.addGrid"/>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc216">
+    <jbh:methodCaller rdf:resource="&java;junit.swingui.TestRunner.createUI"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">1</jbh:objTag>
+    <jbh:methodCalled rdf:resource="&java;junit.swingui.TestRunner.addGrid"/>
+    <t:startsAt rdf:datatype="&xsd;integer">216</t:startsAt>
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">63</jbh:paramObjTag>
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">66</jbh:paramObjTag>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <t:endsAt rdf:datatype="&xsd;integer">217</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc17"/>
+  </jbh:MethodCall>
+  <java:Class rdf:about="http://anonymous.authors/ontologies/2017/6/Java#junit.swingui.FailureRunView$2">
+    <java:hasField rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#junit.swingui.FailureRunView$2.this$0"/>
+  </java:Class>
+  <jbh:MethodCall rdf:about="&jbh;mc325">
+    <jbh:methodCalled rdf:resource="&java;junit.swingui.ProgressBar.getStatusColor"/>
+    <t:endsAt rdf:datatype="&xsd;integer">326</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc324">
+        <jbh:paramObjTag rdf:datatype="&xsd;integer">87</jbh:paramObjTag>
+        <jbh:methodCalled rdf:resource="&java;junit.swingui.ProgressBar.paintStatus"/>
+        <t:endsAt rdf:datatype="&xsd;integer">327</t:endsAt>
+        <bh:originEvent rdf:resource="&jbh;mc321"/>
+        <java:threadID rdf:datatype="&xsd;integer">1</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;junit.swingui.ProgressBar.paintComponent"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">21</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">324</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">1</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;junit.swingui.ProgressBar.paintStatus"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">21</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">325</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc272">
+    <jbh:methodCalled rdf:resource="&java;junit.runner.BaseTestRunner.inVAJava"/>
+    <t:endsAt rdf:datatype="&xsd;integer">273</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc269"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;junit.runner.BaseTestRunner.useReloadingTestSuiteLoader"/>
+    <t:startsAt rdf:datatype="&xsd;integer">272</t:startsAt>
+  </jbh:MethodCall>
+  <java:Class rdf:about="http://anonymous.authors/ontologies/2017/6/Java#junit.swingui.TestRunner$10">
+    <java:hasField>
+      <java:Field rdf:about="http://anonymous.authors/ontologies/2017/6/Java#junit.swingui.TestRunner$10.this$0">
+        <java:fieldTypeIs rdf:resource="&java;junit.swingui.TestRunner"/>
+      </java:Field>
+    </java:hasField>
+  </java:Class>
+  <jbh:FieldModi rdf:about="&jbh;fldModi150">
+    <jbh:fieldVisitMethod rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#junit.swingui.TestHierarchyRunView.!init"/>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">1</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">45</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">151</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">1</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">150</t:startsAt>
+    <jbh:visitedField>
+      <java:Field rdf:about="&java;junit.swingui.TestHierarchyRunView.fTestContext">
+        <java:fieldTypeIs rdf:resource="&java;junit.swingui.TestRunContext"/>
+      </java:Field>
+    </jbh:visitedField>
+  </jbh:FieldModi>
+  <java:Class rdf:about="http://anonymous.authors/ontologies/2017/6/Java#junit.swingui.FailureRunView$1">
+    <java:hasField>
+      <java:Field rdf:about="http://anonymous.authors/ontologies/2017/6/Java#junit.swingui.FailureRunView$1.this$0">
+        <java:fieldTypeIs rdf:resource="&java;junit.swingui.FailureRunView"/>
+      </java:Field>
+    </java:hasField>
+  </java:Class>
+  <jbh:FieldModi rdf:about="&jbh;fldModi174">
+    <jbh:fieldVisitMethod rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#junit.swingui.TestRunner$5.!init"/>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">1</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">54</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">175</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">1</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">174</t:startsAt>
+    <jbh:visitedField rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#junit.swingui.TestRunner$5.this$0"/>
+  </jbh:FieldModi>
+  <jbh:FieldModi rdf:about="&jbh;fldModi94">
+    <jbh:fieldVisitMethod rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#junit.swingui.FailureRunView.!init"/>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">1</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">29</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">95</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">1</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">94</t:startsAt>
+    <jbh:visitedField rdf:resource="&java;junit.swingui.FailureRunView.fRunContext"/>
+  </jbh:FieldModi>
+  <jbh:MethodCall rdf:about="&jbh;mc299">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">82</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="&java;junit.runner.TestCaseClassLoader.isJar"/>
+    <t:endsAt rdf:datatype="&xsd;integer">300</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc290"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;junit.runner.TestCaseClassLoader.lookupClassData"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">73</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">299</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:FieldModi rdf:about="&jbh;fldModi99">
+    <jbh:fieldVisitMethod rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#junit.swingui.FailureRunView$1.!init"/>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">29</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">31</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">100</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">29</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">99</t:startsAt>
+    <jbh:visitedField rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#junit.swingui.FailureRunView$1.this$0"/>
+  </jbh:FieldModi>
+  <jbh:MethodCall rdf:about="&jbh;mc130">
+    <jbh:methodCalled rdf:resource="&java;junit.framework.TestCase.name"/>
+    <t:endsAt rdf:datatype="&xsd;integer">131</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc129">
+        <jbh:methodCalled rdf:resource="&java;junit.framework.TestCase.toString"/>
+        <t:endsAt rdf:datatype="&xsd;integer">132</t:endsAt>
+        <bh:originEvent rdf:resource="&jbh;mc126"/>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#junit.swingui.FailureRunView$FailureListCellRenderer.getListCellRendererComponent"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">31</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">129</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;junit.framework.TestCase.toString"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">31</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">130</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc275">
+    <jbh:methodCalled>
+      <java:Method rdf:about="http://anonymous.authors/ontologies/2017/6/Java#junit.runner.ReloadingTestSuiteLoader.!init">
+        <jbh:isInit rdf:datatype="&xsd;boolean">true</jbh:isInit>
+      </java:Method>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">276</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc268"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;junit.runner.BaseTestRunner.getLoader"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">72</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">275</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc9">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">3</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="&java;junit.runner.BaseTestRunner.getPreference"/>
+    <t:endsAt rdf:datatype="&xsd;integer">10</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc8">
+        <jbh:paramObjTag rdf:datatype="&xsd;integer">3</jbh:paramObjTag>
+        <jbh:methodCalled rdf:resource="&java;junit.runner.BaseTestRunner.getPreference"/>
+        <t:endsAt rdf:datatype="&xsd;integer">11</t:endsAt>
+        <bh:originEvent>
+          <jbh:MethodCall rdf:about="&jbh;mc3">
+            <jbh:methodCalled>
+              <java:Method rdf:about="http://anonymous.authors/ontologies/2017/6/Java#junit.runner.BaseTestRunner.!init">
+                <jbh:isInit rdf:datatype="&xsd;boolean">true</jbh:isInit>
+              </java:Method>
+            </jbh:methodCalled>
+            <t:endsAt rdf:datatype="&xsd;integer">12</t:endsAt>
+            <bh:originEvent>
+              <jbh:MethodCall rdf:about="&jbh;mc2">
+                <jbh:methodCalled>
+                  <java:Method rdf:about="http://anonymous.authors/ontologies/2017/6/Java#junit.swingui.TestRunner.!init">
+                    <jbh:isInit rdf:datatype="&xsd;boolean">true</jbh:isInit>
+                  </java:Method>
+                </jbh:methodCalled>
+                <t:endsAt rdf:datatype="&xsd;integer">13</t:endsAt>
+                <bh:originEvent rdf:resource="&jbh;mc1"/>
+                <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+                <jbh:methodCaller rdf:resource="&java;test.auto.State_DefaultState_TestRunner_FailureDetailView_1.main"/>
+                <jbh:objTag rdf:datatype="&xsd;integer">1</jbh:objTag>
+                <t:startsAt rdf:datatype="&xsd;integer">2</t:startsAt>
+              </jbh:MethodCall>
+            </bh:originEvent>
+            <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+            <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#junit.swingui.TestRunner.!init"/>
+            <jbh:objTag rdf:datatype="&xsd;integer">1</jbh:objTag>
+            <t:startsAt rdf:datatype="&xsd;integer">3</t:startsAt>
+          </jbh:MethodCall>
+        </bh:originEvent>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#junit.runner.BaseTestRunner.!init"/>
+        <t:startsAt rdf:datatype="&xsd;integer">8</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;junit.runner.BaseTestRunner.getPreference"/>
+    <t:startsAt rdf:datatype="&xsd;integer">9</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc206">
+    <jbh:objTag rdf:datatype="&xsd;integer">1</jbh:objTag>
+    <jbh:methodCalled rdf:resource="&java;junit.swingui.TestRunner.addGrid"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <t:endsAt rdf:datatype="&xsd;integer">207</t:endsAt>
+    <jbh:methodCaller rdf:resource="&java;junit.swingui.TestRunner.createUI"/>
+    <bh:originEvent rdf:resource="&jbh;mc17"/>
+    <t:startsAt rdf:datatype="&xsd;integer">206</t:startsAt>
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">64</jbh:paramObjTag>
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">63</jbh:paramObjTag>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc189">
+    <jbh:methodCalled>
+      <java:Method rdf:about="http://anonymous.authors/ontologies/2017/6/Java#junit.swingui.StatusLine.!init">
+        <jbh:isInit rdf:datatype="&xsd;boolean">true</jbh:isInit>
+      </java:Method>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">190</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc188">
+        <jbh:methodCalled>
+          <java:Method rdf:about="&java;junit.swingui.TestRunner.createStatusLine"/>
+        </jbh:methodCalled>
+        <t:endsAt rdf:datatype="&xsd;integer">191</t:endsAt>
+        <bh:originEvent rdf:resource="&jbh;mc17"/>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;junit.swingui.TestRunner.createUI"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">1</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">188</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;junit.swingui.TestRunner.createStatusLine"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">58</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">189</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc218">
+    <t:startsAt rdf:datatype="&xsd;integer">218</t:startsAt>
+    <t:endsAt rdf:datatype="&xsd;integer">219</t:endsAt>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">21</jbh:paramObjTag>
+    <bh:originEvent rdf:resource="&jbh;mc17"/>
+    <jbh:methodCalled rdf:resource="&java;junit.swingui.TestRunner.addGrid"/>
+    <jbh:methodCaller rdf:resource="&java;junit.swingui.TestRunner.createUI"/>
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">63</jbh:paramObjTag>
+    <jbh:objTag rdf:datatype="&xsd;integer">1</jbh:objTag>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc20">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">8</jbh:paramObjTag>
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">7</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="&java;junit.swingui.TestRunner.getIconResource"/>
+    <t:endsAt rdf:datatype="&xsd;integer">21</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc19">
+        <jbh:methodCalled>
+          <java:Method rdf:about="&java;junit.swingui.TestRunner.loadFrameIcon"/>
+        </jbh:methodCalled>
+        <t:endsAt rdf:datatype="&xsd;integer">22</t:endsAt>
+        <bh:originEvent>
+          <jbh:MethodCall rdf:about="&jbh;mc18">
+            <jbh:paramObjTag rdf:datatype="&xsd;integer">6</jbh:paramObjTag>
+            <jbh:methodCalled>
+              <java:Method rdf:about="&java;junit.swingui.TestRunner.createFrame"/>
+            </jbh:methodCalled>
+            <t:endsAt rdf:datatype="&xsd;integer">27</t:endsAt>
+            <bh:originEvent rdf:resource="&jbh;mc17"/>
+            <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+            <jbh:methodCaller rdf:resource="&java;junit.swingui.TestRunner.createUI"/>
+            <jbh:objTag rdf:datatype="&xsd;integer">1</jbh:objTag>
+            <t:startsAt rdf:datatype="&xsd;integer">18</t:startsAt>
+          </jbh:MethodCall>
+        </bh:originEvent>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;junit.swingui.TestRunner.createFrame"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">1</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">19</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;junit.swingui.TestRunner.loadFrameIcon"/>
+    <t:startsAt rdf:datatype="&xsd;integer">20</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc303">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">84</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="&java;junit.runner.TestCaseClassLoader.isJar"/>
+    <t:endsAt rdf:datatype="&xsd;integer">304</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc290"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;junit.runner.TestCaseClassLoader.lookupClassData"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">73</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">303</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc250">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">26</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="&java;junit.swingui.CounterPanel.setLabelValue"/>
+    <t:endsAt rdf:datatype="&xsd;integer">251</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc247"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;junit.swingui.CounterPanel.reset"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">22</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">250</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc68">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">19</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="&java;junit.runner.BaseTestRunner.getPreference"/>
+    <t:endsAt rdf:datatype="&xsd;integer">69</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc67"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;junit.runner.BaseTestRunner.useReloadingTestSuiteLoader"/>
+    <t:startsAt rdf:datatype="&xsd;integer">68</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:FieldModi rdf:about="&jbh;fldModi192">
+    <jbh:fieldVisitMethod rdf:resource="&java;junit.swingui.TestRunner.createUI"/>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">58</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">1</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">193</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">58</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">192</t:startsAt>
+    <jbh:visitedField rdf:resource="&java;junit.swingui.TestRunner.fStatusLine"/>
+  </jbh:FieldModi>
+  <jbh:MethodCall rdf:about="&jbh;mc156">
+    <jbh:methodCalled>
+      <java:Method rdf:about="&java;junit.swingui.TestSuitePanel.getTree"/>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">157</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc149"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#junit.swingui.TestHierarchyRunView.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">46</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">156</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc23">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#junit.swingui.TestRunner$8.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">26</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc18"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;junit.swingui.TestRunner.createFrame"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">9</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">23</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc120">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">38</jbh:paramObjTag>
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">37</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="&java;junit.swingui.TestRunner.getIconResource"/>
+    <t:endsAt rdf:datatype="&xsd;integer">121</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc119">
+        <jbh:methodCalled>
+          <java:Method rdf:about="http://anonymous.authors/ontologies/2017/6/Java#junit.swingui.FailureRunView$FailureListCellRenderer.loadIcons"/>
+        </jbh:methodCalled>
+        <t:endsAt rdf:datatype="&xsd;integer">124</t:endsAt>
+        <bh:originEvent>
+          <jbh:MethodCall rdf:about="&jbh;mc118">
+            <jbh:methodCalled>
+              <java:Method rdf:about="http://anonymous.authors/ontologies/2017/6/Java#junit.swingui.FailureRunView$FailureListCellRenderer.!init">
+                <jbh:isInit rdf:datatype="&xsd;boolean">true</jbh:isInit>
+              </java:Method>
+            </jbh:methodCalled>
+            <t:endsAt rdf:datatype="&xsd;integer">125</t:endsAt>
+            <bh:originEvent rdf:resource="&jbh;mc93"/>
+            <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+            <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#junit.swingui.FailureRunView.!init"/>
+            <jbh:objTag rdf:datatype="&xsd;integer">36</jbh:objTag>
+            <t:startsAt rdf:datatype="&xsd;integer">118</t:startsAt>
+          </jbh:MethodCall>
+        </bh:originEvent>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#junit.swingui.FailureRunView$FailureListCellRenderer.!init"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">36</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">119</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#junit.swingui.FailureRunView$FailureListCellRenderer.loadIcons"/>
+    <t:startsAt rdf:datatype="&xsd;integer">120</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc241">
+    <jbh:methodCalled rdf:resource="&java;junit.runner.BaseTestRunner.inVAJava"/>
+    <t:endsAt rdf:datatype="&xsd;integer">242</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc240">
+        <jbh:methodCalled>
+          <java:Method rdf:about="&java;junit.swingui.TestRunner.shouldReload"/>
+        </jbh:methodCalled>
+        <t:endsAt rdf:datatype="&xsd;integer">243</t:endsAt>
+        <bh:originEvent rdf:resource="&jbh;mc239"/>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;junit.swingui.TestRunner.runSuite"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">1</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">240</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;junit.swingui.TestRunner.shouldReload"/>
+    <t:startsAt rdf:datatype="&xsd;integer">241</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc288">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">71</jbh:paramObjTag>
+    <jbh:methodCalled>
+      <java:Method rdf:about="&java;junit.runner.TestCaseClassLoader.isExcluded"/>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">289</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc287"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;junit.runner.TestCaseClassLoader.loadClass"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">73</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">288</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc167">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#junit.swingui.TestRunner$14.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">170</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc92"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;junit.swingui.TestRunner.createTestRunViews"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">52</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">167</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc305">
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:objTag rdf:datatype="&xsd;integer">73</jbh:objTag>
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">85</jbh:paramObjTag>
+    <bh:originEvent rdf:resource="&jbh;mc290"/>
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">84</jbh:paramObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">306</t:endsAt>
+    <jbh:methodCalled rdf:resource="&java;junit.runner.TestCaseClassLoader.loadFileData"/>
+    <jbh:methodCaller rdf:resource="&java;junit.runner.TestCaseClassLoader.lookupClassData"/>
+    <t:startsAt rdf:datatype="&xsd;integer">305</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc179">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">55</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="&java;junit.runner.BaseTestRunner.getPreference"/>
+    <t:endsAt rdf:datatype="&xsd;integer">180</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc178"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;junit.swingui.TestRunner.createFailureDetailView"/>
+    <t:startsAt rdf:datatype="&xsd;integer">179</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc34">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#junit.swingui.TestRunner$7.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">37</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc29">
+        <jbh:methodCalled>
+          <java:Method rdf:about="&java;junit.swingui.TestRunner.createJUnitMenu"/>
+        </jbh:methodCalled>
+        <t:endsAt rdf:datatype="&xsd;integer">38</t:endsAt>
+        <bh:originEvent>
+          <jbh:MethodCall rdf:about="&jbh;mc28">
+            <jbh:paramObjTag rdf:datatype="&xsd;integer">10</jbh:paramObjTag>
+            <jbh:methodCalled>
+              <java:Method rdf:about="&java;junit.swingui.TestRunner.createMenus"/>
+            </jbh:methodCalled>
+            <t:endsAt rdf:datatype="&xsd;integer">39</t:endsAt>
+            <bh:originEvent rdf:resource="&jbh;mc17"/>
+            <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+            <jbh:methodCaller rdf:resource="&java;junit.swingui.TestRunner.createUI"/>
+            <jbh:objTag rdf:datatype="&xsd;integer">1</jbh:objTag>
+            <t:startsAt rdf:datatype="&xsd;integer">28</t:startsAt>
+          </jbh:MethodCall>
+        </bh:originEvent>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;junit.swingui.TestRunner.createMenus"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">1</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">29</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;junit.swingui.TestRunner.createJUnitMenu"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">12</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">34</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc46">
+    <jbh:methodCalled>
+      <java:Method rdf:about="&java;junit.swingui.TestRunner.getSettingsFile"/>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">47</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc45">
+        <jbh:paramObjTag rdf:datatype="&xsd;integer">14</jbh:paramObjTag>
+        <jbh:methodCalled>
+          <java:Method rdf:about="&java;junit.swingui.TestRunner.loadHistory"/>
+        </jbh:methodCalled>
+        <t:endsAt rdf:datatype="&xsd;integer">48</t:endsAt>
+        <bh:originEvent rdf:resource="&jbh;mc40"/>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;junit.swingui.TestRunner.createSuiteCombo"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">1</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">45</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;junit.swingui.TestRunner.loadHistory"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">1</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">46</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc264">
+    <jbh:methodCalled>
+      <java:Method rdf:about="&java;junit.swingui.TestRunner.getSuiteText"/>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">265</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc239"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;junit.swingui.TestRunner.runSuite"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">1</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">264</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc252">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">27</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="&java;junit.swingui.CounterPanel.setLabelValue"/>
+    <t:endsAt rdf:datatype="&xsd;integer">253</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc247"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;junit.swingui.CounterPanel.reset"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">22</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">252</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:FieldModi rdf:about="&jbh;fldModi62">
+    <jbh:fieldVisitMethod rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#junit.swingui.TestRunner$11.!init"/>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">1</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">18</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">63</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">1</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">62</t:startsAt>
+    <jbh:visitedField rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#junit.swingui.TestRunner$11.this$0"/>
+  </jbh:FieldModi>
+  <jbh:FieldModi rdf:about="&jbh;fldModi50">
+    <jbh:fieldVisitMethod rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#junit.swingui.TestRunner$13.!init"/>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">1</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">15</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">51</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">1</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">50</t:startsAt>
+    <jbh:visitedField rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#junit.swingui.TestRunner$13.this$0"/>
+  </jbh:FieldModi>
+  <jbh:MethodCall rdf:about="&jbh;mc208">
+    <jbh:objTag rdf:datatype="&xsd;integer">1</jbh:objTag>
+    <jbh:methodCalled rdf:resource="&java;junit.swingui.TestRunner.addGrid"/>
+    <bh:originEvent rdf:resource="&jbh;mc17"/>
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">14</jbh:paramObjTag>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <t:startsAt rdf:datatype="&xsd;integer">208</t:startsAt>
+    <jbh:methodCaller rdf:resource="&java;junit.swingui.TestRunner.createUI"/>
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">63</jbh:paramObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">209</t:endsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc255">
+    <jbh:methodCalled>
+      <java:Method rdf:about="&java;junit.swingui.ProgressBar.reset"/>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">256</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc246"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;junit.swingui.TestRunner.reset"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">21</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">255</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc41">
+    <jbh:methodCalled>
+      <java:Method rdf:about="http://anonymous.authors/ontologies/2017/6/Java#junit.swingui.TestRunner$12.!init">
+        <jbh:isInit rdf:datatype="&xsd;boolean">true</jbh:isInit>
+      </java:Method>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">44</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc40"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;junit.swingui.TestRunner.createSuiteCombo"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">13</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">41</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc146">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">44</jbh:paramObjTag>
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">40</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="&java;junit.swingui.TestRunner.getIconResource"/>
+    <t:endsAt rdf:datatype="&xsd;integer">147</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc145">
+        <jbh:paramObjTag rdf:datatype="&xsd;integer">43</jbh:paramObjTag>
+        <jbh:methodCalled>
+          <java:Method rdf:about="&java;junit.swingui.FailureRunView.addTab"/>
+        </jbh:methodCalled>
+        <t:endsAt rdf:datatype="&xsd;integer">148</t:endsAt>
+        <bh:originEvent rdf:resource="&jbh;mc92"/>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;junit.swingui.TestRunner.createTestRunViews"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">29</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">145</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;junit.swingui.FailureRunView.addTab"/>
+    <t:startsAt rdf:datatype="&xsd;integer">146</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc158">
+    <jbh:methodCalled>
+      <java:Method rdf:about="http://anonymous.authors/ontologies/2017/6/Java#junit.swingui.TestHierarchyRunView$1.!init">
+        <jbh:isInit rdf:datatype="&xsd;boolean">true</jbh:isInit>
+      </java:Method>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">161</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc149"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#junit.swingui.TestHierarchyRunView.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">49</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">158</t:startsAt>
+  </jbh:MethodCall>
+  <java:Class rdf:about="http://anonymous.authors/ontologies/2017/6/Java#junit.swingui.TestRunner$9">
+    <java:hasField rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#junit.swingui.TestRunner$9.this$0"/>
+  </java:Class>
+  <jbh:MethodCall rdf:about="&jbh;mc5">
+    <jbh:methodCalled>
+      <java:Method rdf:about="&java;junit.runner.BaseTestRunner.getPreferencesFile"/>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">6</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc4">
+        <jbh:methodCalled>
+          <java:Method rdf:about="&java;junit.runner.BaseTestRunner.readPreferences"/>
+        </jbh:methodCalled>
+        <t:endsAt rdf:datatype="&xsd;integer">7</t:endsAt>
+        <bh:originEvent rdf:resource="&jbh;mc3"/>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#junit.runner.BaseTestRunner.!init"/>
+        <t:startsAt rdf:datatype="&xsd;integer">4</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;junit.runner.BaseTestRunner.readPreferences"/>
+    <t:startsAt rdf:datatype="&xsd;integer">5</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc122">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">40</jbh:paramObjTag>
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">37</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="&java;junit.swingui.TestRunner.getIconResource"/>
+    <t:endsAt rdf:datatype="&xsd;integer">123</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc119"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#junit.swingui.FailureRunView$FailureListCellRenderer.loadIcons"/>
+    <t:startsAt rdf:datatype="&xsd;integer">122</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc340">
+    <jbh:methodCalled rdf:resource="&java;junit.swingui.TestRunner.getSettingsFile"/>
+    <t:endsAt rdf:datatype="&xsd;integer">341</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc339">
+        <jbh:methodCalled>
+          <java:Method rdf:about="&java;junit.swingui.TestRunner.saveHistory"/>
+        </jbh:methodCalled>
+        <t:endsAt rdf:datatype="&xsd;integer">342</t:endsAt>
+        <bh:originEvent>
+          <jbh:MethodCall rdf:about="&jbh;mc338">
+            <jbh:methodCalled>
+              <java:Method rdf:about="&java;junit.swingui.TestRunner.terminate"/>
+            </jbh:methodCalled>
+            <bh:originEvent>
+              <jbh:MethodCall rdf:about="&jbh;mc337">
+                <jbh:paramObjTag rdf:datatype="&xsd;integer">89</jbh:paramObjTag>
+                <jbh:methodCalled>
+                  <java:Method rdf:about="http://anonymous.authors/ontologies/2017/6/Java#junit.swingui.TestRunner$8.windowClosing"/>
+                </jbh:methodCalled>
+                <java:threadID rdf:datatype="&xsd;integer">1</java:threadID>
+                <jbh:objTag rdf:datatype="&xsd;integer">9</jbh:objTag>
+                <t:startsAt rdf:datatype="&xsd;integer">337</t:startsAt>
+              </jbh:MethodCall>
+            </bh:originEvent>
+            <java:threadID rdf:datatype="&xsd;integer">1</java:threadID>
+            <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#junit.swingui.TestRunner$8.windowClosing"/>
+            <jbh:objTag rdf:datatype="&xsd;integer">1</jbh:objTag>
+            <t:startsAt rdf:datatype="&xsd;integer">338</t:startsAt>
+          </jbh:MethodCall>
+        </bh:originEvent>
+        <java:threadID rdf:datatype="&xsd;integer">1</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;junit.swingui.TestRunner.terminate"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">1</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">339</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">1</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;junit.swingui.TestRunner.saveHistory"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">1</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">340</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:FieldModi rdf:about="&jbh;fldModi31">
+    <jbh:fieldVisitMethod>
+      <java:Method rdf:about="http://anonymous.authors/ontologies/2017/6/Java#junit.swingui.TestRunner$6.!init">
+        <jbh:isInit rdf:datatype="&xsd;boolean">true</jbh:isInit>
+      </java:Method>
+    </jbh:fieldVisitMethod>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">1</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">11</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">32</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">1</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">31</t:startsAt>
+    <jbh:visitedField rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#junit.swingui.TestRunner$6.this$0"/>
+  </jbh:FieldModi>
+  <java:Class rdf:about="http://anonymous.authors/ontologies/2017/6/Java#junit.swingui.TestHierarchyRunView$1">
+    <java:hasField>
+      <java:Field rdf:about="http://anonymous.authors/ontologies/2017/6/Java#junit.swingui.TestHierarchyRunView$1.this$0">
+        <java:fieldTypeIs>
+          <java:Class rdf:about="&java;junit.swingui.TestHierarchyRunView">
+            <java:hasField rdf:resource="&java;junit.swingui.TestHierarchyRunView.fTestContext"/>
+            <java:hasField rdf:resource="&java;junit.swingui.TestHierarchyRunView.fTreeBrowser"/>
+          </java:Class>
+        </java:fieldTypeIs>
+      </java:Field>
+    </java:hasField>
+  </java:Class>
+  <jbh:FieldModi rdf:about="&jbh;fldModi56">
+    <jbh:fieldVisitMethod>
+      <java:Method rdf:about="http://anonymous.authors/ontologies/2017/6/Java#junit.swingui.TestRunner$10.!init">
+        <jbh:isInit rdf:datatype="&xsd;boolean">true</jbh:isInit>
+      </java:Method>
+    </jbh:fieldVisitMethod>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">1</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">16</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">57</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">1</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">56</t:startsAt>
+    <jbh:visitedField rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#junit.swingui.TestRunner$10.this$0"/>
+  </jbh:FieldModi>
+  <jbh:MethodCall rdf:about="&jbh;mc76">
+    <jbh:methodCalled>
+      <java:Method rdf:about="http://anonymous.authors/ontologies/2017/6/Java#junit.swingui.ProgressBar.!init">
+        <jbh:isInit rdf:datatype="&xsd;boolean">true</jbh:isInit>
+      </java:Method>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">77</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc17"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;junit.swingui.TestRunner.createUI"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">21</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">76</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc133">
+    <jbh:methodCalled rdf:resource="&java;junit.framework.TestFailure.thrownException"/>
+    <t:endsAt rdf:datatype="&xsd;integer">134</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc126"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#junit.swingui.FailureRunView$FailureListCellRenderer.getListCellRendererComponent"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">35</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">133</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc230">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">63</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="&java;junit.swingui.TestRunner.addGrid"/>
+    <t:startsAt rdf:datatype="&xsd;integer">230</t:startsAt>
+    <t:endsAt rdf:datatype="&xsd;integer">231</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">1</jbh:objTag>
+    <bh:originEvent rdf:resource="&jbh;mc17"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;junit.swingui.TestRunner.createUI"/>
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">60</jbh:paramObjTag>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc257">
+    <jbh:methodCalled>
+      <java:Method rdf:about="&java;junit.swingui.DefaultFailureDetailView.clear"/>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">258</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc246"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;junit.swingui.TestRunner.reset"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">56</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">257</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc233">
+    <jbh:methodCalled>
+      <java:Method rdf:about="&java;junit.swingui.ProgressBar.scale"/>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">234</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc232">
+        <jbh:methodCalled>
+          <java:Method rdf:about="&java;junit.swingui.ProgressBar.setBounds"/>
+        </jbh:methodCalled>
+        <t:endsAt rdf:datatype="&xsd;integer">235</t:endsAt>
+        <bh:originEvent rdf:resource="&jbh;mc17"/>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;junit.swingui.TestRunner.createUI"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">21</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">232</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;junit.swingui.ProgressBar.setBounds"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">21</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">233</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc55">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#junit.swingui.TestRunner$10.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">58</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc54">
+        <jbh:methodCalled>
+          <java:Method rdf:about="&java;junit.swingui.TestRunner.createRunButton"/>
+        </jbh:methodCalled>
+        <t:endsAt rdf:datatype="&xsd;integer">59</t:endsAt>
+        <bh:originEvent rdf:resource="&jbh;mc17"/>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;junit.swingui.TestRunner.createUI"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">1</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">54</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;junit.swingui.TestRunner.createRunButton"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">16</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">55</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc330">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">88</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="&java;junit.swingui.ProgressBar.paintBackground"/>
+    <t:endsAt rdf:datatype="&xsd;integer">331</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc329"/>
+    <java:threadID rdf:datatype="&xsd;integer">1</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;junit.swingui.ProgressBar.paintComponent"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">21</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">330</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc244">
+    <jbh:methodCalled>
+      <java:Method rdf:about="&java;junit.runner.BaseTestRunner.setLoading"/>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">245</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc239"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;junit.swingui.TestRunner.runSuite"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">1</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">244</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:FieldModi rdf:about="&jbh;fldModi159">
+    <jbh:fieldVisitMethod rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#junit.swingui.TestHierarchyRunView$1.!init"/>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">45</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">49</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">160</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">45</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">159</t:startsAt>
+    <jbh:visitedField rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#junit.swingui.TestHierarchyRunView$1.this$0"/>
+  </jbh:FieldModi>
+  <jbh:MethodCall rdf:about="&jbh;mc135">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">34</jbh:paramObjTag>
+    <jbh:methodCalled>
+      <java:Method rdf:about="&java;junit.runner.BaseTestRunner.truncate"/>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">136</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc126"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#junit.swingui.FailureRunView$FailureListCellRenderer.getListCellRendererComponent"/>
+    <t:startsAt rdf:datatype="&xsd;integer">135</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:FieldModi rdf:about="&jbh;fldModi78">
+    <jbh:fieldVisitMethod rdf:resource="&java;junit.swingui.TestRunner.createUI"/>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">21</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">1</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">79</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">21</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">78</t:startsAt>
+    <jbh:visitedField rdf:resource="&java;junit.swingui.TestRunner.fProgressIndicator"/>
+  </jbh:FieldModi>
+  <jbh:MethodCall rdf:about="&jbh;mc30">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#junit.swingui.TestRunner$6.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">33</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc29"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;junit.swingui.TestRunner.createJUnitMenu"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">11</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">30</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc220">
+    <jbh:methodCaller rdf:resource="&java;junit.swingui.TestRunner.createUI"/>
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">62</jbh:paramObjTag>
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">63</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="&java;junit.swingui.TestRunner.addGrid"/>
+    <t:endsAt rdf:datatype="&xsd;integer">221</t:endsAt>
+    <t:startsAt rdf:datatype="&xsd;integer">220</t:startsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">1</jbh:objTag>
+    <bh:originEvent rdf:resource="&jbh;mc17"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+  </jbh:MethodCall>
+  <jbh:FieldModi rdf:about="&jbh;fldModi42">
+    <jbh:fieldVisitMethod rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#junit.swingui.TestRunner$12.!init"/>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">1</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">13</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">43</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">1</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">42</t:startsAt>
+    <jbh:visitedField rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#junit.swingui.TestRunner$12.this$0"/>
+  </jbh:FieldModi>
+</rdf:RDF>

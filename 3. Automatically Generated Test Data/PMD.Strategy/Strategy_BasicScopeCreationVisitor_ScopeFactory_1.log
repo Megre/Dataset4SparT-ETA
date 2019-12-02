@@ -1,0 +1,47 @@
+method_entry: Ltest/auto/Strategy_BasicScopeCreationVisitor_ScopeFactory_1;main, thread_id: 0
+  method_entry: Lnet/sourceforge/pmd/symboltable/BasicScopeFactory;<init>, obj_tag: 1, thread_id: 0
+    method_entry: Lnet/sourceforge/pmd/symboltable/GlobalScopeEvaluator;<init>, obj_tag: 3, thread_id: 0
+      method_entry: Lnet/sourceforge/pmd/symboltable/AbstractScopeEvaluator;<init>, obj_tag: 3, thread_id: 0
+      method_exit: Lnet/sourceforge/pmd/symboltable/AbstractScopeEvaluator;<init>, thread_id: 0
+    method_exit: Lnet/sourceforge/pmd/symboltable/GlobalScopeEvaluator;<init>, thread_id: 0
+    method_entry: Lnet/sourceforge/pmd/symboltable/ClassScopeEvaluator;<init>, obj_tag: 6, thread_id: 0
+      method_entry: Lnet/sourceforge/pmd/symboltable/AbstractScopeEvaluator;<init>, obj_tag: 6, thread_id: 0
+      method_exit: Lnet/sourceforge/pmd/symboltable/AbstractScopeEvaluator;<init>, thread_id: 0
+    method_exit: Lnet/sourceforge/pmd/symboltable/ClassScopeEvaluator;<init>, thread_id: 0
+    method_entry: Lnet/sourceforge/pmd/symboltable/MethodScopeEvaluator;<init>, obj_tag: 11, thread_id: 0
+      method_entry: Lnet/sourceforge/pmd/symboltable/AbstractScopeEvaluator;<init>, obj_tag: 11, thread_id: 0
+      method_exit: Lnet/sourceforge/pmd/symboltable/AbstractScopeEvaluator;<init>, thread_id: 0
+    method_exit: Lnet/sourceforge/pmd/symboltable/MethodScopeEvaluator;<init>, thread_id: 0
+    method_entry: Lnet/sourceforge/pmd/symboltable/LocalScopeEvaluator;<init>, obj_tag: 15, thread_id: 0
+      method_entry: Lnet/sourceforge/pmd/symboltable/AbstractScopeEvaluator;<init>, obj_tag: 15, thread_id: 0
+      method_exit: Lnet/sourceforge/pmd/symboltable/AbstractScopeEvaluator;<init>, thread_id: 0
+    method_exit: Lnet/sourceforge/pmd/symboltable/LocalScopeEvaluator;<init>, thread_id: 0
+  method_exit: Lnet/sourceforge/pmd/symboltable/BasicScopeFactory;<init>, thread_id: 0
+  method_entry: Lnet/sourceforge/pmd/symboltable/BasicScopeCreationVisitor;<init>, obj_tag: 22, param_obj_tag: 1, thread_id: 0
+    method_entry: Lnet/sourceforge/pmd/ast/JavaParserVisitorAdapter;<init>, obj_tag: 22, thread_id: 0
+    method_exit: Lnet/sourceforge/pmd/ast/JavaParserVisitorAdapter;<init>, thread_id: 0
+      field_modi: Lnet/sourceforge/pmd/symboltable/ScopeFactory;sf, dec_cls: Lnet/sourceforge/pmd/symboltable/BasicScopeCreationVisitor;, in_method: Lnet/sourceforge/pmd/symboltable/BasicScopeCreationVisitor;<init>, field_obj_tag: 1, owner_obj_tag: 22, thread_id: 0
+  method_exit: Lnet/sourceforge/pmd/symboltable/BasicScopeCreationVisitor;<init>, thread_id: 0
+  method_entry: Lnet/sourceforge/pmd/ast/ASTBlock;<init>, obj_tag: 24, thread_id: 0
+    method_entry: Lnet/sourceforge/pmd/ast/SimpleNode;<init>, obj_tag: 24, thread_id: 0
+    method_exit: Lnet/sourceforge/pmd/ast/SimpleNode;<init>, thread_id: 0
+  method_exit: Lnet/sourceforge/pmd/ast/ASTBlock;<init>, thread_id: 0
+  method_entry: Lnet/sourceforge/pmd/symboltable/BasicScopeCreationVisitor;visit, obj_tag: 22, param_obj_tag: 24, param_obj_tag: 25, thread_id: 0
+    method_entry: Lnet/sourceforge/pmd/symboltable/BasicScopeFactory;openScope, obj_tag: 1, param_obj_tag: 23, param_obj_tag: 24, thread_id: 0
+      method_entry: Lnet/sourceforge/pmd/symboltable/AbstractScopeEvaluator;isScopeCreatedBy, obj_tag: 3, param_obj_tag: 24, thread_id: 0
+      method_exit: Lnet/sourceforge/pmd/symboltable/AbstractScopeEvaluator;isScopeCreatedBy, thread_id: 0
+      method_entry: Lnet/sourceforge/pmd/symboltable/AbstractScopeEvaluator;isScopeCreatedBy, obj_tag: 11, param_obj_tag: 24, thread_id: 0
+      method_exit: Lnet/sourceforge/pmd/symboltable/AbstractScopeEvaluator;isScopeCreatedBy, thread_id: 0
+      method_entry: Lnet/sourceforge/pmd/symboltable/AbstractScopeEvaluator;isScopeCreatedBy, obj_tag: 6, param_obj_tag: 24, thread_id: 0
+      method_exit: Lnet/sourceforge/pmd/symboltable/AbstractScopeEvaluator;isScopeCreatedBy, thread_id: 0
+      method_entry: Lnet/sourceforge/pmd/symboltable/AbstractScopeEvaluator;isScopeCreatedBy, obj_tag: 15, param_obj_tag: 24, thread_id: 0
+      method_exit: Lnet/sourceforge/pmd/symboltable/AbstractScopeEvaluator;isScopeCreatedBy, thread_id: 0
+      method_entry: Lnet/sourceforge/pmd/symboltable/LocalScopeEvaluator;getScopeFor, obj_tag: 15, param_obj_tag: 24, thread_id: 0
+        method_entry: Lnet/sourceforge/pmd/symboltable/LocalScope;<init>, obj_tag: 26, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/symboltable/AbstractScope;<init>, obj_tag: 26, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/symboltable/AbstractScope;<init>, thread_id: 0
+        method_exit: Lnet/sourceforge/pmd/symboltable/LocalScope;<init>, thread_id: 0
+      method_exit: Lnet/sourceforge/pmd/symboltable/LocalScopeEvaluator;getScopeFor, thread_id: 0
+    method_exit: Lnet/sourceforge/pmd/symboltable/BasicScopeFactory;openScope, thread_id: 0
+  method_exit: Lnet/sourceforge/pmd/symboltable/BasicScopeCreationVisitor;visit, thread_id: 0
+method_exit: Ltest/auto/Strategy_BasicScopeCreationVisitor_ScopeFactory_1;main, thread_id: 0

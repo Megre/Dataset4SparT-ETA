@@ -1,0 +1,25 @@
+method_entry: Ltest/auto/TemplateMethod_BaseTestRunner_2;main, thread_id: 0
+  method_entry: Ljunit/runner/BaseTestRunner;<clinit>, thread_id: 0
+  method_exit: Ljunit/runner/BaseTestRunner;<clinit>, thread_id: 0
+  method_entry: Ljunit/textui/TestRunner;<init>, obj_tag: 1, thread_id: 0
+    method_entry: Ljunit/runner/BaseTestRunner;<init>, obj_tag: 1, thread_id: 0
+      method_entry: Ljunit/runner/BaseTestRunner;readPreferences, thread_id: 0
+        method_entry: Ljunit/runner/BaseTestRunner;getPreferencesFile, thread_id: 0
+        method_exit: Ljunit/runner/BaseTestRunner;getPreferencesFile, thread_id: 0
+      method_exit: Ljunit/runner/BaseTestRunner;readPreferences, thread_id: 0
+      method_entry: Ljunit/runner/BaseTestRunner;getPreference, param_obj_tag: 2, thread_id: 0
+        method_entry: Ljunit/runner/BaseTestRunner;getPreference, param_obj_tag: 2, thread_id: 0
+        method_exit: Ljunit/runner/BaseTestRunner;getPreference, thread_id: 0
+      method_exit: Ljunit/runner/BaseTestRunner;getPreference, thread_id: 0
+    method_exit: Ljunit/runner/BaseTestRunner;<init>, thread_id: 0
+  method_exit: Ljunit/textui/TestRunner;<init>, thread_id: 0
+  method_entry: Ljunit/runner/BaseTestRunner;getTest, obj_tag: 1, param_obj_tag: 3, thread_id: 0
+    method_entry: Ljunit/runner/BaseTestRunner;loadSuiteClass, obj_tag: 1, param_obj_tag: 3, thread_id: 0
+      method_entry: Ljunit/textui/TestRunner;getLoader, obj_tag: 1, thread_id: 0
+        method_entry: Ljunit/runner/StandardTestSuiteLoader;<init>, obj_tag: 4, thread_id: 0
+        method_exit: Ljunit/runner/StandardTestSuiteLoader;<init>, thread_id: 0
+      method_exit: Ljunit/textui/TestRunner;getLoader, thread_id: 0
+      method_entry: Ljunit/runner/StandardTestSuiteLoader;load, obj_tag: 4, param_obj_tag: 3, thread_id: 0
+      method_exit: Ljunit/runner/StandardTestSuiteLoader;load, thread_id: 0
+    method_exit: Ljunit/runner/BaseTestRunner;loadSuiteClass, thread_id: 0
+    method_entry: Ljunit/textui/TestRunner;runFailed, obj_tag: 1, param_obj_tag: 5, thread_id: 0

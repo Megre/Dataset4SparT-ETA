@@ -1,0 +1,1729 @@
+<?xml version="1.0"?>
+<!DOCTYPE rdf:RDF [
+  <!ENTITY this 'http://anonymous.authors/ontologies/2017/11/Java.DesignPattern#'>
+  <!ENTITY owl 'http://www.w3.org/2002/07/owl#'>
+  <!ENTITY bh 'http://anonymous.authors/ontologies/2017/8/Behavior#'>
+  <!ENTITY xsd 'http://www.w3.org/2001/XMLSchema#'>
+  <!ENTITY rdfs 'http://www.w3.org/2000/01/rdf-schema#'>
+  <!ENTITY ptn 'http://anonymous.authors/ontologies/2017/10/Pattern#'>
+  <!ENTITY mgd 'http://anonymous.authors/ontologies/2017/12/Merged#'>
+  <!ENTITY jbh 'http://anonymous.authors/ontologies/2017/8/Java.Behavior#'>
+  <!ENTITY java 'http://anonymous.authors/ontologies/2017/6/Java#'>
+  <!ENTITY t 'http://anonymous.authors/ontologies/2018/10/Time#'>
+  <!ENTITY rdf 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+  <!ENTITY sbh 'http://anonymous.authors/ontologies/2018/4/StaticBehavior'>
+  <!ENTITY jd 'http://anonymous.authors/ontologies/2017/11/Java.DesignPattern#'>
+  <!ENTITY jsbh 'http://anonymous.authors/ontologies/2018/4/Java.StaticBehavior#'>
+  <!ENTITY base 'http://anonymous.authors/ontologies/2017/12/Merged#'>]>
+<rdf:RDF
+    xmlns:rdf="&rdf;"
+    xmlns:jbh="&jbh;"
+    xmlns:rdfs="&rdfs;"
+    xmlns:java="&java;"
+    xmlns:sbh="http://anonymous.authors/ontologies/2018/4/StaticBehavior"
+    xmlns:t="&t;"
+    xmlns:owl="&owl;"
+    xmlns:jd="&jd;"
+    xmlns:ptn="&ptn;"
+    xmlns:bh="&bh;"
+    xmlns:base="&base;"
+    xmlns:jsbh="&jsbh;"
+    xmlns:xsd="&xsd;">
+  <jbh:MethodCall rdf:about="&jbh;mc235">
+    <jbh:methodCalled>
+      <java:Method rdf:about="&java;com.taursys.model.AbstractCollectionValueHolder.getObjectValueHolder"/>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">236</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc224">
+        <jbh:methodCalled>
+          <java:Method rdf:about="&java;com.taursys.model.AbstractListValueHolder.listContentsPositionChange"/>
+        </jbh:methodCalled>
+        <t:endsAt rdf:datatype="&xsd;integer">251</t:endsAt>
+        <bh:originEvent>
+          <jbh:MethodCall rdf:about="&jbh;mc219">
+            <jbh:paramObjTag rdf:datatype="&xsd;integer">26</jbh:paramObjTag>
+            <jbh:methodCalled>
+              <java:Method rdf:about="&java;com.taursys.model.AbstractListValueHolder.setList"/>
+            </jbh:methodCalled>
+            <t:endsAt rdf:datatype="&xsd;integer">252</t:endsAt>
+            <bh:originEvent>
+              <jbh:MethodCall rdf:about="&jbh;mc218">
+                <jbh:paramObjTag rdf:datatype="&xsd;integer">26</jbh:paramObjTag>
+                <jbh:methodCalled>
+                  <java:Method rdf:about="&java;com.taursys.swing.MTableModel.setList"/>
+                </jbh:methodCalled>
+                <t:endsAt rdf:datatype="&xsd;integer">289</t:endsAt>
+                <bh:originEvent>
+                  <jbh:MethodCall rdf:about="&jbh;mc1">
+                    <jbh:methodCalled>
+                      <java:Method rdf:about="&java;test.auto.Strategy_Setter_MTableModel_ListValueHolder_7.main"/>
+                    </jbh:methodCalled>
+                    <t:endsAt rdf:datatype="&xsd;integer">290</t:endsAt>
+                    <java:threadID rdf:datatype="&xsd;integer"
+                    >0</java:threadID>
+                    <t:startsAt rdf:datatype="&xsd;integer">1</t:startsAt>
+                  </jbh:MethodCall>
+                </bh:originEvent>
+                <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+                <jbh:methodCaller rdf:resource="&java;test.auto.Strategy_Setter_MTableModel_ListValueHolder_7.main"/>
+                <jbh:objTag rdf:datatype="&xsd;integer">8</jbh:objTag>
+                <t:startsAt rdf:datatype="&xsd;integer">218</t:startsAt>
+              </jbh:MethodCall>
+            </bh:originEvent>
+            <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+            <jbh:methodCaller rdf:resource="&java;com.taursys.swing.MTableModel.setList"/>
+            <jbh:objTag rdf:datatype="&xsd;integer">1</jbh:objTag>
+            <t:startsAt rdf:datatype="&xsd;integer">219</t:startsAt>
+          </jbh:MethodCall>
+        </bh:originEvent>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;com.taursys.model.AbstractListValueHolder.setList"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">1</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">224</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;com.taursys.model.AbstractListValueHolder.listContentsPositionChange"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">1</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">235</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc85">
+    <jbh:methodCalled rdf:resource="&java;com.taursys.model.AbstractCollectionValueHolder.getObjectValueHolder"/>
+    <t:endsAt rdf:datatype="&xsd;integer">86</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc78">
+        <jbh:methodCalled rdf:resource="&java;com.taursys.model.AbstractListValueHolder.listContentsPositionChange"/>
+        <t:endsAt rdf:datatype="&xsd;integer">97</t:endsAt>
+        <bh:originEvent>
+          <jbh:MethodCall rdf:about="&jbh;mc73">
+            <jbh:paramObjTag rdf:datatype="&xsd;integer">14</jbh:paramObjTag>
+            <jbh:methodCalled rdf:resource="&java;com.taursys.model.AbstractListValueHolder.setList"/>
+            <t:endsAt rdf:datatype="&xsd;integer">98</t:endsAt>
+            <bh:originEvent>
+              <jbh:MethodCall rdf:about="&jbh;mc72">
+                <jbh:paramObjTag rdf:datatype="&xsd;integer">14</jbh:paramObjTag>
+                <jbh:methodCalled>
+                  <java:Method rdf:about="&java;com.taursys.model.AbstractListValueHolder.setCollection"/>
+                </jbh:methodCalled>
+                <t:endsAt rdf:datatype="&xsd;integer">99</t:endsAt>
+                <bh:originEvent>
+                  <jbh:MethodCall rdf:about="&jbh;mc67">
+                    <jbh:objTag rdf:datatype="&xsd;integer">11</jbh:objTag>
+                    <jbh:methodCalled>
+                      <java:Method rdf:about="http://anonymous.authors/ontologies/2017/6/Java#com.taursys.model.AbstractCollectionValueHolder.!init">
+                        <jbh:isInit rdf:datatype="&xsd;boolean"
+                        >true</jbh:isInit>
+                      </java:Method>
+                    </jbh:methodCalled>
+                    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#com.taursys.model.AbstractCollectionValueHolder.!init"/>
+                    <t:endsAt rdf:datatype="&xsd;integer">100</t:endsAt>
+                    <jbh:paramObjTag rdf:datatype="&xsd;integer"
+                    >14</jbh:paramObjTag>
+                    <bh:originEvent>
+                      <jbh:MethodCall rdf:about="&jbh;mc66">
+                        <jbh:paramObjTag rdf:datatype="&xsd;integer"
+                        >12</jbh:paramObjTag>
+                        <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#com.taursys.model.AbstractCollectionValueHolder.!init"/>
+                        <t:endsAt rdf:datatype="&xsd;integer"
+                        >101</t:endsAt>
+                        <bh:originEvent>
+                          <jbh:MethodCall rdf:about="&jbh;mc65">
+                            <jbh:paramObjTag rdf:datatype="&xsd;integer"
+                            >12</jbh:paramObjTag>
+                            <jbh:methodCalled>
+                              <java:Method rdf:about="http://anonymous.authors/ontologies/2017/6/Java#com.taursys.model.AbstractListValueHolder.!init">
+                                <jbh:isInit rdf:datatype="&xsd;boolean"
+                                >true</jbh:isInit>
+                              </java:Method>
+                            </jbh:methodCalled>
+                            <t:endsAt rdf:datatype="&xsd;integer"
+                            >102</t:endsAt>
+                            <bh:originEvent>
+                              <jbh:MethodCall rdf:about="&jbh;mc56">
+                                <jbh:methodCalled>
+                                  <java:Method rdf:about="http://anonymous.authors/ontologies/2017/6/Java#com.taursys.model.VOListValueHolder.!init">
+                                    <jbh:isInit rdf:datatype=
+                                    "&xsd;boolean">true</jbh:isInit>
+                                  </java:Method>
+                                </jbh:methodCalled>
+                                <t:endsAt rdf:datatype="&xsd;integer"
+                                >103</t:endsAt>
+                                <bh:originEvent>
+                                  <jbh:MethodCall rdf:about="&jbh;mc55">
+                                    <jbh:methodCalled>
+                                      <java:Method rdf:about="&java;com.taursys.swing.MTableModel.createDefaultListValueHolder"/>
+                                    </jbh:methodCalled>
+                                    <t:endsAt rdf:datatype="&xsd;integer"
+                                    >104</t:endsAt>
+                                    <bh:originEvent>
+                                      <jbh:MethodCall rdf:about="&jbh;mc50">
+                                        <jbh:methodCalled>
+                                          <java:Method rdf:about="http://anonymous.authors/ontologies/2017/6/Java#com.taursys.swing.MTableModel.!init">
+                                            <jbh:isInit rdf:datatype=
+                                            "&xsd;boolean">true</jbh:isInit>
+                                          </java:Method>
+                                        </jbh:methodCalled>
+                                        <t:endsAt rdf:datatype=
+                                        "&xsd;integer">107</t:endsAt>
+                                        <bh:originEvent rdf:resource="&jbh;mc1"/>
+                                        <java:threadID rdf:datatype=
+                                        "&xsd;integer">0</java:threadID>
+                                        <jbh:methodCaller rdf:resource="&java;test.auto.Strategy_Setter_MTableModel_ListValueHolder_7.main"/>
+                                        <jbh:objTag rdf:datatype=
+                                        "&xsd;integer">8</jbh:objTag>
+                                        <t:startsAt rdf:datatype=
+                                        "&xsd;integer">50</t:startsAt>
+                                      </jbh:MethodCall>
+                                    </bh:originEvent>
+                                    <java:threadID rdf:datatype=
+                                    "&xsd;integer">0</java:threadID>
+                                    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#com.taursys.swing.MTableModel.!init"/>
+                                    <jbh:objTag rdf:datatype=
+                                    "&xsd;integer">8</jbh:objTag>
+                                    <t:startsAt rdf:datatype=
+                                    "&xsd;integer">55</t:startsAt>
+                                  </jbh:MethodCall>
+                                </bh:originEvent>
+                                <java:threadID rdf:datatype="&xsd;integer"
+                                >0</java:threadID>
+                                <jbh:methodCaller rdf:resource="&java;com.taursys.swing.MTableModel.createDefaultListValueHolder"/>
+                                <jbh:objTag rdf:datatype="&xsd;integer"
+                                >11</jbh:objTag>
+                                <t:startsAt rdf:datatype="&xsd;integer"
+                                >56</t:startsAt>
+                              </jbh:MethodCall>
+                            </bh:originEvent>
+                            <java:threadID rdf:datatype="&xsd;integer"
+                            >0</java:threadID>
+                            <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#com.taursys.model.VOListValueHolder.!init"/>
+                            <jbh:objTag rdf:datatype="&xsd;integer"
+                            >11</jbh:objTag>
+                            <t:startsAt rdf:datatype="&xsd;integer"
+                            >65</t:startsAt>
+                          </jbh:MethodCall>
+                        </bh:originEvent>
+                        <java:threadID rdf:datatype="&xsd;integer"
+                        >0</java:threadID>
+                        <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#com.taursys.model.AbstractListValueHolder.!init"/>
+                        <jbh:objTag rdf:datatype="&xsd;integer"
+                        >11</jbh:objTag>
+                        <t:startsAt rdf:datatype="&xsd;integer"
+                        >66</t:startsAt>
+                      </jbh:MethodCall>
+                    </bh:originEvent>
+                    <jbh:paramObjTag rdf:datatype="&xsd;integer"
+                    >12</jbh:paramObjTag>
+                    <t:startsAt rdf:datatype="&xsd;integer">67</t:startsAt>
+                    <java:threadID rdf:datatype="&xsd;integer"
+                    >0</java:threadID>
+                  </jbh:MethodCall>
+                </bh:originEvent>
+                <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+                <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#com.taursys.model.AbstractCollectionValueHolder.!init"/>
+                <jbh:objTag rdf:datatype="&xsd;integer">11</jbh:objTag>
+                <t:startsAt rdf:datatype="&xsd;integer">72</t:startsAt>
+              </jbh:MethodCall>
+            </bh:originEvent>
+            <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+            <jbh:methodCaller rdf:resource="&java;com.taursys.model.AbstractListValueHolder.setCollection"/>
+            <jbh:objTag rdf:datatype="&xsd;integer">11</jbh:objTag>
+            <t:startsAt rdf:datatype="&xsd;integer">73</t:startsAt>
+          </jbh:MethodCall>
+        </bh:originEvent>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;com.taursys.model.AbstractListValueHolder.setList"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">11</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">78</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;com.taursys.model.AbstractListValueHolder.listContentsPositionChange"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">11</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">85</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc29">
+    <jbh:methodCalled>
+      <java:Method rdf:about="&java;com.taursys.model.AbstractCollectionValueHolder.size"/>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">30</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc24">
+        <jbh:methodCalled rdf:resource="&java;com.taursys.model.AbstractListValueHolder.listContentsPositionChange"/>
+        <t:endsAt rdf:datatype="&xsd;integer">43</t:endsAt>
+        <bh:originEvent>
+          <jbh:MethodCall rdf:about="&jbh;mc19">
+            <jbh:paramObjTag rdf:datatype="&xsd;integer">4</jbh:paramObjTag>
+            <jbh:methodCalled rdf:resource="&java;com.taursys.model.AbstractListValueHolder.setList"/>
+            <t:endsAt rdf:datatype="&xsd;integer">44</t:endsAt>
+            <bh:originEvent>
+              <jbh:MethodCall rdf:about="&jbh;mc18">
+                <jbh:paramObjTag rdf:datatype="&xsd;integer">4</jbh:paramObjTag>
+                <jbh:methodCalled rdf:resource="&java;com.taursys.model.AbstractListValueHolder.setCollection"/>
+                <t:endsAt rdf:datatype="&xsd;integer">45</t:endsAt>
+                <bh:originEvent>
+                  <jbh:MethodCall rdf:about="&jbh;mc13">
+                    <java:threadID rdf:datatype="&xsd;integer"
+                    >0</java:threadID>
+                    <t:endsAt rdf:datatype="&xsd;integer">46</t:endsAt>
+                    <jbh:paramObjTag rdf:datatype="&xsd;integer"
+                    >4</jbh:paramObjTag>
+                    <bh:originEvent>
+                      <jbh:MethodCall rdf:about="&jbh;mc12">
+                        <jbh:paramObjTag rdf:datatype="&xsd;integer"
+                        >2</jbh:paramObjTag>
+                        <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#com.taursys.model.AbstractCollectionValueHolder.!init"/>
+                        <t:endsAt rdf:datatype="&xsd;integer"
+                        >47</t:endsAt>
+                        <bh:originEvent>
+                          <jbh:MethodCall rdf:about="&jbh;mc11">
+                            <jbh:paramObjTag rdf:datatype="&xsd;integer"
+                            >2</jbh:paramObjTag>
+                            <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#com.taursys.model.AbstractListValueHolder.!init"/>
+                            <t:endsAt rdf:datatype="&xsd;integer"
+                            >48</t:endsAt>
+                            <bh:originEvent>
+                              <jbh:MethodCall rdf:about="&jbh;mc2">
+                                <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#com.taursys.model.VOListValueHolder.!init"/>
+                                <t:endsAt rdf:datatype="&xsd;integer"
+                                >49</t:endsAt>
+                                <bh:originEvent rdf:resource="&jbh;mc1"/>
+                                <java:threadID rdf:datatype="&xsd;integer"
+                                >0</java:threadID>
+                                <jbh:methodCaller rdf:resource="&java;test.auto.Strategy_Setter_MTableModel_ListValueHolder_7.main"/>
+                                <jbh:objTag rdf:datatype="&xsd;integer"
+                                >1</jbh:objTag>
+                                <t:startsAt rdf:datatype="&xsd;integer"
+                                >2</t:startsAt>
+                              </jbh:MethodCall>
+                            </bh:originEvent>
+                            <java:threadID rdf:datatype="&xsd;integer"
+                            >0</java:threadID>
+                            <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#com.taursys.model.VOListValueHolder.!init"/>
+                            <jbh:objTag rdf:datatype="&xsd;integer"
+                            >1</jbh:objTag>
+                            <t:startsAt rdf:datatype="&xsd;integer"
+                            >11</t:startsAt>
+                          </jbh:MethodCall>
+                        </bh:originEvent>
+                        <java:threadID rdf:datatype="&xsd;integer"
+                        >0</java:threadID>
+                        <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#com.taursys.model.AbstractListValueHolder.!init"/>
+                        <jbh:objTag rdf:datatype="&xsd;integer"
+                        >1</jbh:objTag>
+                        <t:startsAt rdf:datatype="&xsd;integer"
+                        >12</t:startsAt>
+                      </jbh:MethodCall>
+                    </bh:originEvent>
+                    <t:startsAt rdf:datatype="&xsd;integer">13</t:startsAt>
+                    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#com.taursys.model.AbstractCollectionValueHolder.!init"/>
+                    <jbh:objTag rdf:datatype="&xsd;integer">1</jbh:objTag>
+                    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#com.taursys.model.AbstractCollectionValueHolder.!init"/>
+                    <jbh:paramObjTag rdf:datatype="&xsd;integer"
+                    >2</jbh:paramObjTag>
+                  </jbh:MethodCall>
+                </bh:originEvent>
+                <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+                <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#com.taursys.model.AbstractCollectionValueHolder.!init"/>
+                <jbh:objTag rdf:datatype="&xsd;integer">1</jbh:objTag>
+                <t:startsAt rdf:datatype="&xsd;integer">18</t:startsAt>
+              </jbh:MethodCall>
+            </bh:originEvent>
+            <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+            <jbh:methodCaller rdf:resource="&java;com.taursys.model.AbstractListValueHolder.setCollection"/>
+            <jbh:objTag rdf:datatype="&xsd;integer">1</jbh:objTag>
+            <t:startsAt rdf:datatype="&xsd;integer">19</t:startsAt>
+          </jbh:MethodCall>
+        </bh:originEvent>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;com.taursys.model.AbstractListValueHolder.setList"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">1</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">24</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;com.taursys.model.AbstractListValueHolder.listContentsPositionChange"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">1</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">29</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc149">
+    <jbh:methodCalled>
+      <java:Method rdf:about="&java;com.taursys.model.AbstractCollectionValueHolder.getCollection"/>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">150</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc148">
+        <jbh:methodCalled>
+          <java:Method rdf:about="&java;com.taursys.model.AbstractListValueHolder.getList"/>
+        </jbh:methodCalled>
+        <t:endsAt rdf:datatype="&xsd;integer">151</t:endsAt>
+        <bh:originEvent>
+          <jbh:MethodCall rdf:about="&jbh;mc147">
+            <jbh:methodCalled rdf:resource="&java;com.taursys.model.AbstractListValueHolder.listContentsPositionChange"/>
+            <t:endsAt rdf:datatype="&xsd;integer">166</t:endsAt>
+            <bh:originEvent>
+              <jbh:MethodCall rdf:about="&jbh;mc142">
+                <jbh:paramObjTag rdf:datatype="&xsd;integer">22</jbh:paramObjTag>
+                <jbh:methodCalled rdf:resource="&java;com.taursys.model.AbstractListValueHolder.setList"/>
+                <t:endsAt rdf:datatype="&xsd;integer">167</t:endsAt>
+                <bh:originEvent>
+                  <jbh:MethodCall rdf:about="&jbh;mc141">
+                    <jbh:paramObjTag rdf:datatype="&xsd;integer"
+                    >22</jbh:paramObjTag>
+                    <jbh:methodCalled rdf:resource="&java;com.taursys.model.AbstractListValueHolder.setCollection"/>
+                    <t:endsAt rdf:datatype="&xsd;integer">168</t:endsAt>
+                    <bh:originEvent>
+                      <jbh:MethodCall rdf:about="&jbh;mc136">
+                        <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#com.taursys.model.AbstractCollectionValueHolder.!init"/>
+                        <jbh:paramObjTag rdf:datatype="&xsd;integer"
+                        >22</jbh:paramObjTag>
+                        <jbh:paramObjTag rdf:datatype="&xsd;integer"
+                        >20</jbh:paramObjTag>
+                        <bh:originEvent>
+                          <jbh:MethodCall rdf:about="&jbh;mc135">
+                            <jbh:paramObjTag rdf:datatype="&xsd;integer"
+                            >20</jbh:paramObjTag>
+                            <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#com.taursys.model.AbstractCollectionValueHolder.!init"/>
+                            <t:endsAt rdf:datatype="&xsd;integer"
+                            >170</t:endsAt>
+                            <bh:originEvent>
+                              <jbh:MethodCall rdf:about="&jbh;mc134">
+                                <jbh:paramObjTag rdf:datatype=
+                                "&xsd;integer">20</jbh:paramObjTag>
+                                <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#com.taursys.model.AbstractListValueHolder.!init"/>
+                                <t:endsAt rdf:datatype="&xsd;integer"
+                                >171</t:endsAt>
+                                <bh:originEvent rdf:resource="&jbh;mc1"/>
+                                <java:threadID rdf:datatype="&xsd;integer"
+                                >0</java:threadID>
+                                <jbh:methodCaller rdf:resource="&java;test.auto.Strategy_Setter_MTableModel_ListValueHolder_7.main"/>
+                                <jbh:objTag rdf:datatype="&xsd;integer"
+                                >21</jbh:objTag>
+                                <t:startsAt rdf:datatype="&xsd;integer"
+                                >134</t:startsAt>
+                              </jbh:MethodCall>
+                            </bh:originEvent>
+                            <java:threadID rdf:datatype="&xsd;integer"
+                            >0</java:threadID>
+                            <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#com.taursys.model.AbstractListValueHolder.!init"/>
+                            <jbh:objTag rdf:datatype="&xsd;integer"
+                            >21</jbh:objTag>
+                            <t:startsAt rdf:datatype="&xsd;integer"
+                            >135</t:startsAt>
+                          </jbh:MethodCall>
+                        </bh:originEvent>
+                        <t:endsAt rdf:datatype="&xsd;integer"
+                        >169</t:endsAt>
+                        <java:threadID rdf:datatype="&xsd;integer"
+                        >0</java:threadID>
+                        <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#com.taursys.model.AbstractCollectionValueHolder.!init"/>
+                        <t:startsAt rdf:datatype="&xsd;integer"
+                        >136</t:startsAt>
+                        <jbh:objTag rdf:datatype="&xsd;integer"
+                        >21</jbh:objTag>
+                      </jbh:MethodCall>
+                    </bh:originEvent>
+                    <java:threadID rdf:datatype="&xsd;integer"
+                    >0</java:threadID>
+                    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#com.taursys.model.AbstractCollectionValueHolder.!init"/>
+                    <jbh:objTag rdf:datatype="&xsd;integer">21</jbh:objTag>
+                    <t:startsAt rdf:datatype="&xsd;integer">141</t:startsAt>
+                  </jbh:MethodCall>
+                </bh:originEvent>
+                <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+                <jbh:methodCaller rdf:resource="&java;com.taursys.model.AbstractListValueHolder.setCollection"/>
+                <jbh:objTag rdf:datatype="&xsd;integer">21</jbh:objTag>
+                <t:startsAt rdf:datatype="&xsd;integer">142</t:startsAt>
+              </jbh:MethodCall>
+            </bh:originEvent>
+            <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+            <jbh:methodCaller rdf:resource="&java;com.taursys.model.AbstractListValueHolder.setList"/>
+            <jbh:objTag rdf:datatype="&xsd;integer">21</jbh:objTag>
+            <t:startsAt rdf:datatype="&xsd;integer">147</t:startsAt>
+          </jbh:MethodCall>
+        </bh:originEvent>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;com.taursys.model.AbstractListValueHolder.listContentsPositionChange"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">21</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">148</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;com.taursys.model.AbstractListValueHolder.getList"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">21</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">149</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc210">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">30</jbh:paramObjTag>
+    <jbh:methodCalled>
+      <java:Method rdf:about="&java;com.taursys.model.AbstractListValueHolder.fireValueChanged"/>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">211</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc191">
+        <jbh:methodCalled rdf:resource="&java;com.taursys.model.AbstractListValueHolder.listContentsPositionChange"/>
+        <t:endsAt rdf:datatype="&xsd;integer">212</t:endsAt>
+        <bh:originEvent>
+          <jbh:MethodCall rdf:about="&jbh;mc186">
+            <jbh:paramObjTag rdf:datatype="&xsd;integer">21</jbh:paramObjTag>
+            <jbh:methodCalled rdf:resource="&java;com.taursys.model.AbstractListValueHolder.setList"/>
+            <t:endsAt rdf:datatype="&xsd;integer">213</t:endsAt>
+            <bh:originEvent>
+              <jbh:MethodCall rdf:about="&jbh;mc185">
+                <jbh:paramObjTag rdf:datatype="&xsd;integer">21</jbh:paramObjTag>
+                <jbh:methodCalled rdf:resource="&java;com.taursys.model.AbstractListValueHolder.setCollection"/>
+                <t:endsAt rdf:datatype="&xsd;integer">214</t:endsAt>
+                <bh:originEvent>
+                  <jbh:MethodCall rdf:about="&jbh;mc180">
+                    <t:endsAt rdf:datatype="&xsd;integer">215</t:endsAt>
+                    <t:startsAt rdf:datatype="&xsd;integer">180</t:startsAt>
+                    <jbh:objTag rdf:datatype="&xsd;integer">26</jbh:objTag>
+                    <bh:originEvent>
+                      <jbh:MethodCall rdf:about="&jbh;mc179">
+                        <bh:originEvent>
+                          <jbh:MethodCall rdf:about="&jbh;mc172">
+                            <jbh:paramObjTag rdf:datatype="&xsd;integer"
+                            >21</jbh:paramObjTag>
+                            <jbh:methodCalled>
+                              <java:Method rdf:about="http://anonymous.authors/ontologies/2017/6/Java#com.taursys.model.ObjectListValueHolder.!init">
+                                <jbh:isInit rdf:datatype="&xsd;boolean"
+                                >true</jbh:isInit>
+                              </java:Method>
+                            </jbh:methodCalled>
+                            <t:endsAt rdf:datatype="&xsd;integer"
+                            >217</t:endsAt>
+                            <bh:originEvent rdf:resource="&jbh;mc1"/>
+                            <java:threadID rdf:datatype="&xsd;integer"
+                            >0</java:threadID>
+                            <jbh:methodCaller rdf:resource="&java;test.auto.Strategy_Setter_MTableModel_ListValueHolder_7.main"/>
+                            <jbh:objTag rdf:datatype="&xsd;integer"
+                            >26</jbh:objTag>
+                            <t:startsAt rdf:datatype="&xsd;integer"
+                            >172</t:startsAt>
+                          </jbh:MethodCall>
+                        </bh:originEvent>
+                        <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#com.taursys.model.ObjectListValueHolder.!init"/>
+                        <jbh:paramObjTag rdf:datatype="&xsd;integer"
+                        >21</jbh:paramObjTag>
+                        <t:startsAt rdf:datatype="&xsd;integer"
+                        >179</t:startsAt>
+                        <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#com.taursys.model.AbstractListValueHolder.!init"/>
+                        <jbh:paramObjTag rdf:datatype="&xsd;integer"
+                        >27</jbh:paramObjTag>
+                        <t:endsAt rdf:datatype="&xsd;integer"
+                        >216</t:endsAt>
+                        <jbh:objTag rdf:datatype="&xsd;integer"
+                        >26</jbh:objTag>
+                        <java:threadID rdf:datatype="&xsd;integer"
+                        >0</java:threadID>
+                      </jbh:MethodCall>
+                    </bh:originEvent>
+                    <jbh:paramObjTag rdf:datatype="&xsd;integer"
+                    >27</jbh:paramObjTag>
+                    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#com.taursys.model.AbstractListValueHolder.!init"/>
+                    <jbh:paramObjTag rdf:datatype="&xsd;integer"
+                    >21</jbh:paramObjTag>
+                    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#com.taursys.model.AbstractCollectionValueHolder.!init"/>
+                    <java:threadID rdf:datatype="&xsd;integer"
+                    >0</java:threadID>
+                  </jbh:MethodCall>
+                </bh:originEvent>
+                <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+                <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#com.taursys.model.AbstractCollectionValueHolder.!init"/>
+                <jbh:objTag rdf:datatype="&xsd;integer">26</jbh:objTag>
+                <t:startsAt rdf:datatype="&xsd;integer">185</t:startsAt>
+              </jbh:MethodCall>
+            </bh:originEvent>
+            <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+            <jbh:methodCaller rdf:resource="&java;com.taursys.model.AbstractListValueHolder.setCollection"/>
+            <jbh:objTag rdf:datatype="&xsd;integer">26</jbh:objTag>
+            <t:startsAt rdf:datatype="&xsd;integer">186</t:startsAt>
+          </jbh:MethodCall>
+        </bh:originEvent>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;com.taursys.model.AbstractListValueHolder.setList"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">26</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">191</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;com.taursys.model.AbstractListValueHolder.listContentsPositionChange"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">26</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">210</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc193">
+    <jbh:methodCalled rdf:resource="&java;com.taursys.model.AbstractCollectionValueHolder.getCollection"/>
+    <t:endsAt rdf:datatype="&xsd;integer">194</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc192">
+        <jbh:methodCalled rdf:resource="&java;com.taursys.model.AbstractListValueHolder.getList"/>
+        <t:endsAt rdf:datatype="&xsd;integer">195</t:endsAt>
+        <bh:originEvent rdf:resource="&jbh;mc191"/>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;com.taursys.model.AbstractListValueHolder.listContentsPositionChange"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">26</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">192</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;com.taursys.model.AbstractListValueHolder.getList"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">26</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">193</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:FieldModi rdf:about="&jbh;fldModi176">
+    <jbh:fieldVisitMethod>
+      <java:Method rdf:about="http://anonymous.authors/ontologies/2017/6/Java#com.taursys.model.ObjectValueHolder.!init">
+        <jbh:isInit rdf:datatype="&xsd;boolean">true</jbh:isInit>
+      </java:Method>
+    </jbh:fieldVisitMethod>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">0</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">27</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">177</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">0</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">176</t:startsAt>
+    <jbh:visitedField>
+      <java:Field rdf:about="&java;com.taursys.model.ObjectValueHolder.parentValueHolder">
+        <java:fieldTypeIs>
+          <java:Class rdf:about="&java;com.taursys.model.ValueHolder"/>
+        </java:fieldTypeIs>
+      </java:Field>
+    </jbh:visitedField>
+  </jbh:FieldModi>
+  <jbh:MethodCall rdf:about="&jbh;mc116">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">8</jbh:paramObjTag>
+    <jbh:methodCalled>
+      <java:Method rdf:about="&java;com.taursys.model.AbstractValueHolder.removeChangeListener"/>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">117</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc115">
+        <jbh:paramObjTag rdf:datatype="&xsd;integer">8</jbh:paramObjTag>
+        <jbh:methodCalled>
+          <java:Method rdf:about="&java;com.taursys.model.AbstractCollectionValueHolder.removeChangeListener"/>
+        </jbh:methodCalled>
+        <t:endsAt rdf:datatype="&xsd;integer">118</t:endsAt>
+        <bh:originEvent>
+          <jbh:MethodCall rdf:about="&jbh;mc108">
+            <jbh:paramObjTag rdf:datatype="&xsd;integer">1</jbh:paramObjTag>
+            <jbh:methodCalled>
+              <java:Method rdf:about="&java;com.taursys.swing.MTableModel.setListValueHolder"/>
+            </jbh:methodCalled>
+            <t:endsAt rdf:datatype="&xsd;integer">127</t:endsAt>
+            <bh:originEvent rdf:resource="&jbh;mc1"/>
+            <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+            <jbh:methodCaller rdf:resource="&java;test.auto.Strategy_Setter_MTableModel_ListValueHolder_7.main"/>
+            <jbh:objTag rdf:datatype="&xsd;integer">8</jbh:objTag>
+            <t:startsAt rdf:datatype="&xsd;integer">108</t:startsAt>
+          </jbh:MethodCall>
+        </bh:originEvent>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;com.taursys.swing.MTableModel.setListValueHolder"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">11</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">115</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;com.taursys.model.AbstractCollectionValueHolder.removeChangeListener"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">12</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">116</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc51">
+    <jbh:methodCalled>
+      <java:Method rdf:about="http://anonymous.authors/ontologies/2017/6/Java#com.taursys.swing.ListSelectionBinder.!init">
+        <jbh:isInit rdf:datatype="&xsd;boolean">true</jbh:isInit>
+      </java:Method>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">52</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc50"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#com.taursys.swing.MTableModel.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">9</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">51</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc75">
+    <jbh:methodCalled>
+      <java:Method rdf:about="&java;com.taursys.model.AbstractListValueHolder.reset"/>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">76</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc74">
+        <jbh:paramObjTag rdf:datatype="&xsd;integer">14</jbh:paramObjTag>
+        <jbh:methodCalled>
+          <java:Method rdf:about="&java;com.taursys.model.AbstractCollectionValueHolder.setCollection"/>
+        </jbh:methodCalled>
+        <t:endsAt rdf:datatype="&xsd;integer">77</t:endsAt>
+        <bh:originEvent rdf:resource="&jbh;mc73"/>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;com.taursys.model.AbstractListValueHolder.setList"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">11</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">74</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;com.taursys.model.AbstractCollectionValueHolder.setCollection"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">11</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">75</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:FieldModi rdf:about="&jbh;fldModi131">
+    <jbh:fieldVisitMethod rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#com.taursys.model.ObjectValueHolder.!init"/>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">0</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">20</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">132</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">0</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">131</t:startsAt>
+    <jbh:visitedField rdf:resource="&java;com.taursys.model.ObjectValueHolder.parentValueHolder"/>
+  </jbh:FieldModi>
+  <jbh:MethodCall rdf:about="&jbh;mc200">
+    <jbh:methodCalled rdf:resource="&java;com.taursys.model.AbstractCollectionValueHolder.getObjectValueHolder"/>
+    <t:endsAt rdf:datatype="&xsd;integer">201</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc191"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;com.taursys.model.AbstractListValueHolder.listContentsPositionChange"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">26</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">200</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc248">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">33</jbh:paramObjTag>
+    <jbh:methodCalled>
+      <java:Method rdf:about="&java;com.taursys.swing.ListSelectionBinder.valueChanged"/>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">249</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc247">
+        <jbh:paramObjTag rdf:datatype="&xsd;integer">33</jbh:paramObjTag>
+        <jbh:methodCalled rdf:resource="&java;com.taursys.model.AbstractListValueHolder.fireValueChanged"/>
+        <t:endsAt rdf:datatype="&xsd;integer">250</t:endsAt>
+        <bh:originEvent rdf:resource="&jbh;mc224"/>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;com.taursys.model.AbstractListValueHolder.listContentsPositionChange"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">1</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">247</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;com.taursys.model.AbstractListValueHolder.fireValueChanged"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">9</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">248</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc203">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">26</jbh:paramObjTag>
+    <jbh:methodCalled>
+      <java:Method rdf:about="http://anonymous.authors/ontologies/2017/6/Java#com.taursys.model.event.ContentChangeEvent.!init">
+        <jbh:isInit rdf:datatype="&xsd;boolean">true</jbh:isInit>
+      </java:Method>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">204</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc202">
+        <jbh:paramObjTag rdf:datatype="&xsd;integer">26</jbh:paramObjTag>
+        <jbh:methodCalled>
+          <java:Method rdf:about="http://anonymous.authors/ontologies/2017/6/Java#com.taursys.model.event.ListContentChangeEvent.!init">
+            <jbh:isInit rdf:datatype="&xsd;boolean">true</jbh:isInit>
+          </java:Method>
+        </jbh:methodCalled>
+        <t:endsAt rdf:datatype="&xsd;integer">205</t:endsAt>
+        <bh:originEvent rdf:resource="&jbh;mc191"/>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;com.taursys.model.AbstractListValueHolder.listContentsPositionChange"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">28</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">202</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#com.taursys.model.event.ListContentChangeEvent.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">28</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">203</t:startsAt>
+  </jbh:MethodCall>
+  <java:Class rdf:about="&java;com.taursys.swing.MTableModel">
+    <java:hasField>
+      <java:Field rdf:about="&java;com.taursys.swing.MTableModel.listValueHolder">
+        <java:fieldTypeIs>
+          <java:Class rdf:about="&java;com.taursys.model.ListValueHolder"/>
+        </java:fieldTypeIs>
+      </java:Field>
+    </java:hasField>
+    <java:hasField>
+      <java:Field rdf:about="&java;com.taursys.swing.MTableModel.listSelectionBinder">
+        <java:fieldTypeIs>
+          <java:Class rdf:about="&java;com.taursys.swing.ListSelectionBinder">
+            <java:hasField>
+              <java:Field rdf:about="&java;com.taursys.swing.ListSelectionBinder.listValueHolder">
+                <java:fieldTypeIs rdf:resource="&java;com.taursys.model.ListValueHolder"/>
+              </java:Field>
+            </java:hasField>
+          </java:Class>
+        </java:fieldTypeIs>
+      </java:Field>
+    </java:hasField>
+  </java:Class>
+  <jbh:MethodCall rdf:about="&jbh;mc174">
+    <jbh:methodCalled>
+      <java:Method rdf:about="http://anonymous.authors/ontologies/2017/6/Java#com.taursys.model.AbstractValueHolder.!init">
+        <jbh:isInit rdf:datatype="&xsd;boolean">true</jbh:isInit>
+      </java:Method>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">175</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc173">
+        <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#com.taursys.model.ObjectValueHolder.!init"/>
+        <t:endsAt rdf:datatype="&xsd;integer">178</t:endsAt>
+        <bh:originEvent rdf:resource="&jbh;mc172"/>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#com.taursys.model.ObjectListValueHolder.!init"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">27</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">173</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#com.taursys.model.ObjectValueHolder.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">27</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">174</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc283">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">38</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="&java;com.taursys.swing.ListSelectionBinder.valueChanged"/>
+    <t:endsAt rdf:datatype="&xsd;integer">284</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc282">
+        <jbh:paramObjTag rdf:datatype="&xsd;integer">38</jbh:paramObjTag>
+        <jbh:methodCalled rdf:resource="&java;com.taursys.model.AbstractListValueHolder.fireValueChanged"/>
+        <t:endsAt rdf:datatype="&xsd;integer">285</t:endsAt>
+        <bh:originEvent>
+          <jbh:MethodCall rdf:about="&jbh;mc281">
+            <jbh:methodCalled rdf:resource="&java;com.taursys.model.AbstractListValueHolder.fireValueChanged"/>
+            <t:endsAt rdf:datatype="&xsd;integer">286</t:endsAt>
+            <bh:originEvent>
+              <jbh:MethodCall rdf:about="&jbh;mc262">
+                <jbh:methodCalled rdf:resource="&java;com.taursys.model.AbstractListValueHolder.reset"/>
+                <t:endsAt rdf:datatype="&xsd;integer">287</t:endsAt>
+                <bh:originEvent>
+                  <jbh:MethodCall rdf:about="&jbh;mc253">
+                    <jbh:methodCalled>
+                      <java:Method rdf:about="&java;com.taursys.model.AbstractListValueHolder.first"/>
+                    </jbh:methodCalled>
+                    <t:endsAt rdf:datatype="&xsd;integer">288</t:endsAt>
+                    <bh:originEvent rdf:resource="&jbh;mc218"/>
+                    <java:threadID rdf:datatype="&xsd;integer"
+                    >0</java:threadID>
+                    <jbh:methodCaller rdf:resource="&java;com.taursys.swing.MTableModel.setList"/>
+                    <jbh:objTag rdf:datatype="&xsd;integer">1</jbh:objTag>
+                    <t:startsAt rdf:datatype="&xsd;integer">253</t:startsAt>
+                  </jbh:MethodCall>
+                </bh:originEvent>
+                <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+                <jbh:methodCaller rdf:resource="&java;com.taursys.model.AbstractListValueHolder.first"/>
+                <jbh:objTag rdf:datatype="&xsd;integer">1</jbh:objTag>
+                <t:startsAt rdf:datatype="&xsd;integer">262</t:startsAt>
+              </jbh:MethodCall>
+            </bh:originEvent>
+            <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+            <jbh:methodCaller rdf:resource="&java;com.taursys.model.AbstractListValueHolder.reset"/>
+            <jbh:objTag rdf:datatype="&xsd;integer">1</jbh:objTag>
+            <t:startsAt rdf:datatype="&xsd;integer">281</t:startsAt>
+          </jbh:MethodCall>
+        </bh:originEvent>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;com.taursys.model.AbstractListValueHolder.fireValueChanged"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">1</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">282</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;com.taursys.model.AbstractListValueHolder.fireValueChanged"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">9</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">283</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc80">
+    <jbh:methodCalled rdf:resource="&java;com.taursys.model.AbstractCollectionValueHolder.getCollection"/>
+    <t:endsAt rdf:datatype="&xsd;integer">81</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc79">
+        <jbh:methodCalled rdf:resource="&java;com.taursys.model.AbstractListValueHolder.getList"/>
+        <t:endsAt rdf:datatype="&xsd;integer">82</t:endsAt>
+        <bh:originEvent rdf:resource="&jbh;mc78"/>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;com.taursys.model.AbstractListValueHolder.listContentsPositionChange"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">11</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">79</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;com.taursys.model.AbstractListValueHolder.getList"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">11</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">80</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc92">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">15</jbh:paramObjTag>
+    <jbh:methodCalled>
+      <java:Method rdf:about="&java;com.taursys.model.AbstractValueHolder.fireStateChanged"/>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">93</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc91">
+        <jbh:methodCaller rdf:resource="&java;com.taursys.model.AbstractListValueHolder.listContentsPositionChange"/>
+        <bh:originEvent rdf:resource="&jbh;mc78"/>
+        <jbh:paramObjTag rdf:datatype="&xsd;integer">16</jbh:paramObjTag>
+        <t:endsAt rdf:datatype="&xsd;integer">94</t:endsAt>
+        <t:startsAt rdf:datatype="&xsd;integer">91</t:startsAt>
+        <jbh:paramObjTag rdf:datatype="&xsd;integer">15</jbh:paramObjTag>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCalled>
+          <java:Method rdf:about="&java;com.taursys.model.VOValueHolder.setObject"/>
+        </jbh:methodCalled>
+        <jbh:objTag rdf:datatype="&xsd;integer">12</jbh:objTag>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;com.taursys.model.VOValueHolder.setObject"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">12</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">92</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:FieldModi rdf:about="&jbh;fldModi16">
+    <jbh:fieldVisitMethod rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#com.taursys.model.AbstractCollectionValueHolder.!init"/>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">2</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">1</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">17</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">2</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">16</t:startsAt>
+    <jbh:visitedField>
+      <java:Field rdf:about="&java;com.taursys.model.AbstractCollectionValueHolder.objectValueHolder">
+        <java:fieldTypeIs>
+          <java:Class rdf:about="&java;com.taursys.model.ObjectValueHolder">
+            <java:hasField rdf:resource="&java;com.taursys.model.ObjectValueHolder.parentValueHolder"/>
+          </java:Class>
+        </java:fieldTypeIs>
+      </java:Field>
+    </jbh:visitedField>
+  </jbh:FieldModi>
+  <jbh:MethodCall rdf:about="&jbh;mc129">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#com.taursys.model.AbstractValueHolder.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">130</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc128">
+        <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#com.taursys.model.ObjectValueHolder.!init"/>
+        <t:endsAt rdf:datatype="&xsd;integer">133</t:endsAt>
+        <bh:originEvent rdf:resource="&jbh;mc1"/>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;test.auto.Strategy_Setter_MTableModel_ListValueHolder_7.main"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">20</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">128</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#com.taursys.model.ObjectValueHolder.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">20</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">129</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:FieldModi rdf:about="&jbh;fldModi105">
+    <jbh:fieldVisitMethod rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#com.taursys.swing.MTableModel.!init"/>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">11</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">8</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">106</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">11</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">105</t:startsAt>
+    <jbh:visitedField rdf:resource="&java;com.taursys.swing.MTableModel.listValueHolder"/>
+  </jbh:FieldModi>
+  <jbh:MethodCall rdf:about="&jbh;mc238">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">1</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#com.taursys.model.event.ContentChangeEvent.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">239</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc237">
+        <jbh:paramObjTag rdf:datatype="&xsd;integer">1</jbh:paramObjTag>
+        <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#com.taursys.model.event.ListContentChangeEvent.!init"/>
+        <t:endsAt rdf:datatype="&xsd;integer">240</t:endsAt>
+        <bh:originEvent rdf:resource="&jbh;mc224"/>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;com.taursys.model.AbstractListValueHolder.listContentsPositionChange"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">31</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">237</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#com.taursys.model.event.ListContentChangeEvent.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">31</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">238</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc226">
+    <jbh:methodCalled rdf:resource="&java;com.taursys.model.AbstractCollectionValueHolder.getCollection"/>
+    <t:endsAt rdf:datatype="&xsd;integer">227</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc225">
+        <jbh:methodCalled rdf:resource="&java;com.taursys.model.AbstractListValueHolder.getList"/>
+        <t:endsAt rdf:datatype="&xsd;integer">228</t:endsAt>
+        <bh:originEvent rdf:resource="&jbh;mc224"/>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;com.taursys.model.AbstractListValueHolder.listContentsPositionChange"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">1</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">225</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;com.taursys.model.AbstractListValueHolder.getList"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">1</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">226</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc197">
+    <jbh:methodCalled rdf:resource="&java;com.taursys.model.AbstractCollectionValueHolder.size"/>
+    <t:endsAt rdf:datatype="&xsd;integer">198</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc196">
+        <jbh:methodCalled rdf:resource="&java;com.taursys.model.AbstractCollectionValueHolder.size"/>
+        <t:endsAt rdf:datatype="&xsd;integer">199</t:endsAt>
+        <bh:originEvent rdf:resource="&jbh;mc191"/>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;com.taursys.model.AbstractListValueHolder.listContentsPositionChange"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">26</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">196</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;com.taursys.model.AbstractCollectionValueHolder.size"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">21</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">197</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc161">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">23</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="&java;com.taursys.model.AbstractValueHolder.fireStateChanged"/>
+    <t:endsAt rdf:datatype="&xsd;integer">162</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc160">
+        <jbh:methodCalled>
+          <java:Method rdf:about="&java;com.taursys.model.ObjectValueHolder.setObject"/>
+        </jbh:methodCalled>
+        <t:endsAt rdf:datatype="&xsd;integer">163</t:endsAt>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:paramObjTag rdf:datatype="&xsd;integer">24</jbh:paramObjTag>
+        <jbh:methodCaller rdf:resource="&java;com.taursys.model.AbstractListValueHolder.listContentsPositionChange"/>
+        <jbh:paramObjTag rdf:datatype="&xsd;integer">23</jbh:paramObjTag>
+        <jbh:objTag rdf:datatype="&xsd;integer">20</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">160</t:startsAt>
+        <bh:originEvent rdf:resource="&jbh;mc147"/>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;com.taursys.model.ObjectValueHolder.setObject"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">20</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">161</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:FieldModi rdf:about="&jbh;fldModi7">
+    <jbh:fieldVisitMethod rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#com.taursys.model.ObjectValueHolder.!init"/>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">0</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">2</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">8</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">0</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">7</t:startsAt>
+    <jbh:visitedField rdf:resource="&java;com.taursys.model.ObjectValueHolder.parentValueHolder"/>
+  </jbh:FieldModi>
+  <jbh:MethodCall rdf:about="&jbh;mc83">
+    <jbh:methodCalled rdf:resource="&java;com.taursys.model.AbstractCollectionValueHolder.size"/>
+    <t:endsAt rdf:datatype="&xsd;integer">84</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc78"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;com.taursys.model.AbstractListValueHolder.listContentsPositionChange"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">11</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">83</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc95">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">17</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="&java;com.taursys.model.AbstractListValueHolder.fireValueChanged"/>
+    <t:endsAt rdf:datatype="&xsd;integer">96</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc78"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;com.taursys.model.AbstractListValueHolder.listContentsPositionChange"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">11</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">95</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc152">
+    <jbh:methodCalled rdf:resource="&java;com.taursys.model.AbstractCollectionValueHolder.size"/>
+    <t:endsAt rdf:datatype="&xsd;integer">153</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc147"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;com.taursys.model.AbstractListValueHolder.listContentsPositionChange"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">21</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">152</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc164">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">25</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="&java;com.taursys.model.AbstractListValueHolder.fireValueChanged"/>
+    <t:endsAt rdf:datatype="&xsd;integer">165</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc147"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;com.taursys.model.AbstractListValueHolder.listContentsPositionChange"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">21</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">164</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc188">
+    <jbh:methodCalled rdf:resource="&java;com.taursys.model.AbstractListValueHolder.reset"/>
+    <t:endsAt rdf:datatype="&xsd;integer">189</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc187">
+        <jbh:paramObjTag rdf:datatype="&xsd;integer">21</jbh:paramObjTag>
+        <jbh:methodCalled rdf:resource="&java;com.taursys.model.AbstractCollectionValueHolder.setCollection"/>
+        <t:endsAt rdf:datatype="&xsd;integer">190</t:endsAt>
+        <bh:originEvent rdf:resource="&jbh;mc186"/>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;com.taursys.model.AbstractListValueHolder.setList"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">26</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">187</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;com.taursys.model.AbstractCollectionValueHolder.setCollection"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">26</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">188</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:FieldModi rdf:about="&jbh;fldModi14">
+    <jbh:fieldVisitMethod rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#com.taursys.model.AbstractCollectionValueHolder.!init"/>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">0</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">1</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">15</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">0</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">14</t:startsAt>
+    <jbh:visitedField>
+      <java:Field rdf:about="&java;com.taursys.model.AbstractCollectionValueHolder.parentValueHolder">
+        <java:fieldTypeIs rdf:resource="&java;com.taursys.model.ValueHolder"/>
+      </java:Field>
+    </jbh:visitedField>
+  </jbh:FieldModi>
+  <jbh:FieldModi rdf:about="&jbh;fldModi119">
+    <jbh:fieldVisitMethod rdf:resource="&java;com.taursys.swing.MTableModel.setListValueHolder"/>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">1</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">8</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">120</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">1</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">119</t:startsAt>
+    <jbh:visitedField rdf:resource="&java;com.taursys.swing.MTableModel.listValueHolder"/>
+  </jbh:FieldModi>
+  <jbh:MethodCall rdf:about="&jbh;mc272">
+    <jbh:methodCalled>
+      <java:Method rdf:about="&java;com.taursys.model.AbstractListValueHolder.getPosition"/>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">273</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc271">
+        <jbh:paramObjTag rdf:datatype="&xsd;integer">36</jbh:paramObjTag>
+        <jbh:methodCalled>
+          <java:Method rdf:about="&java;com.taursys.swing.MTableModel.stateChanged"/>
+        </jbh:methodCalled>
+        <t:endsAt rdf:datatype="&xsd;integer">276</t:endsAt>
+        <bh:originEvent>
+          <jbh:MethodCall rdf:about="&jbh;mc270">
+            <jbh:paramObjTag rdf:datatype="&xsd;integer">36</jbh:paramObjTag>
+            <jbh:methodCalled rdf:resource="&java;com.taursys.model.AbstractValueHolder.fireStateChanged"/>
+            <t:endsAt rdf:datatype="&xsd;integer">277</t:endsAt>
+            <bh:originEvent>
+              <jbh:MethodCall rdf:about="&jbh;mc269">
+                <bh:originEvent>
+                  <jbh:MethodCall rdf:about="&jbh;mc266">
+                    <jbh:paramObjTag rdf:datatype="&xsd;integer"
+                    >35</jbh:paramObjTag>
+                    <jbh:methodCalled rdf:resource="&java;com.taursys.model.ObjectValueHolder.setObject"/>
+                    <t:endsAt rdf:datatype="&xsd;integer">279</t:endsAt>
+                    <bh:originEvent>
+                      <jbh:MethodCall rdf:about="&jbh;mc265">
+                        <jbh:paramObjTag rdf:datatype="&xsd;integer"
+                        >34</jbh:paramObjTag>
+                        <jbh:methodCalled rdf:resource="&java;com.taursys.model.VOValueHolder.setObject"/>
+                        <t:endsAt rdf:datatype="&xsd;integer"
+                        >280</t:endsAt>
+                        <bh:originEvent rdf:resource="&jbh;mc262"/>
+                        <java:threadID rdf:datatype="&xsd;integer"
+                        >0</java:threadID>
+                        <jbh:methodCaller rdf:resource="&java;com.taursys.model.AbstractListValueHolder.reset"/>
+                        <jbh:objTag rdf:datatype="&xsd;integer"
+                        >2</jbh:objTag>
+                        <t:startsAt rdf:datatype="&xsd;integer"
+                        >265</t:startsAt>
+                      </jbh:MethodCall>
+                    </bh:originEvent>
+                    <java:threadID rdf:datatype="&xsd;integer"
+                    >0</java:threadID>
+                    <jbh:methodCaller rdf:resource="&java;com.taursys.model.VOValueHolder.setObject"/>
+                    <jbh:objTag rdf:datatype="&xsd;integer">2</jbh:objTag>
+                    <t:startsAt rdf:datatype="&xsd;integer">266</t:startsAt>
+                  </jbh:MethodCall>
+                </bh:originEvent>
+                <jbh:paramObjTag rdf:datatype="&xsd;integer">36</jbh:paramObjTag>
+                <t:endsAt rdf:datatype="&xsd;integer">278</t:endsAt>
+                <jbh:methodCaller rdf:resource="&java;com.taursys.model.ObjectValueHolder.setObject"/>
+                <t:startsAt rdf:datatype="&xsd;integer">269</t:startsAt>
+                <jbh:paramObjTag rdf:datatype="&xsd;integer">37</jbh:paramObjTag>
+                <jbh:methodCalled rdf:resource="&java;com.taursys.model.VOValueHolder.setObject"/>
+                <jbh:objTag rdf:datatype="&xsd;integer">2</jbh:objTag>
+                <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+              </jbh:MethodCall>
+            </bh:originEvent>
+            <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+            <jbh:methodCaller rdf:resource="&java;com.taursys.model.VOValueHolder.setObject"/>
+            <jbh:objTag rdf:datatype="&xsd;integer">2</jbh:objTag>
+            <t:startsAt rdf:datatype="&xsd;integer">270</t:startsAt>
+          </jbh:MethodCall>
+        </bh:originEvent>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;com.taursys.model.AbstractValueHolder.fireStateChanged"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">8</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">271</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;com.taursys.swing.MTableModel.stateChanged"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">1</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">272</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc26">
+    <jbh:methodCalled rdf:resource="&java;com.taursys.model.AbstractCollectionValueHolder.getCollection"/>
+    <t:endsAt rdf:datatype="&xsd;integer">27</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc25">
+        <jbh:methodCalled rdf:resource="&java;com.taursys.model.AbstractListValueHolder.getList"/>
+        <t:endsAt rdf:datatype="&xsd;integer">28</t:endsAt>
+        <bh:originEvent rdf:resource="&jbh;mc24"/>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;com.taursys.model.AbstractListValueHolder.listContentsPositionChange"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">1</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">25</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;com.taursys.model.AbstractListValueHolder.getList"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">1</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">26</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc38">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">5</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="&java;com.taursys.model.AbstractValueHolder.fireStateChanged"/>
+    <t:endsAt rdf:datatype="&xsd;integer">39</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc37">
+        <bh:originEvent rdf:resource="&jbh;mc24"/>
+        <jbh:paramObjTag rdf:datatype="&xsd;integer">5</jbh:paramObjTag>
+        <jbh:objTag rdf:datatype="&xsd;integer">2</jbh:objTag>
+        <jbh:methodCaller rdf:resource="&java;com.taursys.model.AbstractListValueHolder.listContentsPositionChange"/>
+        <jbh:paramObjTag rdf:datatype="&xsd;integer">6</jbh:paramObjTag>
+        <jbh:methodCalled rdf:resource="&java;com.taursys.model.VOValueHolder.setObject"/>
+        <t:endsAt rdf:datatype="&xsd;integer">40</t:endsAt>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <t:startsAt rdf:datatype="&xsd;integer">37</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;com.taursys.model.VOValueHolder.setObject"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">2</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">38</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:FieldModi rdf:about="&jbh;fldModi70">
+    <jbh:fieldVisitMethod rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#com.taursys.model.AbstractCollectionValueHolder.!init"/>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">12</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">11</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">71</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">12</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">70</t:startsAt>
+    <jbh:visitedField rdf:resource="&java;com.taursys.model.AbstractCollectionValueHolder.objectValueHolder"/>
+  </jbh:FieldModi>
+  <jbh:MethodCall rdf:about="&jbh;mc207">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">28</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="&java;com.taursys.model.AbstractValueHolder.fireStateChanged"/>
+    <t:endsAt rdf:datatype="&xsd;integer">208</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc206">
+        <jbh:methodCalled rdf:resource="&java;com.taursys.model.ObjectValueHolder.setObject"/>
+        <jbh:paramObjTag rdf:datatype="&xsd;integer">28</jbh:paramObjTag>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:objTag rdf:datatype="&xsd;integer">27</jbh:objTag>
+        <bh:originEvent rdf:resource="&jbh;mc191"/>
+        <t:endsAt rdf:datatype="&xsd;integer">209</t:endsAt>
+        <jbh:methodCaller rdf:resource="&java;com.taursys.model.AbstractListValueHolder.listContentsPositionChange"/>
+        <t:startsAt rdf:datatype="&xsd;integer">206</t:startsAt>
+        <jbh:paramObjTag rdf:datatype="&xsd;integer">29</jbh:paramObjTag>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;com.taursys.model.ObjectValueHolder.setObject"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">27</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">207</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc21">
+    <jbh:methodCalled rdf:resource="&java;com.taursys.model.AbstractListValueHolder.reset"/>
+    <t:endsAt rdf:datatype="&xsd;integer">22</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc20">
+        <jbh:paramObjTag rdf:datatype="&xsd;integer">4</jbh:paramObjTag>
+        <jbh:methodCalled rdf:resource="&java;com.taursys.model.AbstractCollectionValueHolder.setCollection"/>
+        <t:endsAt rdf:datatype="&xsd;integer">23</t:endsAt>
+        <bh:originEvent rdf:resource="&jbh;mc19"/>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;com.taursys.model.AbstractListValueHolder.setList"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">1</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">20</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;com.taursys.model.AbstractCollectionValueHolder.setCollection"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">1</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">21</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc154">
+    <jbh:methodCalled rdf:resource="&java;com.taursys.model.AbstractCollectionValueHolder.getObjectValueHolder"/>
+    <t:endsAt rdf:datatype="&xsd;integer">155</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc147"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;com.taursys.model.AbstractListValueHolder.listContentsPositionChange"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">21</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">154</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc263">
+    <jbh:methodCalled rdf:resource="&java;com.taursys.model.AbstractCollectionValueHolder.getObjectValueHolder"/>
+    <t:endsAt rdf:datatype="&xsd;integer">264</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc262"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;com.taursys.model.AbstractListValueHolder.reset"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">1</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">263</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:FieldModi rdf:about="&jbh;fldModi181">
+    <jbh:fieldVisitMethod rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#com.taursys.model.AbstractCollectionValueHolder.!init"/>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">0</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">26</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">182</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">0</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">181</t:startsAt>
+    <jbh:visitedField rdf:resource="&java;com.taursys.model.AbstractCollectionValueHolder.parentValueHolder"/>
+  </jbh:FieldModi>
+  <java:Class rdf:about="&java;com.taursys.model.AbstractCollectionValueHolder">
+    <java:hasField rdf:resource="&java;com.taursys.model.AbstractCollectionValueHolder.objectValueHolder"/>
+    <java:hasField rdf:resource="&java;com.taursys.model.AbstractCollectionValueHolder.parentValueHolder"/>
+  </java:Class>
+  <jbh:FieldModi rdf:about="&jbh;fldModi137">
+    <jbh:fieldVisitMethod rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#com.taursys.model.AbstractCollectionValueHolder.!init"/>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">0</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">21</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">138</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">0</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">137</t:startsAt>
+    <jbh:visitedField rdf:resource="&java;com.taursys.model.AbstractCollectionValueHolder.parentValueHolder"/>
+  </jbh:FieldModi>
+  <jbh:MethodCall rdf:about="&jbh;mc274">
+    <jbh:methodCalled rdf:resource="&java;com.taursys.model.AbstractListValueHolder.getPosition"/>
+    <t:endsAt rdf:datatype="&xsd;integer">275</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc271"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;com.taursys.swing.MTableModel.stateChanged"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">1</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">274</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc144">
+    <jbh:methodCalled rdf:resource="&java;com.taursys.model.AbstractListValueHolder.reset"/>
+    <t:endsAt rdf:datatype="&xsd;integer">145</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc143">
+        <jbh:paramObjTag rdf:datatype="&xsd;integer">22</jbh:paramObjTag>
+        <jbh:methodCalled rdf:resource="&java;com.taursys.model.AbstractCollectionValueHolder.setCollection"/>
+        <t:endsAt rdf:datatype="&xsd;integer">146</t:endsAt>
+        <bh:originEvent rdf:resource="&jbh;mc142"/>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;com.taursys.model.AbstractListValueHolder.setList"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">21</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">143</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;com.taursys.model.AbstractCollectionValueHolder.setCollection"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">21</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">144</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc59">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#com.taursys.model.AbstractValueHolder.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">60</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc58">
+        <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#com.taursys.model.ObjectValueHolder.!init"/>
+        <t:endsAt rdf:datatype="&xsd;integer">63</t:endsAt>
+        <bh:originEvent>
+          <jbh:MethodCall rdf:about="&jbh;mc57">
+            <jbh:methodCalled>
+              <java:Method rdf:about="http://anonymous.authors/ontologies/2017/6/Java#com.taursys.model.VOValueHolder.!init">
+                <jbh:isInit rdf:datatype="&xsd;boolean">true</jbh:isInit>
+              </java:Method>
+            </jbh:methodCalled>
+            <t:endsAt rdf:datatype="&xsd;integer">64</t:endsAt>
+            <bh:originEvent rdf:resource="&jbh;mc56"/>
+            <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+            <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#com.taursys.model.VOListValueHolder.!init"/>
+            <jbh:objTag rdf:datatype="&xsd;integer">12</jbh:objTag>
+            <t:startsAt rdf:datatype="&xsd;integer">57</t:startsAt>
+          </jbh:MethodCall>
+        </bh:originEvent>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#com.taursys.model.VOValueHolder.!init"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">12</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">58</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#com.taursys.model.ObjectValueHolder.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">12</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">59</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:FieldModi rdf:about="&jbh;fldModi183">
+    <jbh:fieldVisitMethod rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#com.taursys.model.AbstractCollectionValueHolder.!init"/>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">27</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">26</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">184</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">27</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">183</t:startsAt>
+    <jbh:visitedField rdf:resource="&java;com.taursys.model.AbstractCollectionValueHolder.objectValueHolder"/>
+  </jbh:FieldModi>
+  <jbh:FieldModi rdf:about="&jbh;fldModi61">
+    <jbh:fieldVisitMethod rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#com.taursys.model.ObjectValueHolder.!init"/>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">0</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">12</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">62</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">0</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">61</t:startsAt>
+    <jbh:visitedField rdf:resource="&java;com.taursys.model.ObjectValueHolder.parentValueHolder"/>
+  </jbh:FieldModi>
+  <jbh:FieldModi rdf:about="&jbh;fldModi139">
+    <jbh:fieldVisitMethod rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#com.taursys.model.AbstractCollectionValueHolder.!init"/>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">20</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">21</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">140</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">20</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">139</t:startsAt>
+    <jbh:visitedField rdf:resource="&java;com.taursys.model.AbstractCollectionValueHolder.objectValueHolder"/>
+  </jbh:FieldModi>
+  <jbh:MethodCall rdf:about="&jbh;mc34">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">1</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#com.taursys.model.event.ContentChangeEvent.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">35</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc33">
+        <jbh:paramObjTag rdf:datatype="&xsd;integer">1</jbh:paramObjTag>
+        <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#com.taursys.model.event.ListContentChangeEvent.!init"/>
+        <t:endsAt rdf:datatype="&xsd;integer">36</t:endsAt>
+        <bh:originEvent rdf:resource="&jbh;mc24"/>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;com.taursys.model.AbstractListValueHolder.listContentsPositionChange"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">5</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">33</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#com.taursys.model.event.ListContentChangeEvent.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">5</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">34</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc267">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">2</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#com.taursys.model.event.ContentChangeEvent.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">268</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc266"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;com.taursys.model.ObjectValueHolder.setObject"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">36</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">267</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc41">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">7</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="&java;com.taursys.model.AbstractListValueHolder.fireValueChanged"/>
+    <t:endsAt rdf:datatype="&xsd;integer">42</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc24"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;com.taursys.model.AbstractListValueHolder.listContentsPositionChange"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">1</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">41</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc5">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#com.taursys.model.AbstractValueHolder.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">6</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc4">
+        <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#com.taursys.model.ObjectValueHolder.!init"/>
+        <t:endsAt rdf:datatype="&xsd;integer">9</t:endsAt>
+        <bh:originEvent>
+          <jbh:MethodCall rdf:about="&jbh;mc3">
+            <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#com.taursys.model.VOValueHolder.!init"/>
+            <t:endsAt rdf:datatype="&xsd;integer">10</t:endsAt>
+            <bh:originEvent rdf:resource="&jbh;mc2"/>
+            <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+            <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#com.taursys.model.VOListValueHolder.!init"/>
+            <jbh:objTag rdf:datatype="&xsd;integer">2</jbh:objTag>
+            <t:startsAt rdf:datatype="&xsd;integer">3</t:startsAt>
+          </jbh:MethodCall>
+        </bh:originEvent>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#com.taursys.model.VOValueHolder.!init"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">2</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">4</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#com.taursys.model.ObjectValueHolder.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">2</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">5</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc243">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">31</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="&java;com.taursys.swing.MTableModel.stateChanged"/>
+    <t:endsAt rdf:datatype="&xsd;integer">244</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc242">
+        <jbh:paramObjTag rdf:datatype="&xsd;integer">31</jbh:paramObjTag>
+        <jbh:methodCalled rdf:resource="&java;com.taursys.model.AbstractValueHolder.fireStateChanged"/>
+        <t:endsAt rdf:datatype="&xsd;integer">245</t:endsAt>
+        <bh:originEvent>
+          <jbh:MethodCall rdf:about="&jbh;mc241">
+            <jbh:methodCaller rdf:resource="&java;com.taursys.model.AbstractListValueHolder.listContentsPositionChange"/>
+            <t:endsAt rdf:datatype="&xsd;integer">246</t:endsAt>
+            <jbh:paramObjTag rdf:datatype="&xsd;integer">31</jbh:paramObjTag>
+            <t:startsAt rdf:datatype="&xsd;integer">241</t:startsAt>
+            <jbh:paramObjTag rdf:datatype="&xsd;integer">32</jbh:paramObjTag>
+            <jbh:methodCalled rdf:resource="&java;com.taursys.model.VOValueHolder.setObject"/>
+            <bh:originEvent rdf:resource="&jbh;mc224"/>
+            <jbh:objTag rdf:datatype="&xsd;integer">2</jbh:objTag>
+            <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+          </jbh:MethodCall>
+        </bh:originEvent>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;com.taursys.model.VOValueHolder.setObject"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">2</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">242</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;com.taursys.model.AbstractValueHolder.fireStateChanged"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">8</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">243</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc231">
+    <jbh:methodCalled rdf:resource="&java;com.taursys.model.AbstractCollectionValueHolder.size"/>
+    <t:endsAt rdf:datatype="&xsd;integer">232</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc230">
+        <jbh:methodCalled rdf:resource="&java;com.taursys.model.AbstractCollectionValueHolder.size"/>
+        <t:endsAt rdf:datatype="&xsd;integer">233</t:endsAt>
+        <bh:originEvent>
+          <jbh:MethodCall rdf:about="&jbh;mc229">
+            <jbh:methodCalled rdf:resource="&java;com.taursys.model.AbstractCollectionValueHolder.size"/>
+            <t:endsAt rdf:datatype="&xsd;integer">234</t:endsAt>
+            <bh:originEvent rdf:resource="&jbh;mc224"/>
+            <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+            <jbh:methodCaller rdf:resource="&java;com.taursys.model.AbstractListValueHolder.listContentsPositionChange"/>
+            <jbh:objTag rdf:datatype="&xsd;integer">1</jbh:objTag>
+            <t:startsAt rdf:datatype="&xsd;integer">229</t:startsAt>
+          </jbh:MethodCall>
+        </bh:originEvent>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;com.taursys.model.AbstractCollectionValueHolder.size"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">26</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">230</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;com.taursys.model.AbstractCollectionValueHolder.size"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">21</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">231</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:FieldModi rdf:about="&jbh;fldModi68">
+    <jbh:fieldVisitMethod rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#com.taursys.model.AbstractCollectionValueHolder.!init"/>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">0</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">11</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">69</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">0</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">68</t:startsAt>
+    <jbh:visitedField rdf:resource="&java;com.taursys.model.AbstractCollectionValueHolder.parentValueHolder"/>
+  </jbh:FieldModi>
+  <jbh:MethodCall rdf:about="&jbh;mc157">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">21</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#com.taursys.model.event.ContentChangeEvent.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">158</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc156">
+        <jbh:paramObjTag rdf:datatype="&xsd;integer">21</jbh:paramObjTag>
+        <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#com.taursys.model.event.ListContentChangeEvent.!init"/>
+        <t:endsAt rdf:datatype="&xsd;integer">159</t:endsAt>
+        <bh:originEvent rdf:resource="&jbh;mc147"/>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;com.taursys.model.AbstractListValueHolder.listContentsPositionChange"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">23</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">156</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#com.taursys.model.event.ListContentChangeEvent.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">23</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">157</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc88">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">11</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#com.taursys.model.event.ContentChangeEvent.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">89</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc87">
+        <jbh:paramObjTag rdf:datatype="&xsd;integer">11</jbh:paramObjTag>
+        <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#com.taursys.model.event.ListContentChangeEvent.!init"/>
+        <t:endsAt rdf:datatype="&xsd;integer">90</t:endsAt>
+        <bh:originEvent rdf:resource="&jbh;mc78"/>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;com.taursys.model.AbstractListValueHolder.listContentsPositionChange"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">15</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">87</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#com.taursys.model.event.ListContentChangeEvent.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">15</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">88</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc257">
+    <jbh:methodCalled rdf:resource="&java;com.taursys.model.AbstractCollectionValueHolder.size"/>
+    <t:endsAt rdf:datatype="&xsd;integer">258</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc256">
+        <jbh:methodCalled rdf:resource="&java;com.taursys.model.AbstractCollectionValueHolder.size"/>
+        <t:endsAt rdf:datatype="&xsd;integer">259</t:endsAt>
+        <bh:originEvent>
+          <jbh:MethodCall rdf:about="&jbh;mc255">
+            <jbh:methodCalled rdf:resource="&java;com.taursys.model.AbstractCollectionValueHolder.size"/>
+            <t:endsAt rdf:datatype="&xsd;integer">260</t:endsAt>
+            <bh:originEvent>
+              <jbh:MethodCall rdf:about="&jbh;mc254">
+                <jbh:methodCalled>
+                  <java:Method rdf:about="&java;com.taursys.model.AbstractListValueHolder.hasAny"/>
+                </jbh:methodCalled>
+                <t:endsAt rdf:datatype="&xsd;integer">261</t:endsAt>
+                <bh:originEvent rdf:resource="&jbh;mc253"/>
+                <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+                <jbh:methodCaller rdf:resource="&java;com.taursys.model.AbstractListValueHolder.first"/>
+                <jbh:objTag rdf:datatype="&xsd;integer">1</jbh:objTag>
+                <t:startsAt rdf:datatype="&xsd;integer">254</t:startsAt>
+              </jbh:MethodCall>
+            </bh:originEvent>
+            <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+            <jbh:methodCaller rdf:resource="&java;com.taursys.model.AbstractListValueHolder.hasAny"/>
+            <jbh:objTag rdf:datatype="&xsd;integer">1</jbh:objTag>
+            <t:startsAt rdf:datatype="&xsd;integer">255</t:startsAt>
+          </jbh:MethodCall>
+        </bh:originEvent>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;com.taursys.model.AbstractCollectionValueHolder.size"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">26</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">256</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;com.taursys.model.AbstractCollectionValueHolder.size"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">21</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">257</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc112">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">9</jbh:paramObjTag>
+    <jbh:methodCalled>
+      <java:Method rdf:about="&java;com.taursys.model.AbstractListValueHolder.addListSelectionListener"/>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">113</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc109">
+        <jbh:paramObjTag rdf:datatype="&xsd;integer">1</jbh:paramObjTag>
+        <jbh:methodCalled>
+          <java:Method rdf:about="&java;com.taursys.swing.ListSelectionBinder.setListValueHolder"/>
+        </jbh:methodCalled>
+        <t:endsAt rdf:datatype="&xsd;integer">114</t:endsAt>
+        <bh:originEvent rdf:resource="&jbh;mc108"/>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;com.taursys.swing.MTableModel.setListValueHolder"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">9</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">109</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;com.taursys.swing.ListSelectionBinder.setListValueHolder"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">1</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">112</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc31">
+    <jbh:methodCalled rdf:resource="&java;com.taursys.model.AbstractCollectionValueHolder.getObjectValueHolder"/>
+    <t:endsAt rdf:datatype="&xsd;integer">32</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc24"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;com.taursys.model.AbstractListValueHolder.listContentsPositionChange"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">1</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">31</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc221">
+    <jbh:methodCalled rdf:resource="&java;com.taursys.model.AbstractListValueHolder.reset"/>
+    <t:endsAt rdf:datatype="&xsd;integer">222</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc220">
+        <jbh:paramObjTag rdf:datatype="&xsd;integer">26</jbh:paramObjTag>
+        <jbh:methodCalled rdf:resource="&java;com.taursys.model.AbstractCollectionValueHolder.setCollection"/>
+        <t:endsAt rdf:datatype="&xsd;integer">223</t:endsAt>
+        <bh:originEvent rdf:resource="&jbh;mc219"/>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;com.taursys.model.AbstractListValueHolder.setList"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">1</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">220</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;com.taursys.model.AbstractCollectionValueHolder.setCollection"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">1</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">221</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:FieldModi rdf:about="&jbh;fldModi53">
+    <jbh:fieldVisitMethod rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#com.taursys.swing.MTableModel.!init"/>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">9</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">8</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">54</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">9</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">53</t:startsAt>
+    <jbh:visitedField rdf:resource="&java;com.taursys.swing.MTableModel.listSelectionBinder"/>
+  </jbh:FieldModi>
+  <jbh:MethodCall rdf:about="&jbh;mc123">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">8</jbh:paramObjTag>
+    <jbh:methodCalled>
+      <java:Method rdf:about="&java;com.taursys.model.AbstractValueHolder.addChangeListener"/>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">124</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc122">
+        <jbh:paramObjTag rdf:datatype="&xsd;integer">8</jbh:paramObjTag>
+        <jbh:methodCalled>
+          <java:Method rdf:about="&java;com.taursys.model.ObjectValueHolder.addChangeListener"/>
+        </jbh:methodCalled>
+        <t:endsAt rdf:datatype="&xsd;integer">125</t:endsAt>
+        <bh:originEvent>
+          <jbh:MethodCall rdf:about="&jbh;mc121">
+            <jbh:paramObjTag rdf:datatype="&xsd;integer">8</jbh:paramObjTag>
+            <jbh:methodCalled>
+              <java:Method rdf:about="&java;com.taursys.model.AbstractCollectionValueHolder.addChangeListener"/>
+            </jbh:methodCalled>
+            <t:endsAt rdf:datatype="&xsd;integer">126</t:endsAt>
+            <bh:originEvent rdf:resource="&jbh;mc108"/>
+            <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+            <jbh:methodCaller rdf:resource="&java;com.taursys.swing.MTableModel.setListValueHolder"/>
+            <jbh:objTag rdf:datatype="&xsd;integer">1</jbh:objTag>
+            <t:startsAt rdf:datatype="&xsd;integer">121</t:startsAt>
+          </jbh:MethodCall>
+        </bh:originEvent>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;com.taursys.model.AbstractCollectionValueHolder.addChangeListener"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">2</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">122</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;com.taursys.model.ObjectValueHolder.addChangeListener"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">2</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">123</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:FieldModi rdf:about="&jbh;fldModi110">
+    <jbh:fieldVisitMethod rdf:resource="&java;com.taursys.swing.ListSelectionBinder.setListValueHolder"/>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">1</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">9</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">111</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">1</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">110</t:startsAt>
+    <jbh:visitedField rdf:resource="&java;com.taursys.swing.ListSelectionBinder.listValueHolder"/>
+  </jbh:FieldModi>
+</rdf:RDF>

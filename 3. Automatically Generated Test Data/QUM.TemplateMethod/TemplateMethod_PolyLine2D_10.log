@@ -1,0 +1,42 @@
+method_entry: Ltest/auto/TemplateMethod_PolyLine2D_10;main, thread_id: 0
+  method_entry: Ldiagram/figures/PolygonFigure;<clinit>, thread_id: 0
+  method_exit: Ldiagram/figures/PolygonFigure;<clinit>, thread_id: 0
+  method_entry: Ldiagram/figures/PolygonFigure;<init>, obj_tag: 1, thread_id: 0
+    method_entry: Ldiagram/figures/PolygonFigure;generateLocalHash, thread_id: 0
+    method_exit: Ldiagram/figures/PolygonFigure;generateLocalHash, thread_id: 0
+  method_exit: Ldiagram/figures/PolygonFigure;<init>, thread_id: 0
+  method_entry: Ldiagram/figures/CircularFigure;<clinit>, thread_id: 0
+  method_exit: Ldiagram/figures/CircularFigure;<clinit>, thread_id: 0
+  method_entry: Ldiagram/figures/PointFigure;<init>, obj_tag: 2, thread_id: 0
+    method_entry: Ldiagram/figures/PointFigure;<init>, obj_tag: 2, thread_id: 0
+      method_entry: Ldiagram/figures/PointFigure;<init>, obj_tag: 2, thread_id: 0
+        method_entry: Ldiagram/figures/CircularFigure;<init>, obj_tag: 2, thread_id: 0
+          method_entry: Ldiagram/figures/CircularFigure;generateLocalHash, thread_id: 0
+          method_exit: Ldiagram/figures/CircularFigure;generateLocalHash, thread_id: 0
+        method_exit: Ldiagram/figures/CircularFigure;<init>, thread_id: 0
+      method_exit: Ldiagram/figures/PointFigure;<init>, thread_id: 0
+    method_exit: Ldiagram/figures/PointFigure;<init>, thread_id: 0
+  method_exit: Ldiagram/figures/PointFigure;<init>, thread_id: 0
+  method_entry: Luml/diagram/CompositionLink;<init>, obj_tag: 3, param_obj_tag: 1, param_obj_tag: 2, thread_id: 0
+    method_entry: Ldiagram/figures/PolyLink;<init>, obj_tag: 3, param_obj_tag: 1, param_obj_tag: 2, thread_id: 0
+      method_entry: Ldiagram/shape/PolyLine2D$Double;<init>, obj_tag: 3, thread_id: 0
+        method_entry: Ldiagram/shape/PolyLine2D;<init>, obj_tag: 3, thread_id: 0
+        method_exit: Ldiagram/shape/PolyLine2D;<init>, thread_id: 0
+      method_exit: Ldiagram/shape/PolyLine2D$Double;<init>, thread_id: 0
+    method_exit: Ldiagram/figures/PolyLink;<init>, thread_id: 0
+  method_exit: Luml/diagram/CompositionLink;<init>, thread_id: 0
+  method_entry: Ldiagram/shape/PolyLine2D;getBounds2D, obj_tag: 3, thread_id: 0
+    method_entry: Ldiagram/figures/PolyLink;getBounds2D, obj_tag: 3, param_obj_tag: 4, thread_id: 0
+      method_entry: Ldiagram/figures/PolyLink;updateEndpoints, obj_tag: 3, thread_id: 0
+        method_entry: Ldiagram/shape/PolyLine2D$Double;getP1, obj_tag: 3, thread_id: 0
+        method_exit: Ldiagram/shape/PolyLine2D$Double;getP1, thread_id: 0
+        method_entry: Ldiagram/figures/PolyLink;getSourceAnchor, obj_tag: 3, param_obj_tag: 5, thread_id: 0
+          method_entry: Ldiagram/figures/PolygonFigure;getAnchor, obj_tag: 1, param_obj_tag: 5, thread_id: 0
+            method_entry: Ldiagram/figures/PolygonFigure;getCenter, obj_tag: 1, param_obj_tag: 5, thread_id: 0
+            method_exit: Ldiagram/figures/PolygonFigure;getCenter, thread_id: 0
+          method_exit: Ldiagram/figures/PolygonFigure;getAnchor, thread_id: 0
+        method_exit: Ldiagram/figures/PolyLink;getSourceAnchor, thread_id: 0
+      method_exit: Ldiagram/figures/PolyLink;updateEndpoints, thread_id: 0
+    method_exit: Ldiagram/figures/PolyLink;getBounds2D, thread_id: 0
+  method_exit: Ldiagram/shape/PolyLine2D;getBounds2D, thread_id: 0
+method_exit: Ltest/auto/TemplateMethod_PolyLine2D_10;main, thread_id: 0

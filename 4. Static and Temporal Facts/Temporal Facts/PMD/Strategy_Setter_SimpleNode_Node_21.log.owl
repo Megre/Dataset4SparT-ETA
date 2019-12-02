@@ -1,0 +1,1169 @@
+<?xml version="1.0"?>
+<!DOCTYPE rdf:RDF [
+  <!ENTITY this 'http://anonymous.authors/ontologies/2017/11/Java.DesignPattern#'>
+  <!ENTITY owl 'http://www.w3.org/2002/07/owl#'>
+  <!ENTITY bh 'http://anonymous.authors/ontologies/2017/8/Behavior#'>
+  <!ENTITY xsd 'http://www.w3.org/2001/XMLSchema#'>
+  <!ENTITY rdfs 'http://www.w3.org/2000/01/rdf-schema#'>
+  <!ENTITY ptn 'http://anonymous.authors/ontologies/2017/10/Pattern#'>
+  <!ENTITY mgd 'http://anonymous.authors/ontologies/2017/12/Merged#'>
+  <!ENTITY jbh 'http://anonymous.authors/ontologies/2017/8/Java.Behavior#'>
+  <!ENTITY java 'http://anonymous.authors/ontologies/2017/6/Java#'>
+  <!ENTITY t 'http://anonymous.authors/ontologies/2018/10/Time#'>
+  <!ENTITY rdf 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+  <!ENTITY sbh 'http://anonymous.authors/ontologies/2018/4/StaticBehavior'>
+  <!ENTITY jd 'http://anonymous.authors/ontologies/2017/11/Java.DesignPattern#'>
+  <!ENTITY jsbh 'http://anonymous.authors/ontologies/2018/4/Java.StaticBehavior#'>
+  <!ENTITY base 'http://anonymous.authors/ontologies/2017/12/Merged#'>]>
+<rdf:RDF
+    xmlns:rdf="&rdf;"
+    xmlns:jbh="&jbh;"
+    xmlns:rdfs="&rdfs;"
+    xmlns:java="&java;"
+    xmlns:sbh="http://anonymous.authors/ontologies/2018/4/StaticBehavior"
+    xmlns:t="&t;"
+    xmlns:owl="&owl;"
+    xmlns:jd="&jd;"
+    xmlns:ptn="&ptn;"
+    xmlns:bh="&bh;"
+    xmlns:base="&base;"
+    xmlns:jsbh="&jsbh;"
+    xmlns:xsd="&xsd;">
+  <jbh:FieldModi rdf:about="&jbh;fldModi223">
+    <jbh:fieldVisitMethod>
+      <java:Method rdf:about="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.SimpleNode.!init">
+        <jbh:isInit rdf:datatype="&xsd;boolean">true</jbh:isInit>
+      </java:Method>
+    </jbh:fieldVisitMethod>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">87</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">133</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">224</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">87</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">223</t:startsAt>
+    <jbh:visitedField>
+      <java:Field rdf:about="&java;net.sourceforge.pmd.ast.SimpleNode.parser">
+        <java:fieldTypeIs>
+          <java:Class rdf:about="&java;net.sourceforge.pmd.ast.JavaParser">
+            <java:hasField>
+              <java:Field rdf:about="&java;net.sourceforge.pmd.ast.JavaParser.jj_ls">
+                <java:fieldTypeIs>
+                  <java:Class rdf:about="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser$LookaheadSuccess"/>
+                </java:fieldTypeIs>
+              </java:Field>
+            </java:hasField>
+            <java:hasField>
+              <java:Field rdf:about="&java;net.sourceforge.pmd.ast.JavaParser.token">
+                <java:fieldTypeIs>
+                  <java:Class rdf:about="&java;net.sourceforge.pmd.ast.Token"/>
+                </java:fieldTypeIs>
+              </java:Field>
+            </java:hasField>
+            <java:hasField>
+              <java:Field rdf:about="&java;net.sourceforge.pmd.ast.JavaParser.token_source">
+                <java:fieldTypeIs>
+                  <java:Class rdf:about="&java;net.sourceforge.pmd.ast.JavaParserTokenManager">
+                    <java:hasField>
+                      <java:Field rdf:about="&java;net.sourceforge.pmd.ast.JavaParserTokenManager.input_stream">
+                        <java:fieldTypeIs>
+                          <java:Class rdf:about="&java;net.sourceforge.pmd.ast.CharStream"/>
+                        </java:fieldTypeIs>
+                      </java:Field>
+                    </java:hasField>
+                  </java:Class>
+                </java:fieldTypeIs>
+              </java:Field>
+            </java:hasField>
+            <java:hasField>
+              <java:Field rdf:about="&java;net.sourceforge.pmd.ast.JavaParser.jjtree">
+                <java:fieldTypeIs>
+                  <java:Class rdf:about="&java;net.sourceforge.pmd.ast.JJTJavaParserState"/>
+                </java:fieldTypeIs>
+              </java:Field>
+            </java:hasField>
+          </java:Class>
+        </java:fieldTypeIs>
+      </java:Field>
+    </jbh:visitedField>
+  </jbh:FieldModi>
+  <jbh:FieldModi rdf:about="&jbh;fldModi114">
+    <jbh:fieldVisitMethod rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.SimpleNode.!init"/>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">31</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">77</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">115</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">31</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">114</t:startsAt>
+    <jbh:visitedField rdf:resource="&java;net.sourceforge.pmd.ast.SimpleNode.parser"/>
+  </jbh:FieldModi>
+  <jbh:MethodCall rdf:about="&jbh;mc61">
+    <jbh:methodCalled>
+      <java:Method rdf:about="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser$JJCalls.!init">
+        <jbh:isInit rdf:datatype="&xsd;boolean">true</jbh:isInit>
+      </java:Method>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">62</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc20">
+        <jbh:paramObjTag rdf:datatype="&xsd;integer">27</jbh:paramObjTag>
+        <jbh:methodCalled>
+          <java:Method rdf:about="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser.!init">
+            <jbh:isInit rdf:datatype="&xsd;boolean">true</jbh:isInit>
+          </java:Method>
+        </jbh:methodCalled>
+        <t:endsAt rdf:datatype="&xsd;integer">109</t:endsAt>
+        <bh:originEvent>
+          <jbh:MethodCall rdf:about="&jbh;mc1">
+            <jbh:methodCalled>
+              <java:Method rdf:about="&java;test.auto.Strategy_Setter_SimpleNode_Node_21.main"/>
+            </jbh:methodCalled>
+            <t:endsAt rdf:datatype="&xsd;integer">228</t:endsAt>
+            <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+            <t:startsAt rdf:datatype="&xsd;integer">1</t:startsAt>
+          </jbh:MethodCall>
+        </bh:originEvent>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;test.auto.Strategy_Setter_SimpleNode_Node_21.main"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">31</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">20</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">53</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">61</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc211">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser$JJCalls.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">212</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc130">
+        <jbh:paramObjTag rdf:datatype="&xsd;integer">84</jbh:paramObjTag>
+        <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser.!init"/>
+        <t:endsAt rdf:datatype="&xsd;integer">219</t:endsAt>
+        <bh:originEvent rdf:resource="&jbh;mc1"/>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;test.auto.Strategy_Setter_SimpleNode_Node_21.main"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">87</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">130</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">129</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">211</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc207">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser$JJCalls.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">208</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc130"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">127</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">207</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc73">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser$JJCalls.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">74</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc20"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">59</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">73</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:FieldModi rdf:about="&jbh;fldModi35">
+    <jbh:fieldVisitMethod rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser.!init"/>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">40</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">31</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">36</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">40</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">35</t:startsAt>
+    <jbh:visitedField rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.token"/>
+  </jbh:FieldModi>
+  <jbh:MethodCall rdf:about="&jbh;mc85">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser$JJCalls.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">86</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc20"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">65</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">85</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:FieldModi rdf:about="&jbh;fldModi23">
+    <jbh:fieldVisitMethod rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser.!init"/>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">32</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">31</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">24</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">32</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">23</t:startsAt>
+    <jbh:visitedField rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jjtree"/>
+  </jbh:FieldModi>
+  <jbh:MethodCall rdf:about="&jbh;mc97">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser$JJCalls.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">98</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc20"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">71</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">97</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc21">
+    <jbh:methodCalled>
+      <java:Method rdf:about="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JJTJavaParserState.!init">
+        <jbh:isInit rdf:datatype="&xsd;boolean">true</jbh:isInit>
+      </java:Method>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">22</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc20"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">32</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">21</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc33">
+    <jbh:methodCalled>
+      <java:Method rdf:about="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.Token.!init">
+        <jbh:isInit rdf:datatype="&xsd;boolean">true</jbh:isInit>
+      </java:Method>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">34</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc20"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">40</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">33</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc45">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser$JJCalls.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">46</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc20"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">45</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">45</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc57">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser$JJCalls.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">58</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc20"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">51</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">57</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc69">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser$JJCalls.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">70</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc20"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">57</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">69</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc17">
+    <jbh:methodCalled>
+      <java:Method rdf:about="&java;net.sourceforge.pmd.ast.JavaParserTokenManager.SwitchTo"/>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">18</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc12">
+        <jbh:paramObjTag rdf:datatype="&xsd;integer">21</jbh:paramObjTag>
+        <jbh:methodCalled>
+          <java:Method rdf:about="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParserTokenManager.!init">
+            <jbh:isInit rdf:datatype="&xsd;boolean">true</jbh:isInit>
+          </java:Method>
+        </jbh:methodCalled>
+        <t:endsAt rdf:datatype="&xsd;integer">19</t:endsAt>
+        <bh:originEvent rdf:resource="&jbh;mc1"/>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;test.auto.Strategy_Setter_SimpleNode_Node_21.main"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">27</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">12</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParserTokenManager.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">27</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">17</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:FieldModi rdf:about="&jbh;fldModi141">
+    <jbh:fieldVisitMethod rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser.!init"/>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">84</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">87</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">142</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">84</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">141</t:startsAt>
+    <jbh:visitedField rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.token_source"/>
+  </jbh:FieldModi>
+  <jbh:MethodCall rdf:about="&jbh;mc149">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser$JJCalls.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">150</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc130"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">98</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">149</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc189">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser$JJCalls.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">190</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc130"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">118</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">189</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc101">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser$JJCalls.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">102</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc20"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">73</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">101</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc153">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser$JJCalls.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">154</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc130"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">100</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">153</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc165">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser$JJCalls.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">166</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc130"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">106</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">165</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc177">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser$JJCalls.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">178</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc130"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">112</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">177</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc181">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser$JJCalls.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">182</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc130"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">114</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">181</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc8">
+    <jbh:methodCalled>
+      <java:Method rdf:about="&java;net.sourceforge.pmd.ast.JavaParser.jj_la1_3"/>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">9</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc1"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;test.auto.Strategy_Setter_SimpleNode_Node_21.main"/>
+    <t:startsAt rdf:datatype="&xsd;integer">8</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc193">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser$JJCalls.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">194</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc130"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">120</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">193</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc91">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser$JJCalls.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">92</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc20"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">68</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">91</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc213">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser$JJCalls.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">214</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc130"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">130</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">213</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc51">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser$JJCalls.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">52</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc20"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">48</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">51</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc201">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser$JJCalls.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">202</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc130"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">124</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">201</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc63">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser$JJCalls.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">64</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc20"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">54</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">63</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc75">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser$JJCalls.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">76</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc20"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">60</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">75</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc87">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser$JJCalls.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">88</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc20"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">66</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">87</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc99">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser$JJCalls.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">100</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc20"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">72</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">99</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc47">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser$JJCalls.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">48</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc20"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">46</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">47</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc59">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser$JJCalls.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">60</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc20"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">52</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">59</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:FieldModi rdf:about="&jbh;fldModi29">
+    <jbh:fieldVisitMethod rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser.!init"/>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">37</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">31</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">30</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">37</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">29</t:startsAt>
+    <jbh:visitedField rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_ls"/>
+  </jbh:FieldModi>
+  <jbh:MethodCall rdf:about="&jbh;mc209">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser$JJCalls.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">210</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc130"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">128</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">209</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc127">
+    <jbh:methodCalled rdf:resource="&java;net.sourceforge.pmd.ast.JavaParserTokenManager.SwitchTo"/>
+    <t:endsAt rdf:datatype="&xsd;integer">128</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc122">
+        <jbh:paramObjTag rdf:datatype="&xsd;integer">78</jbh:paramObjTag>
+        <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParserTokenManager.!init"/>
+        <t:endsAt rdf:datatype="&xsd;integer">129</t:endsAt>
+        <bh:originEvent rdf:resource="&jbh;mc1"/>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;test.auto.Strategy_Setter_SimpleNode_Node_21.main"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">84</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">122</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParserTokenManager.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">84</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">127</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc167">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser$JJCalls.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">168</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc130"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">107</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">167</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc179">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser$JJCalls.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">180</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc130"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">113</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">179</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:FieldModi rdf:about="&jbh;fldModi139">
+    <jbh:fieldVisitMethod rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser.!init"/>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">93</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">87</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">140</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">93</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">139</t:startsAt>
+    <jbh:visitedField rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jj_ls"/>
+  </jbh:FieldModi>
+  <jbh:MethodCall rdf:about="&jbh;mc103">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser$JJCalls.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">104</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc20"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">74</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">103</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc10">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">22</jbh:paramObjTag>
+    <jbh:methodCalled>
+      <java:Method rdf:about="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaCharStream.!init">
+        <jbh:isInit rdf:datatype="&xsd;boolean">true</jbh:isInit>
+      </java:Method>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">11</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc1"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;test.auto.Strategy_Setter_SimpleNode_Node_21.main"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">21</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">10</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc131">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JJTJavaParserState.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">132</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc130"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">88</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">131</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc143">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.Token.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">144</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc130"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">96</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">143</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc155">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser$JJCalls.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">156</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc130"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">101</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">155</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc171">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser$JJCalls.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">172</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc130"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">109</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">171</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc183">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser$JJCalls.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">184</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc130"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">115</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">183</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc6">
+    <jbh:methodCalled>
+      <java:Method rdf:about="&java;net.sourceforge.pmd.ast.JavaParser.jj_la1_2"/>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">7</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc1"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;test.auto.Strategy_Setter_SimpleNode_Node_21.main"/>
+    <t:startsAt rdf:datatype="&xsd;integer">6</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc195">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser$JJCalls.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">196</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc130"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">121</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">195</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc81">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser$JJCalls.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">82</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc20"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">63</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">81</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc93">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser$JJCalls.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">94</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc20"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">69</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">93</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc41">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser$JJCalls.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">42</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc20"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">43</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">41</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc53">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser$JJCalls.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">54</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc20"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">49</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">53</t:startsAt>
+  </jbh:MethodCall>
+  <java:Class rdf:about="&java;net.sourceforge.pmd.ast.SimpleNode">
+    <java:hasField rdf:resource="&java;net.sourceforge.pmd.ast.SimpleNode.parser"/>
+  </java:Class>
+  <jbh:MethodCall rdf:about="&jbh;mc65">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser$JJCalls.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">66</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc20"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">55</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">65</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc203">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser$JJCalls.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">204</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc130"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">125</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">203</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc215">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser$JJCalls.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">216</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc130"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">131</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">215</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc77">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser$JJCalls.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">78</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc20"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">61</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">77</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc89">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser$JJCalls.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">90</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc20"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">67</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">89</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc13">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">21</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParserTokenManager.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">16</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc12"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParserTokenManager.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">27</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">13</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc37">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser$JJCalls.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">38</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc20"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">41</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">37</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc49">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser$JJCalls.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">50</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc20"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">47</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">49</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:FieldModi rdf:about="&jbh;fldModi31">
+    <jbh:fieldVisitMethod rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser.!init"/>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">27</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">31</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">32</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">27</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">31</t:startsAt>
+    <jbh:visitedField rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.token_source"/>
+  </jbh:FieldModi>
+  <jbh:FieldModi rdf:about="&jbh;fldModi145">
+    <jbh:fieldVisitMethod rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser.!init"/>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">96</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">87</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">146</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">96</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">145</t:startsAt>
+    <jbh:visitedField rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.token"/>
+  </jbh:FieldModi>
+  <jbh:FieldModi rdf:about="&jbh;fldModi133">
+    <jbh:fieldVisitMethod rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser.!init"/>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">88</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">87</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">134</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">88</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">133</t:startsAt>
+    <jbh:visitedField rdf:resource="&java;net.sourceforge.pmd.ast.JavaParser.jjtree"/>
+  </jbh:FieldModi>
+  <jbh:MethodCall rdf:about="&jbh;mc105">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser$JJCalls.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">106</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc20"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">75</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">105</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc157">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser$JJCalls.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">158</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc130"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">102</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">157</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc169">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser$JJCalls.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">170</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc130"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">108</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">169</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc226">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">77</jbh:paramObjTag>
+    <jbh:methodCalled>
+      <java:Method rdf:about="&java;net.sourceforge.pmd.ast.SimpleNode.jjtReplaceChild"/>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">227</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc1"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;test.auto.Strategy_Setter_SimpleNode_Node_21.main"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">133</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">226</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc4">
+    <jbh:methodCalled>
+      <java:Method rdf:about="&java;net.sourceforge.pmd.ast.JavaParser.jj_la1_1"/>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">5</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc1"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;test.auto.Strategy_Setter_SimpleNode_Node_21.main"/>
+    <t:startsAt rdf:datatype="&xsd;integer">4</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc185">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser$JJCalls.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">186</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc130"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">116</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">185</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc197">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser$JJCalls.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">198</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc130"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">122</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">197</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc161">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser$JJCalls.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">162</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc130"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">104</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">161</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc173">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser$JJCalls.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">174</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc130"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">110</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">173</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc205">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser$JJCalls.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">206</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc130"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">126</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">205</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:FieldModi rdf:about="&jbh;fldModi124">
+    <jbh:fieldVisitMethod rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParserTokenManager.!init"/>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">78</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">84</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">125</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">78</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">124</t:startsAt>
+    <jbh:visitedField rdf:resource="&java;net.sourceforge.pmd.ast.JavaParserTokenManager.input_stream"/>
+  </jbh:FieldModi>
+  <jbh:MethodCall rdf:about="&jbh;mc71">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser$JJCalls.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">72</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc20"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">58</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">71</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc83">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser$JJCalls.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">84</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc20"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">64</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">83</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc95">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser$JJCalls.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">96</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc20"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">70</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">95</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc112">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.SimpleNode.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">113</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc111">
+        <jbh:paramObjTag rdf:datatype="&xsd;integer">31</jbh:paramObjTag>
+        <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.SimpleNode.!init"/>
+        <t:endsAt rdf:datatype="&xsd;integer">116</t:endsAt>
+        <bh:originEvent>
+          <jbh:MethodCall rdf:about="&jbh;mc110">
+            <jbh:paramObjTag rdf:datatype="&xsd;integer">31</jbh:paramObjTag>
+            <jbh:methodCalled>
+              <java:Method rdf:about="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.ASTForUpdate.!init">
+                <jbh:isInit rdf:datatype="&xsd;boolean">true</jbh:isInit>
+              </java:Method>
+            </jbh:methodCalled>
+            <t:endsAt rdf:datatype="&xsd;integer">117</t:endsAt>
+            <bh:originEvent rdf:resource="&jbh;mc1"/>
+            <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+            <jbh:methodCaller rdf:resource="&java;test.auto.Strategy_Setter_SimpleNode_Node_21.main"/>
+            <jbh:objTag rdf:datatype="&xsd;integer">77</jbh:objTag>
+            <t:startsAt rdf:datatype="&xsd;integer">110</t:startsAt>
+          </jbh:MethodCall>
+        </bh:originEvent>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.ASTForUpdate.!init"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">77</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">111</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.SimpleNode.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">77</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">112</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc217">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser$JJCalls.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">218</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc130"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">132</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">217</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc136">
+    <jbh:methodCalled>
+      <java:Method rdf:about="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser$LookaheadSuccess.!init">
+        <jbh:isInit rdf:datatype="&xsd;boolean">true</jbh:isInit>
+      </java:Method>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">137</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc135">
+        <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser$LookaheadSuccess.!init"/>
+        <t:endsAt rdf:datatype="&xsd;integer">138</t:endsAt>
+        <bh:originEvent rdf:resource="&jbh;mc130"/>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser.!init"/>
+        <t:startsAt rdf:datatype="&xsd;integer">135</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser$LookaheadSuccess.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">93</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">136</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc43">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser$JJCalls.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">44</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc20"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">44</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">43</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc55">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser$JJCalls.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">56</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc20"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">50</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">55</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc67">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser$JJCalls.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">68</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc20"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">56</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">67</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc79">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser$JJCalls.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">80</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc20"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">62</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">79</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc221">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.SimpleNode.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">222</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc220">
+        <jbh:paramObjTag rdf:datatype="&xsd;integer">87</jbh:paramObjTag>
+        <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.SimpleNode.!init"/>
+        <t:endsAt rdf:datatype="&xsd;integer">225</t:endsAt>
+        <bh:originEvent rdf:resource="&jbh;mc1"/>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;test.auto.Strategy_Setter_SimpleNode_Node_21.main"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">133</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">220</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.SimpleNode.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">133</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">221</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc39">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser$JJCalls.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">40</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc20"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">42</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">39</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc191">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser$JJCalls.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">192</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc130"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">119</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">191</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc107">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser$JJCalls.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">108</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc20"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">76</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">107</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc119">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">79</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaCharStream.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">120</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc118">
+        <jbh:paramObjTag rdf:datatype="&xsd;integer">79</jbh:paramObjTag>
+        <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaCharStream.!init"/>
+        <t:endsAt rdf:datatype="&xsd;integer">121</t:endsAt>
+        <bh:originEvent rdf:resource="&jbh;mc1"/>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;test.auto.Strategy_Setter_SimpleNode_Node_21.main"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">78</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">118</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaCharStream.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">78</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">119</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:FieldModi rdf:about="&jbh;fldModi14">
+    <jbh:fieldVisitMethod rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParserTokenManager.!init"/>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">21</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">27</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">15</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">21</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">14</t:startsAt>
+    <jbh:visitedField rdf:resource="&java;net.sourceforge.pmd.ast.JavaParserTokenManager.input_stream"/>
+  </jbh:FieldModi>
+  <jbh:MethodCall rdf:about="&jbh;mc123">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">78</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParserTokenManager.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">126</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc122"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParserTokenManager.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">84</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">123</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc147">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser$JJCalls.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">148</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc130"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">97</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">147</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc159">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser$JJCalls.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">160</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc130"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">103</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">159</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc163">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser$JJCalls.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">164</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc130"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">105</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">163</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc175">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser$JJCalls.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">176</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc130"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">111</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">175</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc187">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser$JJCalls.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">188</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc130"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">117</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">187</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc2">
+    <jbh:methodCalled>
+      <java:Method rdf:about="&java;net.sourceforge.pmd.ast.JavaParser.jj_la1_0"/>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">3</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc1"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;test.auto.Strategy_Setter_SimpleNode_Node_21.main"/>
+    <t:startsAt rdf:datatype="&xsd;integer">2</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc199">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser$JJCalls.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">200</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc130"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">123</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">199</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc26">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser$LookaheadSuccess.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">27</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc25">
+        <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser$LookaheadSuccess.!init"/>
+        <t:endsAt rdf:datatype="&xsd;integer">28</t:endsAt>
+        <bh:originEvent rdf:resource="&jbh;mc20"/>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser.!init"/>
+        <t:startsAt rdf:datatype="&xsd;integer">25</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser$LookaheadSuccess.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">37</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">26</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc151">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser$JJCalls.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">152</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc130"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.ast.JavaParser.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">99</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">151</t:startsAt>
+  </jbh:MethodCall>
+</rdf:RDF>

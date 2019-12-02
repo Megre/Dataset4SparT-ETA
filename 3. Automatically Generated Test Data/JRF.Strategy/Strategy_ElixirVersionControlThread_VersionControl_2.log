@@ -1,0 +1,18 @@
+method_entry: Ltest/auto/Strategy_ElixirVersionControlThread_VersionControl_2;main, thread_id: 0
+  method_entry: Lorg/acm/seguin/version/UserDirectedVersionControl;<init>, obj_tag: 1, thread_id: 0
+  method_exit: Lorg/acm/seguin/version/UserDirectedVersionControl;<init>, thread_id: 0
+  method_entry: Lorg/acm/seguin/ide/elixir/version/ElixirVersionControlThread;<clinit>, thread_id: 0
+  method_exit: Lorg/acm/seguin/ide/elixir/version/ElixirVersionControlThread;<clinit>, thread_id: 0
+  method_entry: Lorg/acm/seguin/ide/elixir/version/ElixirVersionControlThread;<init>, obj_tag: 2, param_obj_tag: 1, param_obj_tag: 3, thread_id: 0
+      field_modi: Lorg/acm/seguin/version/VersionControl;delegate, dec_cls: Lorg/acm/seguin/ide/elixir/version/ElixirVersionControlThread;, in_method: Lorg/acm/seguin/ide/elixir/version/ElixirVersionControlThread;<init>, field_obj_tag: 0, owner_obj_tag: 2, thread_id: 0
+      field_modi: Lorg/acm/seguin/version/VersionControl;delegate, dec_cls: Lorg/acm/seguin/ide/elixir/version/ElixirVersionControlThread;, in_method: Lorg/acm/seguin/ide/elixir/version/ElixirVersionControlThread;<init>, field_obj_tag: 1, owner_obj_tag: 2, thread_id: 0
+  method_exit: Lorg/acm/seguin/ide/elixir/version/ElixirVersionControlThread;<init>, thread_id: 0
+  method_entry: Lorg/acm/seguin/ide/elixir/version/ElixirVersionControlThread;run, obj_tag: 2, thread_id: 0
+    method_entry: Lorg/acm/seguin/version/UserDirectedVersionControl;checkIn, obj_tag: 1, param_obj_tag: 3, thread_id: 0
+    method_exit: Lorg/acm/seguin/version/UserDirectedVersionControl;checkIn, thread_id: 0
+    method_entry: Lorg/acm/seguin/ide/elixir/version/ElixirVersionControlThread;updateElixirFile, obj_tag: 2, param_obj_tag: 3, thread_id: 0
+    method_exit: Lorg/acm/seguin/ide/elixir/version/ElixirVersionControlThread;updateElixirFile, thread_id: 0
+    method_entry: Lorg/acm/seguin/ide/elixir/version/ElixirVersionControlThread;updateElixirProject, obj_tag: 2, thread_id: 0
+    method_exit: Lorg/acm/seguin/ide/elixir/version/ElixirVersionControlThread;updateElixirProject, thread_id: 0
+  method_exit: Lorg/acm/seguin/ide/elixir/version/ElixirVersionControlThread;run, thread_id: 0
+method_exit: Ltest/auto/Strategy_ElixirVersionControlThread_VersionControl_2;main, thread_id: 0

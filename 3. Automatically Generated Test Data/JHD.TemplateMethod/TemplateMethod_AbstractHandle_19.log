@@ -1,0 +1,18 @@
+method_entry: Ltest/auto/TemplateMethod_AbstractHandle_19;main, thread_id: 0
+  method_entry: LCH/ifa/draw/figures/AttributeFigure;<clinit>, thread_id: 0
+  method_exit: LCH/ifa/draw/figures/AttributeFigure;<clinit>, thread_id: 0
+  method_entry: LCH/ifa/draw/figures/ImageFigure;<init>, obj_tag: 1, param_obj_tag: 2, param_obj_tag: 3, param_obj_tag: 4, thread_id: 0
+    method_entry: LCH/ifa/draw/figures/AttributeFigure;<init>, obj_tag: 1, thread_id: 0
+      method_entry: LCH/ifa/draw/standard/AbstractFigure;<init>, obj_tag: 1, thread_id: 0
+      method_exit: LCH/ifa/draw/standard/AbstractFigure;<init>, thread_id: 0
+    method_exit: LCH/ifa/draw/figures/AttributeFigure;<init>, thread_id: 0
+  method_exit: LCH/ifa/draw/figures/ImageFigure;<init>, thread_id: 0
+  method_entry: LCH/ifa/draw/standard/ChangeConnectionStartHandle;<init>, obj_tag: 5, param_obj_tag: 1, thread_id: 0
+    method_entry: LCH/ifa/draw/standard/ChangeConnectionHandle;<init>, obj_tag: 5, param_obj_tag: 1, thread_id: 0
+      method_entry: LCH/ifa/draw/standard/AbstractHandle;<init>, obj_tag: 5, param_obj_tag: 1, thread_id: 0
+      method_exit: LCH/ifa/draw/standard/AbstractHandle;<init>, thread_id: 0
+      method_entry: LCH/ifa/draw/standard/AbstractHandle;owner, obj_tag: 5, thread_id: 0
+      method_exit: LCH/ifa/draw/standard/AbstractHandle;owner, thread_id: 0
+    method_exit: LCH/ifa/draw/standard/ChangeConnectionHandle;<init>, thread_id: 0
+  method_exit: LCH/ifa/draw/standard/ChangeConnectionStartHandle;<init>, thread_id: 0
+method_exit: Ltest/auto/TemplateMethod_AbstractHandle_19;main, thread_id: 0

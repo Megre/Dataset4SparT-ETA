@@ -1,0 +1,10 @@
+method_entry: Ltest/auto/TemplateMethod_Ordering_2;main, thread_id: 0
+  method_entry: Lorg/acm/seguin/pretty/sort/ProtectionOrder;<init>, obj_tag: 1, param_obj_tag: 2, thread_id: 0
+    method_entry: Lorg/acm/seguin/pretty/sort/Ordering;<init>, obj_tag: 1, thread_id: 0
+    method_exit: Lorg/acm/seguin/pretty/sort/Ordering;<init>, thread_id: 0
+  method_exit: Lorg/acm/seguin/pretty/sort/ProtectionOrder;<init>, thread_id: 0
+  method_entry: Lorg/acm/seguin/pretty/sort/Ordering;compare, obj_tag: 1, param_obj_tag: 3, param_obj_tag: 4, thread_id: 0
+    method_entry: Lorg/acm/seguin/pretty/sort/ProtectionOrder;getIndex, obj_tag: 1, param_obj_tag: 3, thread_id: 0
+    method_exit: Lorg/acm/seguin/pretty/sort/ProtectionOrder;getIndex, thread_id: 0
+  method_exit: Lorg/acm/seguin/pretty/sort/Ordering;compare, thread_id: 0
+method_exit: Ltest/auto/TemplateMethod_Ordering_2;main, thread_id: 0

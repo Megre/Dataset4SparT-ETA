@@ -1,0 +1,1344 @@
+method_entry: Ltest/auto/TemplateMethod_PrettyPrintFromIDE_3;main, thread_id: 0
+  method_entry: Lorg/acm/seguin/ide/cafe/CafePrettyPrinter;<init>, obj_tag: 1, thread_id: 0
+    method_entry: Lorg/acm/seguin/pretty/PrettyPrintFromIDE;<init>, obj_tag: 1, thread_id: 0
+      method_entry: Lorg/acm/seguin/pretty/PrettyPrintString;<init>, obj_tag: 1, thread_id: 0
+        method_entry: Lorg/acm/seguin/pretty/PrettyPrintFile;<init>, obj_tag: 1, thread_id: 0
+        method_exit: Lorg/acm/seguin/pretty/PrettyPrintFile;<init>, thread_id: 0
+      method_exit: Lorg/acm/seguin/pretty/PrettyPrintString;<init>, thread_id: 0
+    method_exit: Lorg/acm/seguin/pretty/PrettyPrintFromIDE;<init>, thread_id: 0
+  method_exit: Lorg/acm/seguin/ide/cafe/CafePrettyPrinter;<init>, thread_id: 0
+  method_entry: Lorg/acm/seguin/pretty/PrettyPrintFromIDE;prettyPrintCurrentWindow, obj_tag: 1, thread_id: 0
+    method_entry: Lorg/acm/seguin/tools/install/RefactoryInstaller;<init>, obj_tag: 2, thread_id: 0
+    method_exit: Lorg/acm/seguin/tools/install/RefactoryInstaller;<init>, thread_id: 0
+    method_entry: Lorg/acm/seguin/tools/install/RefactoryInstaller;run, obj_tag: 2, thread_id: 0
+      method_entry: Lorg/acm/seguin/util/FileSettings;<clinit>, thread_id: 0
+      method_exit: Lorg/acm/seguin/util/FileSettings;<clinit>, thread_id: 0
+      method_entry: Lorg/acm/seguin/util/FileSettings;getSettingsRoot, thread_id: 0
+        method_entry: Lorg/acm/seguin/util/FileSettings;initRootDir, thread_id: 0
+        method_exit: Lorg/acm/seguin/util/FileSettings;initRootDir, thread_id: 0
+      method_exit: Lorg/acm/seguin/util/FileSettings;getSettingsRoot, thread_id: 0
+      method_entry: Lorg/acm/seguin/util/FileSettings;getSettings, param_obj_tag: 3, param_obj_tag: 4, thread_id: 0
+        method_entry: Lorg/acm/seguin/util/FileSettings;init, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;initRootDir, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;initRootDir, thread_id: 0
+        method_exit: Lorg/acm/seguin/util/FileSettings;init, thread_id: 0
+        method_entry: Lorg/acm/seguin/util/FileSettings;<init>, obj_tag: 5, param_obj_tag: 3, param_obj_tag: 4, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;getSettingsRoot, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;getSettingsRoot, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;load, obj_tag: 5, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 6, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 7, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 8, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 9, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 10, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 11, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 12, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 13, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 14, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 15, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 16, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 17, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 18, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 19, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 20, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 21, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 22, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 23, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 24, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 25, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 26, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 27, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 28, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 29, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 30, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 31, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 32, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 33, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 34, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 35, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 36, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 37, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 38, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 39, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 40, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 41, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 42, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 43, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 44, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 45, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 46, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 47, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 48, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 49, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 50, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 51, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 52, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 53, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 54, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 55, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 56, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 57, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 58, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 59, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 60, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 61, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 62, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 63, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 64, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 65, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 66, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 67, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 68, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 69, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 70, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 71, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 72, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 73, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 74, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 75, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 76, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 77, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 78, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 79, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 80, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 81, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 82, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;setReloadNow, obj_tag: 5, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;setReloadNow, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;load, thread_id: 0
+        method_exit: Lorg/acm/seguin/util/FileSettings;<init>, thread_id: 0
+      method_exit: Lorg/acm/seguin/util/FileSettings;getSettings, thread_id: 0
+      method_entry: Lorg/acm/seguin/util/FileSettings;setReloadNow, obj_tag: 5, thread_id: 0
+        method_entry: Lorg/acm/seguin/util/FileSettings;load, obj_tag: 5, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 83, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 84, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 85, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 86, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 87, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 88, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 89, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 90, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 91, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 92, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 93, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 94, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 95, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 96, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 97, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 98, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 99, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 100, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 101, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 102, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 103, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 104, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 105, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 106, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 107, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 108, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 109, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 110, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 111, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 112, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 113, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 114, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 115, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 116, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 117, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 118, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 119, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 120, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 121, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 122, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 123, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 124, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 125, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 126, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 127, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 128, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 129, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 130, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 131, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 132, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 133, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 134, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 135, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 136, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 137, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 138, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 139, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 140, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 141, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 142, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 143, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 144, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 145, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 146, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 147, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 148, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 149, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 150, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 151, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 152, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 153, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 154, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 155, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 156, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 157, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 158, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 159, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;setReloadNow, obj_tag: 5, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;setReloadNow, thread_id: 0
+        method_exit: Lorg/acm/seguin/util/FileSettings;load, thread_id: 0
+      method_exit: Lorg/acm/seguin/util/FileSettings;setReloadNow, thread_id: 0
+      method_entry: Lorg/acm/seguin/util/FileSettings;getString, obj_tag: 5, param_obj_tag: 160, thread_id: 0
+        method_entry: Lorg/acm/seguin/util/FileSettings;isUpToDate, obj_tag: 5, thread_id: 0
+        method_exit: Lorg/acm/seguin/util/FileSettings;isUpToDate, thread_id: 0
+      method_exit: Lorg/acm/seguin/util/FileSettings;getString, thread_id: 0
+      method_entry: Lorg/acm/seguin/util/FileSettings;getDouble, obj_tag: 5, param_obj_tag: 161, thread_id: 0
+        method_entry: Lorg/acm/seguin/util/FileSettings;getString, obj_tag: 5, param_obj_tag: 161, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;isUpToDate, obj_tag: 5, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;isUpToDate, thread_id: 0
+        method_exit: Lorg/acm/seguin/util/FileSettings;getString, thread_id: 0
+      method_exit: Lorg/acm/seguin/util/FileSettings;getDouble, thread_id: 0
+      method_entry: Lorg/acm/seguin/util/FileSettings;setReloadNow, obj_tag: 5, thread_id: 0
+        method_entry: Lorg/acm/seguin/util/FileSettings;load, obj_tag: 5, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 162, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 163, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 164, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 165, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 166, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 167, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 168, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 169, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 170, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 171, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 172, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 173, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 174, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 175, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 176, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 177, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 178, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 179, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 180, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 181, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 182, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 183, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 184, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 185, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 186, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 187, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 188, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 189, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 190, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 191, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 192, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 193, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 194, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 195, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 196, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 197, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 198, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 199, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 200, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 201, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 202, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 203, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 204, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 205, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 206, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 207, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 208, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 209, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 210, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 211, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 212, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 213, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 214, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 215, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 216, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 217, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 218, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 219, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 220, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 221, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 222, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 223, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 224, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 225, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 226, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 227, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 228, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 229, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 230, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 231, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 232, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 233, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 234, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 235, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 236, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 237, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 238, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;setReloadNow, obj_tag: 5, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;setReloadNow, thread_id: 0
+        method_exit: Lorg/acm/seguin/util/FileSettings;load, thread_id: 0
+      method_exit: Lorg/acm/seguin/util/FileSettings;setReloadNow, thread_id: 0
+      method_entry: Lorg/acm/seguin/util/FileSettings;getSettings, param_obj_tag: 3, param_obj_tag: 239, thread_id: 0
+        method_entry: Lorg/acm/seguin/util/FileSettings;<init>, obj_tag: 240, param_obj_tag: 3, param_obj_tag: 239, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;getSettingsRoot, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;getSettingsRoot, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;load, obj_tag: 240, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 240, param_obj_tag: 241, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 240, param_obj_tag: 242, thread_id: 0
+              method_entry: Lorg/acm/seguin/util/FileSettings;getSpecial, obj_tag: 240, thread_id: 0
+              method_exit: Lorg/acm/seguin/util/FileSettings;getSpecial, thread_id: 0
+              method_entry: Lorg/acm/seguin/util/FileSettings;getSpecial, obj_tag: 240, thread_id: 0
+              method_exit: Lorg/acm/seguin/util/FileSettings;getSpecial, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 240, param_obj_tag: 243, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 240, param_obj_tag: 244, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 240, param_obj_tag: 245, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 240, param_obj_tag: 246, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 240, param_obj_tag: 247, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;setReloadNow, obj_tag: 240, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;setReloadNow, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;load, thread_id: 0
+        method_exit: Lorg/acm/seguin/util/FileSettings;<init>, thread_id: 0
+      method_exit: Lorg/acm/seguin/util/FileSettings;getSettings, thread_id: 0
+      method_entry: Lorg/acm/seguin/util/FileSettings;setReloadNow, obj_tag: 240, thread_id: 0
+        method_entry: Lorg/acm/seguin/util/FileSettings;load, obj_tag: 240, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 240, param_obj_tag: 248, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 240, param_obj_tag: 249, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;getSpecial, obj_tag: 240, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;getSpecial, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;getSpecial, obj_tag: 240, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;getSpecial, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 240, param_obj_tag: 250, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 240, param_obj_tag: 251, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 240, param_obj_tag: 252, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 240, param_obj_tag: 253, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 240, param_obj_tag: 254, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;setReloadNow, obj_tag: 240, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;setReloadNow, thread_id: 0
+        method_exit: Lorg/acm/seguin/util/FileSettings;load, thread_id: 0
+      method_exit: Lorg/acm/seguin/util/FileSettings;setReloadNow, thread_id: 0
+      method_entry: Lorg/acm/seguin/util/FileSettings;getString, obj_tag: 240, param_obj_tag: 255, thread_id: 0
+        method_entry: Lorg/acm/seguin/util/FileSettings;isUpToDate, obj_tag: 240, thread_id: 0
+        method_exit: Lorg/acm/seguin/util/FileSettings;isUpToDate, thread_id: 0
+      method_exit: Lorg/acm/seguin/util/FileSettings;getString, thread_id: 0
+      method_entry: Lorg/acm/seguin/util/FileSettings;getDouble, obj_tag: 240, param_obj_tag: 161, thread_id: 0
+        method_entry: Lorg/acm/seguin/util/FileSettings;getString, obj_tag: 240, param_obj_tag: 161, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;isUpToDate, obj_tag: 240, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;isUpToDate, thread_id: 0
+        method_exit: Lorg/acm/seguin/util/FileSettings;getString, thread_id: 0
+      method_exit: Lorg/acm/seguin/util/FileSettings;getDouble, thread_id: 0
+    method_exit: Lorg/acm/seguin/tools/install/RefactoryInstaller;run, thread_id: 0
+    method_entry: Lorg/acm/seguin/ide/cafe/CafePrettyPrinter;getStringFromIDE, obj_tag: 1, thread_id: 0
+      method_entry: Lorg/acm/seguin/ide/cafe/VisualCafe;getVisualCafe, thread_id: 0
+        method_entry: Lorg/acm/seguin/ide/cafe/VisualCafe;<init>, obj_tag: 256, thread_id: 0
+        method_exit: Lorg/acm/seguin/ide/cafe/VisualCafe;<init>, thread_id: 0
+      method_exit: Lorg/acm/seguin/ide/cafe/VisualCafe;getVisualCafe, thread_id: 0
+      method_entry: Lorg/acm/seguin/ide/cafe/VisualCafe;getFrontmostSourceFile, obj_tag: 256, thread_id: 0
+        method_entry: Lorg/acm/seguin/ide/cafe/SourceFile;<init>, obj_tag: 257, thread_id: 0
+        method_exit: Lorg/acm/seguin/ide/cafe/SourceFile;<init>, thread_id: 0
+      method_exit: Lorg/acm/seguin/ide/cafe/VisualCafe;getFrontmostSourceFile, thread_id: 0
+      method_entry: Lorg/acm/seguin/ide/cafe/SourceFile;getTextString, obj_tag: 257, thread_id: 0
+      method_exit: Lorg/acm/seguin/ide/cafe/SourceFile;getTextString, thread_id: 0
+    method_exit: Lorg/acm/seguin/ide/cafe/CafePrettyPrinter;getStringFromIDE, thread_id: 0
+    method_entry: Lorg/acm/seguin/pretty/PrettyPrintString;setInputString, obj_tag: 1, param_obj_tag: 258, thread_id: 0
+      method_entry: Lorg/acm/seguin/parser/factory/ParserFactory;<clinit>, thread_id: 0
+      method_exit: Lorg/acm/seguin/parser/factory/ParserFactory;<clinit>, thread_id: 0
+      method_entry: Lorg/acm/seguin/parser/factory/BufferParserFactory;<init>, obj_tag: 259, param_obj_tag: 258, thread_id: 0
+        method_entry: Lorg/acm/seguin/parser/factory/ParserFactory;<init>, obj_tag: 259, thread_id: 0
+        method_exit: Lorg/acm/seguin/parser/factory/ParserFactory;<init>, thread_id: 0
+      method_exit: Lorg/acm/seguin/parser/factory/BufferParserFactory;<init>, thread_id: 0
+      method_entry: Lorg/acm/seguin/pretty/PrettyPrintFile;setParserFactory, obj_tag: 1, param_obj_tag: 259, thread_id: 0
+      method_exit: Lorg/acm/seguin/pretty/PrettyPrintFile;setParserFactory, thread_id: 0
+    method_exit: Lorg/acm/seguin/pretty/PrettyPrintString;setInputString, thread_id: 0
+    method_entry: Lorg/acm/seguin/pretty/PrettyPrintFile;apply, obj_tag: 1, param_obj_tag: 260, thread_id: 0
+      method_entry: Lorg/acm/seguin/parser/factory/ParserFactory;getAbstractSyntaxTree, obj_tag: 259, thread_id: 0
+        method_entry: Lorg/acm/seguin/parser/factory/ParserFactory;getParser, obj_tag: 259, thread_id: 0
+          method_entry: Lorg/acm/seguin/parser/factory/BufferParserFactory;getInputStream, obj_tag: 259, thread_id: 0
+          method_exit: Lorg/acm/seguin/parser/factory/BufferParserFactory;getInputStream, thread_id: 0
+          method_entry: Lorg/acm/seguin/parser/JavaParser;<clinit>, thread_id: 0
+            method_entry: Lorg/acm/seguin/parser/JJTJavaParserState;<init>, obj_tag: 261, thread_id: 0
+            method_exit: Lorg/acm/seguin/parser/JJTJavaParserState;<init>, thread_id: 0
+          method_exit: Lorg/acm/seguin/parser/JavaParser;<clinit>, thread_id: 0
+          method_entry: Lorg/acm/seguin/parser/JavaParser;<init>, obj_tag: 262, param_obj_tag: 263, thread_id: 0
+            method_entry: Lorg/acm/seguin/parser/io/CharStream;<clinit>, thread_id: 0
+            method_exit: Lorg/acm/seguin/parser/io/CharStream;<clinit>, thread_id: 0
+            method_entry: Lorg/acm/seguin/parser/io/CharStream;make, param_obj_tag: 263, thread_id: 0
+              method_entry: Lorg/acm/seguin/parser/io/CharStream;getCharStreamType, thread_id: 0
+                method_entry: Lorg/acm/seguin/parser/io/CharStream;initCharStreamType, thread_id: 0
+                  method_entry: Lorg/acm/seguin/util/FileSettings;getSettings, param_obj_tag: 3, param_obj_tag: 4, thread_id: 0
+                  method_exit: Lorg/acm/seguin/util/FileSettings;getSettings, thread_id: 0
+                  method_entry: Lorg/acm/seguin/util/FileSettings;getInteger, obj_tag: 5, param_obj_tag: 264, thread_id: 0
+                    method_entry: Lorg/acm/seguin/util/FileSettings;getString, obj_tag: 5, param_obj_tag: 264, thread_id: 0
+                      method_entry: Lorg/acm/seguin/util/FileSettings;isUpToDate, obj_tag: 5, thread_id: 0
+                      method_exit: Lorg/acm/seguin/util/FileSettings;isUpToDate, thread_id: 0
+                    method_exit: Lorg/acm/seguin/util/FileSettings;getString, thread_id: 0
+                  method_exit: Lorg/acm/seguin/util/FileSettings;getInteger, thread_id: 0
+                method_exit: Lorg/acm/seguin/parser/io/CharStream;initCharStreamType, thread_id: 0
+              method_exit: Lorg/acm/seguin/parser/io/CharStream;getCharStreamType, thread_id: 0
+              method_entry: Lorg/acm/seguin/parser/io/CharStream;getCharStreamType, thread_id: 0
+              method_exit: Lorg/acm/seguin/parser/io/CharStream;getCharStreamType, thread_id: 0
+              method_entry: Lorg/acm/seguin/parser/io/ASCII_CharStream;<init>, obj_tag: 265, param_obj_tag: 263, thread_id: 0
+                method_entry: Lorg/acm/seguin/parser/io/ASCII_CharStream;<init>, obj_tag: 265, param_obj_tag: 263, thread_id: 0
+                  method_entry: Lorg/acm/seguin/parser/io/ASCII_CharStream;<init>, obj_tag: 265, param_obj_tag: 266, thread_id: 0
+                    method_entry: Lorg/acm/seguin/parser/io/CharStream;<init>, obj_tag: 265, thread_id: 0
+                    method_exit: Lorg/acm/seguin/parser/io/CharStream;<init>, thread_id: 0
+                  method_exit: Lorg/acm/seguin/parser/io/ASCII_CharStream;<init>, thread_id: 0
+                method_exit: Lorg/acm/seguin/parser/io/ASCII_CharStream;<init>, thread_id: 0
+              method_exit: Lorg/acm/seguin/parser/io/ASCII_CharStream;<init>, thread_id: 0
+            method_exit: Lorg/acm/seguin/parser/io/CharStream;make, thread_id: 0
+            method_entry: Lorg/acm/seguin/parser/JavaParserTokenManager;<clinit>, thread_id: 0
+            method_exit: Lorg/acm/seguin/parser/JavaParserTokenManager;<clinit>, thread_id: 0
+            method_entry: Lorg/acm/seguin/parser/JavaParserTokenManager;<init>, obj_tag: 267, param_obj_tag: 265, thread_id: 0
+            method_exit: Lorg/acm/seguin/parser/JavaParserTokenManager;<init>, thread_id: 0
+            method_entry: Lorg/acm/seguin/parser/Token;<init>, obj_tag: 268, thread_id: 0
+            method_exit: Lorg/acm/seguin/parser/Token;<init>, thread_id: 0
+            method_entry: Lorg/acm/seguin/parser/JavaParser$JJCalls;<init>, obj_tag: 269, thread_id: 0
+            method_exit: Lorg/acm/seguin/parser/JavaParser$JJCalls;<init>, thread_id: 0
+            method_entry: Lorg/acm/seguin/parser/JavaParser$JJCalls;<init>, obj_tag: 270, thread_id: 0
+            method_exit: Lorg/acm/seguin/parser/JavaParser$JJCalls;<init>, thread_id: 0
+            method_entry: Lorg/acm/seguin/parser/JavaParser$JJCalls;<init>, obj_tag: 271, thread_id: 0
+            method_exit: Lorg/acm/seguin/parser/JavaParser$JJCalls;<init>, thread_id: 0
+            method_entry: Lorg/acm/seguin/parser/JavaParser$JJCalls;<init>, obj_tag: 272, thread_id: 0
+            method_exit: Lorg/acm/seguin/parser/JavaParser$JJCalls;<init>, thread_id: 0
+            method_entry: Lorg/acm/seguin/parser/JavaParser$JJCalls;<init>, obj_tag: 273, thread_id: 0
+            method_exit: Lorg/acm/seguin/parser/JavaParser$JJCalls;<init>, thread_id: 0
+            method_entry: Lorg/acm/seguin/parser/JavaParser$JJCalls;<init>, obj_tag: 274, thread_id: 0
+            method_exit: Lorg/acm/seguin/parser/JavaParser$JJCalls;<init>, thread_id: 0
+            method_entry: Lorg/acm/seguin/parser/JavaParser$JJCalls;<init>, obj_tag: 275, thread_id: 0
+            method_exit: Lorg/acm/seguin/parser/JavaParser$JJCalls;<init>, thread_id: 0
+            method_entry: Lorg/acm/seguin/parser/JavaParser$JJCalls;<init>, obj_tag: 276, thread_id: 0
+            method_exit: Lorg/acm/seguin/parser/JavaParser$JJCalls;<init>, thread_id: 0
+            method_entry: Lorg/acm/seguin/parser/JavaParser$JJCalls;<init>, obj_tag: 277, thread_id: 0
+            method_exit: Lorg/acm/seguin/parser/JavaParser$JJCalls;<init>, thread_id: 0
+            method_entry: Lorg/acm/seguin/parser/JavaParser$JJCalls;<init>, obj_tag: 278, thread_id: 0
+            method_exit: Lorg/acm/seguin/parser/JavaParser$JJCalls;<init>, thread_id: 0
+            method_entry: Lorg/acm/seguin/parser/JavaParser$JJCalls;<init>, obj_tag: 279, thread_id: 0
+            method_exit: Lorg/acm/seguin/parser/JavaParser$JJCalls;<init>, thread_id: 0
+            method_entry: Lorg/acm/seguin/parser/JavaParser$JJCalls;<init>, obj_tag: 280, thread_id: 0
+            method_exit: Lorg/acm/seguin/parser/JavaParser$JJCalls;<init>, thread_id: 0
+            method_entry: Lorg/acm/seguin/parser/JavaParser$JJCalls;<init>, obj_tag: 281, thread_id: 0
+            method_exit: Lorg/acm/seguin/parser/JavaParser$JJCalls;<init>, thread_id: 0
+            method_entry: Lorg/acm/seguin/parser/JavaParser$JJCalls;<init>, obj_tag: 282, thread_id: 0
+            method_exit: Lorg/acm/seguin/parser/JavaParser$JJCalls;<init>, thread_id: 0
+            method_entry: Lorg/acm/seguin/parser/JavaParser$JJCalls;<init>, obj_tag: 283, thread_id: 0
+            method_exit: Lorg/acm/seguin/parser/JavaParser$JJCalls;<init>, thread_id: 0
+            method_entry: Lorg/acm/seguin/parser/JavaParser$JJCalls;<init>, obj_tag: 284, thread_id: 0
+            method_exit: Lorg/acm/seguin/parser/JavaParser$JJCalls;<init>, thread_id: 0
+            method_entry: Lorg/acm/seguin/parser/JavaParser$JJCalls;<init>, obj_tag: 285, thread_id: 0
+            method_exit: Lorg/acm/seguin/parser/JavaParser$JJCalls;<init>, thread_id: 0
+            method_entry: Lorg/acm/seguin/parser/JavaParser$JJCalls;<init>, obj_tag: 286, thread_id: 0
+            method_exit: Lorg/acm/seguin/parser/JavaParser$JJCalls;<init>, thread_id: 0
+            method_entry: Lorg/acm/seguin/parser/JavaParser$JJCalls;<init>, obj_tag: 287, thread_id: 0
+            method_exit: Lorg/acm/seguin/parser/JavaParser$JJCalls;<init>, thread_id: 0
+            method_entry: Lorg/acm/seguin/parser/JavaParser$JJCalls;<init>, obj_tag: 288, thread_id: 0
+            method_exit: Lorg/acm/seguin/parser/JavaParser$JJCalls;<init>, thread_id: 0
+            method_entry: Lorg/acm/seguin/parser/JavaParser$JJCalls;<init>, obj_tag: 289, thread_id: 0
+            method_exit: Lorg/acm/seguin/parser/JavaParser$JJCalls;<init>, thread_id: 0
+            method_entry: Lorg/acm/seguin/parser/JavaParser$JJCalls;<init>, obj_tag: 290, thread_id: 0
+            method_exit: Lorg/acm/seguin/parser/JavaParser$JJCalls;<init>, thread_id: 0
+            method_entry: Lorg/acm/seguin/parser/JavaParser$JJCalls;<init>, obj_tag: 291, thread_id: 0
+            method_exit: Lorg/acm/seguin/parser/JavaParser$JJCalls;<init>, thread_id: 0
+            method_entry: Lorg/acm/seguin/parser/JavaParser$JJCalls;<init>, obj_tag: 292, thread_id: 0
+            method_exit: Lorg/acm/seguin/parser/JavaParser$JJCalls;<init>, thread_id: 0
+            method_entry: Lorg/acm/seguin/parser/JavaParser$JJCalls;<init>, obj_tag: 293, thread_id: 0
+            method_exit: Lorg/acm/seguin/parser/JavaParser$JJCalls;<init>, thread_id: 0
+            method_entry: Lorg/acm/seguin/parser/JavaParser$JJCalls;<init>, obj_tag: 294, thread_id: 0
+            method_exit: Lorg/acm/seguin/parser/JavaParser$JJCalls;<init>, thread_id: 0
+            method_entry: Lorg/acm/seguin/parser/JavaParser$JJCalls;<init>, obj_tag: 295, thread_id: 0
+            method_exit: Lorg/acm/seguin/parser/JavaParser$JJCalls;<init>, thread_id: 0
+            method_entry: Lorg/acm/seguin/parser/JavaParser$JJCalls;<init>, obj_tag: 296, thread_id: 0
+            method_exit: Lorg/acm/seguin/parser/JavaParser$JJCalls;<init>, thread_id: 0
+            method_entry: Lorg/acm/seguin/parser/JavaParser$JJCalls;<init>, obj_tag: 297, thread_id: 0
+            method_exit: Lorg/acm/seguin/parser/JavaParser$JJCalls;<init>, thread_id: 0
+          method_exit: Lorg/acm/seguin/parser/JavaParser;<init>, thread_id: 0
+        method_exit: Lorg/acm/seguin/parser/factory/ParserFactory;getParser, thread_id: 0
+        method_entry: Lorg/acm/seguin/parser/JavaParser;CompilationUnit, thread_id: 0
+          method_entry: Lorg/acm/seguin/parser/ast/ASTCompilationUnit;<init>, obj_tag: 298, thread_id: 0
+            method_entry: Lorg/acm/seguin/parser/ast/SimpleNode;<init>, obj_tag: 298, thread_id: 0
+            method_exit: Lorg/acm/seguin/parser/ast/SimpleNode;<init>, thread_id: 0
+          method_exit: Lorg/acm/seguin/parser/ast/ASTCompilationUnit;<init>, thread_id: 0
+          method_entry: Lorg/acm/seguin/parser/JJTJavaParserState;openNodeScope, obj_tag: 261, param_obj_tag: 298, thread_id: 0
+            method_entry: Lorg/acm/seguin/parser/ast/SimpleNode;jjtOpen, obj_tag: 298, thread_id: 0
+            method_exit: Lorg/acm/seguin/parser/ast/SimpleNode;jjtOpen, thread_id: 0
+          method_exit: Lorg/acm/seguin/parser/JJTJavaParserState;openNodeScope, thread_id: 0
+          method_entry: Lorg/acm/seguin/parser/JavaParser;jj_ntk, thread_id: 0
+            method_entry: Lorg/acm/seguin/parser/JavaParserTokenManager;getNextToken, thread_id: 0
+              method_entry: Lorg/acm/seguin/parser/io/CharStream;BeginToken, thread_id: 0
+                method_entry: Lorg/acm/seguin/parser/io/CharStream;getCharStreamType, thread_id: 0
+                method_exit: Lorg/acm/seguin/parser/io/CharStream;getCharStreamType, thread_id: 0
+                method_entry: Lorg/acm/seguin/parser/io/ASCII_CharStream;BeginToken, thread_id: 0
+                  method_entry: Lorg/acm/seguin/parser/io/ASCII_CharStream;readChar, thread_id: 0
+                    method_entry: Lorg/acm/seguin/parser/io/ASCII_CharStream;FillBuff, thread_id: 0
+                      method_entry: Lorg/acm/seguin/parser/io/ASCII_CharStream;backup, thread_id: 0
+                      method_exit: Lorg/acm/seguin/parser/io/ASCII_CharStream;backup, thread_id: 0
+                    method_exit: Lorg/acm/seguin/parser/io/ASCII_CharStream;FillBuff, thread_id: 0
+                  method_exit: Lorg/acm/seguin/parser/io/ASCII_CharStream;readChar, thread_id: 0
+                method_exit: Lorg/acm/seguin/parser/io/ASCII_CharStream;BeginToken, thread_id: 0
+              method_exit: Lorg/acm/seguin/parser/io/CharStream;BeginToken, thread_id: 0
+              method_entry: Lorg/acm/seguin/parser/JavaParserTokenManager;jjFillToken, thread_id: 0
+                method_entry: Lorg/acm/seguin/parser/Token;newToken, thread_id: 0
+                  method_entry: Lorg/acm/seguin/parser/Token;<init>, obj_tag: 299, thread_id: 0
+                  method_exit: Lorg/acm/seguin/parser/Token;<init>, thread_id: 0
+                method_exit: Lorg/acm/seguin/parser/Token;newToken, thread_id: 0
+                method_entry: Lorg/acm/seguin/parser/io/CharStream;getBeginLine, thread_id: 0
+                  method_entry: Lorg/acm/seguin/parser/io/CharStream;getCharStreamType, thread_id: 0
+                  method_exit: Lorg/acm/seguin/parser/io/CharStream;getCharStreamType, thread_id: 0
+                  method_entry: Lorg/acm/seguin/parser/io/ASCII_CharStream;getBeginLine, thread_id: 0
+                  method_exit: Lorg/acm/seguin/parser/io/ASCII_CharStream;getBeginLine, thread_id: 0
+                method_exit: Lorg/acm/seguin/parser/io/CharStream;getBeginLine, thread_id: 0
+                method_entry: Lorg/acm/seguin/parser/io/CharStream;getBeginColumn, thread_id: 0
+                  method_entry: Lorg/acm/seguin/parser/io/CharStream;getCharStreamType, thread_id: 0
+                  method_exit: Lorg/acm/seguin/parser/io/CharStream;getCharStreamType, thread_id: 0
+                  method_entry: Lorg/acm/seguin/parser/io/ASCII_CharStream;getBeginColumn, thread_id: 0
+                  method_exit: Lorg/acm/seguin/parser/io/ASCII_CharStream;getBeginColumn, thread_id: 0
+                method_exit: Lorg/acm/seguin/parser/io/CharStream;getBeginColumn, thread_id: 0
+                method_entry: Lorg/acm/seguin/parser/io/CharStream;getEndLine, thread_id: 0
+                  method_entry: Lorg/acm/seguin/parser/io/CharStream;getCharStreamType, thread_id: 0
+                  method_exit: Lorg/acm/seguin/parser/io/CharStream;getCharStreamType, thread_id: 0
+                  method_entry: Lorg/acm/seguin/parser/io/ASCII_CharStream;getEndLine, thread_id: 0
+                  method_exit: Lorg/acm/seguin/parser/io/ASCII_CharStream;getEndLine, thread_id: 0
+                method_exit: Lorg/acm/seguin/parser/io/CharStream;getEndLine, thread_id: 0
+                method_entry: Lorg/acm/seguin/parser/io/CharStream;getEndColumn, thread_id: 0
+                  method_entry: Lorg/acm/seguin/parser/io/CharStream;getCharStreamType, thread_id: 0
+                  method_exit: Lorg/acm/seguin/parser/io/CharStream;getCharStreamType, thread_id: 0
+                  method_entry: Lorg/acm/seguin/parser/io/ASCII_CharStream;getEndColumn, thread_id: 0
+                  method_exit: Lorg/acm/seguin/parser/io/ASCII_CharStream;getEndColumn, thread_id: 0
+                method_exit: Lorg/acm/seguin/parser/io/CharStream;getEndColumn, thread_id: 0
+              method_exit: Lorg/acm/seguin/parser/JavaParserTokenManager;jjFillToken, thread_id: 0
+            method_exit: Lorg/acm/seguin/parser/JavaParserTokenManager;getNextToken, thread_id: 0
+          method_exit: Lorg/acm/seguin/parser/JavaParser;jj_ntk, thread_id: 0
+          method_entry: Lorg/acm/seguin/parser/JavaParser;jj_consume_token, thread_id: 0
+          method_exit: Lorg/acm/seguin/parser/JavaParser;jj_consume_token, thread_id: 0
+          method_entry: Lorg/acm/seguin/parser/JJTJavaParserState;closeNodeScope, obj_tag: 261, param_obj_tag: 298, thread_id: 0
+            method_entry: Lorg/acm/seguin/parser/JJTJavaParserState;nodeArity, obj_tag: 261, thread_id: 0
+            method_exit: Lorg/acm/seguin/parser/JJTJavaParserState;nodeArity, thread_id: 0
+            method_entry: Lorg/acm/seguin/parser/ast/SimpleNode;jjtClose, obj_tag: 298, thread_id: 0
+            method_exit: Lorg/acm/seguin/parser/ast/SimpleNode;jjtClose, thread_id: 0
+            method_entry: Lorg/acm/seguin/parser/JJTJavaParserState;pushNode, obj_tag: 261, param_obj_tag: 298, thread_id: 0
+            method_exit: Lorg/acm/seguin/parser/JJTJavaParserState;pushNode, thread_id: 0
+          method_exit: Lorg/acm/seguin/parser/JJTJavaParserState;closeNodeScope, thread_id: 0
+          method_entry: Lorg/acm/seguin/parser/ast/SimpleNode;addSpecial, obj_tag: 298, param_obj_tag: 300, param_obj_tag: 301, thread_id: 0
+          method_exit: Lorg/acm/seguin/parser/ast/SimpleNode;addSpecial, thread_id: 0
+        method_exit: Lorg/acm/seguin/parser/JavaParser;CompilationUnit, thread_id: 0
+      method_exit: Lorg/acm/seguin/parser/factory/ParserFactory;getAbstractSyntaxTree, thread_id: 0
+      method_entry: Lorg/acm/seguin/pretty/PrettyPrintFile;apply, obj_tag: 1, param_obj_tag: 302, param_obj_tag: 298, thread_id: 0
+        method_entry: Lorg/acm/seguin/util/FileSettings;getSettings, param_obj_tag: 3, param_obj_tag: 4, thread_id: 0
+        method_exit: Lorg/acm/seguin/util/FileSettings;getSettings, thread_id: 0
+        method_entry: Lorg/acm/seguin/util/FileSettings;setReloadNow, obj_tag: 5, thread_id: 0
+          method_entry: Lorg/acm/seguin/util/FileSettings;load, obj_tag: 5, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 303, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 304, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 305, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 306, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 307, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 308, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 309, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 310, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 311, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 312, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 313, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 314, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 315, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 316, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 317, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 318, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 319, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 320, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 321, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 322, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 323, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 324, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 325, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 326, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 327, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 328, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 329, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 330, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 331, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 332, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 333, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 334, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 335, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 336, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 337, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 338, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 339, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 340, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 341, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 342, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 343, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 344, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 345, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 346, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 347, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 348, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 349, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 350, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 351, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 352, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 353, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 354, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 355, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 356, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 357, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 358, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 359, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 360, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 361, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 362, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 363, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 364, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 365, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 366, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 367, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 368, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 369, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 370, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 371, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 372, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 373, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 374, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 375, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 376, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 377, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 378, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;unescapeChars, obj_tag: 5, param_obj_tag: 379, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;unescapeChars, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;setReloadNow, obj_tag: 5, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;setReloadNow, thread_id: 0
+          method_exit: Lorg/acm/seguin/util/FileSettings;load, thread_id: 0
+        method_exit: Lorg/acm/seguin/util/FileSettings;setReloadNow, thread_id: 0
+        method_entry: Lorg/acm/seguin/pretty/PrettyPrintVisitor;<init>, obj_tag: 380, thread_id: 0
+          method_entry: Lorg/acm/seguin/pretty/SpecialTokenVisitor;<init>, obj_tag: 381, thread_id: 0
+            method_entry: Lorg/acm/seguin/pretty/PrintSpecialDefault;<init>, obj_tag: 382, thread_id: 0
+              method_entry: Lorg/acm/seguin/pretty/PrintSpecial;<init>, obj_tag: 382, thread_id: 0
+              method_exit: Lorg/acm/seguin/pretty/PrintSpecial;<init>, thread_id: 0
+            method_exit: Lorg/acm/seguin/pretty/PrintSpecialDefault;<init>, thread_id: 0
+            method_entry: Lorg/acm/seguin/pretty/PrintSpecialNewline;<init>, obj_tag: 383, thread_id: 0
+              method_entry: Lorg/acm/seguin/pretty/PrintSpecial;<init>, obj_tag: 383, thread_id: 0
+              method_exit: Lorg/acm/seguin/pretty/PrintSpecial;<init>, thread_id: 0
+            method_exit: Lorg/acm/seguin/pretty/PrintSpecialNewline;<init>, thread_id: 0
+            method_entry: Lorg/acm/seguin/pretty/PrintSpecialSingleLineComment;<init>, obj_tag: 384, thread_id: 0
+              method_entry: Lorg/acm/seguin/pretty/PrintSpecial;<init>, obj_tag: 384, thread_id: 0
+              method_exit: Lorg/acm/seguin/pretty/PrintSpecial;<init>, thread_id: 0
+            method_exit: Lorg/acm/seguin/pretty/PrintSpecialSingleLineComment;<init>, thread_id: 0
+            method_entry: Lorg/acm/seguin/pretty/PrintSpecialMultiLineComment;<init>, obj_tag: 385, thread_id: 0
+              method_entry: Lorg/acm/seguin/pretty/PrintSpecial;<init>, obj_tag: 385, thread_id: 0
+              method_exit: Lorg/acm/seguin/pretty/PrintSpecial;<init>, thread_id: 0
+            method_exit: Lorg/acm/seguin/pretty/PrintSpecialMultiLineComment;<init>, thread_id: 0
+            method_entry: Lorg/acm/seguin/pretty/PrintSpecialJavadocComment;<init>, obj_tag: 386, thread_id: 0
+              method_entry: Lorg/acm/seguin/pretty/PrintSpecial;<init>, obj_tag: 386, thread_id: 0
+              method_exit: Lorg/acm/seguin/pretty/PrintSpecial;<init>, thread_id: 0
+            method_exit: Lorg/acm/seguin/pretty/PrintSpecialJavadocComment;<init>, thread_id: 0
+            method_entry: Lorg/acm/seguin/pretty/PrintSpecialCategoryComment;<init>, obj_tag: 387, thread_id: 0
+              method_entry: Lorg/acm/seguin/pretty/PrintSpecial;<init>, obj_tag: 387, thread_id: 0
+              method_exit: Lorg/acm/seguin/pretty/PrintSpecial;<init>, thread_id: 0
+            method_exit: Lorg/acm/seguin/pretty/PrintSpecialCategoryComment;<init>, thread_id: 0
+          method_exit: Lorg/acm/seguin/pretty/SpecialTokenVisitor;<init>, thread_id: 0
+          method_entry: Lorg/acm/seguin/pretty/FieldSizeLookAhead;<init>, obj_tag: 388, thread_id: 0
+            method_entry: Lorg/acm/seguin/pretty/FieldSize;<init>, obj_tag: 389, thread_id: 0
+            method_exit: Lorg/acm/seguin/pretty/FieldSize;<init>, thread_id: 0
+          method_exit: Lorg/acm/seguin/pretty/FieldSizeLookAhead;<init>, thread_id: 0
+          method_entry: Lorg/acm/seguin/pretty/LocalVariableLookAhead;<init>, obj_tag: 390, thread_id: 0
+            method_entry: Lorg/acm/seguin/pretty/FieldSize;<init>, obj_tag: 391, thread_id: 0
+            method_exit: Lorg/acm/seguin/pretty/FieldSize;<init>, thread_id: 0
+          method_exit: Lorg/acm/seguin/pretty/LocalVariableLookAhead;<init>, thread_id: 0
+        method_exit: Lorg/acm/seguin/pretty/PrettyPrintVisitor;<init>, thread_id: 0
+        method_entry: Lorg/acm/seguin/pretty/PrettyPrintFromIDE;getPrintData, obj_tag: 1, param_obj_tag: 392, thread_id: 0
+          method_entry: Lorg/acm/seguin/pretty/PrettyPrintFile;getPrintData, obj_tag: 1, param_obj_tag: 393, thread_id: 0
+            method_entry: Lorg/acm/seguin/pretty/PrintData;<clinit>, thread_id: 0
+            method_exit: Lorg/acm/seguin/pretty/PrintData;<clinit>, thread_id: 0
+            method_entry: Lorg/acm/seguin/pretty/PrettyPrintString;getOutputStream, obj_tag: 1, param_obj_tag: 394, thread_id: 0
+            method_exit: Lorg/acm/seguin/pretty/PrettyPrintString;getOutputStream, thread_id: 0
+            method_entry: Lorg/acm/seguin/pretty/PrintData;<init>, obj_tag: 395, param_obj_tag: 396, thread_id: 0
+              method_entry: Lorg/acm/seguin/pretty/PrintData;lineQueueFactory, obj_tag: 395, param_obj_tag: 397, thread_id: 0
+                method_entry: Lorg/acm/seguin/pretty/LineQueue;<init>, obj_tag: 398, param_obj_tag: 397, thread_id: 0
+                  method_entry: Lorg/acm/seguin/util/FileSettings;getSettings, param_obj_tag: 3, param_obj_tag: 4, thread_id: 0
+                  method_exit: Lorg/acm/seguin/util/FileSettings;getSettings, thread_id: 0
+                  method_entry: Lorg/acm/seguin/util/FileSettings;getInteger, obj_tag: 5, param_obj_tag: 399, thread_id: 0
+                    method_entry: Lorg/acm/seguin/util/FileSettings;getString, obj_tag: 5, param_obj_tag: 399, thread_id: 0
+                      method_entry: Lorg/acm/seguin/util/FileSettings;isUpToDate, obj_tag: 5, thread_id: 0
+                      method_exit: Lorg/acm/seguin/util/FileSettings;isUpToDate, thread_id: 0
+                    method_exit: Lorg/acm/seguin/util/FileSettings;getString, thread_id: 0
+                  method_exit: Lorg/acm/seguin/util/FileSettings;getInteger, thread_id: 0
+                  method_entry: Lorg/acm/seguin/util/FileSettings;getInteger, obj_tag: 5, param_obj_tag: 400, thread_id: 0
+                    method_entry: Lorg/acm/seguin/util/FileSettings;getString, obj_tag: 5, param_obj_tag: 400, thread_id: 0
+                      method_entry: Lorg/acm/seguin/util/FileSettings;isUpToDate, obj_tag: 5, thread_id: 0
+                      method_exit: Lorg/acm/seguin/util/FileSettings;isUpToDate, thread_id: 0
+                    method_exit: Lorg/acm/seguin/util/FileSettings;getString, thread_id: 0
+                  method_exit: Lorg/acm/seguin/util/FileSettings;getInteger, thread_id: 0
+                  method_entry: Lorg/acm/seguin/util/FileSettings;getBoolean, obj_tag: 5, param_obj_tag: 401, thread_id: 0
+                    method_entry: Lorg/acm/seguin/util/FileSettings;getString, obj_tag: 5, param_obj_tag: 401, thread_id: 0
+                      method_entry: Lorg/acm/seguin/util/FileSettings;isUpToDate, obj_tag: 5, thread_id: 0
+                      method_exit: Lorg/acm/seguin/util/FileSettings;isUpToDate, thread_id: 0
+                    method_exit: Lorg/acm/seguin/util/FileSettings;getString, thread_id: 0
+                  method_exit: Lorg/acm/seguin/util/FileSettings;getBoolean, thread_id: 0
+                  method_entry: Lorg/acm/seguin/util/FileSettings;getString, obj_tag: 5, param_obj_tag: 402, thread_id: 0
+                    method_entry: Lorg/acm/seguin/util/FileSettings;isUpToDate, obj_tag: 5, thread_id: 0
+                    method_exit: Lorg/acm/seguin/util/FileSettings;isUpToDate, thread_id: 0
+                  method_exit: Lorg/acm/seguin/util/FileSettings;getString, thread_id: 0
+                  method_entry: Lorg/acm/seguin/util/FileSettings;getString, obj_tag: 5, param_obj_tag: 403, thread_id: 0
+                    method_entry: Lorg/acm/seguin/util/FileSettings;isUpToDate, obj_tag: 5, thread_id: 0
+                    method_exit: Lorg/acm/seguin/util/FileSettings;isUpToDate, thread_id: 0
+                  method_exit: Lorg/acm/seguin/util/FileSettings;getString, thread_id: 0
+                  method_entry: Lorg/acm/seguin/util/FileSettings;getString, obj_tag: 5, param_obj_tag: 404, thread_id: 0
+                    method_entry: Lorg/acm/seguin/util/FileSettings;isUpToDate, obj_tag: 5, thread_id: 0
+                    method_exit: Lorg/acm/seguin/util/FileSettings;isUpToDate, thread_id: 0
+                  method_exit: Lorg/acm/seguin/util/FileSettings;getString, thread_id: 0
+                method_exit: Lorg/acm/seguin/pretty/LineQueue;<init>, thread_id: 0
+              method_exit: Lorg/acm/seguin/pretty/PrintData;lineQueueFactory, thread_id: 0
+              method_entry: Lorg/acm/seguin/util/FileSettings;getSettings, param_obj_tag: 3, param_obj_tag: 4, thread_id: 0
+              method_exit: Lorg/acm/seguin/util/FileSettings;getSettings, thread_id: 0
+              method_entry: Lorg/acm/seguin/util/FileSettings;getInteger, obj_tag: 5, param_obj_tag: 160, thread_id: 0
+                method_entry: Lorg/acm/seguin/util/FileSettings;getString, obj_tag: 5, param_obj_tag: 160, thread_id: 0
+                  method_entry: Lorg/acm/seguin/util/FileSettings;isUpToDate, obj_tag: 5, thread_id: 0
+                  method_exit: Lorg/acm/seguin/util/FileSettings;isUpToDate, thread_id: 0
+                method_exit: Lorg/acm/seguin/util/FileSettings;getString, thread_id: 0
+              method_exit: Lorg/acm/seguin/util/FileSettings;getInteger, thread_id: 0
+              method_entry: Lorg/acm/seguin/util/FileSettings;getString, obj_tag: 5, param_obj_tag: 405, thread_id: 0
+                method_entry: Lorg/acm/seguin/util/FileSettings;isUpToDate, obj_tag: 5, thread_id: 0
+                method_exit: Lorg/acm/seguin/util/FileSettings;isUpToDate, thread_id: 0
+              method_exit: Lorg/acm/seguin/util/FileSettings;getString, thread_id: 0
+              method_entry: Lorg/acm/seguin/pretty/PrintData;translateBlockStyle, obj_tag: 395, param_obj_tag: 406, thread_id: 0
+                method_entry: Lorg/acm/seguin/util/FileSettings;getString, obj_tag: 5, param_obj_tag: 406, thread_id: 0
+                  method_entry: Lorg/acm/seguin/util/FileSettings;isUpToDate, obj_tag: 5, thread_id: 0
+                  method_exit: Lorg/acm/seguin/util/FileSettings;isUpToDate, thread_id: 0
+                method_exit: Lorg/acm/seguin/util/FileSettings;getString, thread_id: 0
+              method_exit: Lorg/acm/seguin/pretty/PrintData;translateBlockStyle, thread_id: 0
+              method_entry: Lorg/acm/seguin/pretty/PrintData;translateBlockStyle, obj_tag: 395, param_obj_tag: 407, thread_id: 0
+                method_entry: Lorg/acm/seguin/util/FileSettings;getString, obj_tag: 5, param_obj_tag: 407, thread_id: 0
+                  method_entry: Lorg/acm/seguin/util/FileSettings;isUpToDate, obj_tag: 5, thread_id: 0
+                  method_exit: Lorg/acm/seguin/util/FileSettings;isUpToDate, thread_id: 0
+                method_exit: Lorg/acm/seguin/util/FileSettings;getString, thread_id: 0
+              method_exit: Lorg/acm/seguin/pretty/PrintData;translateBlockStyle, thread_id: 0
+              method_entry: Lorg/acm/seguin/pretty/PrintData;translateBlockStyle, obj_tag: 395, param_obj_tag: 408, thread_id: 0
+                method_entry: Lorg/acm/seguin/util/FileSettings;getString, obj_tag: 5, param_obj_tag: 408, thread_id: 0
+                  method_entry: Lorg/acm/seguin/util/FileSettings;isUpToDate, obj_tag: 5, thread_id: 0
+                  method_exit: Lorg/acm/seguin/util/FileSettings;isUpToDate, thread_id: 0
+                method_exit: Lorg/acm/seguin/util/FileSettings;getString, thread_id: 0
+              method_exit: Lorg/acm/seguin/pretty/PrintData;translateBlockStyle, thread_id: 0
+              method_entry: Lorg/acm/seguin/util/FileSettings;getString, obj_tag: 5, param_obj_tag: 409, thread_id: 0
+                method_entry: Lorg/acm/seguin/util/FileSettings;isUpToDate, obj_tag: 5, thread_id: 0
+                method_exit: Lorg/acm/seguin/util/FileSettings;isUpToDate, thread_id: 0
+              method_exit: Lorg/acm/seguin/util/FileSettings;getString, thread_id: 0
+              method_entry: Lorg/acm/seguin/util/FileSettings;getString, obj_tag: 5, param_obj_tag: 410, thread_id: 0
+                method_entry: Lorg/acm/seguin/util/FileSettings;isUpToDate, obj_tag: 5, thread_id: 0
+                method_exit: Lorg/acm/seguin/util/FileSettings;isUpToDate, thread_id: 0
+                method_entry: Lorg/acm/seguin/util/SettingNotFoundException;<init>, obj_tag: 411, param_obj_tag: 3, param_obj_tag: 4, param_obj_tag: 410, thread_id: 0
+                  method_entry: Lorg/acm/seguin/util/MissingSettingsException;<init>, obj_tag: 411, param_obj_tag: 3, param_obj_tag: 4, thread_id: 0
+                  method_exit: Lorg/acm/seguin/util/MissingSettingsException;<init>, thread_id: 0
+                method_exit: Lorg/acm/seguin/util/SettingNotFoundException;<init>, thread_id: 0
+              method_exit: Lorg/acm/seguin/util/FileSettings;getString, thread_id: 0
+              method_entry: Lorg/acm/seguin/util/FileSettings;getString, obj_tag: 5, param_obj_tag: 412, thread_id: 0
+                method_entry: Lorg/acm/seguin/util/FileSettings;isUpToDate, obj_tag: 5, thread_id: 0
+                method_exit: Lorg/acm/seguin/util/FileSettings;isUpToDate, thread_id: 0
+              method_exit: Lorg/acm/seguin/util/FileSettings;getString, thread_id: 0
+              method_entry: Lorg/acm/seguin/util/FileSettings;getInteger, obj_tag: 5, param_obj_tag: 413, thread_id: 0
+                method_entry: Lorg/acm/seguin/util/FileSettings;getString, obj_tag: 5, param_obj_tag: 413, thread_id: 0
+                  method_entry: Lorg/acm/seguin/util/FileSettings;isUpToDate, obj_tag: 5, thread_id: 0
+                  method_exit: Lorg/acm/seguin/util/FileSettings;isUpToDate, thread_id: 0
+                method_exit: Lorg/acm/seguin/util/FileSettings;getString, thread_id: 0
+              method_exit: Lorg/acm/seguin/util/FileSettings;getInteger, thread_id: 0
+              method_entry: Lorg/acm/seguin/util/FileSettings;getInteger, obj_tag: 5, param_obj_tag: 414, thread_id: 0
+                method_entry: Lorg/acm/seguin/util/FileSettings;getString, obj_tag: 5, param_obj_tag: 414, thread_id: 0
+                  method_entry: Lorg/acm/seguin/util/FileSettings;isUpToDate, obj_tag: 5, thread_id: 0
+                  method_exit: Lorg/acm/seguin/util/FileSettings;isUpToDate, thread_id: 0
+                method_exit: Lorg/acm/seguin/util/FileSettings;getString, thread_id: 0
+              method_exit: Lorg/acm/seguin/util/FileSettings;getInteger, thread_id: 0
+              method_entry: Lorg/acm/seguin/util/FileSettings;getBoolean, obj_tag: 5, param_obj_tag: 415, thread_id: 0
+                method_entry: Lorg/acm/seguin/util/FileSettings;getString, obj_tag: 5, param_obj_tag: 415, thread_id: 0
+                  method_entry: Lorg/acm/seguin/util/FileSettings;isUpToDate, obj_tag: 5, thread_id: 0
+                  method_exit: Lorg/acm/seguin/util/FileSettings;isUpToDate, thread_id: 0
+                method_exit: Lorg/acm/seguin/util/FileSettings;getString, thread_id: 0
+              method_exit: Lorg/acm/seguin/util/FileSettings;getBoolean, thread_id: 0
+              method_entry: Lorg/acm/seguin/util/FileSettings;getInteger, obj_tag: 5, param_obj_tag: 416, thread_id: 0
+                method_entry: Lorg/acm/seguin/util/FileSettings;getString, obj_tag: 5, param_obj_tag: 416, thread_id: 0
+                  method_entry: Lorg/acm/seguin/util/FileSettings;isUpToDate, obj_tag: 5, thread_id: 0
+                  method_exit: Lorg/acm/seguin/util/FileSettings;isUpToDate, thread_id: 0
+                method_exit: Lorg/acm/seguin/util/FileSettings;getString, thread_id: 0
+              method_exit: Lorg/acm/seguin/util/FileSettings;getInteger, thread_id: 0
+              method_entry: Lorg/acm/seguin/util/FileSettings;getBoolean, obj_tag: 5, param_obj_tag: 417, thread_id: 0
+                method_entry: Lorg/acm/seguin/util/FileSettings;getString, obj_tag: 5, param_obj_tag: 417, thread_id: 0
+                  method_entry: Lorg/acm/seguin/util/FileSettings;isUpToDate, obj_tag: 5, thread_id: 0
+                  method_exit: Lorg/acm/seguin/util/FileSettings;isUpToDate, thread_id: 0
+                method_exit: Lorg/acm/seguin/util/FileSettings;getString, thread_id: 0
+              method_exit: Lorg/acm/seguin/util/FileSettings;getBoolean, thread_id: 0
+              method_entry: Lorg/acm/seguin/util/FileSettings;getString, obj_tag: 5, param_obj_tag: 418, thread_id: 0
+                method_entry: Lorg/acm/seguin/util/FileSettings;isUpToDate, obj_tag: 5, thread_id: 0
+                method_exit: Lorg/acm/seguin/util/FileSettings;isUpToDate, thread_id: 0
+              method_exit: Lorg/acm/seguin/util/FileSettings;getString, thread_id: 0
+              method_entry: Lorg/acm/seguin/pretty/sort/MultipleOrdering;<init>, obj_tag: 419, param_obj_tag: 5, thread_id: 0
+                method_entry: Lorg/acm/seguin/util/FileSettings;getString, obj_tag: 5, param_obj_tag: 420, thread_id: 0
+                  method_entry: Lorg/acm/seguin/util/FileSettings;isUpToDate, obj_tag: 5, thread_id: 0
+                  method_exit: Lorg/acm/seguin/util/FileSettings;isUpToDate, thread_id: 0
+                method_exit: Lorg/acm/seguin/util/FileSettings;getString, thread_id: 0
+                method_entry: Lorg/acm/seguin/util/FileSettings;getString, obj_tag: 5, param_obj_tag: 421, thread_id: 0
+                  method_entry: Lorg/acm/seguin/util/FileSettings;isUpToDate, obj_tag: 5, thread_id: 0
+                  method_exit: Lorg/acm/seguin/util/FileSettings;isUpToDate, thread_id: 0
+                method_exit: Lorg/acm/seguin/util/FileSettings;getString, thread_id: 0
+                method_entry: Lorg/acm/seguin/util/FileSettings;getString, obj_tag: 5, param_obj_tag: 422, thread_id: 0
+                  method_entry: Lorg/acm/seguin/util/FileSettings;isUpToDate, obj_tag: 5, thread_id: 0
+                  method_exit: Lorg/acm/seguin/util/FileSettings;isUpToDate, thread_id: 0
+                method_exit: Lorg/acm/seguin/util/FileSettings;getString, thread_id: 0
+                method_entry: Lorg/acm/seguin/util/FileSettings;getString, obj_tag: 5, param_obj_tag: 423, thread_id: 0
+                  method_entry: Lorg/acm/seguin/util/FileSettings;isUpToDate, obj_tag: 5, thread_id: 0
+                  method_exit: Lorg/acm/seguin/util/FileSettings;isUpToDate, thread_id: 0
+                method_exit: Lorg/acm/seguin/util/FileSettings;getString, thread_id: 0
+                method_entry: Lorg/acm/seguin/util/FileSettings;getString, obj_tag: 5, param_obj_tag: 424, thread_id: 0
+                  method_entry: Lorg/acm/seguin/util/FileSettings;isUpToDate, obj_tag: 5, thread_id: 0
+                  method_exit: Lorg/acm/seguin/util/FileSettings;isUpToDate, thread_id: 0
+                  method_entry: Lorg/acm/seguin/util/SettingNotFoundException;<init>, obj_tag: 425, param_obj_tag: 3, param_obj_tag: 4, param_obj_tag: 424, thread_id: 0
+                    method_entry: Lorg/acm/seguin/util/MissingSettingsException;<init>, obj_tag: 425, param_obj_tag: 3, param_obj_tag: 4, thread_id: 0
+                    method_exit: Lorg/acm/seguin/util/MissingSettingsException;<init>, thread_id: 0
+                  method_exit: Lorg/acm/seguin/util/SettingNotFoundException;<init>, thread_id: 0
+                method_exit: Lorg/acm/seguin/util/FileSettings;getString, thread_id: 0
+                method_entry: Lorg/acm/seguin/pretty/sort/MultipleOrdering;load, obj_tag: 419, param_obj_tag: 5, thread_id: 0
+                  method_entry: Lorg/acm/seguin/util/FileSettings;getString, obj_tag: 5, param_obj_tag: 426, thread_id: 0
+                    method_entry: Lorg/acm/seguin/util/FileSettings;isUpToDate, obj_tag: 5, thread_id: 0
+                    method_exit: Lorg/acm/seguin/util/FileSettings;isUpToDate, thread_id: 0
+                  method_exit: Lorg/acm/seguin/util/FileSettings;getString, thread_id: 0
+                  method_entry: Lorg/acm/seguin/pretty/sort/MultipleOrdering;parse, obj_tag: 419, param_obj_tag: 427, thread_id: 0
+                    method_entry: Lorg/acm/seguin/pretty/sort/TypeOrder;<init>, obj_tag: 428, param_obj_tag: 429, thread_id: 0
+                      method_entry: Lorg/acm/seguin/pretty/sort/Ordering;<init>, obj_tag: 428, thread_id: 0
+                      method_exit: Lorg/acm/seguin/pretty/sort/Ordering;<init>, thread_id: 0
+                    method_exit: Lorg/acm/seguin/pretty/sort/TypeOrder;<init>, thread_id: 0
+                  method_exit: Lorg/acm/seguin/pretty/sort/MultipleOrdering;parse, thread_id: 0
+                  method_entry: Lorg/acm/seguin/util/FileSettings;getString, obj_tag: 5, param_obj_tag: 430, thread_id: 0
+                    method_entry: Lorg/acm/seguin/util/FileSettings;isUpToDate, obj_tag: 5, thread_id: 0
+                    method_exit: Lorg/acm/seguin/util/FileSettings;isUpToDate, thread_id: 0
+                  method_exit: Lorg/acm/seguin/util/FileSettings;getString, thread_id: 0
+                  method_entry: Lorg/acm/seguin/pretty/sort/MultipleOrdering;parse, obj_tag: 419, param_obj_tag: 431, thread_id: 0
+                    method_entry: Lorg/acm/seguin/pretty/sort/StaticOrder;<init>, obj_tag: 432, param_obj_tag: 433, thread_id: 0
+                      method_entry: Lorg/acm/seguin/pretty/sort/Ordering;<init>, obj_tag: 432, thread_id: 0
+                      method_exit: Lorg/acm/seguin/pretty/sort/Ordering;<init>, thread_id: 0
+                    method_exit: Lorg/acm/seguin/pretty/sort/StaticOrder;<init>, thread_id: 0
+                  method_exit: Lorg/acm/seguin/pretty/sort/MultipleOrdering;parse, thread_id: 0
+                  method_entry: Lorg/acm/seguin/util/FileSettings;getString, obj_tag: 5, param_obj_tag: 434, thread_id: 0
+                    method_entry: Lorg/acm/seguin/util/FileSettings;isUpToDate, obj_tag: 5, thread_id: 0
+                    method_exit: Lorg/acm/seguin/util/FileSettings;isUpToDate, thread_id: 0
+                  method_exit: Lorg/acm/seguin/util/FileSettings;getString, thread_id: 0
+                  method_entry: Lorg/acm/seguin/pretty/sort/MultipleOrdering;parse, obj_tag: 419, param_obj_tag: 435, thread_id: 0
+                    method_entry: Lorg/acm/seguin/pretty/sort/ProtectionOrder;<init>, obj_tag: 436, param_obj_tag: 437, thread_id: 0
+                      method_entry: Lorg/acm/seguin/pretty/sort/Ordering;<init>, obj_tag: 436, thread_id: 0
+                      method_exit: Lorg/acm/seguin/pretty/sort/Ordering;<init>, thread_id: 0
+                    method_exit: Lorg/acm/seguin/pretty/sort/ProtectionOrder;<init>, thread_id: 0
+                  method_exit: Lorg/acm/seguin/pretty/sort/MultipleOrdering;parse, thread_id: 0
+                  method_entry: Lorg/acm/seguin/util/FileSettings;getString, obj_tag: 5, param_obj_tag: 438, thread_id: 0
+                    method_entry: Lorg/acm/seguin/util/FileSettings;isUpToDate, obj_tag: 5, thread_id: 0
+                    method_exit: Lorg/acm/seguin/util/FileSettings;isUpToDate, thread_id: 0
+                  method_exit: Lorg/acm/seguin/util/FileSettings;getString, thread_id: 0
+                  method_entry: Lorg/acm/seguin/pretty/sort/MultipleOrdering;parse, obj_tag: 419, param_obj_tag: 439, thread_id: 0
+                    method_entry: Lorg/acm/seguin/pretty/sort/SetterGetterOrder;<init>, obj_tag: 440, param_obj_tag: 441, thread_id: 0
+                      method_entry: Lorg/acm/seguin/pretty/sort/Ordering;<init>, obj_tag: 440, thread_id: 0
+                      method_exit: Lorg/acm/seguin/pretty/sort/Ordering;<init>, thread_id: 0
+                      method_entry: Lorg/acm/seguin/pretty/sort/SetterGetterOrder;getCode, obj_tag: 440, param_obj_tag: 442, thread_id: 0
+                      method_exit: Lorg/acm/seguin/pretty/sort/SetterGetterOrder;getCode, thread_id: 0
+                      method_entry: Lorg/acm/seguin/pretty/sort/SetterGetterOrder;getCode, obj_tag: 440, param_obj_tag: 443, thread_id: 0
+                      method_exit: Lorg/acm/seguin/pretty/sort/SetterGetterOrder;getCode, thread_id: 0
+                      method_entry: Lorg/acm/seguin/pretty/sort/SetterGetterOrder;getCode, obj_tag: 440, param_obj_tag: 444, thread_id: 0
+                      method_exit: Lorg/acm/seguin/pretty/sort/SetterGetterOrder;getCode, thread_id: 0
+                    method_exit: Lorg/acm/seguin/pretty/sort/SetterGetterOrder;<init>, thread_id: 0
+                  method_exit: Lorg/acm/seguin/pretty/sort/MultipleOrdering;parse, thread_id: 0
+                method_exit: Lorg/acm/seguin/pretty/sort/MultipleOrdering;load, thread_id: 0
+              method_exit: Lorg/acm/seguin/pretty/sort/MultipleOrdering;<init>, thread_id: 0
+              method_entry: Lorg/acm/seguin/util/FileSettings;getString, obj_tag: 5, param_obj_tag: 445, thread_id: 0
+                method_entry: Lorg/acm/seguin/util/FileSettings;isUpToDate, obj_tag: 5, thread_id: 0
+                method_exit: Lorg/acm/seguin/util/FileSettings;isUpToDate, thread_id: 0
+              method_exit: Lorg/acm/seguin/util/FileSettings;getString, thread_id: 0
+              method_entry: Lorg/acm/seguin/util/FileSettings;getBoolean, obj_tag: 5, param_obj_tag: 446, thread_id: 0
+                method_entry: Lorg/acm/seguin/util/FileSettings;getString, obj_tag: 5, param_obj_tag: 446, thread_id: 0
+                  method_entry: Lorg/acm/seguin/util/FileSettings;isUpToDate, obj_tag: 5, thread_id: 0
+                  method_exit: Lorg/acm/seguin/util/FileSettings;isUpToDate, thread_id: 0
+                method_exit: Lorg/acm/seguin/util/FileSettings;getString, thread_id: 0
+              method_exit: Lorg/acm/seguin/util/FileSettings;getBoolean, thread_id: 0
+              method_entry: Lorg/acm/seguin/util/FileSettings;getInteger, obj_tag: 5, param_obj_tag: 447, thread_id: 0
+                method_entry: Lorg/acm/seguin/util/FileSettings;getString, obj_tag: 5, param_obj_tag: 447, thread_id: 0
+                  method_entry: Lorg/acm/seguin/util/FileSettings;isUpToDate, obj_tag: 5, thread_id: 0
+                  method_exit: Lorg/acm/seguin/util/FileSettings;isUpToDate, thread_id: 0
+                method_exit: Lorg/acm/seguin/util/FileSettings;getString, thread_id: 0
+              method_exit: Lorg/acm/seguin/util/FileSettings;getInteger, thread_id: 0
+              method_entry: Lorg/acm/seguin/util/FileSettings;getBoolean, obj_tag: 5, param_obj_tag: 448, thread_id: 0
+                method_entry: Lorg/acm/seguin/util/FileSettings;getString, obj_tag: 5, param_obj_tag: 448, thread_id: 0
+                  method_entry: Lorg/acm/seguin/util/FileSettings;isUpToDate, obj_tag: 5, thread_id: 0
+                  method_exit: Lorg/acm/seguin/util/FileSettings;isUpToDate, thread_id: 0
+                method_exit: Lorg/acm/seguin/util/FileSettings;getString, thread_id: 0
+              method_exit: Lorg/acm/seguin/util/FileSettings;getBoolean, thread_id: 0
+              method_entry: Lorg/acm/seguin/util/FileSettings;getBoolean, obj_tag: 5, param_obj_tag: 449, thread_id: 0
+                method_entry: Lorg/acm/seguin/util/FileSettings;getString, obj_tag: 5, param_obj_tag: 449, thread_id: 0
+                  method_entry: Lorg/acm/seguin/util/FileSettings;isUpToDate, obj_tag: 5, thread_id: 0
+                  method_exit: Lorg/acm/seguin/util/FileSettings;isUpToDate, thread_id: 0
+                method_exit: Lorg/acm/seguin/util/FileSettings;getString, thread_id: 0
+              method_exit: Lorg/acm/seguin/util/FileSettings;getBoolean, thread_id: 0
+              method_entry: Lorg/acm/seguin/util/FileSettings;getInteger, obj_tag: 5, param_obj_tag: 450, thread_id: 0
+                method_entry: Lorg/acm/seguin/util/FileSettings;getString, obj_tag: 5, param_obj_tag: 450, thread_id: 0
+                  method_entry: Lorg/acm/seguin/util/FileSettings;isUpToDate, obj_tag: 5, thread_id: 0
+                  method_exit: Lorg/acm/seguin/util/FileSettings;isUpToDate, thread_id: 0
+                method_exit: Lorg/acm/seguin/util/FileSettings;getString, thread_id: 0
+              method_exit: Lorg/acm/seguin/util/FileSettings;getInteger, thread_id: 0
+              method_entry: Lorg/acm/seguin/util/FileSettings;getString, obj_tag: 5, param_obj_tag: 451, thread_id: 0
+                method_entry: Lorg/acm/seguin/util/FileSettings;isUpToDate, obj_tag: 5, thread_id: 0
+                method_exit: Lorg/acm/seguin/util/FileSettings;isUpToDate, thread_id: 0
+              method_exit: Lorg/acm/seguin/util/FileSettings;getString, thread_id: 0
+              method_entry: Lorg/acm/seguin/util/FileSettings;getInteger, obj_tag: 5, param_obj_tag: 452, thread_id: 0
+                method_entry: Lorg/acm/seguin/util/FileSettings;getString, obj_tag: 5, param_obj_tag: 452, thread_id: 0
+                  method_entry: Lorg/acm/seguin/util/FileSettings;isUpToDate, obj_tag: 5, thread_id: 0
+                  method_exit: Lorg/acm/seguin/util/FileSettings;isUpToDate, thread_id: 0
+                method_exit: Lorg/acm/seguin/util/FileSettings;getString, thread_id: 0
+              method_exit: Lorg/acm/seguin/util/FileSettings;getInteger, thread_id: 0
+              method_entry: Lorg/acm/seguin/util/FileSettings;getBoolean, obj_tag: 5, param_obj_tag: 453, thread_id: 0
+                method_entry: Lorg/acm/seguin/util/FileSettings;getString, obj_tag: 5, param_obj_tag: 453, thread_id: 0
+                  method_entry: Lorg/acm/seguin/util/FileSettings;isUpToDate, obj_tag: 5, thread_id: 0
+                  method_exit: Lorg/acm/seguin/util/FileSettings;isUpToDate, thread_id: 0
+                method_exit: Lorg/acm/seguin/util/FileSettings;getString, thread_id: 0
+              method_exit: Lorg/acm/seguin/util/FileSettings;getBoolean, thread_id: 0
+              method_entry: Lorg/acm/seguin/util/FileSettings;getBoolean, obj_tag: 5, param_obj_tag: 454, thread_id: 0
+                method_entry: Lorg/acm/seguin/util/FileSettings;getString, obj_tag: 5, param_obj_tag: 454, thread_id: 0
+                  method_entry: Lorg/acm/seguin/util/FileSettings;isUpToDate, obj_tag: 5, thread_id: 0
+                  method_exit: Lorg/acm/seguin/util/FileSettings;isUpToDate, thread_id: 0
+                method_exit: Lorg/acm/seguin/util/FileSettings;getString, thread_id: 0
+              method_exit: Lorg/acm/seguin/util/FileSettings;getBoolean, thread_id: 0
+              method_entry: Lorg/acm/seguin/util/FileSettings;getBoolean, obj_tag: 5, param_obj_tag: 455, thread_id: 0
+                method_entry: Lorg/acm/seguin/util/FileSettings;getString, obj_tag: 5, param_obj_tag: 455, thread_id: 0
+                  method_entry: Lorg/acm/seguin/util/FileSettings;isUpToDate, obj_tag: 5, thread_id: 0
+                  method_exit: Lorg/acm/seguin/util/FileSettings;isUpToDate, thread_id: 0
+                method_exit: Lorg/acm/seguin/util/FileSettings;getString, thread_id: 0
+              method_exit: Lorg/acm/seguin/util/FileSettings;getBoolean, thread_id: 0
+              method_entry: Lorg/acm/seguin/util/FileSettings;getBoolean, obj_tag: 5, param_obj_tag: 456, thread_id: 0
+                method_entry: Lorg/acm/seguin/util/FileSettings;getString, obj_tag: 5, param_obj_tag: 456, thread_id: 0
+                  method_entry: Lorg/acm/seguin/util/FileSettings;isUpToDate, obj_tag: 5, thread_id: 0
+                  method_exit: Lorg/acm/seguin/util/FileSettings;isUpToDate, thread_id: 0
+                method_exit: Lorg/acm/seguin/util/FileSettings;getString, thread_id: 0
+              method_exit: Lorg/acm/seguin/util/FileSettings;getBoolean, thread_id: 0
+              method_entry: Lorg/acm/seguin/util/FileSettings;getBoolean, obj_tag: 5, param_obj_tag: 457, thread_id: 0
+                method_entry: Lorg/acm/seguin/util/FileSettings;getString, obj_tag: 5, param_obj_tag: 457, thread_id: 0
+                  method_entry: Lorg/acm/seguin/util/FileSettings;isUpToDate, obj_tag: 5, thread_id: 0
+                  method_exit: Lorg/acm/seguin/util/FileSettings;isUpToDate, thread_id: 0
+                method_exit: Lorg/acm/seguin/util/FileSettings;getString, thread_id: 0
+              method_exit: Lorg/acm/seguin/util/FileSettings;getBoolean, thread_id: 0
+              method_entry: Lorg/acm/seguin/util/FileSettings;getBoolean, obj_tag: 5, param_obj_tag: 458, thread_id: 0
+                method_entry: Lorg/acm/seguin/util/FileSettings;getString, obj_tag: 5, param_obj_tag: 458, thread_id: 0
+                  method_entry: Lorg/acm/seguin/util/FileSettings;isUpToDate, obj_tag: 5, thread_id: 0
+                  method_exit: Lorg/acm/seguin/util/FileSettings;isUpToDate, thread_id: 0
+                method_exit: Lorg/acm/seguin/util/FileSettings;getString, thread_id: 0
+              method_exit: Lorg/acm/seguin/util/FileSettings;getBoolean, thread_id: 0
+            method_exit: Lorg/acm/seguin/pretty/PrintData;<init>, thread_id: 0
+          method_exit: Lorg/acm/seguin/pretty/PrettyPrintFile;getPrintData, thread_id: 0
+          method_entry: Lorg/acm/seguin/ide/cafe/CafePrettyPrinter;getLineNumber, obj_tag: 1, thread_id: 0
+          method_exit: Lorg/acm/seguin/ide/cafe/CafePrettyPrinter;getLineNumber, thread_id: 0
+          method_entry: Lorg/acm/seguin/pretty/PrintData;setOriginalLine, obj_tag: 395, thread_id: 0
+          method_exit: Lorg/acm/seguin/pretty/PrintData;setOriginalLine, thread_id: 0
+        method_exit: Lorg/acm/seguin/pretty/PrettyPrintFromIDE;getPrintData, thread_id: 0
+        method_entry: Lorg/acm/seguin/pretty/PrettyPrintVisitor;visit, obj_tag: 380, param_obj_tag: 298, param_obj_tag: 395, thread_id: 0
+          method_entry: Lorg/acm/seguin/pretty/PrintData;getTopOrder, obj_tag: 395, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;getBoolean, obj_tag: 5, param_obj_tag: 459, thread_id: 0
+              method_entry: Lorg/acm/seguin/util/FileSettings;getString, obj_tag: 5, param_obj_tag: 459, thread_id: 0
+                method_entry: Lorg/acm/seguin/util/FileSettings;isUpToDate, obj_tag: 5, thread_id: 0
+                method_exit: Lorg/acm/seguin/util/FileSettings;isUpToDate, thread_id: 0
+              method_exit: Lorg/acm/seguin/util/FileSettings;getString, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;getBoolean, thread_id: 0
+            method_entry: Lorg/acm/seguin/pretty/sort/SameOrdering;<init>, obj_tag: 460, thread_id: 0
+              method_entry: Lorg/acm/seguin/pretty/sort/Ordering;<init>, obj_tag: 460, thread_id: 0
+              method_exit: Lorg/acm/seguin/pretty/sort/Ordering;<init>, thread_id: 0
+            method_exit: Lorg/acm/seguin/pretty/sort/SameOrdering;<init>, thread_id: 0
+          method_exit: Lorg/acm/seguin/pretty/PrintData;getTopOrder, thread_id: 0
+          method_entry: Lorg/acm/seguin/parser/ast/ASTCompilationUnit;sort, obj_tag: 298, param_obj_tag: 460, thread_id: 0
+          method_exit: Lorg/acm/seguin/parser/ast/ASTCompilationUnit;sort, thread_id: 0
+          method_entry: Lorg/acm/seguin/pretty/PrettyPrintVisitor;loadHeader, obj_tag: 380, param_obj_tag: 298, param_obj_tag: 395, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;getSettings, param_obj_tag: 3, param_obj_tag: 4, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;getSettings, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;getString, obj_tag: 5, param_obj_tag: 461, thread_id: 0
+              method_entry: Lorg/acm/seguin/util/FileSettings;isUpToDate, obj_tag: 5, thread_id: 0
+              method_exit: Lorg/acm/seguin/util/FileSettings;isUpToDate, thread_id: 0
+              method_entry: Lorg/acm/seguin/util/SettingNotFoundException;<init>, obj_tag: 462, param_obj_tag: 3, param_obj_tag: 4, param_obj_tag: 461, thread_id: 0
+                method_entry: Lorg/acm/seguin/util/MissingSettingsException;<init>, obj_tag: 462, param_obj_tag: 3, param_obj_tag: 4, thread_id: 0
+                method_exit: Lorg/acm/seguin/util/MissingSettingsException;<init>, thread_id: 0
+              method_exit: Lorg/acm/seguin/util/SettingNotFoundException;<init>, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;getString, thread_id: 0
+          method_exit: Lorg/acm/seguin/pretty/PrettyPrintVisitor;loadHeader, thread_id: 0
+          method_entry: Lorg/acm/seguin/parser/ast/SimpleNode;childrenAccept, obj_tag: 298, param_obj_tag: 380, param_obj_tag: 395, thread_id: 0
+          method_exit: Lorg/acm/seguin/parser/ast/SimpleNode;childrenAccept, thread_id: 0
+          method_entry: Lorg/acm/seguin/pretty/PrettyPrintVisitor;loadFooter, obj_tag: 380, param_obj_tag: 395, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;getSettings, param_obj_tag: 3, param_obj_tag: 4, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;getSettings, thread_id: 0
+            method_entry: Lorg/acm/seguin/util/FileSettings;getString, obj_tag: 5, param_obj_tag: 463, thread_id: 0
+              method_entry: Lorg/acm/seguin/util/FileSettings;isUpToDate, obj_tag: 5, thread_id: 0
+              method_exit: Lorg/acm/seguin/util/FileSettings;isUpToDate, thread_id: 0
+              method_entry: Lorg/acm/seguin/util/SettingNotFoundException;<init>, obj_tag: 464, param_obj_tag: 3, param_obj_tag: 4, param_obj_tag: 463, thread_id: 0
+                method_entry: Lorg/acm/seguin/util/MissingSettingsException;<init>, obj_tag: 464, param_obj_tag: 3, param_obj_tag: 4, thread_id: 0
+                method_exit: Lorg/acm/seguin/util/MissingSettingsException;<init>, thread_id: 0
+              method_exit: Lorg/acm/seguin/util/SettingNotFoundException;<init>, thread_id: 0
+            method_exit: Lorg/acm/seguin/util/FileSettings;getString, thread_id: 0
+          method_exit: Lorg/acm/seguin/pretty/PrettyPrintVisitor;loadFooter, thread_id: 0
+          method_entry: Lorg/acm/seguin/parser/ast/SimpleNode;getSpecial, obj_tag: 298, param_obj_tag: 300, thread_id: 0
+          method_exit: Lorg/acm/seguin/parser/ast/SimpleNode;getSpecial, thread_id: 0
+          method_entry: Lorg/acm/seguin/pretty/SpecialTokenData;<init>, obj_tag: 465, param_obj_tag: 466, param_obj_tag: 395, thread_id: 0
+            method_entry: Lorg/acm/seguin/pretty/SpecialTokenData;<init>, obj_tag: 465, param_obj_tag: 467, param_obj_tag: 395, thread_id: 0
+              method_entry: Lorg/acm/seguin/pretty/SpecialTokenData;beginning, obj_tag: 465, param_obj_tag: 468, thread_id: 0
+              method_exit: Lorg/acm/seguin/pretty/SpecialTokenData;beginning, thread_id: 0
+              method_entry: Lorg/acm/seguin/pretty/PrintData;isReformatComments, obj_tag: 395, thread_id: 0
+              method_exit: Lorg/acm/seguin/pretty/PrintData;isReformatComments, thread_id: 0
+            method_exit: Lorg/acm/seguin/pretty/SpecialTokenData;<init>, thread_id: 0
+          method_exit: Lorg/acm/seguin/pretty/SpecialTokenData;<init>, thread_id: 0
+          method_entry: Lorg/acm/seguin/parser/ast/ASTCompilationUnit;jjtAccept, obj_tag: 298, param_obj_tag: 381, param_obj_tag: 465, thread_id: 0
+            method_entry: Lorg/acm/seguin/pretty/SpecialTokenVisitor;visit, obj_tag: 381, param_obj_tag: 298, param_obj_tag: 465, thread_id: 0
+              method_entry: Lorg/acm/seguin/pretty/SpecialTokenVisitor;processSpecialToken, obj_tag: 381, param_obj_tag: 298, param_obj_tag: 465, thread_id: 0
+                method_entry: Lorg/acm/seguin/pretty/SpecialTokenData;getPrintData, obj_tag: 465, thread_id: 0
+                method_exit: Lorg/acm/seguin/pretty/SpecialTokenData;getPrintData, thread_id: 0
+                method_entry: Lorg/acm/seguin/pretty/PrintData;isLineIndented, obj_tag: 395, thread_id: 0
+                  method_entry: Lorg/acm/seguin/pretty/PrintData;isBufferEmpty, obj_tag: 395, thread_id: 0
+                  method_exit: Lorg/acm/seguin/pretty/PrintData;isBufferEmpty, thread_id: 0
+                method_exit: Lorg/acm/seguin/pretty/PrintData;isLineIndented, thread_id: 0
+                method_entry: Lorg/acm/seguin/pretty/SpecialTokenData;getSpecialToken, obj_tag: 465, thread_id: 0
+                method_exit: Lorg/acm/seguin/pretty/SpecialTokenData;getSpecialToken, thread_id: 0
+              method_exit: Lorg/acm/seguin/pretty/SpecialTokenVisitor;processSpecialToken, thread_id: 0
+            method_exit: Lorg/acm/seguin/pretty/SpecialTokenVisitor;visit, thread_id: 0
+          method_exit: Lorg/acm/seguin/parser/ast/ASTCompilationUnit;jjtAccept, thread_id: 0
+          method_entry: Lorg/acm/seguin/pretty/PrintData;flush, obj_tag: 395, thread_id: 0
+            method_entry: Lorg/acm/seguin/pretty/LineQueue;flush, obj_tag: 398, thread_id: 0
+            method_exit: Lorg/acm/seguin/pretty/LineQueue;flush, thread_id: 0
+          method_exit: Lorg/acm/seguin/pretty/PrintData;flush, thread_id: 0
+        method_exit: Lorg/acm/seguin/pretty/PrettyPrintVisitor;visit, thread_id: 0
+        method_entry: Lorg/acm/seguin/pretty/PrintData;close, obj_tag: 395, thread_id: 0
+          method_entry: Lorg/acm/seguin/pretty/PrintData;flush, obj_tag: 395, thread_id: 0
+            method_entry: Lorg/acm/seguin/pretty/LineQueue;flush, obj_tag: 398, thread_id: 0
+            method_exit: Lorg/acm/seguin/pretty/LineQueue;flush, thread_id: 0
+          method_exit: Lorg/acm/seguin/pretty/PrintData;flush, thread_id: 0
+          method_entry: Lorg/acm/seguin/pretty/LineQueue;getOutput, obj_tag: 398, thread_id: 0
+          method_exit: Lorg/acm/seguin/pretty/LineQueue;getOutput, thread_id: 0
+        method_exit: Lorg/acm/seguin/pretty/PrintData;close, thread_id: 0
+      method_exit: Lorg/acm/seguin/pretty/PrettyPrintFile;apply, thread_id: 0
+    method_exit: Lorg/acm/seguin/pretty/PrettyPrintFile;apply, thread_id: 0
+    method_entry: Lorg/acm/seguin/pretty/PrettyPrintString;getOutputBuffer, obj_tag: 1, thread_id: 0
+    method_exit: Lorg/acm/seguin/pretty/PrettyPrintString;getOutputBuffer, thread_id: 0
+    method_entry: Lorg/acm/seguin/pretty/PrettyPrintFromIDE;displayErrorMessage, obj_tag: 1, thread_id: 0
+    method_exit: Lorg/acm/seguin/pretty/PrettyPrintFromIDE;displayErrorMessage, thread_id: 0
+    method_entry: Lorg/acm/seguin/pretty/PrettyPrintString;resetOutputBuffer, obj_tag: 1, thread_id: 0
+    method_exit: Lorg/acm/seguin/pretty/PrettyPrintString;resetOutputBuffer, thread_id: 0
+  method_exit: Lorg/acm/seguin/pretty/PrettyPrintFromIDE;prettyPrintCurrentWindow, thread_id: 0
+method_exit: Ltest/auto/TemplateMethod_PrettyPrintFromIDE_3;main, thread_id: 0

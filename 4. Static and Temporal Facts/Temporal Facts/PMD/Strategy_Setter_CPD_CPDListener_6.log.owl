@@ -1,0 +1,1217 @@
+<?xml version="1.0"?>
+<!DOCTYPE rdf:RDF [
+  <!ENTITY this 'http://anonymous.authors/ontologies/2017/11/Java.DesignPattern#'>
+  <!ENTITY owl 'http://www.w3.org/2002/07/owl#'>
+  <!ENTITY bh 'http://anonymous.authors/ontologies/2017/8/Behavior#'>
+  <!ENTITY xsd 'http://www.w3.org/2001/XMLSchema#'>
+  <!ENTITY rdfs 'http://www.w3.org/2000/01/rdf-schema#'>
+  <!ENTITY ptn 'http://anonymous.authors/ontologies/2017/10/Pattern#'>
+  <!ENTITY mgd 'http://anonymous.authors/ontologies/2017/12/Merged#'>
+  <!ENTITY jbh 'http://anonymous.authors/ontologies/2017/8/Java.Behavior#'>
+  <!ENTITY java 'http://anonymous.authors/ontologies/2017/6/Java#'>
+  <!ENTITY t 'http://anonymous.authors/ontologies/2018/10/Time#'>
+  <!ENTITY rdf 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+  <!ENTITY sbh 'http://anonymous.authors/ontologies/2018/4/StaticBehavior'>
+  <!ENTITY jd 'http://anonymous.authors/ontologies/2017/11/Java.DesignPattern#'>
+  <!ENTITY jsbh 'http://anonymous.authors/ontologies/2018/4/Java.StaticBehavior#'>
+  <!ENTITY base 'http://anonymous.authors/ontologies/2017/12/Merged#'>]>
+<rdf:RDF
+    xmlns:rdf="&rdf;"
+    xmlns:jbh="&jbh;"
+    xmlns:rdfs="&rdfs;"
+    xmlns:java="&java;"
+    xmlns:sbh="http://anonymous.authors/ontologies/2018/4/StaticBehavior"
+    xmlns:t="&t;"
+    xmlns:owl="&owl;"
+    xmlns:jd="&jd;"
+    xmlns:ptn="&ptn;"
+    xmlns:bh="&bh;"
+    xmlns:base="&base;"
+    xmlns:jsbh="&jsbh;"
+    xmlns:xsd="&xsd;">
+  <jbh:MethodCall rdf:about="&jbh;mc102">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">37</jbh:paramObjTag>
+    <jbh:methodCalled>
+      <java:Method rdf:about="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.cpd.GridBagHelper.!init">
+        <jbh:isInit rdf:datatype="&xsd;boolean">true</jbh:isInit>
+      </java:Method>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">103</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc101">
+        <jbh:methodCalled>
+          <java:Method rdf:about="&java;net.sourceforge.pmd.cpd.GUI.makeProgressPanel"/>
+        </jbh:methodCalled>
+        <t:endsAt rdf:datatype="&xsd;integer">136</t:endsAt>
+        <bh:originEvent>
+          <jbh:MethodCall rdf:about="&jbh;mc2">
+            <jbh:methodCalled>
+              <java:Method rdf:about="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.cpd.GUI.!init">
+                <jbh:isInit rdf:datatype="&xsd;boolean">true</jbh:isInit>
+              </java:Method>
+            </jbh:methodCalled>
+            <t:endsAt rdf:datatype="&xsd;integer">139</t:endsAt>
+            <bh:originEvent>
+              <jbh:MethodCall rdf:about="&jbh;mc1">
+                <jbh:methodCalled>
+                  <java:Method rdf:about="&java;test.auto.Strategy_Setter_CPD_CPDListener_6.main"/>
+                </jbh:methodCalled>
+                <t:endsAt rdf:datatype="&xsd;integer">208</t:endsAt>
+                <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+                <t:startsAt rdf:datatype="&xsd;integer">1</t:startsAt>
+              </jbh:MethodCall>
+            </bh:originEvent>
+            <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+            <jbh:methodCaller rdf:resource="&java;test.auto.Strategy_Setter_CPD_CPDListener_6.main"/>
+            <jbh:objTag rdf:datatype="&xsd;integer">1</jbh:objTag>
+            <t:startsAt rdf:datatype="&xsd;integer">2</t:startsAt>
+          </jbh:MethodCall>
+        </bh:originEvent>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.cpd.GUI.!init"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">1</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">101</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.cpd.GUI.makeProgressPanel"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">36</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">102</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:FieldModi rdf:about="&jbh;fldModi11">
+    <jbh:fieldVisitMethod>
+      <java:Method rdf:about="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.cpd.GUI$SaveListener.!init">
+        <jbh:isInit rdf:datatype="&xsd;boolean">true</jbh:isInit>
+      </java:Method>
+    </jbh:fieldVisitMethod>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">1</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">14</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">12</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">1</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">11</t:startsAt>
+    <jbh:visitedField>
+      <java:Field rdf:about="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.cpd.GUI$SaveListener.this$0">
+        <java:fieldTypeIs>
+          <java:Class rdf:about="&java;net.sourceforge.pmd.cpd.GUI"/>
+        </java:fieldTypeIs>
+      </java:Field>
+    </jbh:visitedField>
+  </jbh:FieldModi>
+  <jbh:MethodCall rdf:about="&jbh;mc126">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">46</jbh:paramObjTag>
+    <jbh:methodCalled>
+      <java:Method rdf:about="&java;net.sourceforge.pmd.cpd.GridBagHelper.add"/>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">127</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc125">
+        <jbh:paramObjTag rdf:datatype="&xsd;integer">46</jbh:paramObjTag>
+        <jbh:methodCalled rdf:resource="&java;net.sourceforge.pmd.cpd.GridBagHelper.add"/>
+        <t:endsAt rdf:datatype="&xsd;integer">128</t:endsAt>
+        <bh:originEvent>
+          <jbh:MethodCall rdf:about="&jbh;mc124">
+            <jbh:paramObjTag rdf:datatype="&xsd;integer">45</jbh:paramObjTag>
+            <jbh:methodCalled>
+              <java:Method rdf:about="&java;net.sourceforge.pmd.cpd.GridBagHelper.addLabel"/>
+            </jbh:methodCalled>
+            <t:endsAt rdf:datatype="&xsd;integer">129</t:endsAt>
+            <bh:originEvent rdf:resource="&jbh;mc101"/>
+            <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+            <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.cpd.GUI.makeProgressPanel"/>
+            <jbh:objTag rdf:datatype="&xsd;integer">36</jbh:objTag>
+            <t:startsAt rdf:datatype="&xsd;integer">124</t:startsAt>
+          </jbh:MethodCall>
+        </bh:originEvent>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.cpd.GridBagHelper.addLabel"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">36</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">125</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.cpd.GridBagHelper.add"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">36</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">126</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc154">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">1</jbh:paramObjTag>
+    <jbh:methodCalled>
+      <java:Method rdf:about="&java;net.sourceforge.pmd.cpd.CPD.setCpdListener"/>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">157</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc1"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;test.auto.Strategy_Setter_CPD_CPDListener_6.main"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">48</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">154</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc166">
+    <jbh:methodCalled>
+      <java:Method rdf:about="&java;net.sourceforge.pmd.cpd.Tokens.getTokens"/>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">167</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc163">
+        <bh:originEvent>
+          <jbh:MethodCall rdf:about="&jbh;mc158">
+            <jbh:methodCalled>
+              <java:Method rdf:about="&java;net.sourceforge.pmd.cpd.CPD.go"/>
+            </jbh:methodCalled>
+            <t:endsAt rdf:datatype="&xsd;integer">207</t:endsAt>
+            <bh:originEvent rdf:resource="&jbh;mc1"/>
+            <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+            <jbh:methodCaller rdf:resource="&java;test.auto.Strategy_Setter_CPD_CPDListener_6.main"/>
+            <jbh:objTag rdf:datatype="&xsd;integer">48</jbh:objTag>
+            <t:startsAt rdf:datatype="&xsd;integer">158</t:startsAt>
+          </jbh:MethodCall>
+        </bh:originEvent>
+        <t:endsAt rdf:datatype="&xsd;integer">170</t:endsAt>
+        <jbh:paramObjTag rdf:datatype="&xsd;integer">49</jbh:paramObjTag>
+        <jbh:objTag rdf:datatype="&xsd;integer">56</jbh:objTag>
+        <jbh:methodCalled>
+          <java:Method rdf:about="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.cpd.MatchAlgorithm.!init">
+            <jbh:isInit rdf:datatype="&xsd;boolean">true</jbh:isInit>
+          </java:Method>
+        </jbh:methodCalled>
+        <jbh:paramObjTag rdf:datatype="&xsd;integer">1</jbh:paramObjTag>
+        <jbh:paramObjTag rdf:datatype="&xsd;integer">51</jbh:paramObjTag>
+        <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.cpd.CPD.go"/>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <t:startsAt rdf:datatype="&xsd;integer">163</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.cpd.MatchAlgorithm.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">51</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">166</t:startsAt>
+  </jbh:MethodCall>
+  <java:Class rdf:about="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.cpd.GUI$SaveListener">
+    <java:hasField rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.cpd.GUI$SaveListener.this$0"/>
+  </java:Class>
+  <jbh:MethodCall rdf:about="&jbh;mc60">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">31</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="&java;net.sourceforge.pmd.cpd.GridBagHelper.add"/>
+    <t:endsAt rdf:datatype="&xsd;integer">61</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc59">
+        <jbh:paramObjTag rdf:datatype="&xsd;integer">31</jbh:paramObjTag>
+        <jbh:methodCalled rdf:resource="&java;net.sourceforge.pmd.cpd.GridBagHelper.add"/>
+        <t:endsAt rdf:datatype="&xsd;integer">62</t:endsAt>
+        <bh:originEvent>
+          <jbh:MethodCall rdf:about="&jbh;mc58">
+            <jbh:paramObjTag rdf:datatype="&xsd;integer">30</jbh:paramObjTag>
+            <jbh:methodCalled rdf:resource="&java;net.sourceforge.pmd.cpd.GridBagHelper.addLabel"/>
+            <t:endsAt rdf:datatype="&xsd;integer">63</t:endsAt>
+            <bh:originEvent>
+              <jbh:MethodCall rdf:about="&jbh;mc41">
+                <t:endsAt rdf:datatype="&xsd;integer">100</t:endsAt>
+                <jbh:paramObjTag rdf:datatype="&xsd;integer">22</jbh:paramObjTag>
+                <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+                <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.cpd.GUI.!init"/>
+                <bh:originEvent rdf:resource="&jbh;mc2"/>
+                <t:startsAt rdf:datatype="&xsd;integer">41</t:startsAt>
+                <jbh:paramObjTag rdf:datatype="&xsd;integer">20</jbh:paramObjTag>
+                <jbh:objTag rdf:datatype="&xsd;integer">1</jbh:objTag>
+                <jbh:methodCalled>
+                  <java:Method rdf:about="&java;net.sourceforge.pmd.cpd.GUI.makeSettingsPanel"/>
+                </jbh:methodCalled>
+                <jbh:paramObjTag rdf:datatype="&xsd;integer">21</jbh:paramObjTag>
+              </jbh:MethodCall>
+            </bh:originEvent>
+            <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+            <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.cpd.GUI.makeSettingsPanel"/>
+            <jbh:objTag rdf:datatype="&xsd;integer">23</jbh:objTag>
+            <t:startsAt rdf:datatype="&xsd;integer">58</t:startsAt>
+          </jbh:MethodCall>
+        </bh:originEvent>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.cpd.GridBagHelper.addLabel"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">23</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">59</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.cpd.GridBagHelper.add"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">23</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">60</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:FieldModi rdf:about="&jbh;fldModi149">
+    <jbh:fieldVisitMethod>
+      <java:Method rdf:about="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.cpd.CPD.!init">
+        <jbh:isInit rdf:datatype="&xsd;boolean">true</jbh:isInit>
+      </java:Method>
+    </jbh:fieldVisitMethod>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">51</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">48</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">150</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">51</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">149</t:startsAt>
+    <jbh:visitedField>
+      <java:Field rdf:about="&java;net.sourceforge.pmd.cpd.CPD.tokens">
+        <java:fieldTypeIs>
+          <java:Class rdf:about="&java;net.sourceforge.pmd.cpd.Tokens"/>
+        </java:fieldTypeIs>
+      </java:Field>
+    </jbh:visitedField>
+  </jbh:FieldModi>
+  <jbh:MethodCall rdf:about="&jbh;mc137">
+    <jbh:methodCalled>
+      <java:Method rdf:about="&java;net.sourceforge.pmd.cpd.GUI.makeResultsPanel"/>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">138</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc2"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.cpd.GUI.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">1</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">137</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc32">
+    <jbh:methodCalled>
+      <java:Method rdf:about="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.cpd.GUI$GoListener.!init">
+        <jbh:isInit rdf:datatype="&xsd;boolean">true</jbh:isInit>
+      </java:Method>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">35</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc31">
+        <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.cpd.GUI$GoListener.!init"/>
+        <t:endsAt rdf:datatype="&xsd;integer">36</t:endsAt>
+        <bh:originEvent rdf:resource="&jbh;mc2"/>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.cpd.GUI.!init"/>
+        <t:startsAt rdf:datatype="&xsd;integer">31</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.cpd.GUI$GoListener.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">18</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">32</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc56">
+    <jbh:methodCalled>
+      <java:Method rdf:about="&java;net.sourceforge.pmd.cpd.GridBagHelper.nextRow"/>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">57</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc41"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.cpd.GUI.makeSettingsPanel"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">23</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">56</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc16">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.cpd.GUI$SaveListener.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">19</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc15">
+        <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.cpd.GUI$SaveListener.!init"/>
+        <t:endsAt rdf:datatype="&xsd;integer">20</t:endsAt>
+        <bh:originEvent rdf:resource="&jbh;mc2"/>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.cpd.GUI.!init"/>
+        <t:startsAt rdf:datatype="&xsd;integer">15</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.cpd.GUI$SaveListener.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">15</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">16</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:FieldModi rdf:about="&jbh;fldModi164">
+    <jbh:fieldVisitMethod rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.cpd.MatchAlgorithm.!init"/>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">51</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">56</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">165</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">51</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">164</t:startsAt>
+    <jbh:visitedField>
+      <java:Field rdf:about="&java;net.sourceforge.pmd.cpd.MatchAlgorithm.tokens">
+        <java:fieldTypeIs rdf:resource="&java;net.sourceforge.pmd.cpd.Tokens"/>
+      </java:Field>
+    </jbh:visitedField>
+  </jbh:FieldModi>
+  <java:Class rdf:about="&java;net.sourceforge.pmd.cpd.CPD">
+    <java:hasField>
+      <java:Field rdf:about="&java;net.sourceforge.pmd.cpd.CPD.language">
+        <java:fieldTypeIs>
+          <java:Class rdf:about="&java;net.sourceforge.pmd.cpd.Language"/>
+        </java:fieldTypeIs>
+      </java:Field>
+    </java:hasField>
+    <java:hasField>
+      <java:Field rdf:about="&java;net.sourceforge.pmd.cpd.CPD.matchAlgorithm">
+        <java:fieldTypeIs>
+          <java:Class rdf:about="&java;net.sourceforge.pmd.cpd.MatchAlgorithm">
+            <java:hasField>
+              <java:Field rdf:about="&java;net.sourceforge.pmd.cpd.MatchAlgorithm.cpdListener">
+                <java:fieldTypeIs>
+                  <java:Class rdf:about="&java;net.sourceforge.pmd.cpd.CPDListener"/>
+                </java:fieldTypeIs>
+              </java:Field>
+            </java:hasField>
+            <java:hasField rdf:resource="&java;net.sourceforge.pmd.cpd.MatchAlgorithm.tokens"/>
+          </java:Class>
+        </java:fieldTypeIs>
+      </java:Field>
+    </java:hasField>
+    <java:hasField rdf:resource="&java;net.sourceforge.pmd.cpd.CPD.tokens"/>
+    <java:hasField>
+      <java:Field rdf:about="&java;net.sourceforge.pmd.cpd.CPD.listener">
+        <java:fieldTypeIs rdf:resource="&java;net.sourceforge.pmd.cpd.CPDListener"/>
+      </java:Field>
+    </java:hasField>
+  </java:Class>
+  <jbh:FieldModi rdf:about="&jbh;fldModi17">
+    <jbh:fieldVisitMethod rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.cpd.GUI$SaveListener.!init"/>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">1</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">15</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">18</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">1</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">17</t:startsAt>
+    <jbh:visitedField rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.cpd.GUI$SaveListener.this$0"/>
+  </jbh:FieldModi>
+  <jbh:MethodCall rdf:about="&jbh;mc116">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">44</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="&java;net.sourceforge.pmd.cpd.GridBagHelper.add"/>
+    <t:endsAt rdf:datatype="&xsd;integer">117</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc115">
+        <jbh:paramObjTag rdf:datatype="&xsd;integer">44</jbh:paramObjTag>
+        <jbh:methodCalled rdf:resource="&java;net.sourceforge.pmd.cpd.GridBagHelper.add"/>
+        <t:endsAt rdf:datatype="&xsd;integer">118</t:endsAt>
+        <bh:originEvent>
+          <jbh:MethodCall rdf:about="&jbh;mc114">
+            <jbh:paramObjTag rdf:datatype="&xsd;integer">43</jbh:paramObjTag>
+            <jbh:methodCalled rdf:resource="&java;net.sourceforge.pmd.cpd.GridBagHelper.addLabel"/>
+            <t:endsAt rdf:datatype="&xsd;integer">119</t:endsAt>
+            <bh:originEvent rdf:resource="&jbh;mc101"/>
+            <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+            <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.cpd.GUI.makeProgressPanel"/>
+            <jbh:objTag rdf:datatype="&xsd;integer">36</jbh:objTag>
+            <t:startsAt rdf:datatype="&xsd;integer">114</t:startsAt>
+          </jbh:MethodCall>
+        </bh:originEvent>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.cpd.GridBagHelper.addLabel"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">36</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">115</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.cpd.GridBagHelper.add"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">36</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">116</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc91">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">21</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="&java;net.sourceforge.pmd.cpd.GridBagHelper.add"/>
+    <t:endsAt rdf:datatype="&xsd;integer">92</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc90">
+        <jbh:paramObjTag rdf:datatype="&xsd;integer">21</jbh:paramObjTag>
+        <jbh:methodCalled rdf:resource="&java;net.sourceforge.pmd.cpd.GridBagHelper.add"/>
+        <t:endsAt rdf:datatype="&xsd;integer">93</t:endsAt>
+        <bh:originEvent rdf:resource="&jbh;mc41"/>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.cpd.GUI.makeSettingsPanel"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">23</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">90</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.cpd.GridBagHelper.add"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">23</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">91</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:FieldModi rdf:about="&jbh;fldModi168">
+    <jbh:fieldVisitMethod rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.cpd.MatchAlgorithm.!init"/>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">1</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">56</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">169</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">1</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">168</t:startsAt>
+    <jbh:visitedField rdf:resource="&java;net.sourceforge.pmd.cpd.MatchAlgorithm.cpdListener"/>
+  </jbh:FieldModi>
+  <jbh:MethodCall rdf:about="&jbh;mc51">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">2</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="&java;net.sourceforge.pmd.cpd.GridBagHelper.add"/>
+    <t:endsAt rdf:datatype="&xsd;integer">52</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc50">
+        <jbh:paramObjTag rdf:datatype="&xsd;integer">2</jbh:paramObjTag>
+        <jbh:methodCalled rdf:resource="&java;net.sourceforge.pmd.cpd.GridBagHelper.add"/>
+        <t:endsAt rdf:datatype="&xsd;integer">53</t:endsAt>
+        <bh:originEvent rdf:resource="&jbh;mc41"/>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.cpd.GUI.makeSettingsPanel"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">23</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">50</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.cpd.GridBagHelper.add"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">23</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">51</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc75">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">9</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="&java;net.sourceforge.pmd.cpd.GridBagHelper.add"/>
+    <t:endsAt rdf:datatype="&xsd;integer">76</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc74">
+        <jbh:paramObjTag rdf:datatype="&xsd;integer">9</jbh:paramObjTag>
+        <jbh:methodCalled rdf:resource="&java;net.sourceforge.pmd.cpd.GridBagHelper.add"/>
+        <t:endsAt rdf:datatype="&xsd;integer">77</t:endsAt>
+        <bh:originEvent rdf:resource="&jbh;mc41"/>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.cpd.GUI.makeSettingsPanel"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">23</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">74</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.cpd.GridBagHelper.add"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">23</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">75</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:FieldModi rdf:about="&jbh;fldModi33">
+    <jbh:fieldVisitMethod rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.cpd.GUI$GoListener.!init"/>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">1</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">18</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">34</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">1</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">33</t:startsAt>
+    <jbh:visitedField>
+      <java:Field rdf:about="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.cpd.GUI$GoListener.this$0">
+        <java:fieldTypeIs rdf:resource="&java;net.sourceforge.pmd.cpd.GUI"/>
+      </java:Field>
+    </jbh:visitedField>
+  </jbh:FieldModi>
+  <jbh:MethodCall rdf:about="&jbh;mc87">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">8</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="&java;net.sourceforge.pmd.cpd.GridBagHelper.add"/>
+    <t:endsAt rdf:datatype="&xsd;integer">88</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc86">
+        <jbh:paramObjTag rdf:datatype="&xsd;integer">8</jbh:paramObjTag>
+        <jbh:methodCalled rdf:resource="&java;net.sourceforge.pmd.cpd.GridBagHelper.add"/>
+        <t:endsAt rdf:datatype="&xsd;integer">89</t:endsAt>
+        <bh:originEvent rdf:resource="&jbh;mc41"/>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.cpd.GUI.makeSettingsPanel"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">23</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">86</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.cpd.GridBagHelper.add"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">23</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">87</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc196">
+    <jbh:methodCalled>
+      <java:Method rdf:about="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.cpd.Match$MatchCode.!init">
+        <jbh:isInit rdf:datatype="&xsd;boolean">true</jbh:isInit>
+      </java:Method>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">197</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc195">
+        <jbh:paramObjTag rdf:datatype="&xsd;integer">60</jbh:paramObjTag>
+        <jbh:methodCalled>
+          <java:Method rdf:about="&java;net.sourceforge.pmd.cpd.MatchCollector.groupMatches"/>
+        </jbh:methodCalled>
+        <t:endsAt rdf:datatype="&xsd;integer">198</t:endsAt>
+        <bh:originEvent>
+          <jbh:MethodCall rdf:about="&jbh;mc194">
+            <jbh:methodCalled>
+              <java:Method rdf:about="&java;net.sourceforge.pmd.cpd.MatchCollector.getMatches"/>
+            </jbh:methodCalled>
+            <t:endsAt rdf:datatype="&xsd;integer">199</t:endsAt>
+            <bh:originEvent>
+              <jbh:MethodCall rdf:about="&jbh;mc173">
+                <jbh:methodCalled>
+                  <java:Method rdf:about="&java;net.sourceforge.pmd.cpd.MatchAlgorithm.findMatches"/>
+                </jbh:methodCalled>
+                <t:endsAt rdf:datatype="&xsd;integer">206</t:endsAt>
+                <bh:originEvent rdf:resource="&jbh;mc158"/>
+                <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+                <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.cpd.CPD.go"/>
+                <jbh:objTag rdf:datatype="&xsd;integer">56</jbh:objTag>
+                <t:startsAt rdf:datatype="&xsd;integer">173</t:startsAt>
+              </jbh:MethodCall>
+            </bh:originEvent>
+            <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+            <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.cpd.MatchAlgorithm.findMatches"/>
+            <jbh:objTag rdf:datatype="&xsd;integer">57</jbh:objTag>
+            <t:startsAt rdf:datatype="&xsd;integer">194</t:startsAt>
+          </jbh:MethodCall>
+        </bh:originEvent>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.cpd.MatchCollector.getMatches"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">57</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">195</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.cpd.MatchCollector.groupMatches"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">61</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">196</t:startsAt>
+  </jbh:MethodCall>
+  <java:Class rdf:about="&java;net.sourceforge.pmd.cpd.MatchCollector">
+    <java:hasField>
+      <java:Field rdf:about="&java;net.sourceforge.pmd.cpd.MatchCollector.ma">
+        <java:fieldTypeIs rdf:resource="&java;net.sourceforge.pmd.cpd.MatchAlgorithm"/>
+      </java:Field>
+    </java:hasField>
+  </java:Class>
+  <jbh:FieldModi rdf:about="&jbh;fldModi171">
+    <jbh:fieldVisitMethod rdf:resource="&java;net.sourceforge.pmd.cpd.CPD.go"/>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">56</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">48</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">172</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">56</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">171</t:startsAt>
+    <jbh:visitedField rdf:resource="&java;net.sourceforge.pmd.cpd.CPD.matchAlgorithm"/>
+  </jbh:FieldModi>
+  <jbh:FieldModi rdf:about="&jbh;fldModi155">
+    <jbh:fieldVisitMethod rdf:resource="&java;net.sourceforge.pmd.cpd.CPD.setCpdListener"/>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">1</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">48</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">156</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">1</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">155</t:startsAt>
+    <jbh:visitedField rdf:resource="&java;net.sourceforge.pmd.cpd.CPD.listener"/>
+  </jbh:FieldModi>
+  <jbh:MethodCall rdf:about="&jbh;mc200">
+    <jbh:methodCalled>
+      <java:Method rdf:about="&java;net.sourceforge.pmd.cpd.MatchAlgorithm.matches"/>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">201</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc173"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.cpd.MatchAlgorithm.findMatches"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">56</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">200</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc179">
+    <jbh:methodCalled>
+      <java:Method rdf:about="&java;net.sourceforge.pmd.cpd.Tokens.size"/>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">180</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc178">
+        <jbh:methodCalled>
+          <java:Method rdf:about="&java;net.sourceforge.pmd.cpd.MatchAlgorithm.hash"/>
+        </jbh:methodCalled>
+        <t:endsAt rdf:datatype="&xsd;integer">181</t:endsAt>
+        <bh:originEvent rdf:resource="&jbh;mc173"/>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.cpd.MatchAlgorithm.findMatches"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">56</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">178</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.cpd.MatchAlgorithm.hash"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">51</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">179</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc10">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.cpd.GUI$SaveListener.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">13</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc9">
+        <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.cpd.GUI$SaveListener.!init"/>
+        <t:endsAt rdf:datatype="&xsd;integer">14</t:endsAt>
+        <bh:originEvent rdf:resource="&jbh;mc2"/>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.cpd.GUI.!init"/>
+        <t:startsAt rdf:datatype="&xsd;integer">9</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.cpd.GUI$SaveListener.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">14</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">10</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc98">
+    <jbh:methodCalled rdf:resource="&java;net.sourceforge.pmd.cpd.GridBagHelper.nextRow"/>
+    <t:endsAt rdf:datatype="&xsd;integer">99</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc41"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.cpd.GUI.makeSettingsPanel"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">23</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">98</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc22">
+    <jbh:methodCalled>
+      <java:Method rdf:about="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.cpd.GUI$CancelListener.!init">
+        <jbh:isInit rdf:datatype="&xsd;boolean">true</jbh:isInit>
+      </java:Method>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">23</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc21">
+        <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.cpd.GUI$CancelListener.!init"/>
+        <t:endsAt rdf:datatype="&xsd;integer">24</t:endsAt>
+        <bh:originEvent rdf:resource="&jbh;mc2"/>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.cpd.GUI.!init"/>
+        <t:startsAt rdf:datatype="&xsd;integer">21</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.cpd.GUI$CancelListener.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">16</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">22</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc131">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">4</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="&java;net.sourceforge.pmd.cpd.GridBagHelper.add"/>
+    <t:endsAt rdf:datatype="&xsd;integer">132</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc130">
+        <jbh:paramObjTag rdf:datatype="&xsd;integer">4</jbh:paramObjTag>
+        <jbh:methodCalled rdf:resource="&java;net.sourceforge.pmd.cpd.GridBagHelper.add"/>
+        <t:endsAt rdf:datatype="&xsd;integer">133</t:endsAt>
+        <bh:originEvent rdf:resource="&jbh;mc101"/>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.cpd.GUI.makeProgressPanel"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">36</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">130</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.cpd.GridBagHelper.add"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">36</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">131</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc46">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">29</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="&java;net.sourceforge.pmd.cpd.GridBagHelper.add"/>
+    <t:endsAt rdf:datatype="&xsd;integer">47</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc45">
+        <jbh:paramObjTag rdf:datatype="&xsd;integer">29</jbh:paramObjTag>
+        <jbh:methodCalled rdf:resource="&java;net.sourceforge.pmd.cpd.GridBagHelper.add"/>
+        <t:endsAt rdf:datatype="&xsd;integer">48</t:endsAt>
+        <bh:originEvent>
+          <jbh:MethodCall rdf:about="&jbh;mc44">
+            <jbh:paramObjTag rdf:datatype="&xsd;integer">28</jbh:paramObjTag>
+            <jbh:methodCalled rdf:resource="&java;net.sourceforge.pmd.cpd.GridBagHelper.addLabel"/>
+            <t:endsAt rdf:datatype="&xsd;integer">49</t:endsAt>
+            <bh:originEvent rdf:resource="&jbh;mc41"/>
+            <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+            <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.cpd.GUI.makeSettingsPanel"/>
+            <jbh:objTag rdf:datatype="&xsd;integer">23</jbh:objTag>
+            <t:startsAt rdf:datatype="&xsd;integer">44</t:startsAt>
+          </jbh:MethodCall>
+        </bh:originEvent>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.cpd.GridBagHelper.addLabel"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">23</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">45</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.cpd.GridBagHelper.add"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">23</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">46</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc143">
+    <jbh:methodCalled>
+      <java:Method rdf:about="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.cpd.CPDNullListener.!init">
+        <jbh:isInit rdf:datatype="&xsd;boolean">true</jbh:isInit>
+      </java:Method>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">144</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc142">
+        <jbh:paramObjTag rdf:datatype="&xsd;integer">47</jbh:paramObjTag>
+        <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.cpd.CPD.!init"/>
+        <t:endsAt rdf:datatype="&xsd;integer">153</t:endsAt>
+        <bh:originEvent rdf:resource="&jbh;mc1"/>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;test.auto.Strategy_Setter_CPD_CPDListener_6.main"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">48</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">142</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.cpd.CPD.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">50</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">143</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc183">
+    <jbh:methodCalled>
+      <java:Method rdf:about="&java;net.sourceforge.pmd.cpd.GUI.getPhaseText"/>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">184</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc182">
+        <jbh:methodCalled>
+          <java:Method rdf:about="&java;net.sourceforge.pmd.cpd.GUI.phaseUpdate"/>
+        </jbh:methodCalled>
+        <t:endsAt rdf:datatype="&xsd;integer">185</t:endsAt>
+        <bh:originEvent rdf:resource="&jbh;mc173"/>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.cpd.MatchAlgorithm.findMatches"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">1</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">182</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.cpd.GUI.phaseUpdate"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">1</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">183</t:startsAt>
+  </jbh:MethodCall>
+  <java:Class rdf:about="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.cpd.GUI$BrowseListener">
+    <java:hasField>
+      <java:Field rdf:about="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.cpd.GUI$BrowseListener.this$0">
+        <java:fieldTypeIs rdf:resource="&java;net.sourceforge.pmd.cpd.GUI"/>
+      </java:Field>
+    </java:hasField>
+  </java:Class>
+  <java:Class rdf:about="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.cpd.GUI$GoListener">
+    <java:hasField rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.cpd.GUI$GoListener.this$0"/>
+  </java:Class>
+  <jbh:MethodCall rdf:about="&jbh;mc106">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">42</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="&java;net.sourceforge.pmd.cpd.GridBagHelper.add"/>
+    <t:endsAt rdf:datatype="&xsd;integer">107</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc105">
+        <jbh:paramObjTag rdf:datatype="&xsd;integer">42</jbh:paramObjTag>
+        <jbh:methodCalled rdf:resource="&java;net.sourceforge.pmd.cpd.GridBagHelper.add"/>
+        <t:endsAt rdf:datatype="&xsd;integer">108</t:endsAt>
+        <bh:originEvent>
+          <jbh:MethodCall rdf:about="&jbh;mc104">
+            <jbh:paramObjTag rdf:datatype="&xsd;integer">41</jbh:paramObjTag>
+            <jbh:methodCalled rdf:resource="&java;net.sourceforge.pmd.cpd.GridBagHelper.addLabel"/>
+            <t:endsAt rdf:datatype="&xsd;integer">109</t:endsAt>
+            <bh:originEvent rdf:resource="&jbh;mc101"/>
+            <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+            <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.cpd.GUI.makeProgressPanel"/>
+            <jbh:objTag rdf:datatype="&xsd;integer">36</jbh:objTag>
+            <t:startsAt rdf:datatype="&xsd;integer">104</t:startsAt>
+          </jbh:MethodCall>
+        </bh:originEvent>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.cpd.GridBagHelper.addLabel"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">36</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">105</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.cpd.GridBagHelper.add"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">36</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">106</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:FieldModi rdf:about="&jbh;fldModi27">
+    <jbh:fieldVisitMethod>
+      <java:Method rdf:about="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.cpd.GUI$BrowseListener.!init">
+        <jbh:isInit rdf:datatype="&xsd;boolean">true</jbh:isInit>
+      </java:Method>
+    </jbh:fieldVisitMethod>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">1</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">17</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">28</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">1</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">27</t:startsAt>
+    <jbh:visitedField rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.cpd.GUI$BrowseListener.this$0"/>
+  </jbh:FieldModi>
+  <jbh:MethodCall rdf:about="&jbh;mc134">
+    <jbh:methodCalled rdf:resource="&java;net.sourceforge.pmd.cpd.GridBagHelper.nextRow"/>
+    <t:endsAt rdf:datatype="&xsd;integer">135</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc101"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.cpd.GUI.makeProgressPanel"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">36</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">134</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc203">
+    <jbh:methodCalled rdf:resource="&java;net.sourceforge.pmd.cpd.GUI.getPhaseText"/>
+    <t:endsAt rdf:datatype="&xsd;integer">204</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc202">
+        <jbh:methodCalled rdf:resource="&java;net.sourceforge.pmd.cpd.GUI.phaseUpdate"/>
+        <t:endsAt rdf:datatype="&xsd;integer">205</t:endsAt>
+        <bh:originEvent rdf:resource="&jbh;mc173"/>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.cpd.MatchAlgorithm.findMatches"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">1</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">202</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.cpd.GUI.phaseUpdate"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">1</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">203</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc65">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">3</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="&java;net.sourceforge.pmd.cpd.GridBagHelper.add"/>
+    <t:endsAt rdf:datatype="&xsd;integer">66</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc64">
+        <jbh:paramObjTag rdf:datatype="&xsd;integer">3</jbh:paramObjTag>
+        <jbh:methodCalled rdf:resource="&java;net.sourceforge.pmd.cpd.GridBagHelper.add"/>
+        <t:endsAt rdf:datatype="&xsd;integer">67</t:endsAt>
+        <bh:originEvent rdf:resource="&jbh;mc41"/>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.cpd.GUI.makeSettingsPanel"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">23</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">64</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.cpd.GridBagHelper.add"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">23</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">65</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc186">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">56</jbh:paramObjTag>
+    <jbh:methodCalled>
+      <java:Method rdf:about="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.cpd.MatchCollector.!init">
+        <jbh:isInit rdf:datatype="&xsd;boolean">true</jbh:isInit>
+      </java:Method>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">189</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc173"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.cpd.MatchAlgorithm.findMatches"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">57</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">186</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc110">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">6</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="&java;net.sourceforge.pmd.cpd.GridBagHelper.add"/>
+    <t:endsAt rdf:datatype="&xsd;integer">111</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc101"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.cpd.GUI.makeProgressPanel"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">36</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">110</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:FieldModi rdf:about="&jbh;fldModi145">
+    <jbh:fieldVisitMethod rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.cpd.CPD.!init"/>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">50</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">48</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">146</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">50</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">145</t:startsAt>
+    <jbh:visitedField rdf:resource="&java;net.sourceforge.pmd.cpd.CPD.listener"/>
+  </jbh:FieldModi>
+  <jbh:MethodCall rdf:about="&jbh;mc4">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.cpd.GUI$SaveListener.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">7</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc3">
+        <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.cpd.GUI$SaveListener.!init"/>
+        <t:endsAt rdf:datatype="&xsd;integer">8</t:endsAt>
+        <bh:originEvent rdf:resource="&jbh;mc2"/>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.cpd.GUI.!init"/>
+        <t:startsAt rdf:datatype="&xsd;integer">3</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.cpd.GUI$SaveListener.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">13</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">4</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc121">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">5</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="&java;net.sourceforge.pmd.cpd.GridBagHelper.add"/>
+    <t:endsAt rdf:datatype="&xsd;integer">122</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc120">
+        <jbh:paramObjTag rdf:datatype="&xsd;integer">5</jbh:paramObjTag>
+        <jbh:methodCalled rdf:resource="&java;net.sourceforge.pmd.cpd.GridBagHelper.add"/>
+        <t:endsAt rdf:datatype="&xsd;integer">123</t:endsAt>
+        <bh:originEvent rdf:resource="&jbh;mc101"/>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.cpd.GUI.makeProgressPanel"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">36</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">120</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.cpd.GridBagHelper.add"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">36</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">121</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc161">
+    <jbh:methodCalled>
+      <java:Method rdf:about="&java;net.sourceforge.pmd.cpd.TokenEntry.clearImages"/>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">162</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc158"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.cpd.CPD.go"/>
+    <t:startsAt rdf:datatype="&xsd;integer">161</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc112">
+    <jbh:methodCalled rdf:resource="&java;net.sourceforge.pmd.cpd.GridBagHelper.nextRow"/>
+    <t:endsAt rdf:datatype="&xsd;integer">113</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc101"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.cpd.GUI.makeProgressPanel"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">36</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">112</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc95">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">22</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="&java;net.sourceforge.pmd.cpd.GridBagHelper.add"/>
+    <t:endsAt rdf:datatype="&xsd;integer">96</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc94">
+        <jbh:paramObjTag rdf:datatype="&xsd;integer">22</jbh:paramObjTag>
+        <jbh:methodCalled rdf:resource="&java;net.sourceforge.pmd.cpd.GridBagHelper.add"/>
+        <t:endsAt rdf:datatype="&xsd;integer">97</t:endsAt>
+        <bh:originEvent rdf:resource="&jbh;mc41"/>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.cpd.GUI.makeSettingsPanel"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">23</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">94</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.cpd.GridBagHelper.add"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">23</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">95</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc140">
+    <jbh:methodCalled>
+      <java:Method rdf:about="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.cpd.CPPLanguage.!init">
+        <jbh:isInit rdf:datatype="&xsd;boolean">true</jbh:isInit>
+      </java:Method>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">141</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc1"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;test.auto.Strategy_Setter_CPD_CPDListener_6.main"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">47</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">140</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc191">
+    <jbh:methodCalled rdf:resource="&java;net.sourceforge.pmd.cpd.GUI.getPhaseText"/>
+    <t:endsAt rdf:datatype="&xsd;integer">192</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc190">
+        <jbh:methodCalled rdf:resource="&java;net.sourceforge.pmd.cpd.GUI.phaseUpdate"/>
+        <t:endsAt rdf:datatype="&xsd;integer">193</t:endsAt>
+        <bh:originEvent rdf:resource="&jbh;mc173"/>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.cpd.MatchAlgorithm.findMatches"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">1</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">190</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.cpd.GUI.phaseUpdate"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">1</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">191</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:FieldModi rdf:about="&jbh;fldModi151">
+    <jbh:fieldVisitMethod rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.cpd.CPD.!init"/>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">47</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">48</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">152</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">47</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">151</t:startsAt>
+    <jbh:visitedField rdf:resource="&java;net.sourceforge.pmd.cpd.CPD.language"/>
+  </jbh:FieldModi>
+  <jbh:FieldModi rdf:about="&jbh;fldModi187">
+    <jbh:fieldVisitMethod rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.cpd.MatchCollector.!init"/>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">56</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">57</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">188</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">56</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">187</t:startsAt>
+    <jbh:visitedField rdf:resource="&java;net.sourceforge.pmd.cpd.MatchCollector.ma"/>
+  </jbh:FieldModi>
+  <jbh:MethodCall rdf:about="&jbh;mc70">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">33</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="&java;net.sourceforge.pmd.cpd.GridBagHelper.add"/>
+    <t:endsAt rdf:datatype="&xsd;integer">71</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc69">
+        <jbh:paramObjTag rdf:datatype="&xsd;integer">33</jbh:paramObjTag>
+        <jbh:methodCalled rdf:resource="&java;net.sourceforge.pmd.cpd.GridBagHelper.add"/>
+        <t:endsAt rdf:datatype="&xsd;integer">72</t:endsAt>
+        <bh:originEvent>
+          <jbh:MethodCall rdf:about="&jbh;mc68">
+            <jbh:paramObjTag rdf:datatype="&xsd;integer">32</jbh:paramObjTag>
+            <jbh:methodCalled rdf:resource="&java;net.sourceforge.pmd.cpd.GridBagHelper.addLabel"/>
+            <t:endsAt rdf:datatype="&xsd;integer">73</t:endsAt>
+            <bh:originEvent rdf:resource="&jbh;mc41"/>
+            <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+            <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.cpd.GUI.makeSettingsPanel"/>
+            <jbh:objTag rdf:datatype="&xsd;integer">23</jbh:objTag>
+            <t:startsAt rdf:datatype="&xsd;integer">68</t:startsAt>
+          </jbh:MethodCall>
+        </bh:originEvent>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.cpd.GridBagHelper.addLabel"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">23</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">69</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.cpd.GridBagHelper.add"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">23</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">70</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc82">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">35</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="&java;net.sourceforge.pmd.cpd.GridBagHelper.add"/>
+    <t:endsAt rdf:datatype="&xsd;integer">83</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc81">
+        <jbh:paramObjTag rdf:datatype="&xsd;integer">35</jbh:paramObjTag>
+        <jbh:methodCalled rdf:resource="&java;net.sourceforge.pmd.cpd.GridBagHelper.add"/>
+        <t:endsAt rdf:datatype="&xsd;integer">84</t:endsAt>
+        <bh:originEvent>
+          <jbh:MethodCall rdf:about="&jbh;mc80">
+            <jbh:paramObjTag rdf:datatype="&xsd;integer">34</jbh:paramObjTag>
+            <jbh:methodCalled rdf:resource="&java;net.sourceforge.pmd.cpd.GridBagHelper.addLabel"/>
+            <t:endsAt rdf:datatype="&xsd;integer">85</t:endsAt>
+            <bh:originEvent rdf:resource="&jbh;mc41"/>
+            <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+            <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.cpd.GUI.makeSettingsPanel"/>
+            <jbh:objTag rdf:datatype="&xsd;integer">23</jbh:objTag>
+            <t:startsAt rdf:datatype="&xsd;integer">80</t:startsAt>
+          </jbh:MethodCall>
+        </bh:originEvent>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.cpd.GridBagHelper.addLabel"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">23</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">81</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.cpd.GridBagHelper.add"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">23</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">82</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc42">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">24</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.cpd.GridBagHelper.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">43</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc41"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.cpd.GUI.makeSettingsPanel"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">23</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">42</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc147">
+    <jbh:methodCalled>
+      <java:Method rdf:about="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.cpd.Tokens.!init">
+        <jbh:isInit rdf:datatype="&xsd;boolean">true</jbh:isInit>
+      </java:Method>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">148</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc142"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.cpd.CPD.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">51</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">147</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc54">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">20</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="&java;net.sourceforge.pmd.cpd.GridBagHelper.add"/>
+    <t:endsAt rdf:datatype="&xsd;integer">55</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc41"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.cpd.GUI.makeSettingsPanel"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">23</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">54</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc159">
+    <jbh:methodCalled>
+      <java:Method rdf:about="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.cpd.TokenEntry.!init">
+        <jbh:isInit rdf:datatype="&xsd;boolean">true</jbh:isInit>
+      </java:Method>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">160</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc158"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.cpd.CPD.go"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">53</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">159</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc78">
+    <jbh:methodCalled rdf:resource="&java;net.sourceforge.pmd.cpd.GridBagHelper.nextRow"/>
+    <t:endsAt rdf:datatype="&xsd;integer">79</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc41"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.cpd.GUI.makeSettingsPanel"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">23</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">78</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc175">
+    <jbh:methodCalled rdf:resource="&java;net.sourceforge.pmd.cpd.GUI.getPhaseText"/>
+    <t:endsAt rdf:datatype="&xsd;integer">176</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc174">
+        <jbh:methodCalled rdf:resource="&java;net.sourceforge.pmd.cpd.GUI.phaseUpdate"/>
+        <t:endsAt rdf:datatype="&xsd;integer">177</t:endsAt>
+        <bh:originEvent rdf:resource="&jbh;mc173"/>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.cpd.MatchAlgorithm.findMatches"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">1</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">174</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;net.sourceforge.pmd.cpd.GUI.phaseUpdate"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">1</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">175</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc26">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.cpd.GUI$BrowseListener.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">29</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc25">
+        <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.cpd.GUI$BrowseListener.!init"/>
+        <t:endsAt rdf:datatype="&xsd;integer">30</t:endsAt>
+        <bh:originEvent rdf:resource="&jbh;mc2"/>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.cpd.GUI.!init"/>
+        <t:startsAt rdf:datatype="&xsd;integer">25</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.cpd.GUI$BrowseListener.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">17</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">26</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc38">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.cpd.GUI$CancelListener.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">39</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc37">
+        <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.cpd.GUI$CancelListener.!init"/>
+        <t:endsAt rdf:datatype="&xsd;integer">40</t:endsAt>
+        <bh:originEvent rdf:resource="&jbh;mc2"/>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.cpd.GUI.!init"/>
+        <t:startsAt rdf:datatype="&xsd;integer">37</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.cpd.GUI$CancelListener.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">19</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">38</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:FieldModi rdf:about="&jbh;fldModi5">
+    <jbh:fieldVisitMethod rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.cpd.GUI$SaveListener.!init"/>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">1</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">13</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">6</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">1</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">5</t:startsAt>
+    <jbh:visitedField rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#net.sourceforge.pmd.cpd.GUI$SaveListener.this$0"/>
+  </jbh:FieldModi>
+</rdf:RDF>

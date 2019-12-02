@@ -1,0 +1,28 @@
+method_entry: Ltest/auto/Command_ChangeAttributeCommand_7;main, thread_id: 0
+  method_entry: LCH/ifa/draw/application/DrawApplication;<clinit>, thread_id: 0
+  method_exit: LCH/ifa/draw/application/DrawApplication;<clinit>, thread_id: 0
+  method_entry: LCH/ifa/draw/application/DrawApplication;<init>, obj_tag: 1, param_obj_tag: 2, thread_id: 0
+  method_exit: LCH/ifa/draw/application/DrawApplication;<init>, thread_id: 0
+  method_entry: LCH/ifa/draw/standard/StandardDrawingView;<init>, obj_tag: 3, param_obj_tag: 1, thread_id: 0
+    method_entry: LCH/ifa/draw/standard/BufferedUpdateStrategy;<init>, obj_tag: 4, thread_id: 0
+    method_exit: LCH/ifa/draw/standard/BufferedUpdateStrategy;<init>, thread_id: 0
+    method_entry: LCH/ifa/draw/standard/StandardDrawingView;setDisplayUpdate, obj_tag: 3, param_obj_tag: 4, thread_id: 0
+    method_exit: LCH/ifa/draw/standard/StandardDrawingView;setDisplayUpdate, thread_id: 0
+  method_exit: LCH/ifa/draw/standard/StandardDrawingView;<init>, thread_id: 0
+  method_entry: LCH/ifa/draw/standard/ChangeAttributeCommand;<init>, obj_tag: 5, param_obj_tag: 2, param_obj_tag: 2, param_obj_tag: 6, param_obj_tag: 3, thread_id: 0
+    method_entry: LCH/ifa/draw/util/Command;<init>, obj_tag: 5, param_obj_tag: 2, thread_id: 0
+    method_exit: LCH/ifa/draw/util/Command;<init>, thread_id: 0
+  method_exit: LCH/ifa/draw/standard/ChangeAttributeCommand;<init>, thread_id: 0
+  method_entry: LCH/ifa/draw/standard/ChangeAttributeCommand;execute, obj_tag: 5, thread_id: 0
+    method_entry: LCH/ifa/draw/standard/StandardDrawingView;selectionElements, obj_tag: 3, thread_id: 0
+      method_entry: LCH/ifa/draw/standard/FigureEnumerator;<init>, obj_tag: 7, param_obj_tag: 8, thread_id: 0
+      method_exit: LCH/ifa/draw/standard/FigureEnumerator;<init>, thread_id: 0
+    method_exit: LCH/ifa/draw/standard/StandardDrawingView;selectionElements, thread_id: 0
+    method_entry: LCH/ifa/draw/standard/FigureEnumerator;hasMoreElements, obj_tag: 7, thread_id: 0
+    method_exit: LCH/ifa/draw/standard/FigureEnumerator;hasMoreElements, thread_id: 0
+    method_entry: LCH/ifa/draw/standard/StandardDrawingView;checkDamage, obj_tag: 3, thread_id: 0
+      method_entry: LCH/ifa/draw/standard/StandardDrawingView;drawing, obj_tag: 3, thread_id: 0
+      method_exit: LCH/ifa/draw/standard/StandardDrawingView;drawing, thread_id: 0
+    method_exit: LCH/ifa/draw/standard/StandardDrawingView;checkDamage, thread_id: 0
+  method_exit: LCH/ifa/draw/standard/ChangeAttributeCommand;execute, thread_id: 0
+method_exit: Ltest/auto/Command_ChangeAttributeCommand_7;main, thread_id: 0

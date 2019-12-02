@@ -1,0 +1,198 @@
+method_entry: Ltest/auto/Strategy_Setter_CPD_CPDListener_5;main, thread_id: 0
+  method_entry: Lnet/sourceforge/pmd/cpd/GUI;<init>, obj_tag: 1, thread_id: 0
+    method_entry: Lnet/sourceforge/pmd/cpd/GUI$SaveListener;<init>, thread_id: 0
+      method_entry: Lnet/sourceforge/pmd/cpd/GUI$SaveListener;<init>, obj_tag: 13, thread_id: 0
+          field_modi: Lnet/sourceforge/pmd/cpd/GUI;this$0, dec_cls: Lnet/sourceforge/pmd/cpd/GUI$SaveListener;, in_method: Lnet/sourceforge/pmd/cpd/GUI$SaveListener;<init>, field_obj_tag: 1, owner_obj_tag: 13, thread_id: 0
+      method_exit: Lnet/sourceforge/pmd/cpd/GUI$SaveListener;<init>, thread_id: 0
+    method_exit: Lnet/sourceforge/pmd/cpd/GUI$SaveListener;<init>, thread_id: 0
+    method_entry: Lnet/sourceforge/pmd/cpd/GUI$SaveListener;<init>, thread_id: 0
+      method_entry: Lnet/sourceforge/pmd/cpd/GUI$SaveListener;<init>, obj_tag: 14, thread_id: 0
+          field_modi: Lnet/sourceforge/pmd/cpd/GUI;this$0, dec_cls: Lnet/sourceforge/pmd/cpd/GUI$SaveListener;, in_method: Lnet/sourceforge/pmd/cpd/GUI$SaveListener;<init>, field_obj_tag: 1, owner_obj_tag: 14, thread_id: 0
+      method_exit: Lnet/sourceforge/pmd/cpd/GUI$SaveListener;<init>, thread_id: 0
+    method_exit: Lnet/sourceforge/pmd/cpd/GUI$SaveListener;<init>, thread_id: 0
+    method_entry: Lnet/sourceforge/pmd/cpd/GUI$SaveListener;<init>, thread_id: 0
+      method_entry: Lnet/sourceforge/pmd/cpd/GUI$SaveListener;<init>, obj_tag: 15, thread_id: 0
+          field_modi: Lnet/sourceforge/pmd/cpd/GUI;this$0, dec_cls: Lnet/sourceforge/pmd/cpd/GUI$SaveListener;, in_method: Lnet/sourceforge/pmd/cpd/GUI$SaveListener;<init>, field_obj_tag: 1, owner_obj_tag: 15, thread_id: 0
+      method_exit: Lnet/sourceforge/pmd/cpd/GUI$SaveListener;<init>, thread_id: 0
+    method_exit: Lnet/sourceforge/pmd/cpd/GUI$SaveListener;<init>, thread_id: 0
+    method_entry: Lnet/sourceforge/pmd/cpd/GUI$CancelListener;<init>, thread_id: 0
+      method_entry: Lnet/sourceforge/pmd/cpd/GUI$CancelListener;<init>, obj_tag: 16, thread_id: 0
+      method_exit: Lnet/sourceforge/pmd/cpd/GUI$CancelListener;<init>, thread_id: 0
+    method_exit: Lnet/sourceforge/pmd/cpd/GUI$CancelListener;<init>, thread_id: 0
+    method_entry: Lnet/sourceforge/pmd/cpd/GUI$BrowseListener;<init>, thread_id: 0
+      method_entry: Lnet/sourceforge/pmd/cpd/GUI$BrowseListener;<init>, obj_tag: 17, thread_id: 0
+          field_modi: Lnet/sourceforge/pmd/cpd/GUI;this$0, dec_cls: Lnet/sourceforge/pmd/cpd/GUI$BrowseListener;, in_method: Lnet/sourceforge/pmd/cpd/GUI$BrowseListener;<init>, field_obj_tag: 1, owner_obj_tag: 17, thread_id: 0
+      method_exit: Lnet/sourceforge/pmd/cpd/GUI$BrowseListener;<init>, thread_id: 0
+    method_exit: Lnet/sourceforge/pmd/cpd/GUI$BrowseListener;<init>, thread_id: 0
+    method_entry: Lnet/sourceforge/pmd/cpd/GUI$GoListener;<init>, thread_id: 0
+      method_entry: Lnet/sourceforge/pmd/cpd/GUI$GoListener;<init>, obj_tag: 18, thread_id: 0
+          field_modi: Lnet/sourceforge/pmd/cpd/GUI;this$0, dec_cls: Lnet/sourceforge/pmd/cpd/GUI$GoListener;, in_method: Lnet/sourceforge/pmd/cpd/GUI$GoListener;<init>, field_obj_tag: 1, owner_obj_tag: 18, thread_id: 0
+      method_exit: Lnet/sourceforge/pmd/cpd/GUI$GoListener;<init>, thread_id: 0
+    method_exit: Lnet/sourceforge/pmd/cpd/GUI$GoListener;<init>, thread_id: 0
+    method_entry: Lnet/sourceforge/pmd/cpd/GUI$CancelListener;<init>, thread_id: 0
+      method_entry: Lnet/sourceforge/pmd/cpd/GUI$CancelListener;<init>, obj_tag: 19, thread_id: 0
+      method_exit: Lnet/sourceforge/pmd/cpd/GUI$CancelListener;<init>, thread_id: 0
+    method_exit: Lnet/sourceforge/pmd/cpd/GUI$CancelListener;<init>, thread_id: 0
+    method_entry: Lnet/sourceforge/pmd/cpd/GUI;makeSettingsPanel, obj_tag: 1, param_obj_tag: 20, param_obj_tag: 21, param_obj_tag: 22, thread_id: 0
+      method_entry: Lnet/sourceforge/pmd/cpd/GridBagHelper;<init>, obj_tag: 23, param_obj_tag: 24, thread_id: 0
+      method_exit: Lnet/sourceforge/pmd/cpd/GridBagHelper;<init>, thread_id: 0
+      method_entry: Lnet/sourceforge/pmd/cpd/GridBagHelper;addLabel, obj_tag: 23, param_obj_tag: 28, thread_id: 0
+        method_entry: Lnet/sourceforge/pmd/cpd/GridBagHelper;add, obj_tag: 23, param_obj_tag: 29, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/GridBagHelper;add, obj_tag: 23, param_obj_tag: 29, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/GridBagHelper;add, thread_id: 0
+        method_exit: Lnet/sourceforge/pmd/cpd/GridBagHelper;add, thread_id: 0
+      method_exit: Lnet/sourceforge/pmd/cpd/GridBagHelper;addLabel, thread_id: 0
+      method_entry: Lnet/sourceforge/pmd/cpd/GridBagHelper;add, obj_tag: 23, param_obj_tag: 2, thread_id: 0
+        method_entry: Lnet/sourceforge/pmd/cpd/GridBagHelper;add, obj_tag: 23, param_obj_tag: 2, thread_id: 0
+        method_exit: Lnet/sourceforge/pmd/cpd/GridBagHelper;add, thread_id: 0
+      method_exit: Lnet/sourceforge/pmd/cpd/GridBagHelper;add, thread_id: 0
+      method_entry: Lnet/sourceforge/pmd/cpd/GridBagHelper;add, obj_tag: 23, param_obj_tag: 20, thread_id: 0
+      method_exit: Lnet/sourceforge/pmd/cpd/GridBagHelper;add, thread_id: 0
+      method_entry: Lnet/sourceforge/pmd/cpd/GridBagHelper;nextRow, obj_tag: 23, thread_id: 0
+      method_exit: Lnet/sourceforge/pmd/cpd/GridBagHelper;nextRow, thread_id: 0
+      method_entry: Lnet/sourceforge/pmd/cpd/GridBagHelper;addLabel, obj_tag: 23, param_obj_tag: 30, thread_id: 0
+        method_entry: Lnet/sourceforge/pmd/cpd/GridBagHelper;add, obj_tag: 23, param_obj_tag: 31, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/GridBagHelper;add, obj_tag: 23, param_obj_tag: 31, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/GridBagHelper;add, thread_id: 0
+        method_exit: Lnet/sourceforge/pmd/cpd/GridBagHelper;add, thread_id: 0
+      method_exit: Lnet/sourceforge/pmd/cpd/GridBagHelper;addLabel, thread_id: 0
+      method_entry: Lnet/sourceforge/pmd/cpd/GridBagHelper;add, obj_tag: 23, param_obj_tag: 3, thread_id: 0
+        method_entry: Lnet/sourceforge/pmd/cpd/GridBagHelper;add, obj_tag: 23, param_obj_tag: 3, thread_id: 0
+        method_exit: Lnet/sourceforge/pmd/cpd/GridBagHelper;add, thread_id: 0
+      method_exit: Lnet/sourceforge/pmd/cpd/GridBagHelper;add, thread_id: 0
+      method_entry: Lnet/sourceforge/pmd/cpd/GridBagHelper;addLabel, obj_tag: 23, param_obj_tag: 32, thread_id: 0
+        method_entry: Lnet/sourceforge/pmd/cpd/GridBagHelper;add, obj_tag: 23, param_obj_tag: 33, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/GridBagHelper;add, obj_tag: 23, param_obj_tag: 33, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/GridBagHelper;add, thread_id: 0
+        method_exit: Lnet/sourceforge/pmd/cpd/GridBagHelper;add, thread_id: 0
+      method_exit: Lnet/sourceforge/pmd/cpd/GridBagHelper;addLabel, thread_id: 0
+      method_entry: Lnet/sourceforge/pmd/cpd/GridBagHelper;add, obj_tag: 23, param_obj_tag: 9, thread_id: 0
+        method_entry: Lnet/sourceforge/pmd/cpd/GridBagHelper;add, obj_tag: 23, param_obj_tag: 9, thread_id: 0
+        method_exit: Lnet/sourceforge/pmd/cpd/GridBagHelper;add, thread_id: 0
+      method_exit: Lnet/sourceforge/pmd/cpd/GridBagHelper;add, thread_id: 0
+      method_entry: Lnet/sourceforge/pmd/cpd/GridBagHelper;nextRow, obj_tag: 23, thread_id: 0
+      method_exit: Lnet/sourceforge/pmd/cpd/GridBagHelper;nextRow, thread_id: 0
+      method_entry: Lnet/sourceforge/pmd/cpd/GridBagHelper;addLabel, obj_tag: 23, param_obj_tag: 34, thread_id: 0
+        method_entry: Lnet/sourceforge/pmd/cpd/GridBagHelper;add, obj_tag: 23, param_obj_tag: 35, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/GridBagHelper;add, obj_tag: 23, param_obj_tag: 35, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/GridBagHelper;add, thread_id: 0
+        method_exit: Lnet/sourceforge/pmd/cpd/GridBagHelper;add, thread_id: 0
+      method_exit: Lnet/sourceforge/pmd/cpd/GridBagHelper;addLabel, thread_id: 0
+      method_entry: Lnet/sourceforge/pmd/cpd/GridBagHelper;add, obj_tag: 23, param_obj_tag: 8, thread_id: 0
+        method_entry: Lnet/sourceforge/pmd/cpd/GridBagHelper;add, obj_tag: 23, param_obj_tag: 8, thread_id: 0
+        method_exit: Lnet/sourceforge/pmd/cpd/GridBagHelper;add, thread_id: 0
+      method_exit: Lnet/sourceforge/pmd/cpd/GridBagHelper;add, thread_id: 0
+      method_entry: Lnet/sourceforge/pmd/cpd/GridBagHelper;add, obj_tag: 23, param_obj_tag: 21, thread_id: 0
+        method_entry: Lnet/sourceforge/pmd/cpd/GridBagHelper;add, obj_tag: 23, param_obj_tag: 21, thread_id: 0
+        method_exit: Lnet/sourceforge/pmd/cpd/GridBagHelper;add, thread_id: 0
+      method_exit: Lnet/sourceforge/pmd/cpd/GridBagHelper;add, thread_id: 0
+      method_entry: Lnet/sourceforge/pmd/cpd/GridBagHelper;add, obj_tag: 23, param_obj_tag: 22, thread_id: 0
+        method_entry: Lnet/sourceforge/pmd/cpd/GridBagHelper;add, obj_tag: 23, param_obj_tag: 22, thread_id: 0
+        method_exit: Lnet/sourceforge/pmd/cpd/GridBagHelper;add, thread_id: 0
+      method_exit: Lnet/sourceforge/pmd/cpd/GridBagHelper;add, thread_id: 0
+      method_entry: Lnet/sourceforge/pmd/cpd/GridBagHelper;nextRow, obj_tag: 23, thread_id: 0
+      method_exit: Lnet/sourceforge/pmd/cpd/GridBagHelper;nextRow, thread_id: 0
+    method_exit: Lnet/sourceforge/pmd/cpd/GUI;makeSettingsPanel, thread_id: 0
+    method_entry: Lnet/sourceforge/pmd/cpd/GUI;makeProgressPanel, obj_tag: 1, thread_id: 0
+      method_entry: Lnet/sourceforge/pmd/cpd/GridBagHelper;<init>, obj_tag: 36, param_obj_tag: 37, thread_id: 0
+      method_exit: Lnet/sourceforge/pmd/cpd/GridBagHelper;<init>, thread_id: 0
+      method_entry: Lnet/sourceforge/pmd/cpd/GridBagHelper;addLabel, obj_tag: 36, param_obj_tag: 41, thread_id: 0
+        method_entry: Lnet/sourceforge/pmd/cpd/GridBagHelper;add, obj_tag: 36, param_obj_tag: 42, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/GridBagHelper;add, obj_tag: 36, param_obj_tag: 42, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/GridBagHelper;add, thread_id: 0
+        method_exit: Lnet/sourceforge/pmd/cpd/GridBagHelper;add, thread_id: 0
+      method_exit: Lnet/sourceforge/pmd/cpd/GridBagHelper;addLabel, thread_id: 0
+      method_entry: Lnet/sourceforge/pmd/cpd/GridBagHelper;add, obj_tag: 36, param_obj_tag: 6, thread_id: 0
+      method_exit: Lnet/sourceforge/pmd/cpd/GridBagHelper;add, thread_id: 0
+      method_entry: Lnet/sourceforge/pmd/cpd/GridBagHelper;nextRow, obj_tag: 36, thread_id: 0
+      method_exit: Lnet/sourceforge/pmd/cpd/GridBagHelper;nextRow, thread_id: 0
+      method_entry: Lnet/sourceforge/pmd/cpd/GridBagHelper;addLabel, obj_tag: 36, param_obj_tag: 43, thread_id: 0
+        method_entry: Lnet/sourceforge/pmd/cpd/GridBagHelper;add, obj_tag: 36, param_obj_tag: 44, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/GridBagHelper;add, obj_tag: 36, param_obj_tag: 44, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/GridBagHelper;add, thread_id: 0
+        method_exit: Lnet/sourceforge/pmd/cpd/GridBagHelper;add, thread_id: 0
+      method_exit: Lnet/sourceforge/pmd/cpd/GridBagHelper;addLabel, thread_id: 0
+      method_entry: Lnet/sourceforge/pmd/cpd/GridBagHelper;add, obj_tag: 36, param_obj_tag: 5, thread_id: 0
+        method_entry: Lnet/sourceforge/pmd/cpd/GridBagHelper;add, obj_tag: 36, param_obj_tag: 5, thread_id: 0
+        method_exit: Lnet/sourceforge/pmd/cpd/GridBagHelper;add, thread_id: 0
+      method_exit: Lnet/sourceforge/pmd/cpd/GridBagHelper;add, thread_id: 0
+      method_entry: Lnet/sourceforge/pmd/cpd/GridBagHelper;addLabel, obj_tag: 36, param_obj_tag: 45, thread_id: 0
+        method_entry: Lnet/sourceforge/pmd/cpd/GridBagHelper;add, obj_tag: 36, param_obj_tag: 46, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/GridBagHelper;add, obj_tag: 36, param_obj_tag: 46, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/GridBagHelper;add, thread_id: 0
+        method_exit: Lnet/sourceforge/pmd/cpd/GridBagHelper;add, thread_id: 0
+      method_exit: Lnet/sourceforge/pmd/cpd/GridBagHelper;addLabel, thread_id: 0
+      method_entry: Lnet/sourceforge/pmd/cpd/GridBagHelper;add, obj_tag: 36, param_obj_tag: 4, thread_id: 0
+        method_entry: Lnet/sourceforge/pmd/cpd/GridBagHelper;add, obj_tag: 36, param_obj_tag: 4, thread_id: 0
+        method_exit: Lnet/sourceforge/pmd/cpd/GridBagHelper;add, thread_id: 0
+      method_exit: Lnet/sourceforge/pmd/cpd/GridBagHelper;add, thread_id: 0
+      method_entry: Lnet/sourceforge/pmd/cpd/GridBagHelper;nextRow, obj_tag: 36, thread_id: 0
+      method_exit: Lnet/sourceforge/pmd/cpd/GridBagHelper;nextRow, thread_id: 0
+    method_exit: Lnet/sourceforge/pmd/cpd/GUI;makeProgressPanel, thread_id: 0
+    method_entry: Lnet/sourceforge/pmd/cpd/GUI;makeResultsPanel, obj_tag: 1, thread_id: 0
+    method_exit: Lnet/sourceforge/pmd/cpd/GUI;makeResultsPanel, thread_id: 0
+  method_exit: Lnet/sourceforge/pmd/cpd/GUI;<init>, thread_id: 0
+  method_entry: Lnet/sourceforge/pmd/cpd/JavaLanguage;<init>, obj_tag: 47, thread_id: 0
+  method_exit: Lnet/sourceforge/pmd/cpd/JavaLanguage;<init>, thread_id: 0
+  method_entry: Lnet/sourceforge/pmd/cpd/CPD;<init>, obj_tag: 48, param_obj_tag: 47, thread_id: 0
+    method_entry: Lnet/sourceforge/pmd/cpd/CPDNullListener;<init>, obj_tag: 50, thread_id: 0
+    method_exit: Lnet/sourceforge/pmd/cpd/CPDNullListener;<init>, thread_id: 0
+      field_modi: Lnet/sourceforge/pmd/cpd/CPDListener;listener, dec_cls: Lnet/sourceforge/pmd/cpd/CPD;, in_method: Lnet/sourceforge/pmd/cpd/CPD;<init>, field_obj_tag: 50, owner_obj_tag: 48, thread_id: 0
+    method_entry: Lnet/sourceforge/pmd/cpd/Tokens;<init>, obj_tag: 51, thread_id: 0
+    method_exit: Lnet/sourceforge/pmd/cpd/Tokens;<init>, thread_id: 0
+      field_modi: Lnet/sourceforge/pmd/cpd/Tokens;tokens, dec_cls: Lnet/sourceforge/pmd/cpd/CPD;, in_method: Lnet/sourceforge/pmd/cpd/CPD;<init>, field_obj_tag: 51, owner_obj_tag: 48, thread_id: 0
+      field_modi: Lnet/sourceforge/pmd/cpd/Language;language, dec_cls: Lnet/sourceforge/pmd/cpd/CPD;, in_method: Lnet/sourceforge/pmd/cpd/CPD;<init>, field_obj_tag: 47, owner_obj_tag: 48, thread_id: 0
+  method_exit: Lnet/sourceforge/pmd/cpd/CPD;<init>, thread_id: 0
+  method_entry: Lnet/sourceforge/pmd/cpd/CPD;setCpdListener, obj_tag: 48, param_obj_tag: 1, thread_id: 0
+      field_modi: Lnet/sourceforge/pmd/cpd/CPDListener;listener, dec_cls: Lnet/sourceforge/pmd/cpd/CPD;, in_method: Lnet/sourceforge/pmd/cpd/CPD;setCpdListener, field_obj_tag: 1, owner_obj_tag: 48, thread_id: 0
+  method_exit: Lnet/sourceforge/pmd/cpd/CPD;setCpdListener, thread_id: 0
+  method_entry: Lnet/sourceforge/pmd/cpd/CPD;go, obj_tag: 48, thread_id: 0
+    method_entry: Lnet/sourceforge/pmd/cpd/TokenEntry;<clinit>, thread_id: 0
+      method_entry: Lnet/sourceforge/pmd/cpd/TokenEntry;<init>, obj_tag: 53, thread_id: 0
+      method_exit: Lnet/sourceforge/pmd/cpd/TokenEntry;<init>, thread_id: 0
+        field_modi: Lnet/sourceforge/pmd/cpd/TokenEntry;EOF, dec_cls: Lnet/sourceforge/pmd/cpd/TokenEntry;, in_method: Lnet/sourceforge/pmd/cpd/TokenEntry;<clinit>, field_obj_tag: 53, owner_obj_tag: 0, thread_id: 0
+    method_exit: Lnet/sourceforge/pmd/cpd/TokenEntry;<clinit>, thread_id: 0
+    method_entry: Lnet/sourceforge/pmd/cpd/TokenEntry;clearImages, thread_id: 0
+    method_exit: Lnet/sourceforge/pmd/cpd/TokenEntry;clearImages, thread_id: 0
+    method_entry: Lnet/sourceforge/pmd/cpd/MatchAlgorithm;<init>, obj_tag: 56, param_obj_tag: 49, param_obj_tag: 51, param_obj_tag: 1, thread_id: 0
+        field_modi: Lnet/sourceforge/pmd/cpd/Tokens;tokens, dec_cls: Lnet/sourceforge/pmd/cpd/MatchAlgorithm;, in_method: Lnet/sourceforge/pmd/cpd/MatchAlgorithm;<init>, field_obj_tag: 51, owner_obj_tag: 56, thread_id: 0
+      method_entry: Lnet/sourceforge/pmd/cpd/Tokens;getTokens, obj_tag: 51, thread_id: 0
+      method_exit: Lnet/sourceforge/pmd/cpd/Tokens;getTokens, thread_id: 0
+        field_modi: Lnet/sourceforge/pmd/cpd/CPDListener;cpdListener, dec_cls: Lnet/sourceforge/pmd/cpd/MatchAlgorithm;, in_method: Lnet/sourceforge/pmd/cpd/MatchAlgorithm;<init>, field_obj_tag: 1, owner_obj_tag: 56, thread_id: 0
+    method_exit: Lnet/sourceforge/pmd/cpd/MatchAlgorithm;<init>, thread_id: 0
+      field_modi: Lnet/sourceforge/pmd/cpd/MatchAlgorithm;matchAlgorithm, dec_cls: Lnet/sourceforge/pmd/cpd/CPD;, in_method: Lnet/sourceforge/pmd/cpd/CPD;go, field_obj_tag: 56, owner_obj_tag: 48, thread_id: 0
+    method_entry: Lnet/sourceforge/pmd/cpd/MatchAlgorithm;findMatches, obj_tag: 56, thread_id: 0
+      method_entry: Lnet/sourceforge/pmd/cpd/GUI;phaseUpdate, obj_tag: 1, thread_id: 0
+        method_entry: Lnet/sourceforge/pmd/cpd/GUI;getPhaseText, obj_tag: 1, thread_id: 0
+        method_exit: Lnet/sourceforge/pmd/cpd/GUI;getPhaseText, thread_id: 0
+      method_exit: Lnet/sourceforge/pmd/cpd/GUI;phaseUpdate, thread_id: 0
+      method_entry: Lnet/sourceforge/pmd/cpd/MatchAlgorithm;hash, obj_tag: 56, thread_id: 0
+        method_entry: Lnet/sourceforge/pmd/cpd/Tokens;size, obj_tag: 51, thread_id: 0
+        method_exit: Lnet/sourceforge/pmd/cpd/Tokens;size, thread_id: 0
+      method_exit: Lnet/sourceforge/pmd/cpd/MatchAlgorithm;hash, thread_id: 0
+      method_entry: Lnet/sourceforge/pmd/cpd/GUI;phaseUpdate, obj_tag: 1, thread_id: 0
+        method_entry: Lnet/sourceforge/pmd/cpd/GUI;getPhaseText, obj_tag: 1, thread_id: 0
+        method_exit: Lnet/sourceforge/pmd/cpd/GUI;getPhaseText, thread_id: 0
+      method_exit: Lnet/sourceforge/pmd/cpd/GUI;phaseUpdate, thread_id: 0
+      method_entry: Lnet/sourceforge/pmd/cpd/MatchCollector;<init>, obj_tag: 57, param_obj_tag: 56, thread_id: 0
+          field_modi: Lnet/sourceforge/pmd/cpd/MatchAlgorithm;ma, dec_cls: Lnet/sourceforge/pmd/cpd/MatchCollector;, in_method: Lnet/sourceforge/pmd/cpd/MatchCollector;<init>, field_obj_tag: 56, owner_obj_tag: 57, thread_id: 0
+      method_exit: Lnet/sourceforge/pmd/cpd/MatchCollector;<init>, thread_id: 0
+      method_entry: Lnet/sourceforge/pmd/cpd/GUI;phaseUpdate, obj_tag: 1, thread_id: 0
+        method_entry: Lnet/sourceforge/pmd/cpd/GUI;getPhaseText, obj_tag: 1, thread_id: 0
+        method_exit: Lnet/sourceforge/pmd/cpd/GUI;getPhaseText, thread_id: 0
+      method_exit: Lnet/sourceforge/pmd/cpd/GUI;phaseUpdate, thread_id: 0
+      method_entry: Lnet/sourceforge/pmd/cpd/MatchCollector;getMatches, obj_tag: 57, thread_id: 0
+        method_entry: Lnet/sourceforge/pmd/cpd/MatchCollector;groupMatches, obj_tag: 57, param_obj_tag: 60, thread_id: 0
+          method_entry: Lnet/sourceforge/pmd/cpd/Match$MatchCode;<init>, obj_tag: 61, thread_id: 0
+          method_exit: Lnet/sourceforge/pmd/cpd/Match$MatchCode;<init>, thread_id: 0
+        method_exit: Lnet/sourceforge/pmd/cpd/MatchCollector;groupMatches, thread_id: 0
+      method_exit: Lnet/sourceforge/pmd/cpd/MatchCollector;getMatches, thread_id: 0
+      method_entry: Lnet/sourceforge/pmd/cpd/MatchAlgorithm;matches, obj_tag: 56, thread_id: 0
+      method_exit: Lnet/sourceforge/pmd/cpd/MatchAlgorithm;matches, thread_id: 0
+      method_entry: Lnet/sourceforge/pmd/cpd/GUI;phaseUpdate, obj_tag: 1, thread_id: 0
+        method_entry: Lnet/sourceforge/pmd/cpd/GUI;getPhaseText, obj_tag: 1, thread_id: 0
+        method_exit: Lnet/sourceforge/pmd/cpd/GUI;getPhaseText, thread_id: 0
+      method_exit: Lnet/sourceforge/pmd/cpd/GUI;phaseUpdate, thread_id: 0
+    method_exit: Lnet/sourceforge/pmd/cpd/MatchAlgorithm;findMatches, thread_id: 0
+  method_exit: Lnet/sourceforge/pmd/cpd/CPD;go, thread_id: 0
+method_exit: Ltest/auto/Strategy_Setter_CPD_CPDListener_5;main, thread_id: 0

@@ -1,0 +1,18 @@
+method_entry: Ltest/auto/TemplateMethod_AbstractFigure_16;main, thread_id: 0
+  method_entry: LCH/ifa/draw/figures/AttributeFigure;<clinit>, thread_id: 0
+  method_exit: LCH/ifa/draw/figures/AttributeFigure;<clinit>, thread_id: 0
+  method_entry: LCH/ifa/draw/figures/ImageFigure;<init>, obj_tag: 1, thread_id: 0
+    method_entry: LCH/ifa/draw/figures/AttributeFigure;<init>, obj_tag: 1, thread_id: 0
+      method_entry: LCH/ifa/draw/standard/AbstractFigure;<init>, obj_tag: 1, thread_id: 0
+      method_exit: LCH/ifa/draw/standard/AbstractFigure;<init>, thread_id: 0
+    method_exit: LCH/ifa/draw/figures/AttributeFigure;<init>, thread_id: 0
+  method_exit: LCH/ifa/draw/figures/ImageFigure;<init>, thread_id: 0
+  method_entry: LCH/ifa/draw/standard/AbstractFigure;moveBy, obj_tag: 1, thread_id: 0
+    method_entry: LCH/ifa/draw/standard/AbstractFigure;willChange, obj_tag: 1, thread_id: 0
+      method_entry: LCH/ifa/draw/standard/AbstractFigure;invalidate, obj_tag: 1, thread_id: 0
+      method_exit: LCH/ifa/draw/standard/AbstractFigure;invalidate, thread_id: 0
+    method_exit: LCH/ifa/draw/standard/AbstractFigure;willChange, thread_id: 0
+    method_entry: LCH/ifa/draw/figures/ImageFigure;basicMoveBy, obj_tag: 1, thread_id: 0
+    method_exit: LCH/ifa/draw/figures/ImageFigure;basicMoveBy, thread_id: 0
+  method_exit: LCH/ifa/draw/standard/AbstractFigure;moveBy, thread_id: 0
+method_exit: Ltest/auto/TemplateMethod_AbstractFigure_16;main, thread_id: 0

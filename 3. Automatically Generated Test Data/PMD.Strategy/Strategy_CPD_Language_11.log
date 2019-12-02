@@ -1,0 +1,29 @@
+method_entry: Ltest/auto/Strategy_CPD_Language_11;main, thread_id: 0
+  method_entry: Lnet/sourceforge/pmd/cpd/JavaLanguage;<init>, obj_tag: 1, thread_id: 0
+  method_exit: Lnet/sourceforge/pmd/cpd/JavaLanguage;<init>, thread_id: 0
+  method_entry: Lnet/sourceforge/pmd/cpd/CPD;<init>, obj_tag: 2, param_obj_tag: 1, thread_id: 0
+    method_entry: Lnet/sourceforge/pmd/cpd/CPDNullListener;<init>, obj_tag: 4, thread_id: 0
+    method_exit: Lnet/sourceforge/pmd/cpd/CPDNullListener;<init>, thread_id: 0
+      field_modi: Lnet/sourceforge/pmd/cpd/CPDListener;listener, dec_cls: Lnet/sourceforge/pmd/cpd/CPD;, in_method: Lnet/sourceforge/pmd/cpd/CPD;<init>, field_obj_tag: 4, owner_obj_tag: 2, thread_id: 0
+    method_entry: Lnet/sourceforge/pmd/cpd/Tokens;<init>, obj_tag: 5, thread_id: 0
+    method_exit: Lnet/sourceforge/pmd/cpd/Tokens;<init>, thread_id: 0
+      field_modi: Lnet/sourceforge/pmd/cpd/Tokens;tokens, dec_cls: Lnet/sourceforge/pmd/cpd/CPD;, in_method: Lnet/sourceforge/pmd/cpd/CPD;<init>, field_obj_tag: 5, owner_obj_tag: 2, thread_id: 0
+      field_modi: Lnet/sourceforge/pmd/cpd/Language;language, dec_cls: Lnet/sourceforge/pmd/cpd/CPD;, in_method: Lnet/sourceforge/pmd/cpd/CPD;<init>, field_obj_tag: 1, owner_obj_tag: 2, thread_id: 0
+  method_exit: Lnet/sourceforge/pmd/cpd/CPD;<init>, thread_id: 0
+  method_entry: Lnet/sourceforge/pmd/cpd/CPD;addAllInDirectory, obj_tag: 2, param_obj_tag: 7, thread_id: 0
+    method_entry: Lnet/sourceforge/pmd/cpd/CPD;addDirectory, obj_tag: 2, param_obj_tag: 7, thread_id: 0
+      method_entry: Lnet/sourceforge/pmd/cpd/FileFinder;<clinit>, thread_id: 0
+      method_exit: Lnet/sourceforge/pmd/cpd/FileFinder;<clinit>, thread_id: 0
+      method_entry: Lnet/sourceforge/pmd/cpd/FileFinder;<init>, obj_tag: 9, thread_id: 0
+      method_exit: Lnet/sourceforge/pmd/cpd/FileFinder;<init>, thread_id: 0
+      method_entry: Lnet/sourceforge/pmd/cpd/JavaLanguage;getFileFilter, obj_tag: 1, thread_id: 0
+        method_entry: Lnet/sourceforge/pmd/cpd/JavaLanguage$JavaFileOrDirectoryFilter;<init>, obj_tag: 10, thread_id: 0
+        method_exit: Lnet/sourceforge/pmd/cpd/JavaLanguage$JavaFileOrDirectoryFilter;<init>, thread_id: 0
+      method_exit: Lnet/sourceforge/pmd/cpd/JavaLanguage;getFileFilter, thread_id: 0
+      method_entry: Lnet/sourceforge/pmd/cpd/FileFinder;findFilesFrom, obj_tag: 9, param_obj_tag: 7, param_obj_tag: 10, thread_id: 0
+        method_entry: Lnet/sourceforge/pmd/cpd/FileFinder;scanDirectory, obj_tag: 9, param_obj_tag: 11, param_obj_tag: 12, thread_id: 0
+        method_exit: Lnet/sourceforge/pmd/cpd/FileFinder;scanDirectory, thread_id: 0
+      method_exit: Lnet/sourceforge/pmd/cpd/FileFinder;findFilesFrom, thread_id: 0
+    method_exit: Lnet/sourceforge/pmd/cpd/CPD;addDirectory, thread_id: 0
+  method_exit: Lnet/sourceforge/pmd/cpd/CPD;addAllInDirectory, thread_id: 0
+method_exit: Ltest/auto/Strategy_CPD_Language_11;main, thread_id: 0

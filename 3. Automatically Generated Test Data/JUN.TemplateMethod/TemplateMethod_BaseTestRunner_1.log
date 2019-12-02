@@ -1,0 +1,62 @@
+method_entry: Ltest/auto/TemplateMethod_BaseTestRunner_1;main, thread_id: 0
+  method_entry: Ljunit/runner/BaseTestRunner;<clinit>, thread_id: 0
+  method_exit: Ljunit/runner/BaseTestRunner;<clinit>, thread_id: 0
+  method_entry: Ljunit/swingui/TestRunner;<init>, obj_tag: 1, thread_id: 0
+    method_entry: Ljunit/runner/BaseTestRunner;<init>, obj_tag: 1, thread_id: 0
+      method_entry: Ljunit/runner/BaseTestRunner;readPreferences, thread_id: 0
+        method_entry: Ljunit/runner/BaseTestRunner;getPreferencesFile, thread_id: 0
+        method_exit: Ljunit/runner/BaseTestRunner;getPreferencesFile, thread_id: 0
+      method_exit: Ljunit/runner/BaseTestRunner;readPreferences, thread_id: 0
+      method_entry: Ljunit/runner/BaseTestRunner;getPreference, param_obj_tag: 2, thread_id: 0
+        method_entry: Ljunit/runner/BaseTestRunner;getPreference, param_obj_tag: 2, thread_id: 0
+        method_exit: Ljunit/runner/BaseTestRunner;getPreference, thread_id: 0
+      method_exit: Ljunit/runner/BaseTestRunner;getPreference, thread_id: 0
+    method_exit: Ljunit/runner/BaseTestRunner;<init>, thread_id: 0
+  method_exit: Ljunit/swingui/TestRunner;<init>, thread_id: 0
+  method_entry: Ljunit/runner/BaseTestRunner;getTest, obj_tag: 1, param_obj_tag: 3, thread_id: 0
+    method_entry: Ljunit/runner/BaseTestRunner;loadSuiteClass, obj_tag: 1, param_obj_tag: 3, thread_id: 0
+      method_entry: Ljunit/runner/BaseTestRunner;getLoader, obj_tag: 1, thread_id: 0
+        method_entry: Ljunit/runner/BaseTestRunner;useReloadingTestSuiteLoader, obj_tag: 1, thread_id: 0
+          method_entry: Ljunit/runner/BaseTestRunner;getPreference, param_obj_tag: 4, thread_id: 0
+          method_exit: Ljunit/runner/BaseTestRunner;getPreference, thread_id: 0
+          method_entry: Ljunit/runner/BaseTestRunner;inVAJava, thread_id: 0
+          method_exit: Ljunit/runner/BaseTestRunner;inVAJava, thread_id: 0
+        method_exit: Ljunit/runner/BaseTestRunner;useReloadingTestSuiteLoader, thread_id: 0
+        method_entry: Ljunit/runner/ReloadingTestSuiteLoader;<init>, obj_tag: 5, thread_id: 0
+        method_exit: Ljunit/runner/ReloadingTestSuiteLoader;<init>, thread_id: 0
+      method_exit: Ljunit/runner/BaseTestRunner;getLoader, thread_id: 0
+      method_entry: Ljunit/runner/ReloadingTestSuiteLoader;load, obj_tag: 5, param_obj_tag: 3, thread_id: 0
+        method_entry: Ljunit/runner/TestCaseClassLoader;<init>, obj_tag: 6, thread_id: 0
+          method_entry: Ljunit/runner/TestCaseClassLoader;<init>, obj_tag: 6, param_obj_tag: 7, thread_id: 0
+            method_entry: Ljunit/runner/TestCaseClassLoader;scanPath, obj_tag: 6, param_obj_tag: 7, thread_id: 0
+            method_exit: Ljunit/runner/TestCaseClassLoader;scanPath, thread_id: 0
+            method_entry: Ljunit/runner/TestCaseClassLoader;readExcludedPackages, obj_tag: 6, thread_id: 0
+            method_exit: Ljunit/runner/TestCaseClassLoader;readExcludedPackages, thread_id: 0
+          method_exit: Ljunit/runner/TestCaseClassLoader;<init>, thread_id: 0
+        method_exit: Ljunit/runner/TestCaseClassLoader;<init>, thread_id: 0
+        method_entry: Ljunit/runner/TestCaseClassLoader;loadClass, obj_tag: 6, param_obj_tag: 3, thread_id: 0
+          method_entry: Ljunit/runner/TestCaseClassLoader;isExcluded, obj_tag: 6, param_obj_tag: 3, thread_id: 0
+          method_exit: Ljunit/runner/TestCaseClassLoader;isExcluded, thread_id: 0
+          method_entry: Ljunit/runner/TestCaseClassLoader;lookupClassData, obj_tag: 6, param_obj_tag: 3, thread_id: 0
+            method_entry: Ljunit/runner/TestCaseClassLoader;isJar, obj_tag: 6, param_obj_tag: 8, thread_id: 0
+            method_exit: Ljunit/runner/TestCaseClassLoader;isJar, thread_id: 0
+            method_entry: Ljunit/runner/TestCaseClassLoader;loadFileData, obj_tag: 6, param_obj_tag: 8, param_obj_tag: 9, thread_id: 0
+            method_exit: Ljunit/runner/TestCaseClassLoader;loadFileData, thread_id: 0
+            method_entry: Ljunit/runner/TestCaseClassLoader;isJar, obj_tag: 6, param_obj_tag: 10, thread_id: 0
+            method_exit: Ljunit/runner/TestCaseClassLoader;isJar, thread_id: 0
+            method_entry: Ljunit/runner/TestCaseClassLoader;loadFileData, obj_tag: 6, param_obj_tag: 10, param_obj_tag: 11, thread_id: 0
+            method_exit: Ljunit/runner/TestCaseClassLoader;loadFileData, thread_id: 0
+            method_entry: Ljunit/runner/TestCaseClassLoader;isJar, obj_tag: 6, param_obj_tag: 12, thread_id: 0
+            method_exit: Ljunit/runner/TestCaseClassLoader;isJar, thread_id: 0
+            method_entry: Ljunit/runner/TestCaseClassLoader;loadFileData, obj_tag: 6, param_obj_tag: 12, param_obj_tag: 13, thread_id: 0
+            method_exit: Ljunit/runner/TestCaseClassLoader;loadFileData, thread_id: 0
+          method_exit: Ljunit/runner/TestCaseClassLoader;lookupClassData, thread_id: 0
+        method_exit: Ljunit/runner/TestCaseClassLoader;loadClass, thread_id: 0
+      method_exit: Ljunit/runner/ReloadingTestSuiteLoader;load, thread_id: 0
+    method_exit: Ljunit/runner/BaseTestRunner;loadSuiteClass, thread_id: 0
+    method_entry: Ljunit/swingui/TestRunner;runFailed, obj_tag: 1, param_obj_tag: 14, thread_id: 0
+      method_entry: Ljunit/swingui/TestRunner;showStatus, obj_tag: 1, param_obj_tag: 14, thread_id: 0
+      method_exit: Ljunit/swingui/TestRunner;showStatus, thread_id: 0
+    method_exit: Ljunit/swingui/TestRunner;runFailed, thread_id: 0
+  method_exit: Ljunit/runner/BaseTestRunner;getTest, thread_id: 0
+method_exit: Ltest/auto/TemplateMethod_BaseTestRunner_1;main, thread_id: 0

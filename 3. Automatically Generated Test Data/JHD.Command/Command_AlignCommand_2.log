@@ -1,0 +1,22 @@
+method_entry: Ltest/auto/Command_AlignCommand_2;main, thread_id: 0
+  method_entry: LCH/ifa/draw/samples/javadraw/JavaDrawViewer;<init>, obj_tag: 1, thread_id: 0
+  method_exit: LCH/ifa/draw/samples/javadraw/JavaDrawViewer;<init>, thread_id: 0
+  method_entry: LCH/ifa/draw/standard/StandardDrawingView;<init>, obj_tag: 2, param_obj_tag: 1, thread_id: 0
+    method_entry: LCH/ifa/draw/standard/BufferedUpdateStrategy;<init>, obj_tag: 3, thread_id: 0
+    method_exit: LCH/ifa/draw/standard/BufferedUpdateStrategy;<init>, thread_id: 0
+    method_entry: LCH/ifa/draw/standard/StandardDrawingView;setDisplayUpdate, obj_tag: 2, param_obj_tag: 3, thread_id: 0
+    method_exit: LCH/ifa/draw/standard/StandardDrawingView;setDisplayUpdate, thread_id: 0
+  method_exit: LCH/ifa/draw/standard/StandardDrawingView;<init>, thread_id: 0
+  method_entry: LCH/ifa/draw/standard/AlignCommand;<init>, obj_tag: 4, param_obj_tag: 5, param_obj_tag: 2, thread_id: 0
+    method_entry: LCH/ifa/draw/util/Command;<init>, obj_tag: 4, param_obj_tag: 5, thread_id: 0
+    method_exit: LCH/ifa/draw/util/Command;<init>, thread_id: 0
+  method_exit: LCH/ifa/draw/standard/AlignCommand;<init>, thread_id: 0
+  method_entry: LCH/ifa/draw/standard/AlignCommand;execute, obj_tag: 4, thread_id: 0
+    method_entry: LCH/ifa/draw/standard/StandardDrawingView;selectionElements, obj_tag: 2, thread_id: 0
+      method_entry: LCH/ifa/draw/standard/FigureEnumerator;<init>, obj_tag: 6, param_obj_tag: 7, thread_id: 0
+      method_exit: LCH/ifa/draw/standard/FigureEnumerator;<init>, thread_id: 0
+    method_exit: LCH/ifa/draw/standard/StandardDrawingView;selectionElements, thread_id: 0
+    method_entry: LCH/ifa/draw/standard/FigureEnumerator;nextFigure, obj_tag: 6, thread_id: 0
+    method_exit: LCH/ifa/draw/standard/FigureEnumerator;nextFigure, thread_id: 0
+  method_exit: LCH/ifa/draw/standard/AlignCommand;execute, thread_id: 0
+method_exit: Ltest/auto/Command_AlignCommand_2;main, thread_id: 0

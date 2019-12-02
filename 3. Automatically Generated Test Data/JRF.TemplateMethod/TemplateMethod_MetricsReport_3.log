@@ -1,0 +1,102 @@
+method_entry: Ltest/auto/TemplateMethod_MetricsReport_3;main, thread_id: 0
+  method_entry: Lorg/acm/seguin/metrics/TextReport;<init>, obj_tag: 1, thread_id: 0
+    method_entry: Lorg/acm/seguin/metrics/MetricsReport;<init>, obj_tag: 1, thread_id: 0
+    method_exit: Lorg/acm/seguin/metrics/MetricsReport;<init>, thread_id: 0
+    method_entry: Lorg/acm/seguin/util/TextFormatter;<init>, obj_tag: 2, thread_id: 0
+    method_exit: Lorg/acm/seguin/util/TextFormatter;<init>, thread_id: 0
+  method_exit: Lorg/acm/seguin/metrics/TextReport;<init>, thread_id: 0
+  method_entry: Lorg/acm/seguin/metrics/ProjectMetrics;<init>, obj_tag: 3, thread_id: 0
+  method_exit: Lorg/acm/seguin/metrics/ProjectMetrics;<init>, thread_id: 0
+  method_entry: Lorg/acm/seguin/metrics/MetricsReport;finalReport, obj_tag: 1, param_obj_tag: 3, thread_id: 0
+    method_entry: Lorg/acm/seguin/metrics/TextReport;reportAverageStatements, obj_tag: 1, param_obj_tag: 3, thread_id: 0
+      method_entry: Lorg/acm/seguin/metrics/ProjectMetrics;getStatementTotal, obj_tag: 3, thread_id: 0
+      method_exit: Lorg/acm/seguin/metrics/ProjectMetrics;getStatementTotal, thread_id: 0
+      method_entry: Lorg/acm/seguin/metrics/ProjectMetrics;getMethodTotal, obj_tag: 3, thread_id: 0
+      method_exit: Lorg/acm/seguin/metrics/ProjectMetrics;getMethodTotal, thread_id: 0
+      method_entry: Lorg/acm/seguin/metrics/ProjectMetrics;getStatementTotal, obj_tag: 3, thread_id: 0
+      method_exit: Lorg/acm/seguin/metrics/ProjectMetrics;getStatementTotal, thread_id: 0
+      method_entry: Lorg/acm/seguin/metrics/ProjectMetrics;getMethodTotal, obj_tag: 3, thread_id: 0
+      method_exit: Lorg/acm/seguin/metrics/ProjectMetrics;getMethodTotal, thread_id: 0
+    method_exit: Lorg/acm/seguin/metrics/TextReport;reportAverageStatements, thread_id: 0
+    method_entry: Lorg/acm/seguin/metrics/TextReport;reportAveragePublicMethods, obj_tag: 1, param_obj_tag: 3, thread_id: 0
+      method_entry: Lorg/acm/seguin/metrics/ProjectMetrics;getPublicMethodTotal, obj_tag: 3, thread_id: 0
+      method_exit: Lorg/acm/seguin/metrics/ProjectMetrics;getPublicMethodTotal, thread_id: 0
+      method_entry: Lorg/acm/seguin/metrics/ProjectMetrics;getClassTotal, obj_tag: 3, thread_id: 0
+      method_exit: Lorg/acm/seguin/metrics/ProjectMetrics;getClassTotal, thread_id: 0
+      method_entry: Lorg/acm/seguin/metrics/ProjectMetrics;getPublicMethodTotal, obj_tag: 3, thread_id: 0
+      method_exit: Lorg/acm/seguin/metrics/ProjectMetrics;getPublicMethodTotal, thread_id: 0
+      method_entry: Lorg/acm/seguin/metrics/ProjectMetrics;getClassTotal, obj_tag: 3, thread_id: 0
+      method_exit: Lorg/acm/seguin/metrics/ProjectMetrics;getClassTotal, thread_id: 0
+    method_exit: Lorg/acm/seguin/metrics/TextReport;reportAveragePublicMethods, thread_id: 0
+    method_entry: Lorg/acm/seguin/metrics/TextReport;reportAverageOtherMethods, obj_tag: 1, param_obj_tag: 3, thread_id: 0
+      method_entry: Lorg/acm/seguin/metrics/ProjectMetrics;getOtherMethodTotal, obj_tag: 3, thread_id: 0
+      method_exit: Lorg/acm/seguin/metrics/ProjectMetrics;getOtherMethodTotal, thread_id: 0
+      method_entry: Lorg/acm/seguin/metrics/ProjectMetrics;getClassTotal, obj_tag: 3, thread_id: 0
+      method_exit: Lorg/acm/seguin/metrics/ProjectMetrics;getClassTotal, thread_id: 0
+      method_entry: Lorg/acm/seguin/metrics/ProjectMetrics;getOtherMethodTotal, obj_tag: 3, thread_id: 0
+      method_exit: Lorg/acm/seguin/metrics/ProjectMetrics;getOtherMethodTotal, thread_id: 0
+      method_entry: Lorg/acm/seguin/metrics/ProjectMetrics;getClassTotal, obj_tag: 3, thread_id: 0
+      method_exit: Lorg/acm/seguin/metrics/ProjectMetrics;getClassTotal, thread_id: 0
+    method_exit: Lorg/acm/seguin/metrics/TextReport;reportAverageOtherMethods, thread_id: 0
+    method_entry: Lorg/acm/seguin/metrics/TextReport;reportAverageClassMethods, obj_tag: 1, param_obj_tag: 3, thread_id: 0
+      method_entry: Lorg/acm/seguin/metrics/ProjectMetrics;getClassMethodTotal, obj_tag: 3, thread_id: 0
+      method_exit: Lorg/acm/seguin/metrics/ProjectMetrics;getClassMethodTotal, thread_id: 0
+      method_entry: Lorg/acm/seguin/metrics/ProjectMetrics;getClassTotal, obj_tag: 3, thread_id: 0
+      method_exit: Lorg/acm/seguin/metrics/ProjectMetrics;getClassTotal, thread_id: 0
+      method_entry: Lorg/acm/seguin/metrics/ProjectMetrics;getClassMethodTotal, obj_tag: 3, thread_id: 0
+      method_exit: Lorg/acm/seguin/metrics/ProjectMetrics;getClassMethodTotal, thread_id: 0
+      method_entry: Lorg/acm/seguin/metrics/ProjectMetrics;getClassTotal, obj_tag: 3, thread_id: 0
+      method_exit: Lorg/acm/seguin/metrics/ProjectMetrics;getClassTotal, thread_id: 0
+    method_exit: Lorg/acm/seguin/metrics/TextReport;reportAverageClassMethods, thread_id: 0
+    method_entry: Lorg/acm/seguin/metrics/TextReport;reportAverageInstanceVariables, obj_tag: 1, param_obj_tag: 3, thread_id: 0
+      method_entry: Lorg/acm/seguin/metrics/ProjectMetrics;getInstanceVariableTotal, obj_tag: 3, thread_id: 0
+      method_exit: Lorg/acm/seguin/metrics/ProjectMetrics;getInstanceVariableTotal, thread_id: 0
+      method_entry: Lorg/acm/seguin/metrics/ProjectMetrics;getClassTotal, obj_tag: 3, thread_id: 0
+      method_exit: Lorg/acm/seguin/metrics/ProjectMetrics;getClassTotal, thread_id: 0
+      method_entry: Lorg/acm/seguin/metrics/ProjectMetrics;getInstanceVariableTotal, obj_tag: 3, thread_id: 0
+      method_exit: Lorg/acm/seguin/metrics/ProjectMetrics;getInstanceVariableTotal, thread_id: 0
+      method_entry: Lorg/acm/seguin/metrics/ProjectMetrics;getClassTotal, obj_tag: 3, thread_id: 0
+      method_exit: Lorg/acm/seguin/metrics/ProjectMetrics;getClassTotal, thread_id: 0
+    method_exit: Lorg/acm/seguin/metrics/TextReport;reportAverageInstanceVariables, thread_id: 0
+    method_entry: Lorg/acm/seguin/metrics/TextReport;reportAverageClassVariables, obj_tag: 1, param_obj_tag: 3, thread_id: 0
+      method_entry: Lorg/acm/seguin/metrics/ProjectMetrics;getClassVariableTotal, obj_tag: 3, thread_id: 0
+      method_exit: Lorg/acm/seguin/metrics/ProjectMetrics;getClassVariableTotal, thread_id: 0
+      method_entry: Lorg/acm/seguin/metrics/ProjectMetrics;getClassTotal, obj_tag: 3, thread_id: 0
+      method_exit: Lorg/acm/seguin/metrics/ProjectMetrics;getClassTotal, thread_id: 0
+      method_entry: Lorg/acm/seguin/metrics/ProjectMetrics;getClassVariableTotal, obj_tag: 3, thread_id: 0
+      method_exit: Lorg/acm/seguin/metrics/ProjectMetrics;getClassVariableTotal, thread_id: 0
+      method_entry: Lorg/acm/seguin/metrics/ProjectMetrics;getClassTotal, obj_tag: 3, thread_id: 0
+      method_exit: Lorg/acm/seguin/metrics/ProjectMetrics;getClassTotal, thread_id: 0
+    method_exit: Lorg/acm/seguin/metrics/TextReport;reportAverageClassVariables, thread_id: 0
+    method_entry: Lorg/acm/seguin/metrics/TextReport;reportAbstractClasses, obj_tag: 1, param_obj_tag: 3, thread_id: 0
+      method_entry: Lorg/acm/seguin/metrics/ProjectMetrics;getAbstractClassTotal, obj_tag: 3, thread_id: 0
+      method_exit: Lorg/acm/seguin/metrics/ProjectMetrics;getAbstractClassTotal, thread_id: 0
+      method_entry: Lorg/acm/seguin/metrics/ProjectMetrics;getClassTotal, obj_tag: 3, thread_id: 0
+      method_exit: Lorg/acm/seguin/metrics/ProjectMetrics;getClassTotal, thread_id: 0
+      method_entry: Lorg/acm/seguin/metrics/ProjectMetrics;getAbstractClassTotal, obj_tag: 3, thread_id: 0
+      method_exit: Lorg/acm/seguin/metrics/ProjectMetrics;getAbstractClassTotal, thread_id: 0
+      method_entry: Lorg/acm/seguin/metrics/ProjectMetrics;getClassTotal, obj_tag: 3, thread_id: 0
+      method_exit: Lorg/acm/seguin/metrics/ProjectMetrics;getClassTotal, thread_id: 0
+    method_exit: Lorg/acm/seguin/metrics/TextReport;reportAbstractClasses, thread_id: 0
+    method_entry: Lorg/acm/seguin/metrics/TextReport;reportInterfaces, obj_tag: 1, param_obj_tag: 3, thread_id: 0
+      method_entry: Lorg/acm/seguin/metrics/ProjectMetrics;getInterfaceTotal, obj_tag: 3, thread_id: 0
+      method_exit: Lorg/acm/seguin/metrics/ProjectMetrics;getInterfaceTotal, thread_id: 0
+      method_entry: Lorg/acm/seguin/metrics/ProjectMetrics;getClassTotal, obj_tag: 3, thread_id: 0
+      method_exit: Lorg/acm/seguin/metrics/ProjectMetrics;getClassTotal, thread_id: 0
+      method_entry: Lorg/acm/seguin/metrics/ProjectMetrics;getInterfaceTotal, obj_tag: 3, thread_id: 0
+      method_exit: Lorg/acm/seguin/metrics/ProjectMetrics;getInterfaceTotal, thread_id: 0
+      method_entry: Lorg/acm/seguin/metrics/ProjectMetrics;getClassTotal, obj_tag: 3, thread_id: 0
+      method_exit: Lorg/acm/seguin/metrics/ProjectMetrics;getClassTotal, thread_id: 0
+    method_exit: Lorg/acm/seguin/metrics/TextReport;reportInterfaces, thread_id: 0
+    method_entry: Lorg/acm/seguin/metrics/TextReport;reportAverageParameters, obj_tag: 1, param_obj_tag: 3, thread_id: 0
+      method_entry: Lorg/acm/seguin/metrics/ProjectMetrics;getParameterTotal, obj_tag: 3, thread_id: 0
+      method_exit: Lorg/acm/seguin/metrics/ProjectMetrics;getParameterTotal, thread_id: 0
+      method_entry: Lorg/acm/seguin/metrics/ProjectMetrics;getMethodTotal, obj_tag: 3, thread_id: 0
+      method_exit: Lorg/acm/seguin/metrics/ProjectMetrics;getMethodTotal, thread_id: 0
+      method_entry: Lorg/acm/seguin/metrics/ProjectMetrics;getParameterTotal, obj_tag: 3, thread_id: 0
+      method_exit: Lorg/acm/seguin/metrics/ProjectMetrics;getParameterTotal, thread_id: 0
+      method_entry: Lorg/acm/seguin/metrics/ProjectMetrics;getMethodTotal, obj_tag: 3, thread_id: 0
+      method_exit: Lorg/acm/seguin/metrics/ProjectMetrics;getMethodTotal, thread_id: 0
+    method_exit: Lorg/acm/seguin/metrics/TextReport;reportAverageParameters, thread_id: 0
+  method_exit: Lorg/acm/seguin/metrics/MetricsReport;finalReport, thread_id: 0
+method_exit: Ltest/auto/TemplateMethod_MetricsReport_3;main, thread_id: 0

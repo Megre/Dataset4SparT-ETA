@@ -1,0 +1,28 @@
+method_entry: Ltest/auto/TemplateMethod_AbstractFigure_5;main, thread_id: 0
+  method_entry: LCH/ifa/draw/figures/LineConnection;<init>, obj_tag: 1, thread_id: 0
+    method_entry: LCH/ifa/draw/figures/PolyLineFigure;<init>, obj_tag: 1, thread_id: 0
+      method_entry: LCH/ifa/draw/standard/AbstractFigure;<init>, obj_tag: 1, thread_id: 0
+      method_exit: LCH/ifa/draw/standard/AbstractFigure;<init>, thread_id: 0
+    method_exit: LCH/ifa/draw/figures/PolyLineFigure;<init>, thread_id: 0
+    method_entry: LCH/ifa/draw/figures/ArrowTip;<init>, obj_tag: 2, thread_id: 0
+    method_exit: LCH/ifa/draw/figures/ArrowTip;<init>, thread_id: 0
+    method_entry: LCH/ifa/draw/figures/PolyLineFigure;setStartDecoration, obj_tag: 1, param_obj_tag: 2, thread_id: 0
+    method_exit: LCH/ifa/draw/figures/PolyLineFigure;setStartDecoration, thread_id: 0
+    method_entry: LCH/ifa/draw/figures/ArrowTip;<init>, obj_tag: 3, thread_id: 0
+    method_exit: LCH/ifa/draw/figures/ArrowTip;<init>, thread_id: 0
+    method_entry: LCH/ifa/draw/figures/PolyLineFigure;setEndDecoration, obj_tag: 1, param_obj_tag: 3, thread_id: 0
+    method_exit: LCH/ifa/draw/figures/PolyLineFigure;setEndDecoration, thread_id: 0
+  method_exit: LCH/ifa/draw/figures/LineConnection;<init>, thread_id: 0
+  method_entry: LCH/ifa/draw/standard/AbstractFigure;displayBox, obj_tag: 1, param_obj_tag: 4, param_obj_tag: 5, thread_id: 0
+    method_entry: LCH/ifa/draw/standard/AbstractFigure;willChange, obj_tag: 1, thread_id: 0
+      method_entry: LCH/ifa/draw/standard/AbstractFigure;invalidate, obj_tag: 1, thread_id: 0
+      method_exit: LCH/ifa/draw/standard/AbstractFigure;invalidate, thread_id: 0
+    method_exit: LCH/ifa/draw/standard/AbstractFigure;willChange, thread_id: 0
+    method_entry: LCH/ifa/draw/figures/PolyLineFigure;basicDisplayBox, obj_tag: 1, param_obj_tag: 4, param_obj_tag: 5, thread_id: 0
+    method_exit: LCH/ifa/draw/figures/PolyLineFigure;basicDisplayBox, thread_id: 0
+    method_entry: LCH/ifa/draw/standard/AbstractFigure;changed, obj_tag: 1, thread_id: 0
+      method_entry: LCH/ifa/draw/standard/AbstractFigure;invalidate, obj_tag: 1, thread_id: 0
+      method_exit: LCH/ifa/draw/standard/AbstractFigure;invalidate, thread_id: 0
+    method_exit: LCH/ifa/draw/standard/AbstractFigure;changed, thread_id: 0
+  method_exit: LCH/ifa/draw/standard/AbstractFigure;displayBox, thread_id: 0
+method_exit: Ltest/auto/TemplateMethod_AbstractFigure_5;main, thread_id: 0

@@ -1,0 +1,271 @@
+<?xml version="1.0"?>
+<!DOCTYPE rdf:RDF [
+  <!ENTITY this 'http://anonymous.authors/ontologies/2017/11/Java.DesignPattern#'>
+  <!ENTITY owl 'http://www.w3.org/2002/07/owl#'>
+  <!ENTITY bh 'http://anonymous.authors/ontologies/2017/8/Behavior#'>
+  <!ENTITY xsd 'http://www.w3.org/2001/XMLSchema#'>
+  <!ENTITY rdfs 'http://www.w3.org/2000/01/rdf-schema#'>
+  <!ENTITY ptn 'http://anonymous.authors/ontologies/2017/10/Pattern#'>
+  <!ENTITY mgd 'http://anonymous.authors/ontologies/2017/12/Merged#'>
+  <!ENTITY jbh 'http://anonymous.authors/ontologies/2017/8/Java.Behavior#'>
+  <!ENTITY java 'http://anonymous.authors/ontologies/2017/6/Java#'>
+  <!ENTITY t 'http://anonymous.authors/ontologies/2018/10/Time#'>
+  <!ENTITY rdf 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+  <!ENTITY sbh 'http://anonymous.authors/ontologies/2018/4/StaticBehavior'>
+  <!ENTITY jd 'http://anonymous.authors/ontologies/2017/11/Java.DesignPattern#'>
+  <!ENTITY jsbh 'http://anonymous.authors/ontologies/2018/4/Java.StaticBehavior#'>
+  <!ENTITY base 'http://anonymous.authors/ontologies/2017/12/Merged#'>]>
+<rdf:RDF
+    xmlns:rdf="&rdf;"
+    xmlns:jbh="&jbh;"
+    xmlns:rdfs="&rdfs;"
+    xmlns:java="&java;"
+    xmlns:sbh="http://anonymous.authors/ontologies/2018/4/StaticBehavior"
+    xmlns:t="&t;"
+    xmlns:owl="&owl;"
+    xmlns:jd="&jd;"
+    xmlns:ptn="&ptn;"
+    xmlns:bh="&bh;"
+    xmlns:base="&base;"
+    xmlns:jsbh="&jsbh;"
+    xmlns:xsd="&xsd;">
+  <jbh:FieldModi rdf:about="&jbh;fldModi11">
+    <jbh:fieldVisitMethod>
+      <java:Method rdf:about="http://anonymous.authors/ontologies/2017/6/Java#CH.ifa.draw.standard.StandardDrawingView.!init">
+        <jbh:isInit rdf:datatype="&xsd;boolean">true</jbh:isInit>
+      </java:Method>
+    </jbh:fieldVisitMethod>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">0</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">4</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">12</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">0</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">11</t:startsAt>
+    <jbh:visitedField>
+      <java:Field rdf:about="&java;CH.ifa.draw.standard.StandardDrawingView.fConstrainer">
+        <java:fieldTypeIs>
+          <java:Class rdf:about="&java;CH.ifa.draw.framework.PointConstrainer"/>
+        </java:fieldTypeIs>
+      </java:Field>
+    </jbh:visitedField>
+  </jbh:FieldModi>
+  <jbh:FieldModi rdf:about="&jbh;fldModi21">
+    <jbh:fieldVisitMethod>
+      <java:Method rdf:about="&java;CH.ifa.draw.standard.StandardDrawingView.setConstrainer"/>
+    </jbh:fieldVisitMethod>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">1</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">4</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">22</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">1</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">21</t:startsAt>
+    <jbh:visitedField rdf:resource="&java;CH.ifa.draw.standard.StandardDrawingView.fConstrainer"/>
+  </jbh:FieldModi>
+  <jbh:MethodCall rdf:about="&jbh;mc5">
+    <jbh:methodCalled>
+      <java:Method rdf:about="http://anonymous.authors/ontologies/2017/6/Java#CH.ifa.draw.applet.DrawApplet.!init">
+        <jbh:isInit rdf:datatype="&xsd;boolean">true</jbh:isInit>
+      </java:Method>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">6</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc4">
+        <jbh:methodCalled>
+          <java:Method rdf:about="http://anonymous.authors/ontologies/2017/6/Java#CH.ifa.draw.samples.nothing.NothingApplet.!init">
+            <jbh:isInit rdf:datatype="&xsd;boolean">true</jbh:isInit>
+          </java:Method>
+        </jbh:methodCalled>
+        <t:endsAt rdf:datatype="&xsd;integer">7</t:endsAt>
+        <bh:originEvent>
+          <jbh:MethodCall rdf:about="&jbh;mc1">
+            <jbh:methodCalled>
+              <java:Method rdf:about="&java;test.auto.Strategy_Setter_StandardDrawingView_PointConstrainer_4.main"/>
+            </jbh:methodCalled>
+            <t:endsAt rdf:datatype="&xsd;integer">38</t:endsAt>
+            <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+            <t:startsAt rdf:datatype="&xsd;integer">1</t:startsAt>
+          </jbh:MethodCall>
+        </bh:originEvent>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;test.auto.Strategy_Setter_StandardDrawingView_PointConstrainer_4.main"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">3</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">4</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#CH.ifa.draw.samples.nothing.NothingApplet.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">3</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">5</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc13">
+    <jbh:methodCalled>
+      <java:Method rdf:about="http://anonymous.authors/ontologies/2017/6/Java#CH.ifa.draw.standard.BufferedUpdateStrategy.!init">
+        <jbh:isInit rdf:datatype="&xsd;boolean">true</jbh:isInit>
+      </java:Method>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">14</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc8">
+        <jbh:paramObjTag rdf:datatype="&xsd;integer">3</jbh:paramObjTag>
+        <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#CH.ifa.draw.standard.StandardDrawingView.!init"/>
+        <t:endsAt rdf:datatype="&xsd;integer">19</t:endsAt>
+        <bh:originEvent rdf:resource="&jbh;mc1"/>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;test.auto.Strategy_Setter_StandardDrawingView_PointConstrainer_4.main"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">4</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">8</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#CH.ifa.draw.standard.StandardDrawingView.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">8</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">13</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc15">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">8</jbh:paramObjTag>
+    <jbh:methodCalled>
+      <java:Method rdf:about="&java;CH.ifa.draw.standard.StandardDrawingView.setDisplayUpdate"/>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">18</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc8"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#CH.ifa.draw.standard.StandardDrawingView.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">4</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">15</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:FieldModi rdf:about="&jbh;fldModi16">
+    <jbh:fieldVisitMethod rdf:resource="&java;CH.ifa.draw.standard.StandardDrawingView.setDisplayUpdate"/>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">8</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">4</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">17</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">8</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">16</t:startsAt>
+    <jbh:visitedField>
+      <java:Field rdf:about="&java;CH.ifa.draw.standard.StandardDrawingView.fUpdateStrategy">
+        <java:fieldTypeIs>
+          <java:Class rdf:about="&java;CH.ifa.draw.framework.Painter"/>
+        </java:fieldTypeIs>
+      </java:Field>
+    </jbh:visitedField>
+  </jbh:FieldModi>
+  <jbh:MethodCall rdf:about="&jbh;mc30">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">10</jbh:paramObjTag>
+    <jbh:methodCalled>
+      <java:Method rdf:about="&java;CH.ifa.draw.standard.GridConstrainer.constrainPoint"/>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">31</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc25">
+        <jbh:paramObjTag rdf:datatype="&xsd;integer">10</jbh:paramObjTag>
+        <jbh:methodCalled>
+          <java:Method rdf:about="&java;CH.ifa.draw.standard.StandardDrawingView.constrainPoint"/>
+        </jbh:methodCalled>
+        <t:endsAt rdf:datatype="&xsd;integer">32</t:endsAt>
+        <bh:originEvent>
+          <jbh:MethodCall rdf:about="&jbh;mc24">
+            <jbh:paramObjTag rdf:datatype="&xsd;integer">9</jbh:paramObjTag>
+            <jbh:methodCalled>
+              <java:Method rdf:about="&java;CH.ifa.draw.standard.StandardDrawingView.mouseReleased"/>
+            </jbh:methodCalled>
+            <t:endsAt rdf:datatype="&xsd;integer">37</t:endsAt>
+            <bh:originEvent rdf:resource="&jbh;mc1"/>
+            <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+            <jbh:methodCaller rdf:resource="&java;test.auto.Strategy_Setter_StandardDrawingView_PointConstrainer_4.main"/>
+            <jbh:objTag rdf:datatype="&xsd;integer">4</jbh:objTag>
+            <t:startsAt rdf:datatype="&xsd;integer">24</t:startsAt>
+          </jbh:MethodCall>
+        </bh:originEvent>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;CH.ifa.draw.standard.StandardDrawingView.mouseReleased"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">4</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">25</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;CH.ifa.draw.standard.StandardDrawingView.constrainPoint"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">1</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">30</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc20">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">1</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="&java;CH.ifa.draw.standard.StandardDrawingView.setConstrainer"/>
+    <t:endsAt rdf:datatype="&xsd;integer">23</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc1"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;test.auto.Strategy_Setter_StandardDrawingView_PointConstrainer_4.main"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">4</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">20</t:startsAt>
+  </jbh:MethodCall>
+  <java:Class rdf:about="&java;CH.ifa.draw.standard.StandardDrawingView">
+    <java:hasField rdf:resource="&java;CH.ifa.draw.standard.StandardDrawingView.fConstrainer"/>
+    <java:hasField rdf:resource="&java;CH.ifa.draw.standard.StandardDrawingView.fUpdateStrategy"/>
+    <java:hasField>
+      <java:Field rdf:about="&java;CH.ifa.draw.standard.StandardDrawingView.fEditor">
+        <java:fieldTypeIs>
+          <java:Class rdf:about="&java;CH.ifa.draw.framework.DrawingEditor"/>
+        </java:fieldTypeIs>
+      </java:Field>
+    </java:hasField>
+  </java:Class>
+  <jbh:MethodCall rdf:about="&jbh;mc34">
+    <jbh:methodCalled>
+      <java:Method rdf:about="&java;CH.ifa.draw.applet.DrawApplet.tool"/>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">35</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc33">
+        <jbh:methodCalled>
+          <java:Method rdf:about="&java;CH.ifa.draw.standard.StandardDrawingView.tool"/>
+        </jbh:methodCalled>
+        <t:endsAt rdf:datatype="&xsd;integer">36</t:endsAt>
+        <bh:originEvent rdf:resource="&jbh;mc24"/>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;CH.ifa.draw.standard.StandardDrawingView.mouseReleased"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">4</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">33</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;CH.ifa.draw.standard.StandardDrawingView.tool"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">3</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">34</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc2">
+    <jbh:methodCalled>
+      <java:Method rdf:about="http://anonymous.authors/ontologies/2017/6/Java#CH.ifa.draw.standard.GridConstrainer.!init">
+        <jbh:isInit rdf:datatype="&xsd;boolean">true</jbh:isInit>
+      </java:Method>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">3</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc1"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;test.auto.Strategy_Setter_StandardDrawingView_PointConstrainer_4.main"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">1</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">2</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc26">
+    <jbh:methodCalled>
+      <java:Method rdf:about="&java;CH.ifa.draw.util.Geom.range"/>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">27</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc25"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;CH.ifa.draw.standard.StandardDrawingView.constrainPoint"/>
+    <t:startsAt rdf:datatype="&xsd;integer">26</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc28">
+    <jbh:methodCalled rdf:resource="&java;CH.ifa.draw.util.Geom.range"/>
+    <t:endsAt rdf:datatype="&xsd;integer">29</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc25"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;CH.ifa.draw.standard.StandardDrawingView.constrainPoint"/>
+    <t:startsAt rdf:datatype="&xsd;integer">28</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:FieldModi rdf:about="&jbh;fldModi9">
+    <jbh:fieldVisitMethod rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#CH.ifa.draw.standard.StandardDrawingView.!init"/>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">3</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">4</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">10</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">3</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">9</t:startsAt>
+    <jbh:visitedField rdf:resource="&java;CH.ifa.draw.standard.StandardDrawingView.fEditor"/>
+  </jbh:FieldModi>
+</rdf:RDF>

@@ -1,0 +1,833 @@
+<?xml version="1.0"?>
+<!DOCTYPE rdf:RDF [
+  <!ENTITY this 'http://anonymous.authors/ontologies/2017/11/Java.DesignPattern#'>
+  <!ENTITY owl 'http://www.w3.org/2002/07/owl#'>
+  <!ENTITY bh 'http://anonymous.authors/ontologies/2017/8/Behavior#'>
+  <!ENTITY xsd 'http://www.w3.org/2001/XMLSchema#'>
+  <!ENTITY rdfs 'http://www.w3.org/2000/01/rdf-schema#'>
+  <!ENTITY ptn 'http://anonymous.authors/ontologies/2017/10/Pattern#'>
+  <!ENTITY mgd 'http://anonymous.authors/ontologies/2017/12/Merged#'>
+  <!ENTITY jbh 'http://anonymous.authors/ontologies/2017/8/Java.Behavior#'>
+  <!ENTITY java 'http://anonymous.authors/ontologies/2017/6/Java#'>
+  <!ENTITY t 'http://anonymous.authors/ontologies/2018/10/Time#'>
+  <!ENTITY rdf 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+  <!ENTITY sbh 'http://anonymous.authors/ontologies/2018/4/StaticBehavior'>
+  <!ENTITY jd 'http://anonymous.authors/ontologies/2017/11/Java.DesignPattern#'>
+  <!ENTITY jsbh 'http://anonymous.authors/ontologies/2018/4/Java.StaticBehavior#'>
+  <!ENTITY base 'http://anonymous.authors/ontologies/2017/12/Merged#'>]>
+<rdf:RDF
+    xmlns:rdf="&rdf;"
+    xmlns:jbh="&jbh;"
+    xmlns:rdfs="&rdfs;"
+    xmlns:java="&java;"
+    xmlns:sbh="http://anonymous.authors/ontologies/2018/4/StaticBehavior"
+    xmlns:t="&t;"
+    xmlns:owl="&owl;"
+    xmlns:jd="&jd;"
+    xmlns:ptn="&ptn;"
+    xmlns:bh="&bh;"
+    xmlns:base="&base;"
+    xmlns:jsbh="&jsbh;"
+    xmlns:xsd="&xsd;">
+  <jbh:FieldModi rdf:about="&jbh;fldModi102">
+    <jbh:fieldVisitMethod>
+      <java:Method rdf:about="http://anonymous.authors/ontologies/2017/6/Java#CH.ifa.draw.standard.AbstractTool.!init">
+        <jbh:isInit rdf:datatype="&xsd;boolean">true</jbh:isInit>
+      </java:Method>
+    </jbh:fieldVisitMethod>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">58</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">63</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">103</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">58</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">102</t:startsAt>
+    <jbh:visitedField>
+      <java:Field rdf:about="&java;CH.ifa.draw.standard.AbstractTool.fView">
+        <java:fieldTypeIs>
+          <java:Class rdf:about="&java;CH.ifa.draw.framework.DrawingView"/>
+        </java:fieldTypeIs>
+      </java:Field>
+    </jbh:visitedField>
+  </jbh:FieldModi>
+  <jbh:MethodCall rdf:about="&jbh;mc61">
+    <jbh:methodCalled>
+      <java:Method rdf:about="&java;CH.ifa.draw.figures.TextFigure.updateLocation"/>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">62</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc56">
+        <jbh:methodCalled>
+          <java:Method rdf:about="&java;CH.ifa.draw.figures.TextFigure.changed"/>
+        </jbh:methodCalled>
+        <t:endsAt rdf:datatype="&xsd;integer">63</t:endsAt>
+        <bh:originEvent>
+          <jbh:MethodCall rdf:about="&jbh;mc49">
+            <jbh:paramObjTag rdf:datatype="&xsd;integer">50</jbh:paramObjTag>
+            <jbh:objTag rdf:datatype="&xsd;integer">2</jbh:objTag>
+            <t:endsAt rdf:datatype="&xsd;integer">64</t:endsAt>
+            <jbh:methodCalled>
+              <java:Method rdf:about="&java;CH.ifa.draw.figures.AttributeFigure.setAttribute"/>
+            </jbh:methodCalled>
+            <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+            <t:startsAt rdf:datatype="&xsd;integer">49</t:startsAt>
+            <jbh:methodCaller>
+              <java:Method rdf:about="&java;CH.ifa.draw.figures.TextFigure.setAttribute"/>
+            </jbh:methodCaller>
+            <jbh:paramObjTag rdf:datatype="&xsd;integer">48</jbh:paramObjTag>
+            <bh:originEvent>
+              <jbh:MethodCall rdf:about="&jbh;mc46">
+                <t:startsAt rdf:datatype="&xsd;integer">46</t:startsAt>
+                <bh:originEvent>
+                  <jbh:MethodCall rdf:about="&jbh;mc3">
+                    <jbh:methodCalled>
+                      <java:Method rdf:about="http://anonymous.authors/ontologies/2017/6/Java#CH.ifa.draw.figures.TextFigure.!init">
+                        <jbh:isInit rdf:datatype="&xsd;boolean"
+                        >true</jbh:isInit>
+                      </java:Method>
+                    </jbh:methodCalled>
+                    <t:endsAt rdf:datatype="&xsd;integer">66</t:endsAt>
+                    <bh:originEvent>
+                      <jbh:MethodCall rdf:about="&jbh;mc2">
+                        <jbh:methodCalled>
+                          <java:Method rdf:about="http://anonymous.authors/ontologies/2017/6/Java#CH.ifa.draw.figures.NumberTextFigure.!init">
+                            <jbh:isInit rdf:datatype="&xsd;boolean"
+                            >true</jbh:isInit>
+                          </java:Method>
+                        </jbh:methodCalled>
+                        <t:endsAt rdf:datatype="&xsd;integer"
+                        >67</t:endsAt>
+                        <bh:originEvent>
+                          <jbh:MethodCall rdf:about="&jbh;mc1">
+                            <jbh:methodCalled>
+                              <java:Method rdf:about="&java;test.auto.Strategy_HandleTracker_Handle_17.main"/>
+                            </jbh:methodCalled>
+                            <t:endsAt rdf:datatype="&xsd;integer"
+                            >120</t:endsAt>
+                            <java:threadID rdf:datatype="&xsd;integer"
+                            >0</java:threadID>
+                            <t:startsAt rdf:datatype="&xsd;integer"
+                            >1</t:startsAt>
+                          </jbh:MethodCall>
+                        </bh:originEvent>
+                        <java:threadID rdf:datatype="&xsd;integer"
+                        >0</java:threadID>
+                        <jbh:methodCaller rdf:resource="&java;test.auto.Strategy_HandleTracker_Handle_17.main"/>
+                        <jbh:objTag rdf:datatype="&xsd;integer"
+                        >2</jbh:objTag>
+                        <t:startsAt rdf:datatype="&xsd;integer"
+                        >2</t:startsAt>
+                      </jbh:MethodCall>
+                    </bh:originEvent>
+                    <java:threadID rdf:datatype="&xsd;integer"
+                    >0</java:threadID>
+                    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#CH.ifa.draw.figures.NumberTextFigure.!init"/>
+                    <jbh:objTag rdf:datatype="&xsd;integer">2</jbh:objTag>
+                    <t:startsAt rdf:datatype="&xsd;integer">3</t:startsAt>
+                  </jbh:MethodCall>
+                </bh:originEvent>
+                <jbh:paramObjTag rdf:datatype="&xsd;integer">48</jbh:paramObjTag>
+                <jbh:paramObjTag rdf:datatype="&xsd;integer">50</jbh:paramObjTag>
+                <jbh:objTag rdf:datatype="&xsd;integer">2</jbh:objTag>
+                <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#CH.ifa.draw.figures.TextFigure.!init"/>
+                <t:endsAt rdf:datatype="&xsd;integer">65</t:endsAt>
+                <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+                <jbh:methodCalled rdf:resource="&java;CH.ifa.draw.figures.TextFigure.setAttribute"/>
+              </jbh:MethodCall>
+            </bh:originEvent>
+          </jbh:MethodCall>
+        </bh:originEvent>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;CH.ifa.draw.figures.AttributeFigure.setAttribute"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">2</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">56</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;CH.ifa.draw.figures.TextFigure.changed"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">2</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">61</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc85">
+    <jbh:methodCalled>
+      <java:Method rdf:about="http://anonymous.authors/ontologies/2017/6/Java#CH.ifa.draw.applet.DrawApplet.!init">
+        <jbh:isInit rdf:datatype="&xsd;boolean">true</jbh:isInit>
+      </java:Method>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">86</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc84">
+        <jbh:methodCalled>
+          <java:Method rdf:about="http://anonymous.authors/ontologies/2017/6/Java#CH.ifa.draw.samples.nothing.NothingApplet.!init">
+            <jbh:isInit rdf:datatype="&xsd;boolean">true</jbh:isInit>
+          </java:Method>
+        </jbh:methodCalled>
+        <t:endsAt rdf:datatype="&xsd;integer">87</t:endsAt>
+        <bh:originEvent rdf:resource="&jbh;mc1"/>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;test.auto.Strategy_HandleTracker_Handle_17.main"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">57</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">84</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#CH.ifa.draw.samples.nothing.NothingApplet.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">57</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">85</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc114">
+    <jbh:methodCalled>
+      <java:Method rdf:about="&java;CH.ifa.draw.standard.AbstractHandle.owner"/>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">115</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc113">
+        <jbh:paramObjTag rdf:datatype="&xsd;integer">58</jbh:paramObjTag>
+        <jbh:methodCalled>
+          <java:Method rdf:about="&java;CH.ifa.draw.figures.FontSizeHandle.invokeStart"/>
+        </jbh:methodCalled>
+        <t:endsAt rdf:datatype="&xsd;integer">118</t:endsAt>
+        <bh:originEvent>
+          <jbh:MethodCall rdf:about="&jbh;mc108">
+            <jbh:paramObjTag rdf:datatype="&xsd;integer">64</jbh:paramObjTag>
+            <jbh:methodCalled>
+              <java:Method rdf:about="&java;CH.ifa.draw.standard.HandleTracker.mouseDown"/>
+            </jbh:methodCalled>
+            <t:endsAt rdf:datatype="&xsd;integer">119</t:endsAt>
+            <bh:originEvent rdf:resource="&jbh;mc1"/>
+            <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+            <jbh:methodCaller rdf:resource="&java;test.auto.Strategy_HandleTracker_Handle_17.main"/>
+            <jbh:objTag rdf:datatype="&xsd;integer">63</jbh:objTag>
+            <t:startsAt rdf:datatype="&xsd;integer">108</t:startsAt>
+          </jbh:MethodCall>
+        </bh:originEvent>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;CH.ifa.draw.standard.HandleTracker.mouseDown"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">55</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">113</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;CH.ifa.draw.figures.FontSizeHandle.invokeStart"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">55</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">114</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc69">
+    <jbh:methodCalled>
+      <java:Method rdf:about="http://anonymous.authors/ontologies/2017/6/Java#CH.ifa.draw.standard.AbstractLocator.!init">
+        <jbh:isInit rdf:datatype="&xsd;boolean">true</jbh:isInit>
+      </java:Method>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">70</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc68">
+        <jbh:methodCalled>
+          <java:Method rdf:about="http://anonymous.authors/ontologies/2017/6/Java#CH.ifa.draw.standard.OffsetLocator.!init">
+            <jbh:isInit rdf:datatype="&xsd;boolean">true</jbh:isInit>
+          </java:Method>
+        </jbh:methodCalled>
+        <t:endsAt rdf:datatype="&xsd;integer">73</t:endsAt>
+        <bh:originEvent rdf:resource="&jbh;mc1"/>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;test.auto.Strategy_HandleTracker_Handle_17.main"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">54</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">68</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#CH.ifa.draw.standard.OffsetLocator.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">54</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">69</t:startsAt>
+  </jbh:MethodCall>
+  <java:Class rdf:about="&java;CH.ifa.draw.figures.AttributeFigure">
+    <java:hasField>
+      <java:Field rdf:about="&java;CH.ifa.draw.figures.AttributeFigure.fAttributes">
+        <java:fieldTypeIs>
+          <java:Class rdf:about="&java;CH.ifa.draw.figures.FigureAttributes"/>
+        </java:fieldTypeIs>
+      </java:Field>
+    </java:hasField>
+  </java:Class>
+  <jbh:FieldModi rdf:about="&jbh;fldModi91">
+    <jbh:fieldVisitMethod>
+      <java:Method rdf:about="http://anonymous.authors/ontologies/2017/6/Java#CH.ifa.draw.standard.StandardDrawingView.!init">
+        <jbh:isInit rdf:datatype="&xsd;boolean">true</jbh:isInit>
+      </java:Method>
+    </jbh:fieldVisitMethod>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">0</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">58</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">92</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">0</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">91</t:startsAt>
+    <jbh:visitedField>
+      <java:Field rdf:about="&java;CH.ifa.draw.standard.StandardDrawingView.fConstrainer">
+        <java:fieldTypeIs>
+          <java:Class rdf:about="&java;CH.ifa.draw.framework.PointConstrainer"/>
+        </java:fieldTypeIs>
+      </java:Field>
+    </jbh:visitedField>
+  </jbh:FieldModi>
+  <jbh:MethodCall rdf:about="&jbh;mc101">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">58</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#CH.ifa.draw.standard.AbstractTool.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">104</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc100">
+        <jbh:paramObjTag rdf:datatype="&xsd;integer">55</jbh:paramObjTag>
+        <jbh:methodCaller rdf:resource="&java;test.auto.Strategy_HandleTracker_Handle_17.main"/>
+        <t:endsAt rdf:datatype="&xsd;integer">107</t:endsAt>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:objTag rdf:datatype="&xsd;integer">63</jbh:objTag>
+        <jbh:paramObjTag rdf:datatype="&xsd;integer">58</jbh:paramObjTag>
+        <t:startsAt rdf:datatype="&xsd;integer">100</t:startsAt>
+        <bh:originEvent rdf:resource="&jbh;mc1"/>
+        <jbh:methodCalled>
+          <java:Method rdf:about="http://anonymous.authors/ontologies/2017/6/Java#CH.ifa.draw.standard.HandleTracker.!init">
+            <jbh:isInit rdf:datatype="&xsd;boolean">true</jbh:isInit>
+          </java:Method>
+        </jbh:methodCalled>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#CH.ifa.draw.standard.HandleTracker.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">63</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">101</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc20">
+    <jbh:objTag rdf:datatype="&xsd;integer">13</jbh:objTag>
+    <jbh:methodCalled>
+      <java:Method rdf:about="http://anonymous.authors/ontologies/2017/6/Java#CH.ifa.draw.util.ColorEntry.!init">
+        <jbh:isInit rdf:datatype="&xsd;boolean">true</jbh:isInit>
+      </java:Method>
+    </jbh:methodCalled>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <bh:originEvent rdf:resource="&jbh;mc3"/>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#CH.ifa.draw.figures.TextFigure.!init"/>
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">15</jbh:paramObjTag>
+    <t:startsAt rdf:datatype="&xsd;integer">20</t:startsAt>
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">14</jbh:paramObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">21</t:endsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc32">
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">33</jbh:paramObjTag>
+    <bh:originEvent rdf:resource="&jbh;mc3"/>
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">32</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#CH.ifa.draw.util.ColorEntry.!init"/>
+    <t:startsAt rdf:datatype="&xsd;integer">32</t:startsAt>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#CH.ifa.draw.figures.TextFigure.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">31</jbh:objTag>
+    <t:endsAt rdf:datatype="&xsd;integer">33</t:endsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc44">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">47</jbh:paramObjTag>
+    <jbh:methodCalled>
+      <java:Method rdf:about="&java;CH.ifa.draw.util.ColorMap.color"/>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">45</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc3"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#CH.ifa.draw.figures.TextFigure.!init"/>
+    <t:startsAt rdf:datatype="&xsd;integer">44</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc16">
+    <t:startsAt rdf:datatype="&xsd;integer">16</t:startsAt>
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">9</jbh:paramObjTag>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <bh:originEvent rdf:resource="&jbh;mc3"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">7</jbh:objTag>
+    <t:endsAt rdf:datatype="&xsd;integer">17</t:endsAt>
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">8</jbh:paramObjTag>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#CH.ifa.draw.figures.TextFigure.!init"/>
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#CH.ifa.draw.util.ColorEntry.!init"/>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc28">
+    <bh:originEvent rdf:resource="&jbh;mc3"/>
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">26</jbh:paramObjTag>
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">27</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#CH.ifa.draw.util.ColorEntry.!init"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <t:startsAt rdf:datatype="&xsd;integer">28</t:startsAt>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#CH.ifa.draw.figures.TextFigure.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">29</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">25</jbh:objTag>
+  </jbh:MethodCall>
+  <java:Class rdf:about="&java;CH.ifa.draw.standard.AbstractTool">
+    <java:hasField rdf:resource="&java;CH.ifa.draw.standard.AbstractTool.fView"/>
+  </java:Class>
+  <jbh:FieldModi rdf:about="&jbh;fldModi52">
+    <jbh:fieldVisitMethod rdf:resource="&java;CH.ifa.draw.figures.AttributeFigure.setAttribute"/>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">51</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">2</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">53</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">51</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">52</t:startsAt>
+    <jbh:visitedField rdf:resource="&java;CH.ifa.draw.figures.AttributeFigure.fAttributes"/>
+  </jbh:FieldModi>
+  <jbh:MethodCall rdf:about="&jbh;mc109">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">64</jbh:paramObjTag>
+    <jbh:methodCalled>
+      <java:Method rdf:about="&java;CH.ifa.draw.standard.AbstractTool.mouseDown"/>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">110</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc108"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;CH.ifa.draw.standard.HandleTracker.mouseDown"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">63</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">109</t:startsAt>
+  </jbh:MethodCall>
+  <java:Class rdf:about="&java;CH.ifa.draw.figures.TextFigure">
+    <java:hasField>
+      <java:Field rdf:about="&java;CH.ifa.draw.figures.TextFigure.fLocator">
+        <java:fieldTypeIs>
+          <java:Class rdf:about="&java;CH.ifa.draw.standard.OffsetLocator">
+            <java:hasField>
+              <java:Field rdf:about="&java;CH.ifa.draw.standard.OffsetLocator.fBase">
+                <java:fieldTypeIs>
+                  <java:Class rdf:about="&java;CH.ifa.draw.framework.Locator"/>
+                </java:fieldTypeIs>
+              </java:Field>
+            </java:hasField>
+          </java:Class>
+        </java:fieldTypeIs>
+      </java:Field>
+    </java:hasField>
+    <java:hasField>
+      <java:Field rdf:about="&java;CH.ifa.draw.figures.TextFigure.fObservedFigure">
+        <java:fieldTypeIs>
+          <java:Class rdf:about="&java;CH.ifa.draw.framework.Figure"/>
+        </java:fieldTypeIs>
+      </java:Field>
+    </java:hasField>
+  </java:Class>
+  <jbh:FieldModi rdf:about="&jbh;fldModi80">
+    <jbh:fieldVisitMethod>
+      <java:Method rdf:about="http://anonymous.authors/ontologies/2017/6/Java#CH.ifa.draw.standard.LocatorHandle.!init">
+        <jbh:isInit rdf:datatype="&xsd;boolean">true</jbh:isInit>
+      </java:Method>
+    </jbh:fieldVisitMethod>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">54</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">55</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">81</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">54</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">80</t:startsAt>
+    <jbh:visitedField>
+      <java:Field rdf:about="&java;CH.ifa.draw.standard.LocatorHandle.fLocator">
+        <java:fieldTypeIs rdf:resource="&java;CH.ifa.draw.framework.Locator"/>
+      </java:Field>
+    </jbh:visitedField>
+  </jbh:FieldModi>
+  <jbh:MethodCall rdf:about="&jbh;mc116">
+    <jbh:methodCalled>
+      <java:Method rdf:about="&java;CH.ifa.draw.figures.TextFigure.getFont"/>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">117</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc113"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;CH.ifa.draw.figures.FontSizeHandle.invokeStart"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">2</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">116</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc47">
+    <jbh:methodCalled rdf:resource="&java;CH.ifa.draw.figures.TextFigure.getFont"/>
+    <t:endsAt rdf:datatype="&xsd;integer">48</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc46"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;CH.ifa.draw.figures.TextFigure.setAttribute"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">2</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">47</t:startsAt>
+  </jbh:MethodCall>
+  <java:Class rdf:about="&java;CH.ifa.draw.standard.LocatorHandle">
+    <java:hasField rdf:resource="&java;CH.ifa.draw.standard.LocatorHandle.fLocator"/>
+  </java:Class>
+  <jbh:FieldModi rdf:about="&jbh;fldModi8">
+    <jbh:fieldVisitMethod rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#CH.ifa.draw.figures.TextFigure.!init"/>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">0</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">2</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">9</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">0</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">8</t:startsAt>
+    <jbh:visitedField rdf:resource="&java;CH.ifa.draw.figures.TextFigure.fObservedFigure"/>
+  </jbh:FieldModi>
+  <jbh:MethodCall rdf:about="&jbh;mc50">
+    <jbh:methodCalled>
+      <java:Method rdf:about="http://anonymous.authors/ontologies/2017/6/Java#CH.ifa.draw.figures.FigureAttributes.!init">
+        <jbh:isInit rdf:datatype="&xsd;boolean">true</jbh:isInit>
+      </java:Method>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">51</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc49"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;CH.ifa.draw.figures.AttributeFigure.setAttribute"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">51</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">50</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:FieldModi rdf:about="&jbh;fldModi10">
+    <jbh:fieldVisitMethod rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#CH.ifa.draw.figures.TextFigure.!init"/>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">0</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">2</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">11</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">0</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">10</t:startsAt>
+    <jbh:visitedField rdf:resource="&java;CH.ifa.draw.figures.TextFigure.fLocator"/>
+  </jbh:FieldModi>
+  <jbh:MethodCall rdf:about="&jbh;mc22">
+    <t:endsAt rdf:datatype="&xsd;integer">23</t:endsAt>
+    <t:startsAt rdf:datatype="&xsd;integer">22</t:startsAt>
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">18</jbh:paramObjTag>
+    <bh:originEvent rdf:resource="&jbh;mc3"/>
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#CH.ifa.draw.util.ColorEntry.!init"/>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#CH.ifa.draw.figures.TextFigure.!init"/>
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">17</jbh:paramObjTag>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:objTag rdf:datatype="&xsd;integer">16</jbh:objTag>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc34">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">36</jbh:paramObjTag>
+    <t:startsAt rdf:datatype="&xsd;integer">34</t:startsAt>
+    <bh:originEvent rdf:resource="&jbh;mc3"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <t:endsAt rdf:datatype="&xsd;integer">35</t:endsAt>
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#CH.ifa.draw.util.ColorEntry.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">34</jbh:objTag>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#CH.ifa.draw.figures.TextFigure.!init"/>
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">35</jbh:paramObjTag>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc58">
+    <jbh:methodCalled>
+      <java:Method rdf:about="&java;CH.ifa.draw.standard.AbstractFigure.invalidate"/>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">59</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc57">
+        <jbh:methodCalled>
+          <java:Method rdf:about="&java;CH.ifa.draw.standard.AbstractFigure.changed"/>
+        </jbh:methodCalled>
+        <t:endsAt rdf:datatype="&xsd;integer">60</t:endsAt>
+        <bh:originEvent rdf:resource="&jbh;mc56"/>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;CH.ifa.draw.figures.TextFigure.changed"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">2</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">57</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;CH.ifa.draw.standard.AbstractFigure.changed"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">2</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">58</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc18">
+    <t:startsAt rdf:datatype="&xsd;integer">18</t:startsAt>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#CH.ifa.draw.figures.TextFigure.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">10</jbh:objTag>
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#CH.ifa.draw.util.ColorEntry.!init"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <bh:originEvent rdf:resource="&jbh;mc3"/>
+    <t:endsAt rdf:datatype="&xsd;integer">19</t:endsAt>
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">11</jbh:paramObjTag>
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">12</jbh:paramObjTag>
+  </jbh:MethodCall>
+  <java:Class rdf:about="&java;CH.ifa.draw.standard.AbstractHandle">
+    <java:hasField>
+      <java:Field rdf:about="&java;CH.ifa.draw.standard.AbstractHandle.fOwner">
+        <java:fieldTypeIs rdf:resource="&java;CH.ifa.draw.framework.Figure"/>
+      </java:Field>
+    </java:hasField>
+  </java:Class>
+  <java:Class rdf:about="&java;CH.ifa.draw.standard.HandleTracker">
+    <java:hasField>
+      <java:Field rdf:about="&java;CH.ifa.draw.standard.HandleTracker.fAnchorHandle">
+        <java:fieldTypeIs>
+          <java:Class rdf:about="&java;CH.ifa.draw.framework.Handle"/>
+        </java:fieldTypeIs>
+      </java:Field>
+    </java:hasField>
+  </java:Class>
+  <jbh:MethodCall rdf:about="&jbh;mc93">
+    <jbh:methodCalled>
+      <java:Method rdf:about="http://anonymous.authors/ontologies/2017/6/Java#CH.ifa.draw.standard.BufferedUpdateStrategy.!init">
+        <jbh:isInit rdf:datatype="&xsd;boolean">true</jbh:isInit>
+      </java:Method>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">94</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc88">
+        <jbh:paramObjTag rdf:datatype="&xsd;integer">57</jbh:paramObjTag>
+        <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#CH.ifa.draw.standard.StandardDrawingView.!init"/>
+        <t:endsAt rdf:datatype="&xsd;integer">99</t:endsAt>
+        <bh:originEvent rdf:resource="&jbh;mc1"/>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="&java;test.auto.Strategy_HandleTracker_Handle_17.main"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">58</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">88</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#CH.ifa.draw.standard.StandardDrawingView.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">62</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">93</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc5">
+    <jbh:methodCalled>
+      <java:Method rdf:about="http://anonymous.authors/ontologies/2017/6/Java#CH.ifa.draw.standard.AbstractFigure.!init">
+        <jbh:isInit rdf:datatype="&xsd;boolean">true</jbh:isInit>
+      </java:Method>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">6</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc4">
+        <jbh:methodCalled>
+          <java:Method rdf:about="http://anonymous.authors/ontologies/2017/6/Java#CH.ifa.draw.figures.AttributeFigure.!init">
+            <jbh:isInit rdf:datatype="&xsd;boolean">true</jbh:isInit>
+          </java:Method>
+        </jbh:methodCalled>
+        <t:endsAt rdf:datatype="&xsd;integer">7</t:endsAt>
+        <bh:originEvent rdf:resource="&jbh;mc3"/>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#CH.ifa.draw.figures.TextFigure.!init"/>
+        <jbh:objTag rdf:datatype="&xsd;integer">2</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">4</t:startsAt>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#CH.ifa.draw.figures.AttributeFigure.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">2</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">5</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:FieldModi rdf:about="&jbh;fldModi71">
+    <jbh:fieldVisitMethod rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#CH.ifa.draw.standard.OffsetLocator.!init"/>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">0</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">54</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">72</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">0</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">71</t:startsAt>
+    <jbh:visitedField rdf:resource="&java;CH.ifa.draw.standard.OffsetLocator.fBase"/>
+  </jbh:FieldModi>
+  <jbh:FieldModi rdf:about="&jbh;fldModi105">
+    <jbh:fieldVisitMethod rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#CH.ifa.draw.standard.HandleTracker.!init"/>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">55</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">63</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">106</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">55</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">105</t:startsAt>
+    <jbh:visitedField rdf:resource="&java;CH.ifa.draw.standard.HandleTracker.fAnchorHandle"/>
+  </jbh:FieldModi>
+  <jbh:MethodCall rdf:about="&jbh;mc40">
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#CH.ifa.draw.figures.TextFigure.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">41</t:endsAt>
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">44</jbh:paramObjTag>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <t:startsAt rdf:datatype="&xsd;integer">40</t:startsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">43</jbh:objTag>
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">45</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#CH.ifa.draw.util.ColorEntry.!init"/>
+    <bh:originEvent rdf:resource="&jbh;mc3"/>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc76">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">2</jbh:paramObjTag>
+    <jbh:methodCalled>
+      <java:Method rdf:about="http://anonymous.authors/ontologies/2017/6/Java#CH.ifa.draw.standard.AbstractHandle.!init">
+        <jbh:isInit rdf:datatype="&xsd;boolean">true</jbh:isInit>
+      </java:Method>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">79</t:endsAt>
+    <bh:originEvent>
+      <jbh:MethodCall rdf:about="&jbh;mc75">
+        <jbh:paramObjTag rdf:datatype="&xsd;integer">2</jbh:paramObjTag>
+        <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+        <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#CH.ifa.draw.standard.LocatorHandle.!init"/>
+        <jbh:paramObjTag rdf:datatype="&xsd;integer">54</jbh:paramObjTag>
+        <t:endsAt rdf:datatype="&xsd;integer">82</t:endsAt>
+        <jbh:objTag rdf:datatype="&xsd;integer">55</jbh:objTag>
+        <t:startsAt rdf:datatype="&xsd;integer">75</t:startsAt>
+        <bh:originEvent>
+          <jbh:MethodCall rdf:about="&jbh;mc74">
+            <jbh:objTag rdf:datatype="&xsd;integer">55</jbh:objTag>
+            <jbh:paramObjTag rdf:datatype="&xsd;integer">2</jbh:paramObjTag>
+            <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+            <bh:originEvent rdf:resource="&jbh;mc1"/>
+            <t:endsAt rdf:datatype="&xsd;integer">83</t:endsAt>
+            <jbh:methodCalled>
+              <java:Method rdf:about="http://anonymous.authors/ontologies/2017/6/Java#CH.ifa.draw.figures.FontSizeHandle.!init">
+                <jbh:isInit rdf:datatype="&xsd;boolean">true</jbh:isInit>
+              </java:Method>
+            </jbh:methodCalled>
+            <jbh:paramObjTag rdf:datatype="&xsd;integer">54</jbh:paramObjTag>
+            <jbh:methodCaller rdf:resource="&java;test.auto.Strategy_HandleTracker_Handle_17.main"/>
+            <t:startsAt rdf:datatype="&xsd;integer">74</t:startsAt>
+          </jbh:MethodCall>
+        </bh:originEvent>
+        <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#CH.ifa.draw.figures.FontSizeHandle.!init"/>
+      </jbh:MethodCall>
+    </bh:originEvent>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#CH.ifa.draw.standard.LocatorHandle.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">55</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">76</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc12">
+    <jbh:methodCalled>
+      <java:Method rdf:about="&java;CH.ifa.draw.figures.TextFigure.createCurrentFont"/>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">13</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc3"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#CH.ifa.draw.figures.TextFigure.!init"/>
+    <t:startsAt rdf:datatype="&xsd;integer">12</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc24">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">20</jbh:paramObjTag>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">21</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#CH.ifa.draw.util.ColorEntry.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">19</jbh:objTag>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#CH.ifa.draw.figures.TextFigure.!init"/>
+    <t:startsAt rdf:datatype="&xsd;integer">24</t:startsAt>
+    <t:endsAt rdf:datatype="&xsd;integer">25</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc3"/>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc36">
+    <jbh:objTag rdf:datatype="&xsd;integer">37</jbh:objTag>
+    <bh:originEvent rdf:resource="&jbh;mc3"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <t:endsAt rdf:datatype="&xsd;integer">37</t:endsAt>
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#CH.ifa.draw.util.ColorEntry.!init"/>
+    <t:startsAt rdf:datatype="&xsd;integer">36</t:startsAt>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#CH.ifa.draw.figures.TextFigure.!init"/>
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">39</jbh:paramObjTag>
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">38</jbh:paramObjTag>
+  </jbh:MethodCall>
+  <jbh:FieldModi rdf:about="&jbh;fldModi96">
+    <jbh:fieldVisitMethod>
+      <java:Method rdf:about="&java;CH.ifa.draw.standard.StandardDrawingView.setDisplayUpdate"/>
+    </jbh:fieldVisitMethod>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">62</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">58</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">97</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">62</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">96</t:startsAt>
+    <jbh:visitedField>
+      <java:Field rdf:about="&java;CH.ifa.draw.standard.StandardDrawingView.fUpdateStrategy">
+        <java:fieldTypeIs>
+          <java:Class rdf:about="&java;CH.ifa.draw.framework.Painter"/>
+        </java:fieldTypeIs>
+      </java:Field>
+    </jbh:visitedField>
+  </jbh:FieldModi>
+  <jbh:MethodCall rdf:about="&jbh;mc95">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">62</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="&java;CH.ifa.draw.standard.StandardDrawingView.setDisplayUpdate"/>
+    <t:endsAt rdf:datatype="&xsd;integer">98</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc88"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#CH.ifa.draw.standard.StandardDrawingView.!init"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">58</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">95</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:FieldModi rdf:about="&jbh;fldModi89">
+    <jbh:fieldVisitMethod rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#CH.ifa.draw.standard.StandardDrawingView.!init"/>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">57</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">58</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">90</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">57</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">89</t:startsAt>
+    <jbh:visitedField>
+      <java:Field rdf:about="&java;CH.ifa.draw.standard.StandardDrawingView.fEditor">
+        <java:fieldTypeIs>
+          <java:Class rdf:about="&java;CH.ifa.draw.framework.DrawingEditor"/>
+        </java:fieldTypeIs>
+      </java:Field>
+    </jbh:visitedField>
+  </jbh:FieldModi>
+  <jbh:FieldModi rdf:about="&jbh;fldModi77">
+    <jbh:fieldVisitMethod rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#CH.ifa.draw.standard.AbstractHandle.!init"/>
+    <jbh:fieldObjTag rdf:datatype="&xsd;integer">2</jbh:fieldObjTag>
+    <jbh:ownerObjTag rdf:datatype="&xsd;integer">55</jbh:ownerObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">78</t:endsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">2</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">77</t:startsAt>
+    <jbh:visitedField rdf:resource="&java;CH.ifa.draw.standard.AbstractHandle.fOwner"/>
+  </jbh:FieldModi>
+  <jbh:MethodCall rdf:about="&jbh;mc30">
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:objTag rdf:datatype="&xsd;integer">28</jbh:objTag>
+    <bh:originEvent rdf:resource="&jbh;mc3"/>
+    <t:startsAt rdf:datatype="&xsd;integer">30</t:startsAt>
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">29</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#CH.ifa.draw.util.ColorEntry.!init"/>
+    <t:endsAt rdf:datatype="&xsd;integer">31</t:endsAt>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#CH.ifa.draw.figures.TextFigure.!init"/>
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">30</jbh:paramObjTag>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc42">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#CH.ifa.draw.util.ColorEntry.!init"/>
+    <t:startsAt rdf:datatype="&xsd;integer">42</t:startsAt>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#CH.ifa.draw.figures.TextFigure.!init"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <t:endsAt rdf:datatype="&xsd;integer">43</t:endsAt>
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">47</jbh:paramObjTag>
+    <jbh:objTag rdf:datatype="&xsd;integer">46</jbh:objTag>
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">48</jbh:paramObjTag>
+    <bh:originEvent rdf:resource="&jbh;mc3"/>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc54">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">48</jbh:paramObjTag>
+    <bh:originEvent rdf:resource="&jbh;mc49"/>
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">50</jbh:paramObjTag>
+    <jbh:methodCaller rdf:resource="&java;CH.ifa.draw.figures.AttributeFigure.setAttribute"/>
+    <jbh:methodCalled>
+      <java:Method rdf:about="&java;CH.ifa.draw.figures.FigureAttributes.set"/>
+    </jbh:methodCalled>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:objTag rdf:datatype="&xsd;integer">51</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">54</t:startsAt>
+    <t:endsAt rdf:datatype="&xsd;integer">55</t:endsAt>
+  </jbh:MethodCall>
+  <java:Class rdf:about="&java;CH.ifa.draw.standard.StandardDrawingView">
+    <java:hasField rdf:resource="&java;CH.ifa.draw.standard.StandardDrawingView.fConstrainer"/>
+    <java:hasField rdf:resource="&java;CH.ifa.draw.standard.StandardDrawingView.fUpdateStrategy"/>
+    <java:hasField rdf:resource="&java;CH.ifa.draw.standard.StandardDrawingView.fEditor"/>
+  </java:Class>
+  <jbh:MethodCall rdf:about="&jbh;mc111">
+    <jbh:methodCalled>
+      <java:Method rdf:about="&java;CH.ifa.draw.standard.AbstractTool.view"/>
+    </jbh:methodCalled>
+    <t:endsAt rdf:datatype="&xsd;integer">112</t:endsAt>
+    <bh:originEvent rdf:resource="&jbh;mc108"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="&java;CH.ifa.draw.standard.HandleTracker.mouseDown"/>
+    <jbh:objTag rdf:datatype="&xsd;integer">63</jbh:objTag>
+    <t:startsAt rdf:datatype="&xsd;integer">111</t:startsAt>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc14">
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#CH.ifa.draw.util.ColorEntry.!init"/>
+    <t:startsAt rdf:datatype="&xsd;integer">14</t:startsAt>
+    <bh:originEvent rdf:resource="&jbh;mc3"/>
+    <t:endsAt rdf:datatype="&xsd;integer">15</t:endsAt>
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">6</jbh:paramObjTag>
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">5</jbh:paramObjTag>
+    <jbh:objTag rdf:datatype="&xsd;integer">4</jbh:objTag>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#CH.ifa.draw.figures.TextFigure.!init"/>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc26">
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">23</jbh:paramObjTag>
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#CH.ifa.draw.util.ColorEntry.!init"/>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:objTag rdf:datatype="&xsd;integer">22</jbh:objTag>
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#CH.ifa.draw.figures.TextFigure.!init"/>
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">24</jbh:paramObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">27</t:endsAt>
+    <t:startsAt rdf:datatype="&xsd;integer">26</t:startsAt>
+    <bh:originEvent rdf:resource="&jbh;mc3"/>
+  </jbh:MethodCall>
+  <jbh:MethodCall rdf:about="&jbh;mc38">
+    <jbh:methodCaller rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#CH.ifa.draw.figures.TextFigure.!init"/>
+    <bh:originEvent rdf:resource="&jbh;mc3"/>
+    <t:startsAt rdf:datatype="&xsd;integer">38</t:startsAt>
+    <jbh:objTag rdf:datatype="&xsd;integer">40</jbh:objTag>
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">41</jbh:paramObjTag>
+    <t:endsAt rdf:datatype="&xsd;integer">39</t:endsAt>
+    <java:threadID rdf:datatype="&xsd;integer">0</java:threadID>
+    <jbh:methodCalled rdf:resource="http://anonymous.authors/ontologies/2017/6/Java#CH.ifa.draw.util.ColorEntry.!init"/>
+    <jbh:paramObjTag rdf:datatype="&xsd;integer">42</jbh:paramObjTag>
+  </jbh:MethodCall>
+</rdf:RDF>

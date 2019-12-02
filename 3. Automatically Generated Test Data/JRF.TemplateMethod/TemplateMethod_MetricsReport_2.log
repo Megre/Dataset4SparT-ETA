@@ -1,0 +1,62 @@
+method_entry: Ltest/auto/TemplateMethod_MetricsReport_2;main, thread_id: 0
+  method_entry: Lorg/acm/seguin/metrics/TextReport;<init>, obj_tag: 1, thread_id: 0
+    method_entry: Lorg/acm/seguin/metrics/MetricsReport;<init>, obj_tag: 1, thread_id: 0
+    method_exit: Lorg/acm/seguin/metrics/MetricsReport;<init>, thread_id: 0
+    method_entry: Lorg/acm/seguin/util/TextFormatter;<init>, obj_tag: 2, thread_id: 0
+    method_exit: Lorg/acm/seguin/util/TextFormatter;<init>, thread_id: 0
+  method_exit: Lorg/acm/seguin/metrics/TextReport;<init>, thread_id: 0
+  method_entry: Lorg/acm/seguin/metrics/TypeMetrics;<init>, obj_tag: 3, param_obj_tag: 4, param_obj_tag: 4, thread_id: 0
+  method_exit: Lorg/acm/seguin/metrics/TypeMetrics;<init>, thread_id: 0
+  method_entry: Lorg/acm/seguin/metrics/MetricsReport;typeReport, obj_tag: 1, param_obj_tag: 3, thread_id: 0
+    method_entry: Lorg/acm/seguin/metrics/TypeMetrics;getPackageName, obj_tag: 3, thread_id: 0
+    method_exit: Lorg/acm/seguin/metrics/TypeMetrics;getPackageName, thread_id: 0
+    method_entry: Lorg/acm/seguin/metrics/TypeMetrics;getTypeName, obj_tag: 3, thread_id: 0
+    method_exit: Lorg/acm/seguin/metrics/TypeMetrics;getTypeName, thread_id: 0
+    method_entry: Lorg/acm/seguin/metrics/TypeMetrics;getPublicMethodCount, obj_tag: 3, thread_id: 0
+    method_exit: Lorg/acm/seguin/metrics/TypeMetrics;getPublicMethodCount, thread_id: 0
+    method_entry: Lorg/acm/seguin/metrics/TextReport;reportPublicMethods, obj_tag: 1, param_obj_tag: 4, param_obj_tag: 4, thread_id: 0
+      method_entry: Lorg/acm/seguin/util/TextFormatter;rightJustifyNumber, thread_id: 0
+      method_exit: Lorg/acm/seguin/util/TextFormatter;rightJustifyNumber, thread_id: 0
+    method_exit: Lorg/acm/seguin/metrics/TextReport;reportPublicMethods, thread_id: 0
+    method_entry: Lorg/acm/seguin/metrics/TypeMetrics;getPackageName, obj_tag: 3, thread_id: 0
+    method_exit: Lorg/acm/seguin/metrics/TypeMetrics;getPackageName, thread_id: 0
+    method_entry: Lorg/acm/seguin/metrics/TypeMetrics;getTypeName, obj_tag: 3, thread_id: 0
+    method_exit: Lorg/acm/seguin/metrics/TypeMetrics;getTypeName, thread_id: 0
+    method_entry: Lorg/acm/seguin/metrics/TypeMetrics;getOtherMethodCount, obj_tag: 3, thread_id: 0
+    method_exit: Lorg/acm/seguin/metrics/TypeMetrics;getOtherMethodCount, thread_id: 0
+    method_entry: Lorg/acm/seguin/metrics/TextReport;reportOtherMethods, obj_tag: 1, param_obj_tag: 4, param_obj_tag: 4, thread_id: 0
+      method_entry: Lorg/acm/seguin/util/TextFormatter;rightJustifyNumber, thread_id: 0
+      method_exit: Lorg/acm/seguin/util/TextFormatter;rightJustifyNumber, thread_id: 0
+    method_exit: Lorg/acm/seguin/metrics/TextReport;reportOtherMethods, thread_id: 0
+    method_entry: Lorg/acm/seguin/metrics/TypeMetrics;getPackageName, obj_tag: 3, thread_id: 0
+    method_exit: Lorg/acm/seguin/metrics/TypeMetrics;getPackageName, thread_id: 0
+    method_entry: Lorg/acm/seguin/metrics/TypeMetrics;getTypeName, obj_tag: 3, thread_id: 0
+    method_exit: Lorg/acm/seguin/metrics/TypeMetrics;getTypeName, thread_id: 0
+    method_entry: Lorg/acm/seguin/metrics/TypeMetrics;getClassMethodCount, obj_tag: 3, thread_id: 0
+    method_exit: Lorg/acm/seguin/metrics/TypeMetrics;getClassMethodCount, thread_id: 0
+    method_entry: Lorg/acm/seguin/metrics/TextReport;reportClassMethods, obj_tag: 1, param_obj_tag: 4, param_obj_tag: 4, thread_id: 0
+      method_entry: Lorg/acm/seguin/util/TextFormatter;rightJustifyNumber, thread_id: 0
+      method_exit: Lorg/acm/seguin/util/TextFormatter;rightJustifyNumber, thread_id: 0
+    method_exit: Lorg/acm/seguin/metrics/TextReport;reportClassMethods, thread_id: 0
+    method_entry: Lorg/acm/seguin/metrics/TypeMetrics;getPackageName, obj_tag: 3, thread_id: 0
+    method_exit: Lorg/acm/seguin/metrics/TypeMetrics;getPackageName, thread_id: 0
+    method_entry: Lorg/acm/seguin/metrics/TypeMetrics;getTypeName, obj_tag: 3, thread_id: 0
+    method_exit: Lorg/acm/seguin/metrics/TypeMetrics;getTypeName, thread_id: 0
+    method_entry: Lorg/acm/seguin/metrics/TypeMetrics;getInstanceVariableCount, obj_tag: 3, thread_id: 0
+    method_exit: Lorg/acm/seguin/metrics/TypeMetrics;getInstanceVariableCount, thread_id: 0
+    method_entry: Lorg/acm/seguin/metrics/TextReport;reportInstanceVariables, obj_tag: 1, param_obj_tag: 4, param_obj_tag: 4, thread_id: 0
+      method_entry: Lorg/acm/seguin/util/TextFormatter;rightJustifyNumber, thread_id: 0
+      method_exit: Lorg/acm/seguin/util/TextFormatter;rightJustifyNumber, thread_id: 0
+    method_exit: Lorg/acm/seguin/metrics/TextReport;reportInstanceVariables, thread_id: 0
+    method_entry: Lorg/acm/seguin/metrics/TypeMetrics;getPackageName, obj_tag: 3, thread_id: 0
+    method_exit: Lorg/acm/seguin/metrics/TypeMetrics;getPackageName, thread_id: 0
+    method_entry: Lorg/acm/seguin/metrics/TypeMetrics;getTypeName, obj_tag: 3, thread_id: 0
+    method_exit: Lorg/acm/seguin/metrics/TypeMetrics;getTypeName, thread_id: 0
+    method_entry: Lorg/acm/seguin/metrics/TypeMetrics;getClassVariableCount, obj_tag: 3, thread_id: 0
+    method_exit: Lorg/acm/seguin/metrics/TypeMetrics;getClassVariableCount, thread_id: 0
+    method_entry: Lorg/acm/seguin/metrics/TextReport;reportClassVariables, obj_tag: 1, param_obj_tag: 4, param_obj_tag: 4, thread_id: 0
+      method_entry: Lorg/acm/seguin/util/TextFormatter;rightJustifyNumber, thread_id: 0
+      method_exit: Lorg/acm/seguin/util/TextFormatter;rightJustifyNumber, thread_id: 0
+    method_exit: Lorg/acm/seguin/metrics/TextReport;reportClassVariables, thread_id: 0
+  method_exit: Lorg/acm/seguin/metrics/MetricsReport;typeReport, thread_id: 0
+method_exit: Ltest/auto/TemplateMethod_MetricsReport_2;main, thread_id: 0

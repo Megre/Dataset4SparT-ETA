@@ -1,0 +1,46 @@
+method_entry: Ltest/auto/TemplateMethod_AbstractFigure_27;main, thread_id: 0
+  method_entry: LCH/ifa/draw/samples/pert/PertDependency;<init>, obj_tag: 1, thread_id: 0
+    method_entry: LCH/ifa/draw/figures/LineConnection;<init>, obj_tag: 1, thread_id: 0
+      method_entry: LCH/ifa/draw/figures/PolyLineFigure;<init>, obj_tag: 1, thread_id: 0
+        method_entry: LCH/ifa/draw/standard/AbstractFigure;<init>, obj_tag: 1, thread_id: 0
+        method_exit: LCH/ifa/draw/standard/AbstractFigure;<init>, thread_id: 0
+      method_exit: LCH/ifa/draw/figures/PolyLineFigure;<init>, thread_id: 0
+      method_entry: LCH/ifa/draw/figures/ArrowTip;<init>, obj_tag: 2, thread_id: 0
+      method_exit: LCH/ifa/draw/figures/ArrowTip;<init>, thread_id: 0
+      method_entry: LCH/ifa/draw/figures/PolyLineFigure;setStartDecoration, obj_tag: 1, param_obj_tag: 2, thread_id: 0
+      method_exit: LCH/ifa/draw/figures/PolyLineFigure;setStartDecoration, thread_id: 0
+      method_entry: LCH/ifa/draw/figures/ArrowTip;<init>, obj_tag: 3, thread_id: 0
+      method_exit: LCH/ifa/draw/figures/ArrowTip;<init>, thread_id: 0
+      method_entry: LCH/ifa/draw/figures/PolyLineFigure;setEndDecoration, obj_tag: 1, param_obj_tag: 3, thread_id: 0
+      method_exit: LCH/ifa/draw/figures/PolyLineFigure;setEndDecoration, thread_id: 0
+    method_exit: LCH/ifa/draw/figures/LineConnection;<init>, thread_id: 0
+    method_entry: LCH/ifa/draw/figures/ArrowTip;<init>, obj_tag: 4, thread_id: 0
+    method_exit: LCH/ifa/draw/figures/ArrowTip;<init>, thread_id: 0
+    method_entry: LCH/ifa/draw/figures/PolyLineFigure;setEndDecoration, obj_tag: 1, param_obj_tag: 4, thread_id: 0
+    method_exit: LCH/ifa/draw/figures/PolyLineFigure;setEndDecoration, thread_id: 0
+    method_entry: LCH/ifa/draw/figures/PolyLineFigure;setStartDecoration, obj_tag: 1, param_obj_tag: 5, thread_id: 0
+    method_exit: LCH/ifa/draw/figures/PolyLineFigure;setStartDecoration, thread_id: 0
+  method_exit: LCH/ifa/draw/samples/pert/PertDependency;<init>, thread_id: 0
+  method_entry: LCH/ifa/draw/samples/javadraw/AnimationDecorator;<init>, obj_tag: 6, param_obj_tag: 1, thread_id: 0
+    method_entry: LCH/ifa/draw/standard/DecoratorFigure;<init>, obj_tag: 6, param_obj_tag: 1, thread_id: 0
+      method_entry: LCH/ifa/draw/standard/AbstractFigure;<init>, obj_tag: 6, thread_id: 0
+      method_exit: LCH/ifa/draw/standard/AbstractFigure;<init>, thread_id: 0
+      method_entry: LCH/ifa/draw/standard/DecoratorFigure;decorate, obj_tag: 6, param_obj_tag: 1, thread_id: 0
+        method_entry: LCH/ifa/draw/standard/AbstractFigure;addToContainer, obj_tag: 1, param_obj_tag: 6, thread_id: 0
+          method_entry: LCH/ifa/draw/standard/AbstractFigure;addFigureChangeListener, obj_tag: 1, param_obj_tag: 6, thread_id: 0
+            method_entry: LCH/ifa/draw/standard/FigureChangeEventMulticaster;add, param_obj_tag: 7, param_obj_tag: 6, thread_id: 0
+              method_entry: LCH/ifa/draw/standard/FigureChangeEventMulticaster;addInternal, param_obj_tag: 8, param_obj_tag: 6, thread_id: 0
+              method_exit: LCH/ifa/draw/standard/FigureChangeEventMulticaster;addInternal, thread_id: 0
+            method_exit: LCH/ifa/draw/standard/FigureChangeEventMulticaster;add, thread_id: 0
+          method_exit: LCH/ifa/draw/standard/AbstractFigure;addFigureChangeListener, thread_id: 0
+          method_entry: LCH/ifa/draw/standard/AbstractFigure;invalidate, obj_tag: 1, thread_id: 0
+            method_entry: LCH/ifa/draw/figures/PolyLineFigure;displayBox, obj_tag: 1, thread_id: 0
+              method_entry: LCH/ifa/draw/figures/PolyLineFigure;points, obj_tag: 1, thread_id: 0
+              method_exit: LCH/ifa/draw/figures/PolyLineFigure;points, thread_id: 0
+            method_exit: LCH/ifa/draw/figures/PolyLineFigure;displayBox, thread_id: 0
+          method_exit: LCH/ifa/draw/standard/AbstractFigure;invalidate, thread_id: 0
+        method_exit: LCH/ifa/draw/standard/AbstractFigure;addToContainer, thread_id: 0
+      method_exit: LCH/ifa/draw/standard/DecoratorFigure;decorate, thread_id: 0
+    method_exit: LCH/ifa/draw/standard/DecoratorFigure;<init>, thread_id: 0
+  method_exit: LCH/ifa/draw/samples/javadraw/AnimationDecorator;<init>, thread_id: 0
+method_exit: Ltest/auto/TemplateMethod_AbstractFigure_27;main, thread_id: 0
