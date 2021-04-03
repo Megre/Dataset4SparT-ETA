@@ -29,6 +29,8 @@ Online Appendixes and Data Package for: Distinguishing Similar Design Patterns I
  - <a href="5. Trace Agent (with a Double-click-to-run Example)/trace.log">`trace.log`</a>: the full version of the trace log presented in the paper
  - <a href="5. Trace Agent (with a Double-click-to-run Example)/tracing-test.bat">`tracing-test.bat`</a>: a usage example of the Tracing Agent, which generates "trace.log" by a double-click in Windows x64 platform
 
+(The source code of the TraceAgent is available [here](https://github.com/Megre/TraceAgent).)
+
 Viewing Files
 -----------------------------
 ### File Extensions ###
